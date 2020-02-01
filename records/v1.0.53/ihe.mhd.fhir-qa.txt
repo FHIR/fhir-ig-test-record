@@ -1,0 +1,127 @@
+﻿IHE_MHD : Validation Results
+=========================================
+
+err = 16, warn = 6, info = 32
+IG Publisher Version: v1.0.53-SNAPSHOT
+Generated Sun Feb 02 00:22:23 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
+
+ Build Errors : 13 / 1
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\ProvideMinimalDocRef : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\comprehensiveSubmissionSet : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-docef : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-request-xdstools-adapted : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-response-minimal : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-docref : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-response : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-67-response : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder-c : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList : 7 / 3
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-degenerateSubmission : 0 / 3
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_2 : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_externalDocument : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\implementationguide-IHE.MHD : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentRecipient : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentResponder : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentSource : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.DocumentManifest : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.List : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.DocumentManifest : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.List : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListFolder : 0 / 3
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest : 0 / 3
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Degenerate : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Minimal : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Comprehensive.DocumentReference : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Minimal.DocumentReference : 0 / 0
+</table>
+== n/a ==
+WARNING: The IGPublisher used is not up-to-date.  Published content might not be properly checked and/or rendered.
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Comprehensive.DocumentManifest.html#/html/body/div/div/div/div/div/p/a at Line 458, column 41: The link 'IHE.MHD.Comprehensive.DocumentManifest.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Comprehensive.List.html#/html/body/div/div/div/div/div/p/a at Line 454, column 41: The link 'IHE.MHD.Comprehensive.List.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Minimal.DocumentManifest.html#/html/body/div/div/div/div/div/p/a at Line 474, column 41: The link 'IHE.MHD.Minimal.DocumentManifest.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Minimal.List.html#/html/body/div/div/div/div/div/p/a at Line 496, column 41: The link 'IHE.MHD.Minimal.List.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Minimal.ListFolder.html#/html/body/div/div/div/div/div/p/a at Line 556, column 41: The link 'IHE.MHD.Minimal.ListFolder.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Minimal.ListManifest.html#/html/body/div/div/div/div/div/p/a at Line 556, column 41: The link 'IHE.MHD.Minimal.ListManifest.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Provide.Comprehensive.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 606, column 41: The link 'IHE.MHD.Provide.Comprehensive.DocumentReference.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Provide.Minimal.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 648, column 41: The link 'IHE.MHD.Provide.Minimal.DocumentReference.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.ProvideDocumentBundle.Comprehensive.html#/html/body/div/div/div/div/div/p/a at Line 1258, column 41: The link 'IHE.MHD.ProvideDocumentBundle.Comprehensive.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.ProvideDocumentBundle.Degenerate.html#/html/body/div/div/div/div/div/p/a at Line 756, column 41: The link 'IHE.MHD.ProvideDocumentBundle.Degenerate.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.ProvideDocumentBundle.Minimal.html#/html/body/div/div/div/div/div/p/a at Line 1432, column 41: The link 'IHE.MHD.ProvideDocumentBundle.Minimal.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Query.Comprehensive.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 582, column 41: The link 'IHE.MHD.Query.Comprehensive.DocumentReference.sch' for "Schematron" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Query.Minimal.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 582, column 41: The link 'IHE.MHD.Query.Minimal.DocumentReference.sch' for "Schematron" cannot be resolved
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\ProvideMinimalDocRef.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\comprehensiveSubmissionSet.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-docef.xml ==
+INFORMATION: DocumentReference/iti-65-docref: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-request-xdstools-adapted.xml ==
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.meta.profile[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-response-minimal.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-docref.xml ==
+INFORMATION: DocumentReference/iti-66-docref: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-response.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-67-response.xml ==
+INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder-c.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml ==
+ERROR: /f:List/f:source: Undefined attribute '@value' on source for type Reference (properties = [Reference.id, Reference.extension, Reference.reference, Reference.type, Reference.identifier, Reference.display])
+ERROR: /f:List: Undefined element 'content'
+ERROR: List/minimalSubmissionSetList: List: The extension http://hl7.org/fhir/StructureDefinition/workflow-reasonCode is not allowed to be used at this point (allowed = e:Observation, e:DiagnosticReport, e:Media, e:NutritionOrder; this element is [[List])
+INFORMATION: List/minimalSubmissionSetList: List.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
+ERROR: List/minimalSubmissionSetList: List.identifier[0].use: As specified by profile http://hl7.org/fhir/StructureDefinition/Identifier, Element 'use' is out of order
+ERROR: List/minimalSubmissionSetList: List.identifier[1].use: As specified by profile http://hl7.org/fhir/StructureDefinition/Identifier, Element 'use' is out of order
+INFORMATION: List/minimalSubmissionSetList: List.code.coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
+WARNING: List/minimalSubmissionSetList: List.source: A Reference without an actual reference or identifier should have a display
+ERROR: List/minimalSubmissionSetList: List.code.coding.code: Value is 'SubmissionSet' but must be 'submissionSet'
+ERROR: List/minimalSubmissionSetList: List.code.coding.display: Missing element 'display' - required by fixed value assigned in profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission.xml ==
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.meta.profile[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-degenerateSubmission.xml ==
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[0]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.meta.profile[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_2.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_externalDocument.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\implementationguide-IHE.MHD.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer.xml ==
+ERROR: CapabilityStatement/IHE.MHD.DocumentConsumer: CapabilityStatement.rest[0].resource[0].searchParam[15]: Type mismatch - SearchParameter 'http://hl7.org/fhir/SearchParameter/clinical-patient' type is reference, but type here is token
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentRecipient.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentResponder.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentSource.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.DocumentManifest.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.List.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.DocumentManifest.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.List.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListFolder.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.ListFolder: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.ListFolder: StructureDefinition.differential.element[7].fixed.ofType(CodeableConcept).coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
+WARNING: http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListFolder: The Implementation Guide contains no examples for this profile
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest.xml ==
+WARNING: http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest#List.entry.item: Connect check whether the target profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.List is valid constraint on the base because it is not known
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.ListManifest: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.ListManifest: StructureDefinition.differential.element[7].fixed.ofType(CodeableConcept).coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Degenerate.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Minimal.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Comprehensive.DocumentReference.xml ==
+== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Minimal.DocumentReference.xml ==
