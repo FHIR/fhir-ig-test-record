@@ -3,7 +3,7 @@
   "name": "StructuredDataCapture",
   "package-id": "hl7.fhir.uv.sdc",
   "ig-ver": "2.8.0",
-  "date": "Sun, 02 Feb, 2020 07:06:34 +1100",
+  "date": "Sun, 02 Feb, 2020 17:20:35 +1100",
   "errs": 250,
   "warnings": 388,
   "hints": 68,

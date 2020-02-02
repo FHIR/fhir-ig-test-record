@@ -3,7 +3,7 @@
   "name": "ElectronicCaseReporting",
   "package-id": "hl7.fhir.us.ecr",
   "ig-ver": "1.0.0",
-  "date": "Sun, 02 Feb, 2020 07:00:23 +1100",
+  "date": "Sun, 02 Feb, 2020 17:12:35 +1100",
   "errs": 0,
   "warnings": 0,
   "hints": 98,

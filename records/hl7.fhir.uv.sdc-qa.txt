@@ -2,8 +2,8 @@
 =========================================
 
 err = 250, warn = 388, info = 68
-IG Publisher Version: v1.0.54-SNAPSHOT
-Generated Sun Feb 02 07:07:49 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.sdc#2.8.0 (canonical = http://hl7.org/fhir/uv/sdc)
+IG Publisher Version: v1.0.56-SNAPSHOT
+Generated Sun Feb 02 17:22:04 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.sdc#2.8.0 (canonical = http://hl7.org/fhir/uv/sdc)
 
  Build Errors : 86 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.sdc\input\examples\CodeSystem-CSPHQ9 : 0 / 1

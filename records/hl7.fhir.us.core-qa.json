@@ -3,7 +3,7 @@
   "name": "USCore",
   "package-id": "hl7.fhir.us.core",
   "ig-ver": "3.1.0",
-  "date": "Sun, 02 Feb, 2020 07:09:56 +1100",
+  "date": "Sun, 02 Feb, 2020 17:24:20 +1100",
   "errs": 1496,
   "warnings": 36,
   "hints": 228,

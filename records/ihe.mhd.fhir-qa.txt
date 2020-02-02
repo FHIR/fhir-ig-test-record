@@ -1,9 +1,9 @@
 ﻿IHE_MHD : Validation Results
 =========================================
 
-err = 16, warn = 6, info = 32
-IG Publisher Version: v1.0.54-SNAPSHOT
-Generated Sun Feb 02 07:06:18 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
+err = 14, warn = 6, info = 32
+IG Publisher Version: v1.0.56-SNAPSHOT
+Generated Sun Feb 02 17:20:16 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
 
  Build Errors : 13 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example : 0 / 0
@@ -27,7 +27,7 @@ Generated Sun Feb 02 07:06:18 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (c
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_externalDocument : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\implementationguide-IHE.MHD : 0 / 0
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentRecipient : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentResponder : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentSource : 0 / 0
@@ -102,7 +102,6 @@ INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.meta.profile[1]: This eleme
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\implementationguide-IHE.MHD.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer.xml ==
-ERROR: CapabilityStatement/IHE.MHD.DocumentConsumer: CapabilityStatement.rest[0].resource[0].searchParam[15]: Type mismatch - SearchParameter 'http://hl7.org/fhir/SearchParameter/clinical-patient' type is reference, but type here is token
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentRecipient.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentResponder.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentSource.xml ==
