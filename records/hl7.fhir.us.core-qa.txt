@@ -1,9 +1,9 @@
 ﻿USCore : Validation Results
 =========================================
 
-err = 1496, warn = 36, info = 228
-IG Publisher Version: v1.0.56-SNAPSHOT
-Generated Sun Feb 02 17:31:15 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.core#3.1.0 (canonical = http://hl7.org/fhir/us/core)
+err = 1496, warn = 38, info = 228
+IG Publisher Version: v1.0.58-SNAPSHOT
+Generated Mon Feb 03 09:21:13 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.core#3.1.0 (canonical = http://hl7.org/fhir/us/core)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\Device-defib : 0 / 0
@@ -26,7 +26,7 @@ Generated Sun Feb 02 17:31:15 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.core
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\condition-example : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\encounter-1036 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\encounter-example-1 : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\episode-summary : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\episode-summary : 0 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\erythrocytes : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\example-organization-2 : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\goal-1 : 0 / 0
@@ -270,7 +270,8 @@ WARNING: CareTeam/example: CareTeam.participant[1].role[0]: The display "Allopat
 INFORMATION: Encounter/example-1: Encounter.type[0].coding[0]: Code System URI 'http://www.ama-assn.org/go/cpt' is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\episode-summary.xml ==
 INFORMATION: DocumentReference/episode-summary: DocumentReference.content[0].format: Code System URI 'urn:oid:1.3.6.1.4.1.19376.1.2.3' is unknown so the code cannot be validated
-INFORMATION: DocumentReference/episode-summary: DocumentReference.content[0].format: Could not confirm that the codes provided are in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set
+INFORMATION: DocumentReference/episode-summary: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = CodeSystem uri 'http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem' is unknown)
+WARNING: DocumentReference/episode-summary: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code should come from this value set unless it has no suitable code.  (error message = CodeSystem uri 'http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem' is unknown)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\erythrocytes.json ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\example-organization-2.xml ==
 INFORMATION: Organization/example-organization-2: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization

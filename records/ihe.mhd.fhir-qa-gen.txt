@@ -2,8 +2,8 @@
 =========================================
 
 err = 14, warn = 6, info = 32
-IG Publisher Version: v1.0.56-SNAPSHOT
-Generated Sun Feb 02 17:20:16 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
+IG Publisher Version: v1.0.58-SNAPSHOT
+Generated Mon Feb 03 09:15:44 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
 
  Build Errors : 13 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example : 0 / 0

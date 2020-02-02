@@ -1,9 +1,9 @@
 ﻿ElectronicCaseReporting : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 98
-IG Publisher Version: v1.0.56-SNAPSHOT
-Generated Sun Feb 02 17:16:23 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
+err = 0, warn = 2, info = 98
+IG Publisher Version: v1.0.58-SNAPSHOT
+Generated Mon Feb 03 09:12:57 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eRSD : 0 / 0
@@ -27,7 +27,7 @@ Generated Sun Feb 02 17:16:23 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\device\device-ecr-software-ymca : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-outpatient : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-salem-medical-center : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-ymca : 0 / 0
@@ -199,6 +199,7 @@ INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter.xml ==
+WARNING: Encounter/encounter-eicr-eve-everywoman-external-encounter: Encounter.class: The Coding provided is not in the value set http://terminology.hl7.org/ValueSet/v3-ActEncounterCode, and a code should come from this value set unless it has no suitable code.  (error message = The code system "urn:oid:2.16.840.1.114222.4.5.274" is not known (encountered paired with code = "PHC2237"); The code provided (urn:oid:2.16.840.1.114222.4.5.274#PHC2237) is not  valid in the value set v3.ActEncounterCode)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-outpatient.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-salem-medical-center.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-ymca.xml ==
