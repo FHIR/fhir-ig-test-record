@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 0, warn = 0, info = 6 -->
+<!-- broken links = 0, errors = 0, warn = 1, info = 6 -->
 <head>
   <title>InternationalPatientSummaryIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,8 +23,8 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for InternationalPatientSummaryIG</h1>
- <p>Generated Mon Feb 03 09:14:33 AEDT 2020, FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = <a href="http://hl7.org/fhir/uv/ips">http://hl7.org/fhir/uv/ips</a> (<a href="http://hl7.org/fhir/uv/ips/history.html">history</a>))</p>
-<p>IG Publisher Version: v1.0.58-SNAPSHOT</p>
+ <p>Generated Fri Feb 14 09:23:38 AEDT 2020, FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = <a href="http://hl7.org/fhir/uv/ips">http://hl7.org/fhir/uv/ips</a> (<a href="http://hl7.org/fhir/uv/ips/history.html">history</a>))</p>
+<p>IG Publisher Version: v1.0.64-SNAPSHOT</p>
 <p><a href="#suppressed">26 Suppressed Errors</a></p>
  <p>HL7 Publication check:</p> <ul>
   <li>All ok (path - http://hl7.org/fhir/uv/ips/2019Sep)</li>
@@ -44,7 +44,7 @@
      <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_IPS-bundle-01"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\IPS-bundle-01</b></a></td><td><b>0</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Immunization-75680"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Immunization-75680"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680</b></a></td><td><b>0</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Patient-66033"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -402,6 +402,9 @@
    <tr style="background-color: #ffffe6">
      <td><b><a href="">Immunization/75680: Immunization.vaccineCode</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips</b> <span id="sl2" class="flip" onclick="flip('l2')">Show Reasoning</span><div id="l2" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips: <ul><li>Immunization.vaccineCode: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips')</li>, <li>Immunization.vaccineCode: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips')</li></ul></div></td>
    </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Immunization/75680: Immunization</b></td><td><b>warning</b></td><td><b>Resource has a language, but the XHTML does not have an xml:lang tag (needs both lang and xml:lang - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Patient-66033"> </a>
@@ -427,7 +430,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">AllergyIntolerance/allergyintolerance-with-abatement: AllergyIntolerance.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips</b> <span id="sl3" class="flip" onclick="flip('l3')">Show Reasoning</span><div id="l3" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips: <ul><li>AllergyIntolerance.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips')</li></ul></div></td>
+     <td><b><a href="">AllergyIntolerance/allergyintolerance-with-abatement: AllergyIntolerance.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips</b> <span id="sl4" class="flip" onclick="flip('l4')">Show Reasoning</span><div id="l4" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips: <ul><li>AllergyIntolerance.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips')</li></ul></div></td>
    </tr>
 </table>
 <hr/>
@@ -438,7 +441,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Condition/eumfh-39-07-1: Condition.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips</b> <span id="sl4" class="flip" onclick="flip('l4')">Show Reasoning</span><div id="l4" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips: <ul><li>Condition.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips')</li></ul></div></td>
+     <td><b><a href="">Condition/eumfh-39-07-1: Condition.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips</b> <span id="sl5" class="flip" onclick="flip('l5')">Show Reasoning</span><div id="l5" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips: <ul><li>Condition.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips')</li></ul></div></td>
    </tr>
 </table>
 <hr/>
@@ -609,7 +612,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Procedure/eumfh-39-07-1: Procedure.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips</b> <span id="sl5" class="flip" onclick="flip('l5')">Show Reasoning</span><div id="l5" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips: <ul><li>Procedure.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-procedures-uv-ips')</li></ul></div></td>
+     <td><b><a href="">Procedure/eumfh-39-07-1: Procedure.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips</b> <span id="sl6" class="flip" onclick="flip('l6')">Show Reasoning</span><div id="l6" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips: <ul><li>Procedure.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-procedures-uv-ips')</li></ul></div></td>
    </tr>
 </table>
 <hr/>

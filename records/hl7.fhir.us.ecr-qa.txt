@@ -2,8 +2,8 @@
 =========================================
 
 err = 0, warn = 2, info = 98
-IG Publisher Version: v1.0.58-SNAPSHOT
-Generated Mon Feb 03 09:12:57 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
+IG Publisher Version: v1.0.62-SNAPSHOT
+Generated Thu Feb 13 12:07:57 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eRSD : 0 / 0

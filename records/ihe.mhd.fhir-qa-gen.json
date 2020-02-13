@@ -2,10 +2,10 @@
   "url": "http://ihe.net/fhir/ihe.mhd.fhir/ImplementationGuide/ihe.mhd.fhir",
   "name": "IHE_MHD",
   "package-id": "ihe.mhd.fhir",
-  "date": "Mon, 03 Feb, 2020 09:14:54 +1100",
+  "date": "Fri, 14 Feb, 2020 09:24:07 +1100",
   "errs": 14,
-  "warnings": 6,
-  "hints": 32,
+  "warnings": 4,
+  "hints": 30,
   "version": "4.0.1",
   "tool": "4.2.0 (3)"
 }

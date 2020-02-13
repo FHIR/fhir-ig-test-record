@@ -1,14 +1,14 @@
 ﻿InternationalPatientSummaryIG : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 12
-IG Publisher Version: v1.0.58-SNAPSHOT
-Generated Mon Feb 03 09:14:33 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = http://hl7.org/fhir/uv/ips)
+err = 0, warn = 2, info = 12
+IG Publisher Version: v1.0.62-SNAPSHOT
+Generated Thu Feb 13 12:11:47 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = http://hl7.org/fhir/uv/ips)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\DiagnosticReport-hemoglobin : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\IPS-bundle-01 : 0 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680 : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680 : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-with-abatement : 0 / 1
@@ -123,6 +123,7 @@ INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].
 INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680.xml ==
 INFORMATION: Immunization/75680: Immunization.vaccineCode: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips
+WARNING: Immunization/75680: Immunization: Resource has a language, but the XHTML does not have an xml:lang tag (needs both lang and xml:lang - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-with-abatement.xml ==

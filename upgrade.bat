@@ -1,6 +1,6 @@
 REM run this batch file after a new version has been released in order to reset the test framework
 
-set ver=1.0.58
+set ver=1.0.64
 cd records 
 md v%ver%
 cd ..
@@ -60,4 +60,6 @@ copy hl7.base.template\output\qa.html records\hl7.base.template-qa.html
 copy hl7.fhir.au.base\output\qa.html records\hl7.fhir.au.base-qa.html
 copy hl7.fhir.template\output\qa.html records\hl7.fhir.template-qa.html
 
+call git commit -a -m "Record outcomes for %ver%"
+call git push origin master
 

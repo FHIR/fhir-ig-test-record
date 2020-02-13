@@ -1,9 +1,9 @@
 ﻿IHE_MHD : Validation Results
 =========================================
 
-err = 14, warn = 6, info = 32
-IG Publisher Version: v1.0.58-SNAPSHOT
-Generated Mon Feb 03 09:15:44 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
+err = 14, warn = 4, info = 30
+IG Publisher Version: v1.0.62-SNAPSHOT
+Generated Thu Feb 13 12:12:47 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
 
  Build Errors : 13 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example : 0 / 0
@@ -19,7 +19,7 @@ Generated Mon Feb 03 09:15:44 AEDT 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (c
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder-c : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet : 0 / 0
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList : 7 / 3
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList : 7 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission : 0 / 2
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-degenerateSubmission : 0 / 3
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission : 0 / 0
@@ -79,16 +79,14 @@ INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.content[0].format:
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml ==
-ERROR: /f:List/f:source: Undefined attribute '@value' on source for type Reference (properties = [Reference.id, Reference.extension, Reference.reference, Reference.type, Reference.identifier, Reference.display])
-ERROR: /f:List: Undefined element 'content'
-ERROR: List/minimalSubmissionSetList: List: The extension http://hl7.org/fhir/StructureDefinition/workflow-reasonCode is not allowed to be used at this point (allowed = e:Observation, e:DiagnosticReport, e:Media, e:NutritionOrder; this element is [[List])
-INFORMATION: List/minimalSubmissionSetList: List.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
-ERROR: List/minimalSubmissionSetList: List.identifier[0].use: As specified by profile http://hl7.org/fhir/StructureDefinition/Identifier, Element 'use' is out of order
-ERROR: List/minimalSubmissionSetList: List.identifier[1].use: As specified by profile http://hl7.org/fhir/StructureDefinition/Identifier, Element 'use' is out of order
-INFORMATION: List/minimalSubmissionSetList: List.code.coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
-WARNING: List/minimalSubmissionSetList: List.source: A Reference without an actual reference or identifier should have a display
-ERROR: List/minimalSubmissionSetList: List.code.coding.code: Value is 'SubmissionSet' but must be 'submissionSet'
-ERROR: List/minimalSubmissionSetList: List.code.coding.display: Missing element 'display' - required by fixed value assigned in profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest
+ERROR: List/minimalSubmissionSetList2: List: The extension http://hl7.org/fhir/StructureDefinition/workflow-reasonCode is not allowed to be used at this point (allowed = e:Observation, e:DiagnosticReport, e:Media, e:NutritionOrder; this element is [[List])
+INFORMATION: List/minimalSubmissionSetList2: List.code.coding[0]: Code System URI 'urn:ihe:iti:mhd:2020' is unknown so the code cannot be validated
+ERROR: List/minimalSubmissionSetList2: List.source: Unable to resolve resource 'Organization/example'
+ERROR: List/minimalSubmissionSetList2: List.entry[0].item: Unable to resolve resource 'DocumentReference/example'
+ERROR: List/minimalSubmissionSetList2: List.entry[1].item: Unable to resolve resource 'List/example'
+ERROR: List/minimalSubmissionSetList2: List.code.coding.code: Value is 'SubmissionSet' but must be 'submissionSet'
+ERROR: List/minimalSubmissionSetList2: List.code.coding.display: Missing element 'display' - required by fixed value assigned in profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest
+ERROR: List/minimalSubmissionSetList2: List.source: Bundled or contained reference not found within the bundle/resource Organization/example
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission.xml ==
 INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
 INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.meta.profile[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive
