@@ -3,7 +3,7 @@
   "name": "InternationalPatientSummaryIG",
   "package-id": "hl7.fhir.uv.ips",
   "ig-ver": "0.3.0",
-  "date": "Thu, 13 Feb, 2020 12:08:13 +1100",
+  "date": "Wed, 19 Feb, 2020 12:54:45 +1100",
   "errs": 0,
   "warnings": 2,
   "hints": 12,
