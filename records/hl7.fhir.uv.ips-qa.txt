@@ -2,8 +2,8 @@
 =========================================
 
 err = 0, warn = 2, info = 12
-IG Publisher Version: v1.0.65-SNAPSHOT
-Generated Wed Feb 19 12:58:28 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = http://hl7.org/fhir/uv/ips)
+IG Publisher Version: v1.0.66-SNAPSHOT
+Generated Sun Feb 23 08:41:02 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = http://hl7.org/fhir/uv/ips)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\DiagnosticReport-hemoglobin : 0 / 0
@@ -39,6 +39,8 @@ Generated Wed Feb 19 12:58:28 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\CodeableConcept-uv-ips.structuredefinition : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Coding-uv-ips.structuredefinition : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Composition-uv-ips.structuredefinition : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-lnc-uv-ips : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-sct-uv-ips : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Condition-uv-ips.structuredefinition : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-observer-uv-ips.structuredefinition : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-uv-ips.structuredefinition : 0 / 0
@@ -157,6 +159,8 @@ INFORMATION: Procedure/eumfh-39-07-1: Procedure.code: This element does not matc
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\CodeableConcept-uv-ips.structuredefinition.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Coding-uv-ips.structuredefinition.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Composition-uv-ips.structuredefinition.xml ==
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-lnc-uv-ips.xml ==
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-sct-uv-ips.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Condition-uv-ips.structuredefinition.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-observer-uv-ips.structuredefinition.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-uv-ips.structuredefinition.xml ==
