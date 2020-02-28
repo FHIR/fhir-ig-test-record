@@ -3,7 +3,7 @@
   "name": "AUBaseImplementationGuide",
   "package-id": "hl7.fhir.au.base",
   "ig-ver": "2.1.0",
-  "date": "Sun, 23 Feb, 2020 08:44:40 +1100",
+  "date": "Sat, 29 Feb, 2020 05:55:44 +1100",
   "errs": 218,
   "warnings": 136,
   "hints": 174,
