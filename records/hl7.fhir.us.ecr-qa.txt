@@ -1,34 +1,34 @@
 ﻿ElectronicCaseReporting : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 98
-IG Publisher Version: v1.0.68-SNAPSHOT
-Generated Sat Feb 29 05:45:47 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
+err = 0, warn = 2, info = 250
+IG Publisher Version: v1.0.70-SNAPSHOT
+Generated Thu Mar 05 20:05:27 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eRSD : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-ecr-message-zika : 0 / 4
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-pertussis-zika : 0 / 17
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-zika : 0 / 14
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-rr-collection-communication : 0 / 14
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-pertussis-zika : 0 / 24
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-zika : 0 / 21
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-rr-collection-communication : 0 / 33
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\capabilitystatement\capabilitystatement-ecr : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\capabilitystatement\capabilitystatement-ersd-client : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\codesystem\codesystem-messageHeader-event : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\codesystem\codesystem-task-businessStatus : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-one-cond-one-pha : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-single-single-html-validation-output : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-one-cond-one-pha : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-single-single-html-validation-output : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-pertussis-zika : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika-manual-initiation : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika-manual-initiation : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-common-cold : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-diabetes : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-pertussis : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-zika : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\device\device-ecr-software-ymca : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-outpatient : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-outpatient : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-salem-medical-center : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-ymca : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\immunization\immunization-ecr-pneumo : 0 / 0
@@ -40,27 +40,27 @@ Generated Sat Feb 29 05:45:47 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\messageheader\messageheader-ecr-requested-eicr : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-characteristics-of-home-environment-eve-everywoman : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-last-menstrual-period-eve-everywoman : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-odh-usual-work-eve-everywoman : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-odh-usual-work-eve-everywoman : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-postpartum-status-eve-everywoman : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-pregnancy-outcome-eve-everywoman : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-pregnancy-status-eve-everywoman : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-rr-eicr-processing-status : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-rr-eicr-processing-status-reason : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-rr-eicr-processing-status : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-rr-eicr-processing-status-reason : 0 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-travel-history-eve-everywoman-1999 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-travel-history-eve-everywoman-201610 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-travel-history-eve-everywoman-201801 : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-travel-history-eve-everywoman-201801 : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-us-core-results-eve-everywoman-lymphocytes : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-us-core-results-eve-everywoman-pertussis : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-ecr-acme-laboratory : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-ecr-health-authority-west : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-ecr-salem-medical-center : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-ecr-ymca-center : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-responsible-agency-haw : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-routing-entity-haw : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-rules-authoring-agency-haw : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-responsible-agency-haw : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-routing-entity-haw : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-rules-authoring-agency-haw : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\patient\patient-ecr-eve-everywoman : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\plandefinition\plandefinition-ersd-instance : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\plandefinition\plandefinition-rr-relevant-reportable-condition : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\plandefinition\plandefinition-rr-relevant-reportable-condition : 0 / 8
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\practitioner\practitioner-us-core-henry-seven : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\practitionerrole\practitionerrole-henry-seven : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\servicerequest\servicerequest-eicr-eve-everywoman-zika : 0 / 0
@@ -96,18 +96,18 @@ Generated Sat Feb 29 05:45:47 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-determination-of-reportability-reason-extension : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-determination-of-reportability-rule-extension : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-extension : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-observation : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-reason-observation : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-observation : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-reason-observation : 0 / 6
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-receipt-time-extension : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-external-resource-type-extension : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-location-relevance-extension : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-priority-extension : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-location-relevance-extension : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-priority-extension : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-relevant-reportable-condition-plandefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-responsible-agency-organization : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-responsible-agency-organization : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-responsible-agency-organization-extension : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-routing-entity-organization : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-routing-entity-organization : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-routing-entity-organization-extension : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-rules-authoring-agency-organization : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-rules-authoring-agency-organization : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-rules-authoring-agency-organization-extension : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\therapeutic-medication-response-extension : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\travel-history-address-extension : 0 / 0
@@ -152,6 +152,13 @@ INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[14]: This 
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[15]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[16]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[17]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[7].resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[8].resource.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[8].resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: resource.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[13].resource.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-zika.xml ==
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
@@ -167,7 +174,30 @@ INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[11]: This element do
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[13]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[14]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
+INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[2].resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-zika: resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[4].resource.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[4].resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-zika: resource.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-zika: resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[11].resource.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-rr-collection-communication.xml ==
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.jurisdiction[0].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.action[0].documentation[0].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.action[0].documentation[0].extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.action[0].documentation[1].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.action[0].documentation[1].extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.action[0].documentation[2].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.action[0].documentation[2].extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[3].resource.code.coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[2].resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[4].resource.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[4].resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: resource.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[11].resource.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
@@ -182,24 +212,35 @@ INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[13]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.entry[14]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[5].resource.type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[6].resource.type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[7].resource.type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\capabilitystatement\capabilitystatement-ecr.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\capabilitystatement\capabilitystatement-ersd-client.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\codesystem\codesystem-messageHeader-event.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\codesystem\codesystem-task-businessStatus.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-one-cond-one-pha.xml ==
+INFORMATION: Communication/communication-rr-one-cond-one-pha: Communication.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-single-single-html-validation-output.xml ==
+INFORMATION: Communication/communication-rr-single-single-html-validation-output: Communication.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-pertussis-zika.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika-manual-initiation.xml ==
+INFORMATION: Composition/composition-eicr-zika-manual-initiation: Composition.extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-common-cold.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-diabetes.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-pertussis.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-zika.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\device\device-ecr-software-ymca.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient.xml ==
+INFORMATION: Encounter/encounter-eicr-eve-everywoman-completed-inpatient: Encounter.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient.xml ==
+INFORMATION: Encounter/encounter-eicr-eve-everywoman-current-inpatient: Encounter.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter.xml ==
+INFORMATION: Encounter/encounter-eicr-eve-everywoman-external-encounter: Encounter.class: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+WARNING: Encounter/encounter-eicr-eve-everywoman-external-encounter: Encounter.class: The Coding provided is not in the value set http://terminology.hl7.org/ValueSet/v3-ActEncounterCode, and a code should come from this value set unless it has no suitable code.  (error message = The code system "urn:oid:2.16.840.1.114222.4.5.274" is not known (encountered paired with code = "PHC2237"); The code provided (urn:oid:2.16.840.1.114222.4.5.274#PHC2237) is not  valid in the value set v3.ActEncounterCode)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-outpatient.xml ==
+INFORMATION: Encounter/encounter-eicr-eve-everywoman-outpatient: Encounter.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-salem-medical-center.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-ymca.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\immunization\immunization-ecr-pneumo.xml ==
@@ -212,14 +253,21 @@ INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-characteristics-of-home-environment-eve-everywoman.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-last-menstrual-period-eve-everywoman.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-odh-usual-work-eve-everywoman.xml ==
+INFORMATION: Observation/observation-odh-usual-work-eve-everywoman: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
+INFORMATION: Observation/observation-odh-usual-work-eve-everywoman: Observation.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-postpartum-status-eve-everywoman.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-pregnancy-outcome-eve-everywoman.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-pregnancy-status-eve-everywoman.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-rr-eicr-processing-status.xml ==
+INFORMATION: Observation/observation-rr-eicr-processing-status: Observation.code.coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-rr-eicr-processing-status-reason.xml ==
+INFORMATION: Observation/observation-rr-eicr-processing-status-reason: Observation.code.coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: Observation/observation-rr-eicr-processing-status-reason: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: Observation/observation-rr-eicr-processing-status-reason: Observation.component[0].code.coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-travel-history-eve-everywoman-1999.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-travel-history-eve-everywoman-201610.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-travel-history-eve-everywoman-201801.xml ==
+INFORMATION: Observation/observation-travel-history-eve-everywoman-201801: Observation.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-us-core-results-eve-everywoman-lymphocytes.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\observation\observation-us-core-results-eve-everywoman-pertussis.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-ecr-acme-laboratory.xml ==
@@ -227,11 +275,22 @@ INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-ecr-salem-medical-center.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-ecr-ymca-center.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-responsible-agency-haw.xml ==
+INFORMATION: Organization/organization-rr-responsible-agency-haw: Organization.type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-routing-entity-haw.xml ==
+INFORMATION: Organization/organization-rr-routing-entity-haw: Organization.type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\organization\organization-rr-rules-authoring-agency-haw.xml ==
+INFORMATION: Organization/organization-rr-rules-authoring-agency-haw: Organization.type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\patient\patient-ecr-eve-everywoman.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\plandefinition\plandefinition-ersd-instance.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\plandefinition\plandefinition-rr-relevant-reportable-condition.xml ==
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.jurisdiction[0].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[0].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[0].extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[1].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[1].extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[2].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[2].extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\practitioner\practitioner-us-core-henry-seven.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\practitionerrole\practitionerrole-henry-seven.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\servicerequest\servicerequest-eicr-eve-everywoman-zika.xml ==
@@ -268,17 +327,35 @@ INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-determination-of-reportability-rule-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-observation.xml ==
+INFORMATION: StructureDefinition/rr-eicr-processing-status-observation: StructureDefinition.snapshot.element[14].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-eicr-processing-status-observation: StructureDefinition.differential.element[2].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-reason-observation.xml ==
+INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.snapshot.element[21].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.snapshot.element[45].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.differential.element[3].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.differential.element[5].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-receipt-time-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-external-resource-type-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-location-relevance-extension.xml ==
+INFORMATION: StructureDefinition/rr-location-relevance-extension: StructureDefinition.snapshot.element[4].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-location-relevance-extension: StructureDefinition.differential.element[2].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-priority-extension.xml ==
+INFORMATION: StructureDefinition/rr-priority-extension: StructureDefinition.snapshot.element[4].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-priority-extension: StructureDefinition.differential.element[2].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-relevant-reportable-condition-plandefinition.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-responsible-agency-organization.xml ==
+INFORMATION: StructureDefinition/rr-responsible-agency-organization: StructureDefinition.snapshot.element[19].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-responsible-agency-organization: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-responsible-agency-organization-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-routing-entity-organization.xml ==
+INFORMATION: StructureDefinition/rr-routing-entity-organization: StructureDefinition.snapshot.element[19].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-routing-entity-organization: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-routing-entity-organization-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-rules-authoring-agency-organization.xml ==
+INFORMATION: StructureDefinition/rr-rules-authoring-agency-organization: StructureDefinition.snapshot.element[19].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/rr-rules-authoring-agency-organization: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-rules-authoring-agency-organization-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\therapeutic-medication-response-extension.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\travel-history-address-extension.xml ==

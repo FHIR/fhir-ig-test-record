@@ -1,14 +1,14 @@
 ﻿InternationalPatientSummaryIG : Validation Results
 =========================================
 
-err = 0, warn = 2, info = 12
-IG Publisher Version: v1.0.68-SNAPSHOT
-Generated Sat Feb 29 05:50:49 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = http://hl7.org/fhir/uv/ips)
+err = 2, warn = 2, info = 14
+IG Publisher Version: v1.0.70-SNAPSHOT
+Generated Thu Mar 05 20:09:31 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = http://hl7.org/fhir/uv/ips)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\DiagnosticReport-hemoglobin : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\IPS-bundle-01 : 0 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680 : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680 : 0 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-with-abatement : 0 / 1
@@ -79,6 +79,7 @@ Generated Sat Feb 29 05:50:49 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-medications-uv-ips : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-problems-uv-ips : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-procedures-uv-ips : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-gps-uv-ips : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-uv-ips : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-reaction-uv-ips : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-condition-severity-uv-ips : 0 / 0
@@ -125,6 +126,7 @@ INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].
 INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680.xml ==
 INFORMATION: Immunization/75680: Immunization.vaccineCode: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips
+INFORMATION: Immunization/75680: Immunization.vaccineCode.coding[2]: Code System URI "urn:oid:1.3.182.4.11.22" is unknown so the code cannot be validated
 WARNING: Immunization/75680: Immunization: Resource has a language, but the XHTML does not have an xml:lang tag (needs both lang and xml:lang - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1.xml ==
@@ -199,6 +201,8 @@ INFORMATION: Procedure/eumfh-39-07-1: Procedure.code: This element does not matc
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-medications-uv-ips.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-problems-uv-ips.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-procedures-uv-ips.xml ==
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-gps-uv-ips.xml ==
+ERROR: allergy-intolerance-substance-condition-gps-uv-ips: Error from server: Expansion Parameters Error: the version "http://snomed.info/sct/900000000000207008/version/20190731" is inconsistent with the version "http://snomed.info/sct/900000000000207008" required by the profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-uv-ips.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-reaction-uv-ips.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-condition-severity-uv-ips.xml ==
