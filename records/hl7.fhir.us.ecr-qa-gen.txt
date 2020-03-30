@@ -1,9 +1,9 @@
 ﻿ElectronicCaseReporting : Validation Results
 =========================================
 
-err = 0, warn = 2, info = 250
-IG Publisher Version: v1.0.70-SNAPSHOT
-Generated Thu Mar 05 20:05:27 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
+err = 2, warn = 0, info = 250
+IG Publisher Version: v1.0.74-SNAPSHOT
+Generated Sat Mar 28 06:29:37 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eRSD : 0 / 0
@@ -27,7 +27,7 @@ Generated Thu Mar 05 20:05:27 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\device\device-ecr-software-ymca : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-outpatient : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-salem-medical-center : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-ymca : 0 / 0
@@ -117,7 +117,7 @@ Generated Thu Mar 05 20:05:27 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\subscription\subscription-ostc : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\task\task-ecr-ehr-requested-eicr : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\2.16.840.1.113762.1.4.1099.24 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-dxtc-example : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-dxtc-example : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-ecr-messageheader-event : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-ecr-task-businessstatus : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-iztc-example : 0 / 0
@@ -238,7 +238,6 @@ INFORMATION: Encounter/encounter-eicr-eve-everywoman-completed-inpatient: Encoun
 INFORMATION: Encounter/encounter-eicr-eve-everywoman-current-inpatient: Encounter.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-external-encounter.xml ==
 INFORMATION: Encounter/encounter-eicr-eve-everywoman-external-encounter: Encounter.class: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
-WARNING: Encounter/encounter-eicr-eve-everywoman-external-encounter: Encounter.class: The Coding provided is not in the value set http://terminology.hl7.org/ValueSet/v3-ActEncounterCode, and a code should come from this value set unless it has no suitable code.  (error message = The code system "urn:oid:2.16.840.1.114222.4.5.274" is not known (encountered paired with code = "PHC2237"); The code provided (urn:oid:2.16.840.1.114222.4.5.274#PHC2237) is not  valid in the value set v3.ActEncounterCode)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\encounter\encounter-eicr-eve-everywoman-outpatient.xml ==
 INFORMATION: Encounter/encounter-eicr-eve-everywoman-outpatient: Encounter.type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\endpoint\endpoint-ecr-salem-medical-center.xml ==
@@ -366,6 +365,7 @@ INFORMATION: StructureDefinition/rr-rules-authoring-agency-organization: Structu
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\task\task-ecr-ehr-requested-eicr.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\2.16.840.1.113762.1.4.1099.24.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-dxtc-example.xml ==
+ERROR: valueset-dxtc-example: Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-ecr-messageheader-event.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-ecr-task-businessstatus.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-iztc-example.xml ==

@@ -1,0 +1,12 @@
+{
+  "url": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core-3.1.0",
+  "name": "USCore",
+  "package-id": "hl7.fhir.us.core",
+  "ig-ver": "3.1.0",
+  "date": "Fri, 07 Feb, 2020 21:30:49 +1100",
+  "errs": 1496,
+  "warnings": 36,
+  "hints": 228,
+  "version": "4.0.1",
+  "tool": "4.2.0 (3)"
+}

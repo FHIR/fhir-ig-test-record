@@ -1,9 +1,9 @@
 ﻿USCore : Validation Results
 =========================================
 
-err = 1496, warn = 36, info = 228
+err = 1496, warn = 30, info = 228
 IG Publisher Version: v1.0.70-SNAPSHOT
-Generated Thu Mar 05 20:21:18 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.core#3.1.0 (canonical = http://hl7.org/fhir/us/core)
+Generated Fri Mar 13 18:02:34 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.core#3.1.0 (canonical = http://hl7.org/fhir/us/core)
 
  Build Errors : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\Device-defib : 0 / 0
@@ -226,11 +226,11 @@ Generated Thu Mar 05 20:21:18 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.us.core
  USCoreMedicationRequestProfile : 0 / 0
  USCoreOrganizationProfile : 0 / 0
  USCorePatientProfile : 0 / 0
- USCorePediatricBMIforAgeObservationProfile : 0 / 1
- USCorePediatricWeightForHeightObservationProfile : 0 / 1
+ USCorePediatricBMIforAgeObservationProfile : 0 / 0
+ USCorePediatricWeightForHeightObservationProfile : 0 / 0
  USCorePractitionerProfile : 0 / 0
  USCoreProcedureProfile : 0 / 0
- USCorePulseOximetryProfile : 0 / 2
+ USCorePulseOximetryProfile : 0 / 1
  USCoreSmokingStatusProfile : 0 / 0
 </table>
 == n/a ==
@@ -1331,12 +1331,9 @@ ERROR: us-core-procedure-icd10pcs: Error from server: Unable to provide support 
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\organization-us-core-profile-spreadsheet.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\patient-us-core-profile-spreadsheet.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\observation-us-core-pediatric-bmi-for age-spreadsheet.xml ==
-WARNING: StructureDefinition/pediatric-bmi-for-age: StructureDefinition.snapshot.element[27].mapping[3].map: value should not start or finish with whitespace
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\observation-us-core-pediatric-weight-for-height-spreadsheet.xml ==
-WARNING: StructureDefinition/pediatric-weight-for-height: StructureDefinition.snapshot.element[27].mapping[3].map: value should not start or finish with whitespace
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\practitioner-us-core-profile-spreadsheet.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\procedure-us-core-profile-spreadsheet.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\observation-us-core-pulse-oximetry-spreadsheet.xml ==
-WARNING: StructureDefinition/us-core-pulse-oximetry: StructureDefinition.snapshot.element[47].mapping[3].map: value should not start or finish with whitespace
 WARNING: http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\observation-us-core-smokingstatus-profile-spreadsheet.xml ==

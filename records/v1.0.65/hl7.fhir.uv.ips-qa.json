@@ -1,0 +1,12 @@
+{
+  "url": "http://hl7.org/fhir/uv/ips/ImplementationGuide/ig-uv-ips",
+  "name": "InternationalPatientSummaryIG",
+  "package-id": "hl7.fhir.uv.ips",
+  "ig-ver": "0.3.0",
+  "date": "Wed, 19 Feb, 2020 12:54:45 +1100",
+  "errs": 0,
+  "warnings": 2,
+  "hints": 12,
+  "version": "4.0.1",
+  "tool": "4.2.0 (3)"
+}

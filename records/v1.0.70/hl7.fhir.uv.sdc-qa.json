@@ -1,0 +1,12 @@
+{
+  "url": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+  "name": "StructuredDataCapture",
+  "package-id": "hl7.fhir.uv.sdc",
+  "ig-ver": "2.8.0",
+  "date": "Thu, 05 Mar, 2020 20:11:14 +1100",
+  "errs": 250,
+  "warnings": 388,
+  "hints": 68,
+  "version": "4.0.1",
+  "tool": "4.2.0 (3)"
+}

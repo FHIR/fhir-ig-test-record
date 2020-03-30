@@ -1,0 +1,1293 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 0, errors = 0, warn = 0, info = 6 -->
+<head>
+  <title>InternationalPatientSummaryIG : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for InternationalPatientSummaryIG</h1>
+ <p>Generated Mon Feb 03 09:14:33 AEDT 2020, FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = <a href="http://hl7.org/fhir/uv/ips">http://hl7.org/fhir/uv/ips</a> (<a href="http://hl7.org/fhir/uv/ips/history.html">history</a>))</p>
+<p>IG Publisher Version: v1.0.58-SNAPSHOT</p>
+<p><a href="#suppressed">26 Suppressed Errors</a></p>
+ <p>HL7 Publication check:</p> <ul>
+  <li>All ok (path - http://hl7.org/fhir/uv/ips/2019Sep)</li>
+</ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_DiagnosticReport-hemoglobin"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\DiagnosticReport-hemoglobin</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_IPS-bundle-01"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\IPS-bundle-01</b></a></td><td><b>0</b></td><td><b>2</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Immunization-75680"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Patient-66033"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_allergyIntolerance-39-07-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_allergyIntolerance-with-abatement"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-with-abatement</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_condition-39-07-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\condition-39-07-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_device-70-275-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-70-275-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_device-imaging-example-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-imaging-example-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_deviceUseStatement-70-275-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\deviceUseStatement-70-275-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_imagingStudy-imaging-ex-5-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\imagingStudy-imaging-ex-5-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_media-smile"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\media-smile</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_medication-39-07-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medication-39-07-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_medicationStatement-39-07-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medicationStatement-39-07-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-alcoholuse-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-alcoholuse-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-hemoglobin"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-hemoglobin</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-imaging-example-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-imaging-example-4"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-4</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-pregnancy-eed-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-eed-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-pregnancy-outcome-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-outcome-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-pregnancy-status-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-status-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-serum-creatinine-adult"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-serum-creatinine-adult</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-tobaccouse-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-tobaccouse-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_organization-imaging-example-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\organization-imaging-example-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_patient-39-07-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-39-07-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_patient-example-female"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-example-female</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_practictioner-39-07-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\practictioner-39-07-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_procedure-39-07-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\procedure-39-07-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_specimen-example-1"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\specimen-example-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_AllergyIntolerance-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\AllergyIntolerance-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_CodeableConcept-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\CodeableConcept-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Coding-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Coding-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Composition-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Composition-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Condition-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Condition-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Device-observer-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-observer-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Device-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_DeviceUseStatement-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DeviceUseStatement-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_DiagnosticReport-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DiagnosticReport-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_ImagingStudy-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ImagingStudy-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Immunization-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Immunization-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Media-observation-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Media-observation-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Medication-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Medication-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_MedicationStatement-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\MedicationStatement-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-alcoholUse-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-alcoholUse-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-imaging-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-imaging-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-laboratory-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-laboratory-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pathology-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pathology-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pregnancy-edd-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-edd-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pregnancy-outcome-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-outcome-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pregnancy-status-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-status-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-tobaccoUse-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-tobaccoUse-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Organization-laboratory-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-laboratory-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Organization-observation-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-observation-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Patient-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Patient-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Practitioner-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Practitioner-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Procedure-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Procedure-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Quantity-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Quantity-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Range-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Range-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Ratio-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Ratio-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_SimpleQuantity-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\SimpleQuantity-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Specimen-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Specimen-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_abatement-dateTime-uv-ips.structuredefinition"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\abatement-dateTime-uv-ips.structuredefinition</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_codesystem-absent-unknown-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\codesystem-absent-unknown-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_ig-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ig-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-allergies-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-allergies-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-devices-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-devices-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-immunizations-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-immunizations-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-medications-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-medications-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-problems-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-problems-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-procedures-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-procedures-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-allergy-intolerance-substance-condition-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-allergy-reaction-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-reaction-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-condition-severity-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-condition-severity-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-core-problem-list-disorders-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-core-problem-list-disorders-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-current-smoking-status-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-current-smoking-status-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-edd-method-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-edd-method-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-area-measure-code-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-area-measure-code-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-linear-measure-code-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-linear-measure-code-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-numobs-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-numobs-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-observations-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-observations-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-txtobs-code-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-txtobs-code-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-volume-measure-code-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-volume-measure-code-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-lab-absence-presence-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-absence-presence-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-lab-blood-abo-rh-grp-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-blood-abo-rh-grp-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-lab-result-coded-value-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-result-coded-value-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-laboratory-and-vital-signs-observations"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-and-vital-signs-observations</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-laboratory-tests-and-panels-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-tests-and-panels-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-med-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-med-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medical-devices-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medical-devices-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medication-snomed-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medication-snomed-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medicine-active-substances-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-active-substances-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medicine-doseform"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-doseform</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medicine-route-of-administration"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-route-of-administration</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-microorganism-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-microorganism-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-observation-codes-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-observation-codes-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pathology-and-vital-signs-observations"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-and-vital-signs-observations</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pathology-result-coded-value-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-result-coded-value-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-personal-relationship-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-personal-relationship-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pregnancies-summary-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancies-summary-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pregnancy-status-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancy-status-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-problem-type-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-problem-type-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-procedures-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-procedures-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-specimen-collection-method-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-collection-method-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-specimen-type-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-type-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-sub-observation-category-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-sub-observation-category-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-target-site-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-target-site-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-vaccines-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-vaccines-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-whoatc-uv-ips"><b>C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-whoatc-uv-ips</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_DiagnosticReport-hemoglobin"> </a>
+<h2><a href="DiagnosticReport-hemoglobin.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\DiagnosticReport-hemoglobin.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_IPS-bundle-01"> </a>
+<h2><a href="Bundle-IPS-examples-Bundle-01.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\IPS-bundle-01.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[0]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips</b> <span id="sl0" class="flip" onclick="flip('l0')">Show Reasoning</span><div id="l0" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips: <ul><li>Bundle.entry[0].resource.section[5].entry[0]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[0]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.hasMember[0]: Unable to find matching profile for Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2741 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[0]: <ul><li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>resource.hasMember[1]: Unable to find matching profile for Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c70 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[1]: <ul><li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[2]: Unable to find matching profile for Observation/b4916505-a06b-460c-9be8-011609282457 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[2]: <ul><li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[3]: Unable to find matching profile for Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[3]: <ul><li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li></ul></li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[0]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[0]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips'</li>, <li>resource.hasMember[0]: Unable to find matching profile for Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2741 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips</li>, <li>resource.hasMember[0]: <ul><li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[12].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips'</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li>, <li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[1]: Unable to find matching profile for Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c70 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips</li>, <li>resource.hasMember[1]: <ul><li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[13].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips'</li>, <li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[2]: Unable to find matching profile for Observation/b4916505-a06b-460c-9be8-011609282457 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips</li>, <li>resource.hasMember[2]: <ul><li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[14].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips'</li>, <li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[3]: Unable to find matching profile for Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips</li>, <li>resource.hasMember[3]: <ul><li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[15].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips'</li>, <li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[0]: Unable to find matching profile for Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2741 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[0]: <ul><li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>resource.hasMember[1]: Unable to find matching profile for Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c70 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[1]: <ul><li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[2]: Unable to find matching profile for Observation/b4916505-a06b-460c-9be8-011609282457 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[2]: <ul><li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[3]: Unable to find matching profile for Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[3]: <ul><li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li></ul></li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[0]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[0]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips'</li>, <li>resource.hasMember[0]: Unable to find matching profile for Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2741 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips</li>, <li>resource.hasMember[0]: <ul><li>Bundle.entry[12].resource.value.ofType(CodeableConcept): This element does not match any known slice  defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips and slicing is CLOSED: Bundle.entry[12].resource.value.ofType(CodeableConcept): Does not match slicevalueString</li>, <li>Bundle.entry[12].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips'</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept).coding[0]: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/string</li>, <li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>resource.hasMember[1]: Unable to find matching profile for Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c70 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips</li>, <li>resource.hasMember[1]: <ul><li>Bundle.entry[13].resource.value.ofType(CodeableConcept): This element does not match any known slice  defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips and slicing is CLOSED: Bundle.entry[13].resource.value.ofType(CodeableConcept): Does not match slicevalueString</li>, <li>Bundle.entry[13].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips'</li>, <li>Bundle.entry[13].resource.value.ofType(CodeableConcept).coding[0]: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/string</li>, <li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[2]: Unable to find matching profile for Observation/b4916505-a06b-460c-9be8-011609282457 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips</li>, <li>resource.hasMember[2]: <ul><li>Bundle.entry[14].resource.value.ofType(CodeableConcept): This element does not match any known slice  defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips and slicing is CLOSED: Bundle.entry[14].resource.value.ofType(CodeableConcept): Does not match slicevalueString</li>, <li>Bundle.entry[14].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips'</li>, <li>Bundle.entry[14].resource.value.ofType(CodeableConcept).coding[0]: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/string</li>, <li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[3]: Unable to find matching profile for Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips</li>, <li>resource.hasMember[3]: <ul><li>Bundle.entry[15].resource.value.ofType(CodeableConcept): This element does not match any known slice  defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips and slicing is CLOSED: Bundle.entry[15].resource.value.ofType(CodeableConcept): Does not match slicevalueString</li>, <li>Bundle.entry[15].resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips'</li>, <li>Bundle.entry[15].resource.value.ofType(CodeableConcept).coding[0]: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/string</li>, <li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[0]: Unable to find matching profile for Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2741 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[0]: <ul><li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>resource.hasMember[1]: Unable to find matching profile for Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c70 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[1]: <ul><li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[2]: Unable to find matching profile for Observation/b4916505-a06b-460c-9be8-011609282457 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[2]: <ul><li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[3]: Unable to find matching profile for Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[3]: <ul><li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li></ul></li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[0]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[0]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips'</li>, <li>resource.hasMember[0]: <ul><li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>resource.hasMember[1]: <ul><li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[2]: <ul><li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[3]: <ul><li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[0]: Unable to find matching profile for Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2741 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[0]: <ul><li>Bundle.entry[12].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[12].resource.performer': minimum required = 1, but only found 0</li>, <li>Bundle.entry[12].resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>resource.hasMember[1]: Unable to find matching profile for Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c70 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[1]: <ul><li>Bundle.entry[13].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[13].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[2]: Unable to find matching profile for Observation/b4916505-a06b-460c-9be8-011609282457 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[2]: <ul><li>Bundle.entry[14].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[14].resource.performer': minimum required = 1, but only found 0</li></ul></li>, <li>resource.hasMember[3]: Unable to find matching profile for Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4 among choices: http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips</li>, <li>resource.hasMember[3]: <ul><li>Bundle.entry[15].resource: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips, Element 'Bundle.entry[15].resource.performer': minimum required = 1, but only found 0</li></ul></li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[0]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[0]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource: Specified profile type was 'DiagnosticReport', but found type 'Observation'</li></ul></li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[2]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips</b> <span id="sl1" class="flip" onclick="flip('l1')">Show Reasoning</span><div id="l1" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips: <ul><li>Bundle.entry[0].resource.section[5].entry[2]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[2]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[2]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[2]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-pathology-uv-ips'</li>, <li>resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[2]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[2]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.value.ofType(CodeableConcept): This element does not match any known slice  defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips and slicing is CLOSED: resource.value.ofType(CodeableConcept): Does not match slicevalueString</li>, <li>resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-imaging-uv-ips'</li>, <li>resource.value.ofType(CodeableConcept).coding[0]: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/string</li>, <li>resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[2]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[2]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource.meta.profile[0]: Value is 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-laboratory-uv-ips' but must be 'http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips'</li>, <li>resource.value.ofType(CodeableConcept): Unable to find value set http://hl7.org/fhir/uv/ips/ValueSet/lab-blood-abo-rh-grp-uv-ips</li></ul></li>, <li>Bundle.entry[0].resource.section[5].entry[2]: discriminator = true and $this.resolve().conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips')</li>, <li>Bundle.entry[0].resource.section[5].entry[2]: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips does not match for Bundle.entry[0].resource.section[5] because of the following profile issues: <ul><li>resource: Specified profile type was 'DiagnosticReport', but found type 'Observation'</li></ul></li></ul></div></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Immunization-75680"> </a>
+<h2><a href="Immunization-75680.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Immunization/75680: Immunization.vaccineCode</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips</b> <span id="sl2" class="flip" onclick="flip('l2')">Show Reasoning</span><div id="l2" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips: <ul><li>Immunization.vaccineCode: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips')</li>, <li>Immunization.vaccineCode: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips')</li></ul></div></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_Patient-66033"> </a>
+<h2><a href="Patient-66033.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_allergyIntolerance-39-07-1"> </a>
+<h2><a href="AllergyIntolerance-eumfh-39-07-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_allergyIntolerance-with-abatement"> </a>
+<h2><a href="AllergyIntolerance-allergyintolerance-with-abatement.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-with-abatement.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">AllergyIntolerance/allergyintolerance-with-abatement: AllergyIntolerance.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips</b> <span id="sl3" class="flip" onclick="flip('l3')">Show Reasoning</span><div id="l3" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips: <ul><li>AllergyIntolerance.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips')</li></ul></div></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_condition-39-07-1"> </a>
+<h2><a href="Condition-eumfh-39-07-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\condition-39-07-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Condition/eumfh-39-07-1: Condition.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips</b> <span id="sl4" class="flip" onclick="flip('l4')">Show Reasoning</span><div id="l4" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips: <ul><li>Condition.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips')</li></ul></div></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_device-70-275-1"> </a>
+<h2><a href="Device-eumfh-70-275-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-70-275-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_device-imaging-example-1"> </a>
+<h2><a href="Device-trilliumII-example-imaging-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-imaging-example-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_deviceUseStatement-70-275-1"> </a>
+<h2><a href="DeviceUseStatement-eumfh-70-275-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\deviceUseStatement-70-275-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_imagingStudy-imaging-ex-5-1"> </a>
+<h2><a href="ImagingStudy-TII-ImagingStudy-5-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\imagingStudy-imaging-ex-5-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_media-smile"> </a>
+<h2><a href="Media-smile.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\media-smile.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_medication-39-07-1"> </a>
+<h2><a href="Medication-eumfh-39-07-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medication-39-07-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_medicationStatement-39-07-1"> </a>
+<h2><a href="MedicationStatement-eumfh-39-07-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medicationStatement-39-07-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-alcoholuse-1"> </a>
+<h2><a href="Observation-alcoholuse-example.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-alcoholuse-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-hemoglobin"> </a>
+<h2><a href="Observation-hemoglobin.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-hemoglobin.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-imaging-example-1"> </a>
+<h2><a href="Observation-trilliumII-example-imaging-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-imaging-example-4"> </a>
+<h2><a href="Observation-trilliumII-example-imaging-4.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-4.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-pregnancy-eed-1"> </a>
+<h2><a href="Observation-pregnancy-eed-example.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-eed-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-pregnancy-outcome-1"> </a>
+<h2><a href="Observation-pregnancy-outcome-example.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-outcome-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-pregnancy-status-1"> </a>
+<h2><a href="Observation-pregnancy-status-example.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-status-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-serum-creatinine-adult"> </a>
+<h2><a href="Observation-serum-creatinine-adult.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-serum-creatinine-adult.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_observation-tobaccouse-1"> </a>
+<h2><a href="Observation-tobaccouse-example.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-tobaccouse-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_organization-imaging-example-1"> </a>
+<h2><a href="Organization-TII-Organization1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\organization-imaging-example-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_patient-39-07-1"> </a>
+<h2><a href="Patient-eumfh-39-07.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-39-07-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_patient-example-female"> </a>
+<h2><a href="Patient-patient-example-female.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-example-female.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_practictioner-39-07-1"> </a>
+<h2><a href="Practitioner-eumfh-39-07.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\practictioner-39-07-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_procedure-39-07-1"> </a>
+<h2><a href="Procedure-eumfh-39-07-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\procedure-39-07-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Procedure/eumfh-39-07-1: Procedure.code</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips</b> <span id="sl5" class="flip" onclick="flip('l5')">Show Reasoning</span><div id="l5" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips: <ul><li>Procedure.code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-procedures-uv-ips')</li></ul></div></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_examples_specimen-example-1"> </a>
+<h2><a href="Specimen-specimen-example-1.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\specimen-example-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_AllergyIntolerance-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-AllergyIntolerance-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\AllergyIntolerance-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_CodeableConcept-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-CodeableConcept-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\CodeableConcept-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Coding-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Coding-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Coding-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Composition-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Composition-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Composition-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Condition-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Condition-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Condition-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Device-observer-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Device-observer-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-observer-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Device-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Device-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_DeviceUseStatement-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-DeviceUseStatement-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DeviceUseStatement-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_DiagnosticReport-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-DiagnosticReport-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DiagnosticReport-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_ImagingStudy-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-ImagingStudy-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ImagingStudy-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Immunization-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Immunization-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Immunization-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Media-observation-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Media-observation-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Media-observation-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Medication-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Medication-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Medication-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_MedicationStatement-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-MedicationStatement-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\MedicationStatement-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-alcoholUse-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-alcoholuse-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-alcoholUse-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-imaging-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-imaging-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-imaging-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-laboratory-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-laboratory-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-laboratory-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pathology-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-pathology-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pathology-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pregnancy-edd-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-pregnancy-edd-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-edd-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pregnancy-outcome-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-pregnancy-outcome-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-outcome-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-pregnancy-status-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-pregnancy-status-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-status-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-tobaccoUse-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-tobaccouse-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-tobaccoUse-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Observation-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Observation-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Organization-laboratory-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Organization-laboratory-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-laboratory-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Organization-observation-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Organization-observation-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-observation-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Patient-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Patient-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Patient-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Practitioner-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Practitioner-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Practitioner-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Procedure-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Procedure-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Procedure-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Quantity-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Quantity-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Quantity-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Range-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Range-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Range-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Ratio-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Ratio-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Ratio-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_SimpleQuantity-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-SimpleQuantity-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\SimpleQuantity-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_Specimen-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-Specimen-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Specimen-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_abatement-dateTime-uv-ips.structuredefinition"> </a>
+<h2><a href="StructureDefinition-abatement-dateTime-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\abatement-dateTime-uv-ips.structuredefinition.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_codesystem-absent-unknown-uv-ips"> </a>
+<h2><a href="CodeSystem-absent-unknown-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\codesystem-absent-unknown-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_ig-uv-ips"> </a>
+<h2><a href="ImplementationGuide-hl7.fhir.uv.ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ig-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-allergies-uv-ips"> </a>
+<h2><a href="ValueSet-absent-or-unknown-allergies-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-allergies-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-devices-uv-ips"> </a>
+<h2><a href="ValueSet-absent-or-unknown-devices-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-devices-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-immunizations-uv-ips"> </a>
+<h2><a href="ValueSet-absent-or-unknown-immunizations-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-immunizations-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-medications-uv-ips"> </a>
+<h2><a href="ValueSet-absent-or-unknown-medications-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-medications-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-problems-uv-ips"> </a>
+<h2><a href="ValueSet-absent-or-unknown-problems-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-problems-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-absent-or-unknown-procedures-uv-ips"> </a>
+<h2><a href="ValueSet-absent-or-unknown-procedures-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-procedures-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-allergy-intolerance-substance-condition-uv-ips"> </a>
+<h2><a href="ValueSet-allergy-intolerance-substance-condition-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-allergy-reaction-uv-ips"> </a>
+<h2><a href="ValueSet-allergy-reaction-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-reaction-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-condition-severity-uv-ips"> </a>
+<h2><a href="ValueSet-condition-severity-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-condition-severity-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-core-problem-list-disorders-uv-ips"> </a>
+<h2><a href="ValueSet-core-problem-list-disorders-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-core-problem-list-disorders-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-current-smoking-status-uv-ips"> </a>
+<h2><a href="ValueSet-current-smoking-status-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-current-smoking-status-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-edd-method-uv-ips"> </a>
+<h2><a href="ValueSet-edd-method-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-edd-method-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-area-measure-code-uv-ips"> </a>
+<h2><a href="ValueSet-imaging-area-measure-code-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-area-measure-code-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-linear-measure-code-uv-ips"> </a>
+<h2><a href="ValueSet-imaging-linear-measure-code-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-linear-measure-code-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-numobs-uv-ips"> </a>
+<h2><a href="ValueSet-imaging-numobs-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-numobs-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-observations-uv-ips"> </a>
+<h2><a href="ValueSet-imaging-observations-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-observations-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-txtobs-code-uv-ips"> </a>
+<h2><a href="ValueSet-imaging-txtobs-code-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-txtobs-code-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-imaging-volume-measure-code-uv-ips"> </a>
+<h2><a href="ValueSet-imaging-volume-measure-code-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-volume-measure-code-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-lab-absence-presence-uv-ips"> </a>
+<h2><a href="ValueSet-lab-absence-presence-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-absence-presence-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-lab-blood-abo-rh-grp-uv-ips"> </a>
+<h2><a href="ValueSet-lab-blood-abo-rh-grp-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-blood-abo-rh-grp-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-lab-result-coded-value-uv-ips"> </a>
+<h2><a href="ValueSet-lab-result-coded-value-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-result-coded-value-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-laboratory-and-vital-signs-observations"> </a>
+<h2><a href="ValueSet-laboratory-and-vital-signs-observations.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-and-vital-signs-observations.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-laboratory-tests-and-panels-uv-ips"> </a>
+<h2><a href="ValueSet-laboratory-tests-and-panels-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-tests-and-panels-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-med-uv-ips"> </a>
+<h2><a href="ValueSet-med-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-med-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medical-devices-uv-ips"> </a>
+<h2><a href="ValueSet-medical-devices-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medical-devices-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medication-snomed-uv-ips"> </a>
+<h2><a href="ValueSet-medication-snomed-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medication-snomed-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medicine-active-substances-uv-ips"> </a>
+<h2><a href="ValueSet-medicine-active-substances-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-active-substances-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medicine-doseform"> </a>
+<h2><a href="ValueSet-medicine-doseform.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-doseform.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-medicine-route-of-administration"> </a>
+<h2><a href="ValueSet-medicine-route-of-administration.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-route-of-administration.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-microorganism-uv-ips"> </a>
+<h2><a href="ValueSet-microorganism-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-microorganism-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-observation-codes-uv-ips"> </a>
+<h2><a href="ValueSet-observation-codes-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-observation-codes-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pathology-and-vital-signs-observations"> </a>
+<h2><a href="ValueSet-pathology-and-vital-signs-observations.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-and-vital-signs-observations.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pathology-result-coded-value-uv-ips"> </a>
+<h2><a href="ValueSet-pathology-result-coded-value-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-result-coded-value-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-personal-relationship-uv-ips"> </a>
+<h2><a href="ValueSet-personal-relationship-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-personal-relationship-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pregnancies-summary-uv-ips"> </a>
+<h2><a href="ValueSet-pregnancies-summary-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancies-summary-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-pregnancy-status-uv-ips"> </a>
+<h2><a href="ValueSet-pregnancy-status-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancy-status-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-problem-type-uv-ips"> </a>
+<h2><a href="ValueSet-problem-type-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-problem-type-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-procedures-uv-ips"> </a>
+<h2><a href="ValueSet-procedures-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-procedures-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-specimen-collection-method-uv-ips"> </a>
+<h2><a href="ValueSet-specimen-collection-method-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-collection-method-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-specimen-type-uv-ips"> </a>
+<h2><a href="ValueSet-specimen-type-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-type-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-sub-observation-category-uv-ips"> </a>
+<h2><a href="ValueSet-sub-observation-category-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-sub-observation-category-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-target-site-uv-ips"> </a>
+<h2><a href="ValueSet-target-site-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-target-site-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-vaccines-uv-ips"> </a>
+<h2><a href="ValueSet-vaccines-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-vaccines-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_hl7.fhir.uv.ips_resources_valueset-whoatc-uv-ips"> </a>
+<h2><a href="ValueSet-whoatc-uv-ips.html">C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-whoatc-uv-ips.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Error Messages</b></p><ul>
+ <li>// 'fr-LU' (French, Luxembourg) is a valid BCP 47 language code, but isn't included in the CommonLanguages value set </li>
+ <li>The value provided ('fr-LU') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages, and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#fr-LU) is not  valid in the value set CommonLanguages)</li>
+ <li>// the following three code systems (from Europe) are not currently supported by the build terminology service</li>
+ <li>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.1' is unknown so the code cannot be validated</li>
+ <li>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.7' is unknown so the code cannot be validated</li>
+ <li>Code System URI 'urn:oid:1.3.182.4.11.22' is unknown so the code cannot be validated</li>
+ <li>// These messages are incorrect, or irrelevant in the cases of Composition inside a Bundle or data type profiles and extensions</li>
+ <li>The Implementation Guide contains no explicitly linked examples for this profile</li>
+ <li>// These information messages are occurring in cases of open slicing where the instance data only conforms to the profiled</li>
+ <li>// element definition and not any of the explicit slices - so this is the expected and desired behavior</li>
+ <li>INFORMATION: Immunization/75680: Immunization.vaccineCode: This element does not match any known slice for the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips</li>
+ <li>INFORMATION: AllergyIntolerance/allergyintolerance-with-abatement: AllergyIntolerance.code: This element does not match any known slice for the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips</li>
+ <li>INFORMATION: Condition/eumfh-39-07-1: Condition.code: This element does not match any known slice for the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips</li>
+ <li>INFORMATION: Procedure/eumfh-39-07-1: Procedure.code: This element does not match any known slice for the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips</li>
+ <li>// This is an additional RxNorm coding (US realm) that is not included or expected to be in the bound value sets for the element</li>
+ <li>// or a specific slice (e.g. ATC)</li>
+ <li>None of the codes provided are in the value set http://hl7.org/fhir/uv/ips/ValueSet/medicine-active-substances-uv-ips (http://hl7.org/fhir/uv/ips/ValueSet/medicine-active-substances-uv-ips, and a code is recommended to come from this value set) (codes = http://www.nlm.nih.gov/research/umls/rxnorm#36567)</li>
+ <li>// These warnings are generated for the bindings in the FHIR core ImagingStudy resource, not the ImagingStudy-uv-ips profile</li>
+ <li>WARNING: ImagingStudy/TII-ImagingStudy-5-1: ImagingStudy.procedureCode[0]: ValueSet http://www.rsna.org/RadLex_Playbook.aspx not found by validator</li>
+ <li>WARNING: ImagingStudy/TII-ImagingStudy-5-1: ImagingStudy.series[0].modality: ValueSet http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html not found by validator</li>
+ <li>// These two instances should be able to match with at least one (or several) of the profiles (particularly </li>
+ <li>Observation-laboratory-uv-ips) - this appears likely to be a validator issue - possibly related to not reliably being able to</li>
+ <li>discriminate by profile for Observation resource instances containing nested has-member observations?</li>
+ <li>(not certain why Bundle.entry[0].resource.section[5].entry[1] doesn't also show the same issue?)</li>
+ <li>INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[0]: This element does not match any known slice for the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips</li>
+ <li>INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[2]: This element does not match any known slice for the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips</li>
+</ul>
+</body>
+</html>
