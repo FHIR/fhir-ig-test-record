@@ -3,10 +3,10 @@
   "name": "AUBaseImplementationGuide",
   "package-id": "hl7.fhir.au.base",
   "ig-ver": "2.1.0",
-  "date": "Fri, 13 Mar, 2020 17:49:26 +1100",
-  "errs": 180,
-  "warnings": 146,
-  "hints": 174,
+  "date": "Fri, 29 May, 2020 14:55:38 +1000",
+  "errs": 0,
+  "warnings": 105,
+  "hints": 91,
   "version": "4.0.1",
-  "tool": "4.2.0 (3)"
+  "tool": "4.4.0 (3)"
 }

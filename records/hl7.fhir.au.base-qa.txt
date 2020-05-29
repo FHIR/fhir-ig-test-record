@@ -1,11 +1,11 @@
 ﻿AUBaseImplementationGuide : Validation Results
 =========================================
 
-err = 180, warn = 148, info = 174
-IG Publisher Version: v1.0.70-SNAPSHOT
-Generated Thu Mar 05 20:16:02 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.au.base#2.1.0 (canonical = http://hl7.org.au/fhir)
+err = 0, warn = 105, info = 91
+IG Publisher Version: v1.0.97-SNAPSHOT
+Generated Fri May 29 14:57:44 AEST 2020. FHIR version 4.0.1 for hl7.fhir.au.base#2.1.0 (canonical = http://hl7.org.au/fhir)
 
- Build Errors : 29 / 0
+ Build Errors : 26 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\address-example0 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\address-example1 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\address-example2 : 0 / 0
@@ -40,9 +40,9 @@ Generated Thu Mar 05 20:16:02 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.au.base
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct0 : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct1 : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct2 : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example0 : 6 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example1 : 6 / 4
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example2 : 6 / 3
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example0 : 7 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example1 : 8 / 3
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example2 : 7 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample0 : 3 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample1 : 3 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample2 : 4 / 1
@@ -67,6 +67,8 @@ Generated Thu Mar 05 20:16:02 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.au.base
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example3 : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example4 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example5 : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example6 : 0 / 4
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example7 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-f12d073e-4e99-11e9-8647-d663bd873d93 : 0 / 6
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitioner-example0 : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitioner-example1 : 0 / 3
@@ -81,79 +83,86 @@ Generated Thu Mar 05 20:16:02 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.au.base
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\relatedperson-example1 : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\relatedperson-example2 : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\relatedperson-example3 : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-address : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-allergyintolerance : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-bodystructure : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-composition : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-condition : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-observation : 0 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-servicerequest : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnosticreport : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-dosage : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-encounter : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-healthcareservice : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-immunization : 12 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-location : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medication : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationadministration : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationdispense : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationrequest : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationstatement : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medlist : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-norelevantfinding : 5 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-organization : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-patient : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-practitioner : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-practitionerrole : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-relatedperson : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-specimen : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0203 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0443 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-gtin : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-medication-type : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-mims : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1 : 2 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-service-provision-conditions : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-address : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-allergyintolerance : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-bodystructure : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-composition : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-condition : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-observation : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-servicerequest : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnosticreport : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-dosage : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-dvanumber : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-encounter : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-healthcareservice : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-hpiinumber : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-hpionumber : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-ihinumber : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-immunization : 13 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-location : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicalrecordnumber : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicarecardnumber : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medication : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationadministration : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationdispense : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationrequest : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationstatement : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medlist : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-norelevantfinding : 6 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-organization : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-patient : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-practitioner : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-practitionerrole : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-relatedperson : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-specimen : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0203 : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0443 : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-gtin : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-medication-type : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-mims : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1 : 2 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-service-provision-conditions : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\ig : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-associated-healthcareservice : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-assigningauthority : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-receivingapplication : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-receivingfacility : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-author-related-person : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-change-description : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-closing-the-gap-registration : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-date-accuracy-indicator : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dispense-number : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dose-administration-aid-medicines-present : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-encounter-description : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-encryption-certificate-pem-x509 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-grounds-for-concurrent-supply : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-ihi-record-status : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-ihi-status : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-indigenous-status : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-information-recipient : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-brand-name : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-generic-name : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-long-term : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-type : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-minimum-interval-between-repeats : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-no-fixed-address : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-amt-mp-codes : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0203 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0443 : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-grounds-for-concurrent-supply : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-gtin : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-medication-type : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-mims : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-pbs-item : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1 : 2 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-service-provision-conditions : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-services : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-specialties : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-practitioner-specialties : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-associated-healthcareservice : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-assigningauthority : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-receivingapplication : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-receivingfacility : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-author-related-person : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-change-description : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-closing-the-gap-registration : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-date-accuracy-indicator : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-date-of-arrival : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dispense-number : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dose-administration-aid-medicines-present : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-encounter-description : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-encryption-certificate-pem-x509 : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-grounds-for-concurrent-supply : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-ihi-record-status : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-ihi-status : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-indigenous-status : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-information-recipient : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-brand-name : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-generic-name : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-long-term : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-type : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-minimum-interval-between-repeats : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-no-fixed-address : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-amt-mp-codes : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0203 : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0443 : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-grounds-for-concurrent-supply : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-gtin : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-medication-type : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-mims : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-pbs-item : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1 : 2 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-service-provision-conditions : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-services : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-specialties : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-practitioner-specialties : 1 / 1
 </table>
 == n/a ==
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\CodeSystem-au-hl7v2-0443.html#/html/body/div/div/div/div/div/ul/li/a at Line 117, column 7: The link 'ValueSet/au-hl7v2-0443.html' for "v2IdentifierTypeAUExtended" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\CodeSystem-au-hl7v2-0443.html#/html/body/div/div/div/div/div/ul/li/a at Line 118, column 7: The link 'ValueSet/au-hl7v2-0443.html' for "v2IdentifierTypeAUExtended" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-allergyintolerance.html#/html/body/div/div/div/div/div/p/a at Line 130, column 5: The link 'AllergyIntolerance-allergyintolerance-example1.html' for "Self-reported allergy to eggs" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-composition.html#/html/body/div/div/div/div/div/p/a at Line 138, column 5: The link 'Composition-composition-different-authors.html' for "Composition with some sections having a different section author to the composition author" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-composition.html#/html/body/div/div/div/div/div/p/a at Line 140, column 5: The link 'Composition-example0.html' for "Patient’s preference upon death" cannot be resolved
@@ -161,21 +170,18 @@ ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/p/a at Line 122, column 5: The link 'Immunization-immunization-example1.html' for "Administration of a vaccine - record compliant with Australian Immunisation Register (AIR)" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/p/a at Line 124, column 5: The link 'Immunization-immunization-example2.html' for "Administration of a vaccine with administering provider and protocol" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/p/a at Line 126, column 5: The link 'Immunization-immunization-example0.html' for "Non-administration of varicella-zoster live vaccine due to refusal" cannot be resolved
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 192, column 1816: The link 'ValueSet/au-hl7v2-0443.html' for "v2 Provider Role - AU Extended" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 192, column 1888: The link 'ValueSet/au-hl7v2-0443.html' for "v2 Provider Role - AU Extended" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 292, column 2101: The link 'ValueSet/au-hl7v2-0443.html' for "v2 Provider Role - AU Extended" cannot be resolved
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 575, column 1816: The link 'ValueSet/au-hl7v2-0443.html' for "v2 Provider Role - AU Extended" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 575, column 1888: The link 'ValueSet/au-hl7v2-0443.html' for "v2 Provider Role - AU Extended" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-immunization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 673, column 2101: The link 'ValueSet/au-hl7v2-0443.html' for "v2 Provider Role - AU Extended" cannot be resolved
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-location.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 184, column 795: The link 'StructureDefinition-au-location-definitions.html#Location.identifier.type' for "type" cannot be resolved (valid targets: 64 targets)
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-location.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 344, column 795: The link 'StructureDefinition-au-location-definitions.html#Location.identifier.type' for "type" cannot be resolved (valid targets: 64 targets)
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 214, column 802: The link 'StructureDefinition-au-organization-definitions.html#Organization.identifier.type' for "type" cannot be resolved (valid targets: 125 targets)
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-au-organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 549, column 802: The link 'StructureDefinition-au-organization-definitions.html#Organization.identifier.type' for "type" cannot be resolved (valid targets: 125 targets)
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-dose-administration-aid-medicines-present-mappings.html#/html/body/div/div/div/div/div/ul/li/a at Line 93, column 31: The link 'StructureDefinition-dose-administration-aid-medicines-present.html' for "Content" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-dose-administration-aid-medicines-present-mappings.html#/html/body/div/div/div/div/div/ul/li/a at Line 93, column 128: The link 'StructureDefinition-dose-administration-aid-medicines-present-definitions.html' for "Detailed Descriptions" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-dose-administration-aid-medicines-present-mappings.html#/html/body/div/div/div/div/div/h4/a at Line 95, column 141: The link 'StructureDefinition-dose-administration-aid-medicines-present-definitions.html#D.4.1.4' for "null" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-medication-brand-name.html#/html/body/div/div/div/div/div/p/a at Line 126, column 5: The link 'MedicationRequest-example2.html' for "Prescription with brand name text" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\StructureDefinition-medication-generic-name.html#/html/body/div/div/div/div/div/p/a at Line 129, column 5: The link 'MedicationRequest-example2.html' for "Prescription with generic name text" cannot be resolved
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\ValueSet-au-hl7v2-0443.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 120, column 379: The link 'CodeSystem/au-hl7v2-0443.html' for "http://terminology.hl7.org.au/CodeSystem/v2-0443" cannot be resolved
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\ValueSet-au-hl7v2-0443.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 124, column 6957: The link 'CodeSystem/au-hl7v2-0443.html#au-hl7v2-0443-WIT' for "WIT" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\ValueSet-au-hl7v2-0443.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 120, column 299: The link 'CodeSystem/au-hl7v2-0443.html' for "http://terminology.hl7.org.au/CodeSystem/v2-0443" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\ValueSet-au-hl7v2-0443.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 124, column 220: The link 'CodeSystem/au-hl7v2-0443.html' for "HL7 V2 Table 0443 - Provider Role (AU Extended) v2.1.0 (CodeSystem)" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\ValueSet-au-hl7v2-0443.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 124, column 7096: The link 'CodeSystem/au-hl7v2-0443.html#au-hl7v2-0443-WIT' for "WIT" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\structuredefinition-dose-administration-aid-medicines-present-definitions.html#/html/body/div/div/div/div/div/ul/li/a at Line 93, column 31: The link 'StructureDefinition-dose-administration-aid-medicines-present.html' for "Content" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\structuredefinition-dose-administration-aid-medicines-present-definitions.html#/html/body/div/div/div/div/div/h4/a at Line 95, column 116: The link 'StructureDefinition-dose-administration-aid-medicines-present-definitions.html#D.4.1.4' for "null" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\structuredefinition-dose-administration-aid-medicines-present.html#/html/body/div/div/div/div/div/ul/li/a at Line 103, column 7: The link 'StructureDefinition-dose-administration-aid-medicines-present-definitions.html' for "Detailed Descriptions" cannot be resolved
@@ -189,20 +195,16 @@ ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\output\structuredefinition
 WARNING: AllergyIntolerance/allergyintolerance-example0: AllergyIntolerance.code: ValueSet https://healthterminologies.gov.au/fhir/ValueSet/indicator-hypersensitivity-intolerance-to-substance-1 not found by validator
 WARNING: AllergyIntolerance/allergyintolerance-example0: AllergyIntolerance.reaction[0].manifestation[0]: ValueSet https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1 not found by validator
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\bundle-9309d080-4e97-11e9-8647-d663bd873d93.xml ==
-INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1" is unknown so the code cannot be validated
-WARNING: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1 not found by validator
-INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.identifier[0].extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-status-1" is unknown so the code cannot be validated
-WARNING: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.identifier[0].extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/ihi-status-1 not found by validator
-INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.identifier[0].extension[1].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-record-status-1" is unknown so the code cannot be validated
-WARNING: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.identifier[0].extension[1].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/ihi-record-status-1 not found by validator
-INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[2].resource.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
-INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[3].resource.qualification[0].code.coding[0]: Code System URI "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0" is unknown so the code cannot be validated
+INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.ofType(Patient).extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1" is unknown so the code cannot be validated
+WARNING: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.ofType(Patient).extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1 not found by validator
+INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.ofType(Patient).identifier[0].extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-status-1" is unknown so the code cannot be validated
+WARNING: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.ofType(Patient).identifier[0].extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/ihi-status-1 not found by validator
+INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.ofType(Patient).identifier[0].extension[1].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-record-status-1" is unknown so the code cannot be validated
+WARNING: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[1].resource.ofType(Patient).identifier[0].extension[1].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/ihi-record-status-1 not found by validator
+INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[2].resource.ofType(PractitionerRole).specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
+INFORMATION: Bundle/9309d080-4e97-11e9-8647-d663bd873d93: Bundle.entry[3].resource.ofType(Practitioner).qualification[0].code.coding[0]: Code System URI "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\composition-multiple-information-recipients-and-author-role.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\condition-example0.xml ==
-ERROR: /f:Condition/f:clinicalStatus: Undefined attribute '@value' on clinicalStatus for type CodeableConcept (properties = [CodeableConcept.id, CodeableConcept.extension, CodeableConcept.coding, CodeableConcept.text])
-ERROR: /f:Condition/f:verificationStatus: Undefined attribute '@value' on verificationStatus for type CodeableConcept (properties = [CodeableConcept.id, CodeableConcept.extension, CodeableConcept.coding, CodeableConcept.text])
-ERROR: Condition/example0: Condition.clinicalStatus: No code provided, and a code is required from the value set http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1 (http://hl7.org/fhir/ValueSet/condition-clinical)
-ERROR: Condition/example0: Condition.verificationStatus: No code provided, and a code is required from the value set http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1 (http://hl7.org/fhir/ValueSet/condition-ver-status)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\encounter-example0.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\encounter-example1.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\endpoint-example0.xml ==
@@ -211,31 +213,27 @@ INFORMATION: Endpoint/example0: Endpoint.payloadType[0].coding[0]: Code System U
 INFORMATION: Endpoint/example0: Endpoint.payloadType[0].coding[1]: Code System URI "http://hl7.org.au/fhir/CodeSystem/endpoint-payload-type" is unknown so the code cannot be validated
 INFORMATION: Endpoint/example0: Endpoint.payloadType[0].coding[2]: Code System URI "http://hl7.org.au/fhir/CodeSystem/endpoint-payload-type" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\healthcareservice-example0.xml ==
-INFORMATION: HealthcareService/example0: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310140004)
+INFORMATION: HealthcareService/example0: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310140004)
 INFORMATION: HealthcareService/example0: HealthcareService.eligibility[0].code.coding[0]: Code System URI "http://tempuri.org/eligibility" is unknown so the code cannot be validated
-INFORMATION: HealthcareService/example0: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310140004)
+INFORMATION: HealthcareService/example0: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310140004)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\healthcareservice-example1.xml ==
-INFORMATION: HealthcareService/example1: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708175003)
-INFORMATION: HealthcareService/example1: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708174004)
-INFORMATION: HealthcareService/example1: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708175003)
-INFORMATION: HealthcareService/example1: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708174004)
+INFORMATION: HealthcareService/example1: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708175003)
+INFORMATION: HealthcareService/example1: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708174004)
+INFORMATION: HealthcareService/example1: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708175003)
+INFORMATION: HealthcareService/example1: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708174004)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\healthcareservice-example2.xml ==
-INFORMATION: HealthcareService/example2: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310074003)
-INFORMATION: HealthcareService/example2: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310074003)
+INFORMATION: HealthcareService/example2: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310074003)
+INFORMATION: HealthcareService/example2: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#310074003)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\healthcareservice-example3.xml ==
-INFORMATION: HealthcareService/example3: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#700232004)
-INFORMATION: HealthcareService/example3: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#1244901000168103)
-INFORMATION: HealthcareService/example3: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#700232004)
-INFORMATION: HealthcareService/example3: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#1244901000168103)
+INFORMATION: HealthcareService/example3: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#700232004)
+INFORMATION: HealthcareService/example3: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#1244901000168103)
+INFORMATION: HealthcareService/example3: HealthcareService.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#700232004)
+INFORMATION: HealthcareService/example3: HealthcareService.specialty[1]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties (http://hl7.org.au/fhir/ValueSet/snomed-healthcareservice-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#1244901000168103)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\healthcareservice-example4.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\list-0ebc46a8-4ea8-11e9-8647-d663bd873d93.xml ==
-ERROR: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[0].subject: As specified by profile http://hl7.org/fhir/StructureDefinition/MedicationStatement, Element "subject" is out of order
-ERROR: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[1].subject: As specified by profile http://hl7.org/fhir/StructureDefinition/MedicationStatement, Element "subject" is out of order
-INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[5].extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1" is unknown so the code cannot be validated
-WARNING: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[5].extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1 not found by validator
-INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[7].qualification[0].code.coding[0]: Code System URI "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0" is unknown so the code cannot be validated
-ERROR: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[9].priority.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActPriority"
-ERROR: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[9].priority.coding[0].system: URL value "http://hl7.org/fhir/v3/ActPriority" does not resolve
+INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[5].ofType(List).extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1" is unknown so the code cannot be validated
+WARNING: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[5].ofType(List).extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1 not found by validator
+INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.contained[7].ofType(Practitioner).qualification[0].code.coding[0]: Code System URI "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0" is unknown so the code cannot be validated
 INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.encounter: Details for #28060b9a-4ffb-11e9-8647-d663bd873d93 matching against Profilehttp://hl7.org/fhir/StructureDefinition/Encounter
 INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.entry[0].flag.coding[0]: Code System URI "http://hl7.org.au/fhir/CodeSystem/medicine-item-change" is unknown so the code cannot be validated
 INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.entry[1].flag.coding[0]: Code System URI "http://hl7.org.au/fhir/CodeSystem/medicine-item-change" is unknown so the code cannot be validated
@@ -245,7 +243,6 @@ INFORMATION: List/0ebc46a8-4ea8-11e9-8647-d663bd873d93: List.entry[4].flag.codin
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\list-bdaf4fda-4e98-11e9-8647-d663bd873d93.xml ==
 INFORMATION: List/bdaf4fda-4e98-11e9-8647-d663bd873d93: List.code.coding[0]: Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\list-e0a6c4a6-4e97-11e9-8647-d663bd873d93.xml ==
-ERROR: List/e0a6c4a6-4e97-11e9-8647-d663bd873d93: List.extension[0]: The extension http://hl7.org.au/fhir/StructureDefinition/author-role is unknown, and not allowed here
 INFORMATION: List/e0a6c4a6-4e97-11e9-8647-d663bd873d93: List.code.coding[0]: Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1" is unknown so the code cannot be validated
 INFORMATION: List/e0a6c4a6-4e97-11e9-8647-d663bd873d93: List.entry[0].flag.coding[0]: Code System URI "http://hl7.org.au/fhir/CodeSystem/medicine-item-change" is unknown so the code cannot be validated
 INFORMATION: List/e0a6c4a6-4e97-11e9-8647-d663bd873d93: List.entry[1].flag.coding[0]: Code System URI "http://hl7.org.au/fhir/CodeSystem/medicine-item-change" is unknown so the code cannot be validated
@@ -255,96 +252,43 @@ INFORMATION: List/e0a6c4a6-4e97-11e9-8647-d663bd873d93: List.entry[1].flag.codin
 WARNING: Location/example2: Location.identifier[0].type: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/identifier-type (http://hl7.org/fhir/ValueSet/identifier-type)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\location-example3.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-BrandProductwithBatchDetails0.xml ==
-ERROR: /f:Medication: Undefined element 'package'
-ERROR: Medication/BrandProductwithBatchDetails0: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-BrandedPack0.xml ==
 INFORMATION: Medication/BrandedPack0: Medication.code.coding[0]: Code System URI "http://acme.com.au/generic-packages" is unknown so the code cannot be validated
 INFORMATION: Medication/BrandedPack0: Medication.code.coding[1]: Code System URI "http://www.mims.com.au/codes" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-BrandedPack1.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-BrandedPackSingleActiveIngredient0.xml ==
-ERROR: Medication/BrandedPackSingleActiveIngredient0: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-CombinationPackage0.xml ==
-ERROR: /f:Medication: Undefined element 'package'
 INFORMATION: Medication/CombinationPackage0: Medication.code.coding[0]: Code System URI "http://www.mims.com.au" is unknown so the code cannot be validated
 INFORMATION: Medication/CombinationPackage0: Medication.code.coding[3]: Code System URI "http://www.gs1.org/gtin" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-FourOrMoreActiveIngredientsProduct0.xml ==
-ERROR: Medication/FourOrMoreActiveIngredientsProduct0: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
-ERROR: Medication/FourOrMoreActiveIngredientsProduct0: Medication.ingredient[1].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
-ERROR: Medication/FourOrMoreActiveIngredientsProduct0: Medication.ingredient[2].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
-ERROR: Medication/FourOrMoreActiveIngredientsProduct0: Medication.ingredient[3].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-GenericPack0.xml ==
 INFORMATION: Medication/GenericPack0: Medication.code.coding[0]: Code System URI "http://acme.com.au/generic-packages" is unknown so the code cannot be validated
-ERROR: Medication/GenericPack0: Medication.code.coding[1]: The code "N02BE" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#N02BE) is not  valid in the value set All codes known to the system for "http://www.whocc.no/atc#N02BE"
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-MedicationDoseBased.xml ==
-ERROR: Medication/MedicationDoseBased: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-TwoActiveIngredientsProduct0.xml ==
-ERROR: /f:Medication/f:ingredient: Undefined element 'amount'
-ERROR: Medication/TwoActiveIngredientsProduct0: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
-ERROR: Medication/TwoActiveIngredientsProduct0: Medication.ingredient[1].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct0.xml ==
-ERROR: Medication/UnbrandedProduct0: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct1.xml ==
-ERROR: Medication/UnbrandedProduct1: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct2.xml ==
-ERROR: Medication/UnbrandedProduct2: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example0.xml ==
-ERROR: /f:MedicationRequest/f:requester: Undefined element 'agent'
-ERROR: /f:MedicationRequest/f:requester: Undefined element 'onBehalfOf'
-ERROR: /f:MedicationRequest/f:dosageInstruction: Undefined element 'doseQuantity'
-ERROR: /f:MedicationRequest/f:substitution: Undefined element 'allowed'
 INFORMATION: MedicationRequest/medicationrequest-example0: MedicationRequest.identifier[0].type.coding[0]: Code System URI "http://hl7.org.au/fhir/v2/0203" is unknown so the code cannot be validated
 WARNING: MedicationRequest/medicationrequest-example0: MedicationRequest.requester: A Reference without an actual reference or identifier should have a display
-ERROR: MedicationRequest/medicationrequest-example0: MedicationRequest.dispenseRequest.quantity.system: URL value "http://hl7.org/fhir/v3/orderableDrugForm" does not resolve
-ERROR: MedicationRequest/medicationrequest-example0: MedicationRequest.substitution: Profile http://hl7.org/fhir/StructureDefinition/MedicationRequest, Element 'MedicationRequest.substitution.allowed[x]': minimum required = 1, but only found 0
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example1.xml ==
-ERROR: /f:MedicationRequest/f:requester: Undefined element 'agent'
-ERROR: /f:MedicationRequest/f:requester: Undefined element 'onBehalfOf'
-ERROR: /f:MedicationRequest/f:dosageInstruction: Undefined element 'doseQuantity'
-ERROR: /f:MedicationRequest/f:substitution: Undefined element 'allowed'
 INFORMATION: MedicationRequest/medicationrequest-example1: MedicationRequest.extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/concurrent-supply-grounds-1" is unknown so the code cannot be validated
-WARNING: MedicationRequest/medicationrequest-example1: MedicationRequest.extension[0].value.ofType(Coding): Could not confirm that the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/grounds-for-concurrent-supply, and a code from this value set is required
 INFORMATION: MedicationRequest/medicationrequest-example1: MedicationRequest.identifier[0].type.coding[0]: Code System URI "http://hl7.org.au/fhir/v2/0203" is unknown so the code cannot be validated
 WARNING: MedicationRequest/medicationrequest-example1: MedicationRequest.requester: A Reference without an actual reference or identifier should have a display
-ERROR: MedicationRequest/medicationrequest-example1: MedicationRequest.dispenseRequest.quantity.system: URL value "http://hl7.org/fhir/v3/orderableDrugForm" does not resolve
-ERROR: MedicationRequest/medicationrequest-example1: MedicationRequest.substitution: Profile http://hl7.org/fhir/StructureDefinition/MedicationRequest, Element 'MedicationRequest.substitution.allowed[x]': minimum required = 1, but only found 0
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example2.xml ==
-ERROR: /f:MedicationRequest/f:requester: Undefined element 'agent'
-ERROR: /f:MedicationRequest/f:requester: Undefined element 'onBehalfOf'
-ERROR: /f:MedicationRequest/f:dosageInstruction: Undefined element 'doseQuantity'
-ERROR: /f:MedicationRequest/f:substitution: Undefined element 'allowed'
 INFORMATION: MedicationRequest/medicationrequest-example2: MedicationRequest.identifier[0].type.coding[0]: Code System URI "http://hl7.org.au/fhir/v2/0203" is unknown so the code cannot be validated
 WARNING: MedicationRequest/medicationrequest-example2: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: The display "Reaptan 10mg/10mg (perindopril arginine/amlodipine) (amlodipine 10 mg + perindopril arginine 10 mg) uncoated tablet, 10 tablets (trade product pack)" is not a valid display for the code {http://snomed.info/sct}926213011000036100 - should be one of ["Reaptan 10mg/10mg (perindopril arginine/amlodipine) tablet, 10"]
 WARNING: MedicationRequest/medicationrequest-example2: MedicationRequest.requester: A Reference without an actual reference or identifier should have a display
-ERROR: MedicationRequest/medicationrequest-example2: MedicationRequest.dispenseRequest.quantity.system: URL value "http://hl7.org/fhir/v3/orderableDrugForm" does not resolve
-ERROR: MedicationRequest/medicationrequest-example2: MedicationRequest.substitution: Profile http://hl7.org/fhir/StructureDefinition/MedicationRequest, Element 'MedicationRequest.substitution.allowed[x]': minimum required = 1, but only found 0
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample0.xml ==
-ERROR: /f:MedicationStatement: Undefined element 'taken'
-ERROR: MedicationStatement/MedicationStatementexample0: MedicationStatement.subject: As specified by profile http://hl7.org/fhir/StructureDefinition/MedicationStatement, Element "subject" is out of order
 WARNING: MedicationStatement/MedicationStatementexample0: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The display "Roferon-A 9 million units/0.5 mL injection solution, 0.5 mL syringe" is not a valid display for the code {http://snomed.info/sct}6166011000036106 - should be one of ["Roferon-A 9 million units (33.333 microgram)/0.5 mL injection, 0.5 mL syringe"]
-ERROR: MedicationStatement/MedicationStatementexample0: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[MedicationStatement.medication.ofType(CodeableConcept).coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample1.xml ==
-ERROR: /f:MedicationStatement: Undefined element 'taken'
-ERROR: MedicationStatement/MedicationStatementexample1: MedicationStatement.subject: As specified by profile http://hl7.org/fhir/StructureDefinition/MedicationStatement, Element "subject" is out of order
-ERROR: MedicationStatement/MedicationStatementexample1: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[MedicationStatement.medication.ofType(CodeableConcept).coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample2.xml ==
-ERROR: /f:MedicationStatement: Undefined element 'taken'
-ERROR: /f:MedicationStatement/f:dosage: Undefined element 'doseQuantity'
-ERROR: MedicationStatement/MedicationStatementexample2: MedicationStatement.subject: As specified by profile http://hl7.org/fhir/StructureDefinition/MedicationStatement, Element "subject" is out of order
 WARNING: MedicationStatement/MedicationStatementexample2: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The display "Diflucan 200 mg/100 mL injection solution, 100 mL vial" is not a valid display for the code {http://snomed.info/sct}5232011000036102 - should be one of ["Diflucan 200 mg/100 mL injection, 100 mL vial"]
-ERROR: MedicationStatement/MedicationStatementexample2: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[MedicationStatement.medication.ofType(CodeableConcept).coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\norelevantfinding-example0.xml ==
-ERROR: Observation/norelevantfinding-example0: Observation.code.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
-ERROR: Observation/norelevantfinding-example0: Observation.code.coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\norelevantfinding-example1.xml ==
-ERROR: Observation/norelevantfinding-example1: Observation.code.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
-ERROR: Observation/norelevantfinding-example1: Observation.code.coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
 WARNING: Observation/norelevantfinding-example1: Observation.value.ofType(CodeableConcept).coding[0]: The display "No previous immunizations" is not a valid display for the code {http://snomed.info/sct}401179006 - should be one of ["No previous immunisations","No previous vaccinations"]
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\norelevantfinding-example2.xml ==
-ERROR: Observation/norelevantfinding-example2: Observation.code.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
-ERROR: Observation/norelevantfinding-example2: Observation.code.coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\norelevantfinding-example3.xml ==
-ERROR: Observation/norelevantfinding-example3: Observation.code.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
-ERROR: Observation/norelevantfinding-example3: Observation.code.coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\organization-5-8631-1.xml ==
 INFORMATION: Organization/5-8631-1: Organization.type[0].coding[0]: Code System URI "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\organization-example0.xml ==
@@ -411,6 +355,12 @@ INFORMATION: Patient/example3: Patient.birthDate.extension[0].value.ofType(Codin
 WARNING: Patient/example3: Patient.birthDate.extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1 not found by validator
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example4.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example5.xml ==
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example6.xml ==
+INFORMATION: Patient/example6: Patient.extension[1].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1" is unknown so the code cannot be validated
+WARNING: Patient/example6: Patient.extension[1].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1 not found by validator
+INFORMATION: Patient/example6: Patient.communication[0].language: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (codes = urn:ietf:bcp:47#pjt)
+WARNING: Patient/example6: Patient.communication[0].language: ValueSet https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 not found by validator
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-example7.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\patient-f12d073e-4e99-11e9-8647-d663bd873d93.xml ==
 INFORMATION: Patient/f12d073e-4e99-11e9-8647-d663bd873d93: Patient.extension[0].value.ofType(Coding): Code System URI "https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1" is unknown so the code cannot be validated
 WARNING: Patient/f12d073e-4e99-11e9-8647-d663bd873d93: Patient.extension[0].value.ofType(Coding): ValueSet https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1 not found by validator
@@ -429,27 +379,27 @@ INFORMATION: Practitioner/example2: Practitioner.qualification[0].code.coding[0]
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitioner-example3.xml ==
 INFORMATION: Practitioner/example3: Practitioner.qualification[0].code.coding[0]: Code System URI "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitionerrole-example0.xml ==
-INFORMATION: PractitionerRole/example0: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
-INFORMATION: PractitionerRole/example0: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
+INFORMATION: PractitionerRole/example0: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
+INFORMATION: PractitionerRole/example0: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitionerrole-example1.xml ==
-INFORMATION: PractitionerRole/example1: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#66862007)
-INFORMATION: PractitionerRole/example1: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#66862007)
+INFORMATION: PractitionerRole/example1: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#66862007)
+INFORMATION: PractitionerRole/example1: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#66862007)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitionerrole-example2.xml ==
-INFORMATION: PractitionerRole/example2: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#85733003)
-INFORMATION: PractitionerRole/example2: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#85733003)
+INFORMATION: PractitionerRole/example2: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#85733003)
+INFORMATION: PractitionerRole/example2: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#85733003)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitionerrole-example3.xml ==
-INFORMATION: PractitionerRole/example3: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#309394004)
-INFORMATION: PractitionerRole/example3: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#309394004)
+INFORMATION: PractitionerRole/example3: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#309394004)
+INFORMATION: PractitionerRole/example3: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#309394004)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\practitionerrole-example4.xml ==
-INFORMATION: PractitionerRole/example4: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
+INFORMATION: PractitionerRole/example4: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
 INFORMATION: PractitionerRole/example4: PractitionerRole.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-practitionerrole
-INFORMATION: PractitionerRole/example4: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
+INFORMATION: PractitionerRole/example4: PractitionerRole.specialty[0]: None of the codes provided are in the value set http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties (http://hl7.org.au/fhir/ValueSet/snomed-practitioner-specialties), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#17561000)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\relatedperson-example0.xml ==
 WARNING: RelatedPerson/example0: RelatedPerson.identifier[0].type: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/identifier-type (http://hl7.org/fhir/ValueSet/identifier-type)
 INFORMATION: RelatedPerson/example0: RelatedPerson.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-relatedperson
 WARNING: RelatedPerson/example0: RelatedPerson.relationship[0]: ValueSet https://healthterminologies.gov.au/fhir/ValueSet/related-person-relationship-type-1 not found by validator
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\relatedperson-example1.xml ==
-INFORMATION: RelatedPerson/example1: RelatedPerson.relationship[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#133932002)
+INFORMATION: RelatedPerson/example1: RelatedPerson.relationship[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#133932002)
 WARNING: RelatedPerson/example1: RelatedPerson.relationship[0]: ValueSet https://healthterminologies.gov.au/fhir/ValueSet/related-person-relationship-type-1 not found by validator
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\relatedperson-example2.xml ==
 WARNING: RelatedPerson/example2: RelatedPerson.relationship[0]: ValueSet https://healthterminologies.gov.au/fhir/ValueSet/related-person-relationship-type-1 not found by validator
@@ -465,7 +415,6 @@ WARNING: http://hl7.org.au/fhir/StructureDefinition/au-composition: The Implemen
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-condition.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-condition: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-observation.xml ==
-WARNING: StructureDefinition/au-diagnostic-observation: StructureDefinition.snapshot.element[21].mapping[3].map: value should not start or finish with whitespace
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-diagnostic-observation: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-servicerequest.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-diagnostic-servicerequest: The Implementation Guide contains no examples for this profile
@@ -473,24 +422,24 @@ WARNING: http://hl7.org.au/fhir/StructureDefinition/au-diagnostic-servicerequest
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-diagnosticreport: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-dosage.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-dosage: The Implementation Guide contains no examples for this data type profile
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-dvanumber.xml ==
+WARNING: http://hl7.org.au/fhir/StructureDefinition/au-dvanumber: The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-encounter.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-encounter: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-healthcareservice.xml ==
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-hpiinumber.xml ==
+WARNING: http://hl7.org.au/fhir/StructureDefinition/au-hpiinumber: The Implementation Guide contains no examples for this data type profile
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-hpionumber.xml ==
+WARNING: http://hl7.org.au/fhir/StructureDefinition/au-hpionumber: The Implementation Guide contains no examples for this data type profile
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-ihinumber.xml ==
+WARNING: http://hl7.org.au/fhir/StructureDefinition/au-ihinumber: The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-immunization.xml ==
-ERROR: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[68].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v2/0443"
-ERROR: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[68].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v2/0443" does not resolve
-ERROR: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[78].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v2/0443"
-ERROR: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[78].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v2/0443" does not resolve
-ERROR: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[114].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v3/NullFlavor"
-ERROR: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[114].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v3/NullFlavor" does not resolve
-ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[20].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v2/0443"
-ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[20].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v2/0443" does not resolve
-ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[25].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v2/0443"
-ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[25].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v2/0443" does not resolve
-ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[33].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v3/NullFlavor"
-ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[33].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v3/NullFlavor" does not resolve
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-immunization: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-location.xml ==
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicalrecordnumber.xml ==
+WARNING: http://hl7.org.au/fhir/StructureDefinition/au-medicalrecordnumber: The Implementation Guide contains no examples for this data type profile
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicarecardnumber.xml ==
+WARNING: http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber: The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medication.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-medication: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationadministration.xml ==
@@ -504,11 +453,6 @@ WARNING: http://hl7.org.au/fhir/StructureDefinition/au-medicationstatement: The 
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medlist.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-medlist: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-norelevantfinding.xml ==
-ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
-ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
-ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
-ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
-ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.differential.element[4].slicing: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[4].slicing.rules': minimum required = 1, but only found 0
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-norelevantfinding: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-organization.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-patient.xml ==
@@ -518,14 +462,21 @@ WARNING: http://hl7.org.au/fhir/StructureDefinition/au-norelevantfinding: The Im
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-specimen.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/au-specimen: The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0203.xml ==
+WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0443.xml ==
+WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-gtin.xml ==
+INFORMATION: CodeSystem/gtin: CodeSystem: CODESYSTEM_CS_NO_VS_NOTCOMPLETE
+WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-medication-type.xml ==
+WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-mims.xml ==
+INFORMATION: CodeSystem/mims: CodeSystem: CODESYSTEM_CS_NO_VS_NOTCOMPLETE
+WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1.xml ==
-ERROR: https://healthterminologies.gov.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1: Conformance resource C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1) does not match the URL (https://healthterminologies.gov.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1)
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1: URL Mismatch http://hl7.org.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1 vs https://healthterminologies.gov.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1
+WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-service-provision-conditions.xml ==
+WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\ig.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-associated-healthcareservice.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/associated-healthcareservice: The Implementation Guide contains no examples for this extension
@@ -537,6 +488,8 @@ WARNING: http://hl7.org.au/fhir/StructureDefinition/author-related-person: The I
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-change-description.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-closing-the-gap-registration.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-date-accuracy-indicator.xml ==
+== C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-date-of-arrival.xml ==
+WARNING: http://hl7.org.au/fhir/StructureDefinition/date-of-arrival: The Implementation Guide contains no examples for this extension
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dispense-number.xml ==
 WARNING: http://hl7.org.au/fhir/StructureDefinition/dispense-number: The Implementation Guide contains no examples for this extension
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dose-administration-aid-medicines-present.xml ==
@@ -555,26 +508,33 @@ WARNING: http://hl7.org.au/fhir/StructureDefinition/dose-administration-aid-medi
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-minimum-interval-between-repeats.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-no-fixed-address.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-amt-mp-codes.xml ==
-ERROR: amt-mp-codes: Error from server: The Snomed Concept 929360061000036106 is not a reference set
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0203.xml ==
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0443.xml ==
 WARNING: ValueSet/au-hl7v2-0443: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-grounds-for-concurrent-supply.xml ==
-ERROR: grounds-for-concurrent-supply: Error from server: Unable to provide support for code system https://healthterminologies.gov.au/fhir/CodeSystem/concurrent-supply-grounds-1
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: grounds-for-concurrent-supply: Error from server: Unable to provide support for code system https://healthterminologies.gov.au/fhir/CodeSystem/concurrent-supply-grounds-1
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-gtin.xml ==
-ERROR: gtin: Error from server: Unable to provide support for code system http://www.gs1.org/gtin
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: gtin: Error from server: Unable to provide support for code system http://www.gs1.org/gtin
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-medication-type.xml ==
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-mims.xml ==
-ERROR: mims: Error from server: Unable to provide support for code system http://www.mims.com.au/codes
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: mims: Error from server: Unable to provide support for code system http://www.mims.com.au/codes
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-pbs-item.xml ==
-ERROR: pbs-item: Error from server: Unable to provide support for code system http://pbs.gov.au/code/item
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: pbs-item: Error from server: Unable to provide support for code system http://pbs.gov.au/code/item
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1.xml ==
-ERROR: https://healthterminologies.gov.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1: Conformance resource C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1) does not match the URL (https://healthterminologies.gov.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1)
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1: URL Mismatch http://hl7.org.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1 vs https://healthterminologies.gov.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-service-provision-conditions.xml ==
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-services.xml ==
-ERROR: snomed-healthcareservice-services: Error from server: The filter "concept descendent-of 224930009" was not understood in the context of http://snomed.info/sct
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-specialties.xml ==
-ERROR: snomed-healthcareservice-specialties: Error from server: The filter "concept descendent-of 394658006" was not understood in the context of http://snomed.info/sct
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-practitioner-specialties.xml ==
-ERROR: snomed-practitioner-specialties: Error from server: The filter "constraint = DescendantOf 394658006|Clinical speciality|" was not understood in the context of http://snomed.info/sct
+WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
