@@ -1,9 +1,9 @@
 ﻿IHE_MHD : Validation Results
 =========================================
 
-err = 1, warn = 10, info = 10
-IG Publisher Version: v1.0.97-SNAPSHOT
-Generated Fri May 29 14:53:38 AEST 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
+err = 9, warn = 10, info = 10
+IG Publisher Version: v1.0.99-SNAPSHOT
+Generated Fri Jun 05 09:56:46 AEST 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
 
  Build Errors : 14 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example : 0 / 0
@@ -82,6 +82,14 @@ INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentRef
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml ==
+ERROR: List/minimalSubmissionSetList2: List: The extension http://hl7.org/fhir/StructureDefinition/workflow-reasonCode is not allowed to be used at this point (allowed = e:Observation, e:DiagnosticReport, e:Media, e:NutritionOrder; this element is [[List])
+ERROR: List/minimalSubmissionSetList2: List.code.coding[0].display: @value cannot be empty
+ERROR: List/minimalSubmissionSetList2: List.code.coding[0].display: ele-1: All FHIR elements must have a @value or children [hasValue() or (children().count() > id.count())]
+ERROR: List/minimalSubmissionSetList2: List.source: Unable to resolve resource "Organization/example"
+ERROR: List/minimalSubmissionSetList2: List.entry[0].item: Unable to resolve resource "DocumentReference/example"
+ERROR: List/minimalSubmissionSetList2: List.entry[1].item: Unable to resolve resource "List/example"
+ERROR: List/minimalSubmissionSetList2: List.code.coding.display: Value is "" but must be "SubmissionSet as a FHIR List"
+ERROR: List/minimalSubmissionSetList2: List.source: Bundled or contained reference not found within the bundle/resource Organization/example
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission.xml ==
 INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.ofType(DocumentReference).content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
 WARNING: Bundle/pdb-ComprehensiveSubmission: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
@@ -110,7 +118,7 @@ WARNING: Bundle/pdb-minimalSubmission_with_noDocument: Bundle.meta.profile[0]: P
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.DocumentManifest.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.List.xml ==
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListFolder.xml ==
-WARNING: http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListFolder: The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListFolder'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest.xml ==
 WARNING: http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest#List.entry.item: Connect check whether the target profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.List is valid constraint on the base because it is not known
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference.xml ==

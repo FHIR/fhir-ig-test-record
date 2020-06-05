@@ -1,6 +1,6 @@
 REM run this batch file after a new version has been released in order to reset the test framework
 
-set ver=1.0.97
+set ver=1.0.99
 cd records 
 md v%ver%
 cd ..

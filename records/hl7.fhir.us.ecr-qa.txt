@@ -1,25 +1,25 @@
 ﻿ElectronicCaseReporting : Validation Results
 =========================================
 
-err = 1, warn = 25, info = 125
-IG Publisher Version: v1.0.97-SNAPSHOT
-Generated Fri May 29 14:52:36 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
+err = 62, warn = 25, info = 130
+IG Publisher Version: v1.0.99-SNAPSHOT
+Generated Fri Jun 05 09:55:38 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.0.0 (canonical = http://hl7.org/fhir/us/ecr)
 
  Build Errors : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eRSD : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-ecr-message-zika : 0 / 4
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-pertussis-zika : 0 / 31
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-zika : 0 / 25
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-rr-collection-communication : 0 / 46
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-pertussis-zika : 3 / 32
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-zika : 3 / 26
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-rr-collection-communication : 4 / 49
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\capabilitystatement\capabilitystatement-ecr : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\capabilitystatement\capabilitystatement-ersd-client : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\codesystem\codesystem-messageHeader-event : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\codesystem\codesystem-task-businessStatus : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-one-cond-one-pha : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-single-single-html-validation-output : 0 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-pertussis-zika : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika-manual-initiation : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-pertussis-zika : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika-manual-initiation : 1 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-common-cold : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-diabetes : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-pertussis : 0 / 0
@@ -136,6 +136,7 @@ INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[2]: This element does 
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ecr-message-bundle
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ecr-message-bundle
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-pertussis-zika.xml ==
+INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
@@ -153,6 +154,9 @@ INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[14]: This 
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[15]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[16]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[17]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
+ERROR: Bundle/bundle-eicr-document-pertussis-zika: Bundle: Profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle, Element 'Bundle.entry[sliceEICRComposition]': minimum required = 1, but only found 0
+ERROR: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[0].resource.ofType(Composition).section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
+ERROR: Bundle/bundle-eicr-document-pertussis-zika: resource.section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[7].resource.ofType(Observation).component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[8].resource.ofType(Observation).value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
@@ -161,6 +165,7 @@ INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: resource.value.ofType(C
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[13].resource.ofType(Encounter).type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-eicr-document-zika.xml ==
+INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
@@ -175,6 +180,9 @@ INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[11]: This element do
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[13]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[14]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
+ERROR: Bundle/bundle-eicr-document-zika: Bundle: Profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle, Element 'Bundle.entry[sliceEICRComposition]': minimum required = 1, but only found 0
+ERROR: Bundle/bundle-eicr-document-zika: Bundle.entry[0].resource.ofType(Composition).section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
+ERROR: Bundle/bundle-eicr-document-zika: resource.section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[2].resource.ofType(Observation).component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-eicr-document-zika: resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[4].resource.ofType(Observation).value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
@@ -183,6 +191,8 @@ INFORMATION: Bundle/bundle-eicr-document-zika: resource.value.ofType(CodeableCon
 INFORMATION: Bundle/bundle-eicr-document-zika: resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[11].resource.ofType(Encounter).type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\bundle\bundle-rr-collection-communication.xml ==
+ERROR: Bundle/bundle-rr-collection-communication: Bundle.entry[0].resource.ofType(Communication).payload[2].content.ofType(Reference): Unable to find matching profile for Bundle/bundle-eicr-document-zika among choices: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[0].resource.ofType(Communication).payload[2].content.ofType(Reference): Details for Bundle/bundle-eicr-document-zika matching against Profilehttp://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).jurisdiction[0].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[0].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
@@ -192,13 +202,17 @@ INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[2].extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[2].extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[3].resource.ofType(Observation).code.coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+ERROR: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[0].resource.ofType(Composition).section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
+ERROR: Bundle/bundle-rr-collection-communication: resource.section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[2].resource.ofType(Observation).component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: resource.component[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:1.0.3166.1" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[4].resource.ofType(Observation).value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[4].resource.ofType(Observation).component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: resource.value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.314" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: resource.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.315" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[7].resource.ofType(PractitionerRole).specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://snomed.info/sct#419772000)
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[11].resource.ofType(Encounter).type[0].coding[0]: Code System URI "http://www.ama-assn.org/go/cpt" is unknown so the code cannot be validated
+INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
@@ -213,6 +227,7 @@ INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[13]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle).entry[14]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle
+ERROR: Bundle/bundle-rr-collection-communication: Bundle.entry[4].resource.ofType(Bundle): Profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle, Element 'Bundle.entry[4].resource.ofType(Bundle).entry[sliceEICRComposition]': minimum required = 1, but only found 0
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[5].resource.ofType(Organization).type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[6].resource.ofType(Organization).type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: Bundle/bundle-rr-collection-communication: Bundle.entry[7].resource.ofType(Organization).type[0].coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
@@ -229,9 +244,12 @@ INFORMATION: Communication/communication-rr-one-cond-one-pha: Communication.exte
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\communication\communication-rr-single-single-html-validation-output.xml ==
 INFORMATION: Communication/communication-rr-single-single-html-validation-output: Communication.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-pertussis-zika.xml ==
+ERROR: Composition/composition-eicr-pertussis-zika: Composition.section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika.xml ==
+ERROR: Composition/composition-eicr-zika: Composition.section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\composition\composition-eicr-zika-manual-initiation.xml ==
 INFORMATION: Composition/composition-eicr-zika-manual-initiation: Composition.extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+ERROR: Composition/composition-eicr-zika-manual-initiation: Composition.section[6].code.coding[0]: Error sending HTTP Post/Put Payload for "http://loinc.org#18776-5"
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-common-cold.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-diabetes.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\condition\condition-eicr-eve-everywoman-pertussis.xml ==
@@ -303,46 +321,78 @@ INFORMATION: PlanDefinition/plandefinition-rr-relevant-reportable-condition: Pla
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\servicerequest\servicerequest-eicr-eve-everywoman-zika.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\servicerequest\servicerequest-eicr-zika.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\characteristics-of-home-environment.xml ==
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/characteristics-of-home-environment').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\date-determined-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\date-recorded-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ecr-message-bundle.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ecr-messageheader.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ecr-organization.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ecr-patient.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ecr-practitionerrole.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ecr-task.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-composition.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-condition.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-document-bundle.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-encounter.xml ==
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Encounter derive from the core US profile
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-encounter').baseDefinition: US FHIR Usage rules require that all profiles on Encounter derive from the core US profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-initiation-reason-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-initiation-type-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-location.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-servicerequest.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\eicr-trigger-code-flag-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ersd-plandefinition.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ersd-valueset.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\ersd-valueset-library.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\last-menstrual-period.xml ==
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/last-menstrual-period').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\postpartum-status.xml ==
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/postpartum-status').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\pregnancy-outcome-observation.xml ==
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/pregnancy-outcome-observation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\pregnancy-status-observation.xml ==
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/pregnancy-status-observation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\relates-to-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-communication.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-determination-of-reportability-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-determination-of-reportability-reason-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-determination-of-reportability-rule-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-observation.xml ==
 INFORMATION: StructureDefinition/rr-eicr-processing-status-observation: StructureDefinition.snapshot.element[14].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-eicr-processing-status-observation: StructureDefinition.differential.element[2].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/rr-eicr-processing-status-observation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-processing-status-reason-observation.xml ==
 INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.snapshot.element[21].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
@@ -350,32 +400,47 @@ INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: S
 INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.differential.element[3].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-eicr-processing-status-reason-observation: StructureDefinition.differential.element[5].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/rr-eicr-processing-status-reason-observation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-eicr-receipt-time-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-external-resource-type-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-location-relevance-extension.xml ==
 INFORMATION: StructureDefinition/rr-location-relevance-extension: StructureDefinition.snapshot.element[4].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-location-relevance-extension: StructureDefinition.differential.element[2].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.274" is unknown so the code cannot be validated
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-priority-extension.xml ==
 INFORMATION: StructureDefinition/rr-priority-extension: StructureDefinition.snapshot.element[4].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-priority-extension: StructureDefinition.differential.element[2].example[0].value.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-relevant-reportable-condition-plandefinition.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-responsible-agency-organization.xml ==
 INFORMATION: StructureDefinition/rr-responsible-agency-organization: StructureDefinition.snapshot.element[19].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-responsible-agency-organization: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-responsible-agency-organization-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-routing-entity-organization.xml ==
 INFORMATION: StructureDefinition/rr-routing-entity-organization: StructureDefinition.snapshot.element[19].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-routing-entity-organization: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-routing-entity-organization-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-rules-authoring-agency-organization.xml ==
 INFORMATION: StructureDefinition/rr-rules-authoring-agency-organization: StructureDefinition.snapshot.element[19].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/rr-rules-authoring-agency-organization: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI "urn:oid:2.16.840.1.114222.4.5.232" is unknown so the code cannot be validated
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\rr-rules-authoring-agency-organization-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\therapeutic-medication-response-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\travel-history-address-extension.xml ==
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\structuredefinition\travel-history-observation.xml ==
-WARNING: StructureDefinition.baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/travel-history-observation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\subscription\subscription-dxtc.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\subscription\subscription-lotc.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\subscription\subscription-ostc.xml ==
@@ -399,3 +464,4 @@ WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-ostc-example.xml ==
 WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.us.ecr, jurisdiction = urn:iso:std:iso:3166#US)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\source\resources\valueset\valueset-pregnancy-status.xml ==
+ERROR: ValueSet/valueset-pregnancy-status: ValueSet.identifier[0]: if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
