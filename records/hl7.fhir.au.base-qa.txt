@@ -1,9 +1,9 @@
 ﻿AUBaseImplementationGuide : Validation Results
 =========================================
 
-err = 144, warn = 105, info = 91
-IG Publisher Version: v1.0.99-SNAPSHOT
-Generated Fri Jun 05 10:00:46 AEST 2020. FHIR version 4.0.1 for hl7.fhir.au.base#2.1.0 (canonical = http://hl7.org.au/fhir)
+err = 146, warn = 105, info = 92
+IG Publisher Version: v1.0.101-SNAPSHOT
+Generated Wed Jul 01 08:20:40 AEST 2020. FHIR version 4.0.1 for hl7.fhir.au.base#2.1.0 (canonical = http://hl7.org.au/fhir)
 
  Build Errors : 26 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\address-example0 : 0 / 0
@@ -35,13 +35,13 @@ Generated Fri Jun 05 10:00:46 AEST 2020. FHIR version 4.0.1 for hl7.fhir.au.base
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-CombinationPackage0 : 1 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-FourOrMoreActiveIngredientsProduct0 : 4 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-GenericPack0 : 1 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-MedicationDoseBased : 1 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-MedicationDoseBased : 2 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-TwoActiveIngredientsProduct0 : 3 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct0 : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct1 : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-UnbrandedProduct2 : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example0 : 7 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example1 : 8 / 3
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example1 : 9 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationrequest-example2 : 7 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample0 : 3 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample1 : 3 / 0
@@ -104,7 +104,7 @@ Generated Fri Jun 05 10:00:46 AEST 2020. FHIR version 4.0.1 for hl7.fhir.au.base
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicarecardnumber : 1 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medication : 1 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationadministration : 1 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationdispense : 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationdispense : 1 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationrequest : 1 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationstatement : 1 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medlist : 1 / 1
@@ -283,6 +283,7 @@ INFORMATION: Medication/GenericPack0: Medication.code.coding[0]: Code System URI
 ERROR: Medication/GenericPack0: Medication.code.coding[1]: The code "N02BE" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#N02BE) is not  valid in the value set All codes known to the system for "http://www.whocc.no/atc#N02BE"
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-MedicationDoseBased.xml ==
 ERROR: Medication/MedicationDoseBased: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
+ERROR: Medication/MedicationDoseBased: Medication.ingredient[0].strength.denominator: Error sending HTTP Post/Put Payload: Connection timed out: connect for "http://unitsofmeasure.org#mL"
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medication-TwoActiveIngredientsProduct0.xml ==
 ERROR: /f:Medication/f:ingredient: Undefined element 'amount'
 ERROR: Medication/TwoActiveIngredientsProduct0: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[Medication.ingredient.item.ofType(CodeableConcept).coding, BackboneElement.item.coding, BackboneElement.itemCodeableConcept.coding, CodeableConcept.coding, Coding])
@@ -312,6 +313,7 @@ INFORMATION: MedicationRequest/medicationrequest-example1: MedicationRequest.ext
 ERROR: MedicationRequest/medicationrequest-example1: MedicationRequest.extension[0].value.ofType(Coding): The Coding provided is not in the value set http://hl7.org.au/fhir/ValueSet/grounds-for-concurrent-supply, and a code is required from this value set.  (error message = CodeSystem uri 'https://healthterminologies.gov.au/fhir/CodeSystem/concurrent-supply-grounds-1' is unknown)
 INFORMATION: MedicationRequest/medicationrequest-example1: MedicationRequest.identifier[0].type.coding[0]: Code System URI "http://hl7.org.au/fhir/v2/0203" is unknown so the code cannot be validated
 WARNING: MedicationRequest/medicationrequest-example1: MedicationRequest.requester: A Reference without an actual reference or identifier should have a display
+ERROR: MedicationRequest/medicationrequest-example1: MedicationRequest.dosageInstruction[0].method.coding[0]: Error sending HTTP Post/Put Payload: Connection timed out: connect for "http://snomed.info/sct#421521009"
 ERROR: MedicationRequest/medicationrequest-example1: MedicationRequest.dispenseRequest.quantity: Unknown Code System "http://hl7.org/fhir/v3/orderableDrugForm"
 ERROR: MedicationRequest/medicationrequest-example1: MedicationRequest.dispenseRequest.quantity.system: URL value "http://hl7.org/fhir/v3/orderableDrugForm" does not resolve
 ERROR: MedicationRequest/medicationrequest-example1: MedicationRequest.substitution: Profile http://hl7.org/fhir/StructureDefinition/MedicationRequest, Element 'MedicationRequest.substitution.allowed[x]': minimum required = 1, but only found 0
@@ -321,7 +323,7 @@ ERROR: /f:MedicationRequest/f:requester: Undefined element 'onBehalfOf'
 ERROR: /f:MedicationRequest/f:dosageInstruction: Undefined element 'doseQuantity'
 ERROR: /f:MedicationRequest/f:substitution: Undefined element 'allowed'
 INFORMATION: MedicationRequest/medicationrequest-example2: MedicationRequest.identifier[0].type.coding[0]: Code System URI "http://hl7.org.au/fhir/v2/0203" is unknown so the code cannot be validated
-WARNING: MedicationRequest/medicationrequest-example2: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: The display "Reaptan 10mg/10mg (perindopril arginine/amlodipine) (amlodipine 10 mg + perindopril arginine 10 mg) uncoated tablet, 10 tablets (trade product pack)" is not a valid display for the code {http://snomed.info/sct}926213011000036100 - should be one of ["Reaptan 10mg/10mg (perindopril arginine/amlodipine) tablet, 10"]
+WARNING: MedicationRequest/medicationrequest-example2: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: Internal error: The display "Reaptan 10mg/10mg (perindopril arginine/amlodipine) (amlodipine 10 mg + perindopril arginine 10 mg) uncoated tablet, 10 tablets (trade product pack)" is not a valid display for the code {http://snomed.info/sct}926213011000036100 - should be one of ["Reaptan 10mg/10mg (perindopril arginine/amlodipine) tablet, 10"]
 WARNING: MedicationRequest/medicationrequest-example2: MedicationRequest.requester: A Reference without an actual reference or identifier should have a display
 ERROR: MedicationRequest/medicationrequest-example2: MedicationRequest.dispenseRequest.quantity: Unknown Code System "http://hl7.org/fhir/v3/orderableDrugForm"
 ERROR: MedicationRequest/medicationrequest-example2: MedicationRequest.dispenseRequest.quantity.system: URL value "http://hl7.org/fhir/v3/orderableDrugForm" does not resolve
@@ -329,7 +331,7 @@ ERROR: MedicationRequest/medicationrequest-example2: MedicationRequest.substitut
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample0.xml ==
 ERROR: /f:MedicationStatement: Undefined element 'taken'
 ERROR: MedicationStatement/MedicationStatementexample0: MedicationStatement.subject: As specified by profile http://hl7.org/fhir/StructureDefinition/MedicationStatement, Element "subject" is out of order
-WARNING: MedicationStatement/MedicationStatementexample0: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The display "Roferon-A 9 million units/0.5 mL injection solution, 0.5 mL syringe" is not a valid display for the code {http://snomed.info/sct}6166011000036106 - should be one of ["Roferon-A 9 million units (33.333 microgram)/0.5 mL injection, 0.5 mL syringe"]
+WARNING: MedicationStatement/MedicationStatementexample0: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: Internal error: The display "Roferon-A 9 million units/0.5 mL injection solution, 0.5 mL syringe" is not a valid display for the code {http://snomed.info/sct}6166011000036106 - should be one of ["Roferon-A 9 million units (33.333 microgram)/0.5 mL injection, 0.5 mL syringe"]
 ERROR: MedicationStatement/MedicationStatementexample0: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[MedicationStatement.medication.ofType(CodeableConcept).coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\medicationstatement-MedicationStatementexample1.xml ==
 ERROR: /f:MedicationStatement: Undefined element 'taken'
@@ -339,7 +341,7 @@ ERROR: MedicationStatement/MedicationStatementexample1: MedicationStatement.medi
 ERROR: /f:MedicationStatement: Undefined element 'taken'
 ERROR: /f:MedicationStatement/f:dosage: Undefined element 'doseQuantity'
 ERROR: MedicationStatement/MedicationStatementexample2: MedicationStatement.subject: As specified by profile http://hl7.org/fhir/StructureDefinition/MedicationStatement, Element "subject" is out of order
-WARNING: MedicationStatement/MedicationStatementexample2: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The display "Diflucan 200 mg/100 mL injection solution, 100 mL vial" is not a valid display for the code {http://snomed.info/sct}5232011000036102 - should be one of ["Diflucan 200 mg/100 mL injection, 100 mL vial"]
+WARNING: MedicationStatement/MedicationStatementexample2: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: Internal error: The display "Diflucan 200 mg/100 mL injection solution, 100 mL vial" is not a valid display for the code {http://snomed.info/sct}5232011000036102 - should be one of ["Diflucan 200 mg/100 mL injection, 100 mL vial"]
 ERROR: MedicationStatement/MedicationStatementexample2: MedicationStatement.medication.ofType(CodeableConcept).coding[0]: The extension http://hl7.org.au/fhir/StructureDefinition/medication-type is not allowed to be used at this point (allowed = e:Medication.code.coding, e:MedicationRequest.medicationCodeableConcept.coding, e:MedicationDispense.medicationCodeableConcept.coding, e:MedicationStatement.medicationCodeableConcept.coding, e:MedicationAdministration.medicationCodeableConcept.coding, e:ValueSet.expansion.contains, e:ValueSet.expansion.contains.contains, e:CodeSystem.concept, e:CodeSystem.concept.concept; this element is [[MedicationStatement.medication.ofType(CodeableConcept).coding, CodeableConcept.coding, Coding])
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\norelevantfinding-example0.xml ==
 ERROR: Observation/norelevantfinding-example0: Observation.code.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
@@ -347,7 +349,7 @@ ERROR: Observation/norelevantfinding-example0: Observation.code.coding[0].system
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\norelevantfinding-example1.xml ==
 ERROR: Observation/norelevantfinding-example1: Observation.code.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
 ERROR: Observation/norelevantfinding-example1: Observation.code.coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
-WARNING: Observation/norelevantfinding-example1: Observation.value.ofType(CodeableConcept).coding[0]: The display "No previous immunizations" is not a valid display for the code {http://snomed.info/sct}401179006 - should be one of ["No previous immunisations","No previous vaccinations"]
+WARNING: Observation/norelevantfinding-example1: Observation.value.ofType(CodeableConcept).coding[0]: Internal error: The display "No previous immunizations" is not a valid display for the code {http://snomed.info/sct}401179006 - should be one of ["No previous immunisations","No previous vaccinations"]
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\norelevantfinding-example2.xml ==
 ERROR: Observation/norelevantfinding-example2: Observation.code.coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
 ERROR: Observation/norelevantfinding-example2: Observation.code.coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
@@ -471,47 +473,47 @@ WARNING: RelatedPerson/example2: RelatedPerson.relationship[0]: ValueSet https:/
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\examples\relatedperson-example3.xml ==
 WARNING: RelatedPerson/example3: RelatedPerson.relationship[0]: ValueSet https://healthterminologies.gov.au/fhir/ValueSet/related-person-relationship-type-1 not found by validator
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-address.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-address'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-allergyintolerance.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-bodystructure.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-bodystructure'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-composition.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-composition'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-condition.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-condition'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-observation.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-diagnostic-observation'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnostic-servicerequest.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-diagnostic-servicerequest'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-diagnosticreport.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-diagnosticreport'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-dosage.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-dosage'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-dvanumber.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-dvanumber'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-encounter.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-encounter'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-healthcareservice.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-hpiinumber.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-hpiinumber'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-hpionumber.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-hpionumber'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-ihinumber.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-ihinumber'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-immunization.xml ==
 ERROR: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[68].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v2/0443"
@@ -526,33 +528,34 @@ ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.ele
 ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[25].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v2/0443" does not resolve
 ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[33].fixed.ofType(Coding): Unknown Code System "http://hl7.org/fhir/v3/NullFlavor"
 ERROR: StructureDefinition/au-immunization: StructureDefinition.differential.element[33].fixed.ofType(Coding).system: URL value "http://hl7.org/fhir/v3/NullFlavor" does not resolve
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-immunization'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-location.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicalrecordnumber.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medicalrecordnumber'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicarecardnumber.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medicarecardnumber'): The Implementation Guide contains no examples for this data type profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medication.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medication'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationadministration.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medicationadministration'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationdispense.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+INFORMATION: StructureDefinition/au-medicationdispense: StructureDefinition.snapshot.element[97].mapping[0].map: The string value contains embedded HTML tags. Note that all inputs should be escaped when rendered to HTML as a matter of course
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medicationdispense'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationrequest.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medicationrequest'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medicationstatement.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medicationstatement'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-medlist.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-medlist'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-norelevantfinding.xml ==
 ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
@@ -560,125 +563,125 @@ ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.snapshot.el
 ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: Unknown Code System "http://hl7.org/fhir/v3/ActCode"
 ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0].system: URL value "http://hl7.org/fhir/v3/ActCode" does not resolve
 ERROR: StructureDefinition/au-norelevantfinding: StructureDefinition.differential.element[4].slicing: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[4].slicing.rules': minimum required = 1, but only found 0
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-norelevantfinding'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-organization.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-patient.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-practitioner.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-practitionerrole.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-relatedperson.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\au-specimen.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-specimen'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0203.xml ==
-WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-au-hl7v2-0443.xml ==
-WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-gtin.xml ==
 INFORMATION: CodeSystem/gtin: CodeSystem: CODESYSTEM_CS_NO_VS_NOTCOMPLETE
-WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-medication-type.xml ==
-WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-mims.xml ==
 INFORMATION: CodeSystem/mims: CodeSystem: CODESYSTEM_CS_NO_VS_NOTCOMPLETE
-WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1.xml ==
 ERROR: CodeSystem.where(url = 'https://healthterminologies.gov.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1'): Conformance resource C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1) does not match the URL (https://healthterminologies.gov.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1)
-WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-presence-of-dose-administration-aid-medicines-1: URL Mismatch http://hl7.org.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1 vs https://healthterminologies.gov.au/fhir/CodeSystem/presence-of-dose-administration-aid-medicines-1
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\codesystem-service-provision-conditions.xml ==
-WARNING: CodeSystem.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\ig.xml ==
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-associated-healthcareservice.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/associated-healthcareservice'): The Implementation Guide contains no examples for this extension
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-assigningauthority.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-receivingapplication.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-au-receivingfacility.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-author-related-person.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/author-related-person'): The Implementation Guide contains no examples for this extension
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-change-description.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-closing-the-gap-registration.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-date-accuracy-indicator.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-date-of-arrival.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/date-of-arrival'): The Implementation Guide contains no examples for this extension
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dispense-number.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/dispense-number'): The Implementation Guide contains no examples for this extension
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-dose-administration-aid-medicines-present.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/dose-administration-aid-medicines-present'): The Implementation Guide contains no examples for this extension
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-encounter-description.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-encryption-certificate-pem-x509.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-grounds-for-concurrent-supply.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-ihi-record-status.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-ihi-status.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-indigenous-status.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-information-recipient.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-brand-name.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-generic-name.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-long-term.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-medication-type.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-minimum-interval-between-repeats.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\structuredefinition-no-fixed-address.xml ==
-ERROR: StructureDefinition.jurisdiction: The resource must declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-amt-mp-codes.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 ERROR: ValueSet.where(id = 'amt-mp-codes'): Error from server: The Snomed Concept 929360061000036106 is not a reference set
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0203.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-au-hl7v2-0443.xml ==
 WARNING: ValueSet/au-hl7v2-0443: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-grounds-for-concurrent-supply.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: ValueSet.where(id = 'grounds-for-concurrent-supply'): Error from server: Unable to provide support for code system https://healthterminologies.gov.au/fhir/CodeSystem/concurrent-supply-grounds-1
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-gtin.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: ValueSet.where(id = 'gtin'): Error from server: Unable to provide support for code system http://www.gs1.org/gtin
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-medication-type.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-mims.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: ValueSet.where(id = 'mims'): Error from server: Unable to provide support for code system http://www.mims.com.au/codes
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-pbs-item.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 WARNING: ValueSet.where(id = 'pbs-item'): Error from server: Unable to provide support for code system http://pbs.gov.au/code/item
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1.xml ==
 ERROR: ValueSet.where(url = 'https://healthterminologies.gov.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1'): Conformance resource C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1) does not match the URL (https://healthterminologies.gov.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1)
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-presence-of-dose-administration-aid-medicines-1: URL Mismatch http://hl7.org.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1 vs https://healthterminologies.gov.au/fhir/ValueSet/presence-of-dose-administration-aid-medicines-1
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-service-provision-conditions.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-services.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-healthcareservice-specialties.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.au.base\resources\valueset-snomed-practitioner-specialties.xml ==
-WARNING: ValueSet.jurisdiction: The resource should declare it's jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.au.base, jurisdiction = urn:iso:std:iso:3166#AU)
 ERROR: ValueSet.where(id = 'snomed-practitioner-specialties'): Error from server: The filter "constraint = DescendantOf 394658006|Clinical speciality|" was not understood in the context of http://snomed.info/sct
