@@ -2,7 +2,7 @@
   "url": "http://ihe.net/fhir/ihe.mhd.fhir/ImplementationGuide/ihe.mhd.fhir",
   "name": "IHE_MHD",
   "package-id": "ihe.mhd.fhir",
-  "date": "Mon, 27 Jul, 2020 13:56:45 +1000",
+  "date": "Mon, 27 Jul, 2020 14:04:11 +1000",
   "errs": 9,
   "warnings": 11,
   "hints": 10,

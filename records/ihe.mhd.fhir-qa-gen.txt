@@ -3,7 +3,7 @@
 
 err = 9, warn = 11, info = 10
 IG Publisher Version: v1.0.101-SNAPSHOT Out of date - current version is 1.1.3
-Generated Mon Jul 27 13:57:54 AEST 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
+Generated Mon Jul 27 14:04:58 AEST 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
 
  Build Errors : 14 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example : 0 / 0

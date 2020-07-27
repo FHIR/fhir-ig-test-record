@@ -1,16 +1,16 @@
 ﻿USCore : Validation Results
 =========================================
 
-err = 18, warn = 332, info = 186
+err = 29, warn = 632, info = 186
 IG Publisher Version: v1.0.101-SNAPSHOT Out of date - current version is 1.1.3
-Generated Mon Jul 27 13:42:24 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.core#3.1.1 (canonical = http://hl7.org/fhir/us/core)
+Generated Mon Jul 27 14:11:21 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.core#3.1.1 (canonical = http://hl7.org/fhir/us/core)
 
  Build Errors : 3 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\Device-defib : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\Device-knee : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\DiagnosticReport-cardiology-report : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\DiagnosticReport-chest-xray-report : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\PractitionerRole_Practitioner_Endpoint_Bundle_Example : 0 / 5
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\PractitionerRole_Practitioner_Endpoint_Bundle_Example : 2 / 5
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\Procedure-R4-defib-implant : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\acme-lab : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\allergyintolerance-example : 0 / 0
@@ -20,22 +20,22 @@ Generated Mon Jul 27 13:42:24 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.core
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\bmi : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\bp-data-absent : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\bun : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\careteam-example : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\careteam-example : 2 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\cbc : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\colonoscopy : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\condition-example : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\encounter-1036 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\encounter-example-1 : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\episode-summary : 0 / 3
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\erythrocytes : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\episode-summary : 0 / 2
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\erythrocytes : 2 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\example-organization-2 : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\goal-1 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\hc1 : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\heart-rate : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\heart-rate : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\height : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\hemoglobin : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\hl7east : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\imm-1 : 2 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\imm-1 : 4 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\length : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\mchc : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\metabolic-panel : 0 / 0
@@ -51,7 +51,7 @@ Generated Mon Jul 27 13:42:24 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.core
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\practitioner-1 : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\practitioner-2 : 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\rehab : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\respiratory-rate : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\respiratory-rate : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\saint-luke-w-endpoint : 0 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\self-tylenol : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\serum-calcium : 0 / 0
@@ -89,7 +89,7 @@ Generated Mon Jul 27 13:42:24 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.core
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\uscore-mo3 : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\usg : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\vitals-panel : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\weight : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\weight : 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\capabilitystatement-us-core-client : 0 / 45
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\capabilitystatement-us-core-server : 0 / 45
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\codesystem-careplan-category : 0 / 0
@@ -196,7 +196,7 @@ Generated Mon Jul 27 13:42:24 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.core
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-clinical-note-type : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-condition-category : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-condition-code : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-cvx : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-cvx : 0 / 64
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-diagnosticreport-category : 0 / 3
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-diagnosticreport-lab-codes : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-diagnosticreport-report-and-note-codes : 0 / 0
@@ -212,7 +212,7 @@ Generated Mon Jul 27 13:42:24 AEST 2020. FHIR version 4.0.1 for hl7.fhir.us.core
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-procedure-code : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-procedure-icd10pcs : 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-provenance-participant-type : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-provider-role : 0 / 0
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-provider-role : 0 / 237
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-provider-specialty : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-smoking-status-observation-codes : 0 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-usps-state : 0 / 1
@@ -257,7 +257,9 @@ INFORMATION: DiagnosticReport/chest-xray-report: DiagnosticReport: Validate reso
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\PractitionerRole_Practitioner_Endpoint_Bundle_Example.xml ==
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[0].resource.ofType(PractitionerRole): Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
+ERROR: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[0].resource.ofType(PractitionerRole).code[0].coding[0]: Unknown Code http://nucc.org/provider-taxonomy#261QP2300X in http://nucc.org/provider-taxonomy for "http://nucc.org/provider-taxonomy#261QP2300X"
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[0].resource.ofType(PractitionerRole).specialty[0]: None of the codes provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a code is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#208D00000X)
+ERROR: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[0].resource.ofType(PractitionerRole).specialty[0].coding[0]: Unknown Code http://nucc.org/provider-taxonomy#208D00000X in http://nucc.org/provider-taxonomy for "http://nucc.org/provider-taxonomy#208D00000X"
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[0].resource.ofType(PractitionerRole): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole - listed in meta
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource.ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource.ofType(Practitioner).qualification[0].code.coding[0]: Code System URI "http://michigan.gov/lara/license-type" is unknown so the code cannot be validated
@@ -300,6 +302,8 @@ INFORMATION: Observation/bun: Observation: Validate resource against profile htt
 INFORMATION: Observation/bun: Observation: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\careteam-example.xml ==
 INFORMATION: CareTeam/example: CareTeam: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CareTeam
+ERROR: CareTeam/example: CareTeam.participant[0].role[0].coding[0]: Unknown Code http://nucc.org/provider-taxonomy#207RC0000X in http://nucc.org/provider-taxonomy for "http://nucc.org/provider-taxonomy#207RC0000X"
+ERROR: CareTeam/example: CareTeam.participant[1].role[0].coding[0]: Unknown Code http://nucc.org/provider-taxonomy#208D00000X in http://nucc.org/provider-taxonomy for "http://nucc.org/provider-taxonomy#208D00000X"
 INFORMATION: CareTeam/example: CareTeam: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\cbc.json ==
 INFORMATION: DiagnosticReport/cbc: DiagnosticReport: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DiagnosticReport
@@ -319,11 +323,12 @@ INFORMATION: Encounter/example-1: Encounter: Validate resource against profile h
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\episode-summary.xml ==
 INFORMATION: DocumentReference/episode-summary: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
 INFORMATION: DocumentReference/episode-summary: DocumentReference.content[0].format: Code System URI "urn:oid:1.3.6.1.4.1.19376.1.2.3" is unknown so the code cannot be validated
-INFORMATION: DocumentReference/episode-summary: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = CodeSystem uri 'http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem' is unknown)
+INFORMATION: DocumentReference/episode-summary: DocumentReference.content[0].format: Could not confirm that the codes provided are in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set
 INFORMATION: DocumentReference/episode-summary: DocumentReference: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference - listed in meta
-WARNING: DocumentReference/episode-summary: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code should come from this value set unless it has no suitable code.  (error message = CodeSystem uri 'http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem' is unknown)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\erythrocytes.json ==
 INFORMATION: Observation/erythrocytes: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+ERROR: Observation/erythrocytes: Observation.referenceRange[0].low: Error sending HTTP Post/Put Payload: Connection timed out: connect for "http://unitsofmeasure.org#10*6/uL"
+ERROR: Observation/erythrocytes: Observation.referenceRange[0].high: Error sending HTTP Post/Put Payload: Connection timed out: connect for "http://unitsofmeasure.org#10*6/uL"
 INFORMATION: Observation/erythrocytes: Observation: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\example-organization-2.xml ==
 INFORMATION: Organization/example-organization-2: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
@@ -339,6 +344,7 @@ INFORMATION: Condition/hc1: Condition: Validate resource against profile http://
 WARNING: Condition/hc1: Condition.code: No code provided, and a code should be provided from the value set http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code (http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code)
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\heart-rate.json ==
 INFORMATION: Observation/heart-rate: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+ERROR: Observation/heart-rate: Observation.value.ofType(Quantity): Error sending HTTP Post/Put Payload: Connection timed out: connect for "http://unitsofmeasure.org#/min"
 INFORMATION: Observation/heart-rate: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/vitalsigns - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\height.json ==
 INFORMATION: Observation/height: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
@@ -351,8 +357,10 @@ INFORMATION: Location/hl7east: Location: Validate resource against profile http:
 INFORMATION: Location/hl7east: Location: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-location - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\imm-1.json ==
 INFORMATION: Immunization/imm-1: Immunization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Immunization
+ERROR: Immunization/imm-1: Immunization.vaccineCode.coding[0]: Unknown Code http://hl7.org/fhir/sid/cvx#158 in http://hl7.org/fhir/sid/cvx - note that the code system is labelled as a fragment, so the code may be valid in some other fragment for "http://hl7.org/fhir/sid/cvx#158"
 ERROR: Immunization/imm-1: Immunization.vaccineCode.coding[1]: The code "49281-0631-15" is not valid in the system http://hl7.org/fhir/sid/ndc; The code provided (http://hl7.org/fhir/sid/ndc#49281-0631-15) is not  valid in the value set All codes known to the system for "http://hl7.org/fhir/sid/ndc#49281-0631-15"
 INFORMATION: Immunization/imm-1: Immunization: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization - listed in meta
+ERROR: Immunization/imm-1: Immunization.vaccineCode: Unknown Code http://hl7.org/fhir/sid/cvx#158 in http://hl7.org/fhir/sid/cvx - note that the code system is labelled as a fragment, so the code may be valid in some other fragment
 ERROR: Immunization/imm-1: Immunization.vaccineCode: The code "49281-0631-15" is not valid in the system http://hl7.org/fhir/sid/ndc; The code provided (http://hl7.org/fhir/sid/ndc#49281-0631-15) is not  valid in the value set USCoreVaccineAdministeredValueSetCvx
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\length.json ==
 INFORMATION: Observation/length: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
@@ -371,7 +379,7 @@ INFORMATION: Observation/satO2-fiO2: Observation: Validate resource against prof
 INFORMATION: Observation/satO2-fiO2: Observation.code.coding[2]: Code System URI "urn:iso:std:iso:11073:10101" is unknown so the code cannot be validated
 INFORMATION: Observation/satO2-fiO2: Observation: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry - listed in meta
 INFORMATION: Observation/satO2-fiO2: Observation.code.coding[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry
-ERROR: Observation/satO2-fiO2: Observation.component[0].value.ofType(Quantity): The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1(which actually refers to http://hl7.org/fhir/ValueSet/ucum-vitals-common), and a code is required from this value set.  (error message = The code provided (http://unitsofmeasure.org#L/min) is not  valid in the value set VitalSignsUnits)
+ERROR: Observation/satO2-fiO2: Observation.component[0].value.ofType(Quantity): Could not confirm that the codes provided are in the value set http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1(which actually refers to http://hl7.org/fhir/ValueSet/ucum-vitals-common), and a code from this value set is required
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\ofc-percentile.json ==
 INFORMATION: Observation/ofc-percentile: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
 INFORMATION: Observation/ofc-percentile: Observation: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/head-occipital-frontal-circumference-percentile - listed in meta
@@ -409,6 +417,7 @@ INFORMATION: Procedure/rehab: Procedure.code.coding[1]: Code System URI "http://
 INFORMATION: Procedure/rehab: Procedure: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\respiratory-rate.json ==
 INFORMATION: Observation/respiratory-rate: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+ERROR: Observation/respiratory-rate: Observation.value.ofType(Quantity): Error sending HTTP Post/Put Payload: Connection timed out: connect for "http://unitsofmeasure.org#/min"
 INFORMATION: Observation/respiratory-rate: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/vitalsigns - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\saint-luke-w-endpoint.xml ==
 INFORMATION: Organization/saint-luke-w-endpoint: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
@@ -530,6 +539,7 @@ INFORMATION: Observation/vitals-panel: Observation: Validate resource against pr
 INFORMATION: Observation/vitals-panel: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/vitalsigns - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\examples\weight.json ==
 INFORMATION: Observation/weight: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+ERROR: Observation/weight: Observation.value.ofType(Quantity): Error sending HTTP Post/Put Payload: Connection timed out: connect for "http://unitsofmeasure.org#kg"
 INFORMATION: Observation/weight: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/vitalsigns - listed in meta
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\capabilitystatement-us-core-client.json ==
 INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
@@ -922,6 +932,70 @@ INFORMATION: ValueSet/us-core-condition-category: ValueSet: Validate resource ag
 INFORMATION: ValueSet/us-core-condition-code: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-cvx.xml ==
 INFORMATION: ValueSet/us-core-vaccines-cvx: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[35]: The code 123 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[36]: The code 125 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[37]: The code 126 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[38]: The code 127 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[39]: The code 128 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[40]: The code 129 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[42]: The code 130 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[43]: The code 131 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[44]: The code 132 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[45]: The code 133 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[46]: The code 134 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[47]: The code 135 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[48]: The code 136 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[49]: The code 137 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[50]: The code 138 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[51]: The code 139 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[53]: The code 140 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[54]: The code 141 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[55]: The code 142 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[56]: The code 143 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[57]: The code 144 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[58]: The code 147 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[59]: The code 148 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[60]: The code 149 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[62]: The code 150 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[63]: The code 151 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[64]: The code 152 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[65]: The code 153 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[66]: The code 155 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[67]: The code 156 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[68]: The code 157 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[69]: The code 158 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[70]: The code 159 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[72]: The code 160 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[73]: The code 161 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[74]: The code 162 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[75]: The code 163 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[76]: The code 164 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[77]: The code 165 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[78]: The code 166 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[79]: The code 167 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[80]: The code 168 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[81]: The code 169 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[83]: The code 170 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[84]: The code 171 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[85]: The code 172 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[86]: The code 173 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[87]: The code 174 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[88]: The code 175 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[89]: The code 176 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[90]: The code 177 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[91]: The code 178 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[92]: The code 179 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[94]: The code 180 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[95]: The code 181 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[96]: The code 182 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[97]: The code 183 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[98]: The code 184 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[99]: The code 185 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[100]: The code 186 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[101]: The code 187 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[102]: The code 188 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[103]: The code 189 is not valid in the system http://hl7.org/fhir/sid/cvx
+WARNING: ValueSet/us-core-vaccines-cvx: ValueSet.compose[0].include[0].concept[152]: The code 801 is not valid in the system http://hl7.org/fhir/sid/cvx
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-diagnosticreport-category.xml ==
 INFORMATION: ValueSet/us-core-diagnosticreport-category: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/us-core-diagnosticreport-category: ValueSet.compose[0].include[0].concept[0]: The code LP29684-5 is not valid in the system http://loinc.org
@@ -1275,6 +1349,243 @@ WARNING: ValueSet.where(id = 'us-core-procedure-icd10pcs'): Error from server: U
 INFORMATION: ValueSet/us-core-provenance-participant-type: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-provider-role.xml ==
 INFORMATION: ValueSet/us-core-provider-role: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[0]: The code 101Y00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[1]: The code 102L00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[2]: The code 102X00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[3]: The code 103G00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[4]: The code 103K00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[5]: The code 103T00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[6]: The code 104100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[7]: The code 106E00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[8]: The code 106H00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[9]: The code 106S00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[10]: The code 111N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[11]: The code 122300000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[12]: The code 122400000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[13]: The code 124Q00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[14]: The code 125J00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[15]: The code 125K00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[16]: The code 125Q00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[17]: The code 126800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[18]: The code 126900000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[19]: The code 132700000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[20]: The code 133N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[21]: The code 133V00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[22]: The code 136A00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[23]: The code 146D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[24]: The code 146L00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[25]: The code 146M00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[26]: The code 146N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[27]: The code 152W00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[28]: The code 156F00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[29]: The code 163W00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[30]: The code 164W00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[31]: The code 164X00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[32]: The code 167G00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[33]: The code 170100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[34]: The code 170300000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[35]: The code 171000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[36]: The code 171100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[37]: The code 171M00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[38]: The code 171R00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[39]: The code 171W00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[40]: The code 172A00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[41]: The code 172M00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[42]: The code 172P00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[43]: The code 172V00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[44]: The code 173000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[45]: The code 173C00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[46]: The code 173F00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[47]: The code 174200000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[48]: The code 174400000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[49]: The code 174H00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[50]: The code 174M00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[51]: The code 174N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[52]: The code 174V00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[53]: The code 175F00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[54]: The code 175L00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[55]: The code 175M00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[56]: The code 175T00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[57]: The code 176B00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[58]: The code 176P00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[59]: The code 177F00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[60]: The code 183500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[61]: The code 183700000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[62]: The code 193200000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[63]: The code 193400000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[64]: The code 202C00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[65]: The code 202K00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[66]: The code 204C00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[67]: The code 204D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[68]: The code 204E00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[69]: The code 204F00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[70]: The code 204R00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[71]: The code 207K00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[72]: The code 207L00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[73]: The code 207N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[74]: The code 207P00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[75]: The code 207Q00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[76]: The code 207R00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[77]: The code 207T00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[78]: The code 207U00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[79]: The code 207V00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[80]: The code 207W00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[81]: The code 207X00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[82]: The code 207Y00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[83]: The code 208000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[84]: The code 208100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[85]: The code 208200000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[86]: The code 208600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[87]: The code 208800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[88]: The code 208C00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[89]: The code 208D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[90]: The code 208G00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[91]: The code 208M00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[92]: The code 208U00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[93]: The code 209800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[94]: The code 211D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[95]: The code 213E00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[96]: The code 221700000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[97]: The code 222Q00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[98]: The code 222Z00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[99]: The code 224900000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[100]: The code 224L00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[101]: The code 224P00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[102]: The code 224Y00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[103]: The code 224Z00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[104]: The code 225000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[105]: The code 225100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[106]: The code 225200000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[107]: The code 225400000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[108]: The code 225500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[109]: The code 225600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[110]: The code 225700000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[111]: The code 225800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[112]: The code 225A00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[113]: The code 225B00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[114]: The code 225C00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[115]: The code 225X00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[116]: The code 226000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[117]: The code 226300000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[118]: The code 227800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[119]: The code 227900000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[120]: The code 229N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[121]: The code 231H00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[122]: The code 235500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[123]: The code 235Z00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[124]: The code 237600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[125]: The code 237700000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[126]: The code 242T00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[127]: The code 243U00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[128]: The code 246Q00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[129]: The code 246R00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[130]: The code 246W00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[131]: The code 246X00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[132]: The code 246Y00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[133]: The code 246Z00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[134]: The code 247000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[135]: The code 247100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[136]: The code 247200000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[137]: The code 251300000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[138]: The code 251B00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[139]: The code 251C00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[140]: The code 251E00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[141]: The code 251F00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[142]: The code 251G00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[143]: The code 251J00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[144]: The code 251K00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[145]: The code 251S00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[146]: The code 251T00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[147]: The code 251V00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[148]: The code 251X00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[149]: The code 252Y00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[150]: The code 253J00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[151]: The code 253Z00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[152]: The code 261Q00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[153]: The code 273100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[154]: The code 273R00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[155]: The code 273Y00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[156]: The code 275N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[157]: The code 276400000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[158]: The code 281P00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[159]: The code 282E00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[160]: The code 282J00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[161]: The code 282N00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[162]: The code 283Q00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[163]: The code 283X00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[164]: The code 284300000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[165]: The code 286500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[166]: The code 287300000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[167]: The code 291900000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[168]: The code 291U00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[169]: The code 292200000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[170]: The code 293D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[171]: The code 302F00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[172]: The code 302R00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[173]: The code 305R00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[174]: The code 305S00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[175]: The code 310400000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[176]: The code 310500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[177]: The code 311500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[178]: The code 311Z00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[179]: The code 313M00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[180]: The code 314000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[181]: The code 315D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[182]: The code 315P00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[183]: The code 317400000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[184]: The code 320600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[185]: The code 320700000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[186]: The code 320800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[187]: The code 320900000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[188]: The code 322D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[189]: The code 323P00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[190]: The code 324500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[191]: The code 331L00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[192]: The code 332000000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[193]: The code 332100000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[194]: The code 332800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[195]: The code 332900000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[196]: The code 332B00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[197]: The code 332G00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[198]: The code 332H00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[199]: The code 332S00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[200]: The code 332U00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[201]: The code 333300000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[202]: The code 333600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[203]: The code 335E00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[204]: The code 335G00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[205]: The code 335U00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[206]: The code 335V00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[207]: The code 341600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[208]: The code 341800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[209]: The code 343800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[210]: The code 343900000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[211]: The code 344600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[212]: The code 344800000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[213]: The code 347B00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[214]: The code 347C00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[215]: The code 347D00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[216]: The code 347E00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[217]: The code 363A00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[218]: The code 363L00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[219]: The code 364S00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[220]: The code 367500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[221]: The code 367A00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[222]: The code 367H00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[223]: The code 372500000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[224]: The code 372600000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[225]: The code 373H00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[226]: The code 374700000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[227]: The code 374J00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[228]: The code 374K00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[229]: The code 374T00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[230]: The code 374U00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[231]: The code 376G00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[232]: The code 376J00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[233]: The code 376K00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[234]: The code 385H00000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[235]: The code 390200000X is not valid in the system http://nucc.org/provider-taxonomy
+WARNING: ValueSet/us-core-provider-role: ValueSet.compose[0].include[0].concept[236]: The code 405300000X is not valid in the system http://nucc.org/provider-taxonomy
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-provider-specialty.xml ==
 INFORMATION: ValueSet/us-core-provider-specialty: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.core\source\resources\valueset-us-core-smoking-status-observation-codes.xml ==
