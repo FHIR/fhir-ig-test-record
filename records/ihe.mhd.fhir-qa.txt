@@ -1,9 +1,9 @@
 ﻿IHE_MHD : Validation Results
 =========================================
 
-err = 9, warn = 10, info = 10
-IG Publisher Version: v1.0.101-SNAPSHOT
-Generated Wed Jul 01 08:17:33 AEST 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
+err = 9, warn = 11, info = 10
+IG Publisher Version: v1.0.101-SNAPSHOT Out of date - current version is 1.1.3
+Generated Mon Jul 27 13:57:54 AEST 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = http://ihe.net/fhir/ihe.mhd.fhir)
 
  Build Errors : 14 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example : 0 / 0
@@ -37,7 +37,7 @@ Generated Wed Jul 01 08:17:33 AEST 2020. FHIR version 4.0.1 for ihe.mhd.fhir# (c
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.DocumentManifest : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.List : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListFolder : 0 / 1
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest : 0 / 1
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest : 0 / 2
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference : 0 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive : 0 / 0
@@ -63,68 +63,179 @@ ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.ProvideDocument
 ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Query.Comprehensive.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 582, column 41: The link 'IHE.MHD.Query.Comprehensive.DocumentReference.sch' for "Schematron" cannot be resolved
 ERROR: C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\IHE.MHD.Query.Minimal.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 582, column 41: The link 'IHE.MHD.Query.Minimal.DocumentReference.sch' for "Schematron" cannot be resolved
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example.xml ==
+INFORMATION: Patient/example: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\ProvideMinimalDocRef.xml ==
+INFORMATION: DocumentReference/ProvideMinimalDocRef: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: DocumentReference/ProvideMinimalDocRef: DocumentReference: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\comprehensiveSubmissionSet.xml ==
+INFORMATION: DocumentManifest/comprehensiveSubmissionSet: DocumentManifest: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: DocumentManifest/comprehensiveSubmissionSet: DocumentManifest: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-docef.xml ==
+INFORMATION: DocumentReference/iti-65-docref: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: DocumentReference/iti-65-docref: DocumentReference.contained[0].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: DocumentReference/iti-65-docref: DocumentReference.contained[1].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: DocumentReference/iti-65-docref: DocumentReference.contained[2].ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 INFORMATION: DocumentReference/iti-65-docref: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+INFORMATION: DocumentReference/iti-65-docref: DocumentReference: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-request-xdstools-adapted.xml ==
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[0].resource.ofType(Binary): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).contained[0].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).contained[1].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).contained[2].ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference - listed in meta
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[2].resource.ofType(DocumentManifest).contained.ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta
 WARNING: Bundle/iti-65-request-xdstools-adapted: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
+INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive - listed in meta
 INFORMATION: Bundle/iti-65-request-xdstools-adapted: Bundle.meta.profile[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-response-minimal.xml ==
+INFORMATION: Bundle/iti-65-response-minimal: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-docref.xml ==
+INFORMATION: DocumentReference/iti-66-docref: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: DocumentReference/iti-66-docref: DocumentReference.contained[0].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: DocumentReference/iti-66-docref: DocumentReference.contained[1].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: DocumentReference/iti-66-docref: DocumentReference.contained[2].ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 INFORMATION: DocumentReference/iti-66-docref: DocumentReference.content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+INFORMATION: DocumentReference/iti-66-docref: DocumentReference: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Query.Comprehensive.DocumentReference - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-response.xml ==
+INFORMATION: Bundle/iti-66-response: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/iti-66-response: Bundle.entry[0].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/iti-66-response: Bundle.entry[0].resource.ofType(DocumentManifest).contained.ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Bundle/iti-66-response: Bundle.entry[0].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-67-response.xml ==
+INFORMATION: Bundle/iti-67-response: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).contained[0].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).contained[1].ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).contained[2].ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+INFORMATION: Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Query.Comprehensive.DocumentReference - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder.xml ==
+INFORMATION: List/listFolder: List: Validate resource against profile http://hl7.org/fhir/StructureDefinition/List
+INFORMATION: List/listFolder: List: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.List - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder-c.xml ==
+INFORMATION: List/listFolder-c: List: Validate resource against profile http://hl7.org/fhir/StructureDefinition/List
+INFORMATION: List/listFolder-c: List: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.List - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef.xml ==
+INFORMATION: DocumentReference/minimalDocRef: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: DocumentReference/minimalDocRef: DocumentReference: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Query.Minimal.DocumentReference - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet.xml ==
+INFORMATION: DocumentManifest/minimalSubmissionSet: DocumentManifest: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: DocumentManifest/minimalSubmissionSet: DocumentManifest: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml ==
+INFORMATION: List/minimalSubmissionSetList2: List: Validate resource against profile http://hl7.org/fhir/StructureDefinition/List
 ERROR: List/minimalSubmissionSetList2: List: The extension http://hl7.org/fhir/StructureDefinition/workflow-reasonCode is not allowed to be used at this point (allowed = e:Observation, e:DiagnosticReport, e:Media, e:NutritionOrder; this element is [[List])
 ERROR: List/minimalSubmissionSetList2: List.code.coding[0].display: @value cannot be empty
 ERROR: List/minimalSubmissionSetList2: List.code.coding[0].display: ele-1: All FHIR elements must have a @value or children [hasValue() or (children().count() > id.count())]
 ERROR: List/minimalSubmissionSetList2: List.source: Unable to resolve resource "Organization/example"
 ERROR: List/minimalSubmissionSetList2: List.entry[0].item: Unable to resolve resource "DocumentReference/example"
 ERROR: List/minimalSubmissionSetList2: List.entry[1].item: Unable to resolve resource "List/example"
+INFORMATION: List/minimalSubmissionSetList2: List: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest - listed in meta
 ERROR: List/minimalSubmissionSetList2: List.code.coding.display: Value is "" but must be "SubmissionSet as a FHIR List"
 ERROR: List/minimalSubmissionSetList2: List.source: Bundled or contained reference not found within the bundle/resource Organization/example
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission.xml ==
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[0].resource.ofType(List): Validate resource against profile http://hl7.org/fhir/StructureDefinition/List
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[0].resource.ofType(List): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.List - listed in meta
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
 INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.ofType(DocumentReference).content[0].format: The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.ofType(DocumentReference): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference - listed in meta
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.entry[3].resource.ofType(Binary): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
 WARNING: Bundle/pdb-ComprehensiveSubmission: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
+INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive - listed in meta
 INFORMATION: Bundle/pdb-ComprehensiveSubmission: Bundle.meta.profile[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-degenerateSubmission.xml ==
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[0].resource.ofType(Binary): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[1].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta
 WARNING: Bundle/pdb-degenerateSubmission: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
+INFORMATION: Bundle/pdb-degenerateSubmission: Bundle: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate - listed in meta
 INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[0]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate
 INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.entry[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate
 INFORMATION: Bundle/pdb-degenerateSubmission: Bundle.meta.profile[1]: This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission.xml ==
+INFORMATION: Bundle/pdb-minimalSubmission: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/pdb-minimalSubmission: Bundle.entry[0].resource.ofType(Binary): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
+INFORMATION: Bundle/pdb-minimalSubmission: Bundle.entry[1].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: Bundle/pdb-minimalSubmission: Bundle.entry[1].resource.ofType(DocumentReference): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta
+INFORMATION: Bundle/pdb-minimalSubmission: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/pdb-minimalSubmission: Bundle.entry[2].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta
 WARNING: Bundle/pdb-minimalSubmission: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
+INFORMATION: Bundle/pdb-minimalSubmission: Bundle: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_2.xml ==
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[0].resource.ofType(List): Validate resource against profile http://hl7.org/fhir/StructureDefinition/List
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[0].resource.ofType(List): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.List - listed in meta
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[1].resource.ofType(Binary): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[2].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[2].resource.ofType(DocumentReference): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[3].resource.ofType(Binary): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[4].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[4].resource.ofType(DocumentReference): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[5].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle.entry[5].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta
 WARNING: Bundle/pdb-minimalSubmission_2: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
+INFORMATION: Bundle/pdb-minimalSubmission_2: Bundle: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_externalDocument.xml ==
+INFORMATION: Bundle/pdb-minimalSubmission_with_externalDocument: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[0].resource.ofType(DocumentReference): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[0].resource.ofType(DocumentReference): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta
+INFORMATION: Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[1].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[1].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta
 WARNING: Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
+INFORMATION: Bundle/pdb-minimalSubmission_with_externalDocument: Bundle: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument.xml ==
+INFORMATION: Bundle/pdb-minimalSubmission_with_noDocument: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/pdb-minimalSubmission_with_noDocument: Bundle.entry[0].resource.ofType(DocumentManifest): Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest
+INFORMATION: Bundle/pdb-minimalSubmission_with_noDocument: Bundle.entry[0].resource.ofType(DocumentManifest): Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta
 WARNING: Bundle/pdb-minimalSubmission_with_noDocument: Bundle.meta.profile[0]: Profile reference "http://ihe.net/fhir/tag/iti-65" could not be resolved, so has not been checked
+INFORMATION: Bundle/pdb-minimalSubmission_with_noDocument: Bundle: Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\implementationguide-IHE.MHD.xml ==
+INFORMATION: ImplementationGuide/ihe.mhd.fhir: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CodeSystem-MHDlistTypes.json ==
+INFORMATION: CodeSystem/MHDlistTypes: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer.xml ==
+INFORMATION: CapabilityStatement/IHE.MHD.DocumentConsumer: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentRecipient.xml ==
+INFORMATION: CapabilityStatement/IHE.MHD.DocumentRecipient: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentResponder.xml ==
+INFORMATION: CapabilityStatement/IHE.MHD.DocumentResponder: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentSource.xml ==
+INFORMATION: CapabilityStatement/IHE.MHD.DocumentSource: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.DocumentManifest.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.List.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Comprehensive.List: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.DocumentManifest.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.DocumentManifest: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.List.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.List: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListFolder.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.ListFolder: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListFolder'): The Implementation Guide contains no examples for this profile
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest.xml ==
 WARNING: http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest#List.entry.item: Connect check whether the target profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.List is valid constraint on the base because it is not known
+INFORMATION: StructureDefinition/IHE.MHD.Minimal.ListManifest: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/IHE.MHD.Minimal.ListManifest: StructureDefinition.differential.element.where(path = 'List.entry.item'): Connect check whether the target profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.List is valid constraint on the base because it is not known
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Degenerate.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Minimal.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Comprehensive.DocumentReference.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Query.Comprehensive.DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Minimal.DocumentReference.xml ==
+INFORMATION: StructureDefinition/IHE.MHD.Query.Minimal.DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
