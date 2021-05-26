@@ -2,11 +2,11 @@
   "url": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
   "name": "USCore",
   "package-id": "hl7.fhir.us.core",
-  "ig-ver": "3.1.1",
-  "date": "Mon, 27 Jul, 2020 14:07:59 +1000",
-  "errs": 29,
-  "warnings": 632,
-  "hints": 186,
+  "ig-ver": "3.2.0",
+  "date": "Wed, 26 May, 2021 20:38:05 +1000",
+  "errs": 17,
+  "warnings": 7,
+  "hints": 14,
   "version": "4.0.1",
-  "tool": "4.4.0 (3)"
+  "tool": "4.6.0 (3)"
 }

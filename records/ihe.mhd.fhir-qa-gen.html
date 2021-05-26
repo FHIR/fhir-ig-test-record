@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 13, errors = 9, warn = 11, info = 10 -->
+<!-- broken links = 0, errors = 1, warn = 2, info = 1 -->
 <head>
   <title>IHE_MHD : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,142 +23,271 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for IHE_MHD</h1>
- <p>Generated Mon Jul 27 14:04:58 AEST 2020, FHIR version 4.0.1 for ihe.mhd.fhir# (canonical = <a href="http://ihe.net/fhir/ihe.mhd.fhir">http://ihe.net/fhir/ihe.mhd.fhir</a> (<a href="http://ihe.net/fhir/ihe.mhd.fhir/history.html">history</a>))</p>
+ <p>Generated Wed May 26 20:29:09 AEST 2021, FHIR version 4.0.1 for ihe.mhd.fhir#4.0.0 (canonical = <a href="http://profiles.ihe.net/ITI/MHD">http://profiles.ihe.net/ITI/MHD</a> (<a href="http://profiles.ihe.net/ITI/MHD/history.html">history</a>)). See <a href="c:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\output\qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.0.101-SNAPSHOT, which is out of date. The current version is 1.1.3 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
- <tr><td>Supressed Messages:</td><td><a href="#suppressed">3 Suppressed Errors</a>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.27-SNAPSHOT, which is out of date. The current version is v1.1.72 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ihe.mhd.fhir, Canonical = http://profiles.ihe.net/ITI/MHD</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>4.0.0: <span stlye="color: marron; font-weight: bold">No entry in the package-list.json file for this version</span></td></tr>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">106 Suppressed Issues</a>
 </td></tr>
- <tr><td>Dependency Checks:</td><td><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> ihe.mhd.fhir</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://ihe.net/fhir/ihe.mhd.fhir</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR42u3QwQkAMAwDsezq/WdIO4XJQwa9DTdJpulv258AAMANIgAAADUPYAVAgAJ//usAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> ihe.formatcode.fhir</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="background-color: #ffcccc">current</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://profiles.ihe.net/fhir/ihe.formatcode.fhir</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Cannot be published with a dependency on a current build version</td></tr>
-</table></td></tr>
- <tr><td>HL7 Publication Rules:</td><td>n/a - not an HL7.org or FHIR.org implementation guide
-</td></tr>
- <tr><td>Realm rules:</td><td><ul><li>n/a</li></ul></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://ihe.net/fhir/ihe.mhd.fhir (Problem with package-lists.json at http://ihe.net/fhir/ihe.mhd.fhir: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $)</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> ihe.mhd.fhir</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://profiles.ihe.net/ITI/MHD</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: hl7.fhir.be.my.template#0.0.1 -&gt; ihe.fhir.template#current -&gt; fhir.base.template#current</para></div></td></tr>
+ <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+ <br/><br/>The copyrightYear parameter ('2020+') in the IG resource is good</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://profiles.ihe.net/ITI/MHD (Problem #1 with package-list.json at http://profiles.ihe.net/ITI/MHD: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 0, errors = 1, warn = 2, info = 1</td></tr>
 </table>
  <table class="grid">
    <tr>
-     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentLists-consumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-consumer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentLists-responder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-responder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentReferences-consumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-consumer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentReferences-post-responder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-post-responder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentReferences-responder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-responder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditProvideBundle-recipient"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditProvideBundle-recipient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditProvideBundle-source"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditProvideBundle-source</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditRetrieveDocument-consumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-consumer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditRetrieveDocument-responder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-responder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Binary-ex-b-binary"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Binary-ex-b-binary</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-ProvideDocumentBundleResponse"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-ProvideDocumentBundleResponse</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-dummyProvideDocumentBundle"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-dummyProvideDocumentBundle</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-findDocumentListsResponse"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-findDocumentListsResponse</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-findDocumentReferencesResponse"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-findDocumentReferencesResponse</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-minimalProvideDocumentBundle"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-minimalProvideDocumentBundle2"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle2</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_CodeSystem-MHDlistTypes"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\CodeSystem-MHDlistTypes</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ConceptMap-AssociationTypeVsRelatesTo"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ConceptMap-AssociationTypeVsRelatesTo</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Device-ex-device"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Device-ex-device</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceComprehensive"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceComprehensive</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceMinimal"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceMinimal</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceUnContained"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContained</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceUnContainedFully"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContainedFully</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-documentreference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-documentreference2"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference2</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ImplementationGuide-ihe.mhd.fhir"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ImplementationGuide-ihe.mhd.fhir</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compEmailPackage"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compEmailPackage</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compFolder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compFolder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>14</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compSubmissionSetFull"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFull</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_Patient-example"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compSubmissionSetFullUnContained"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFullUnContained</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_ProvideMinimalDocRef"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\ProvideMinimalDocRef</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compSubmissionSetList"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetList</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_comprehensiveSubmissionSet"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\comprehensiveSubmissionSet</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-list"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-list</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-65-docef"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-docef</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-minimalFolder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-minimalFolder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-65-request-xdstools-adapted"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-request-xdstools-adapted</b></a></td><td><b>0</b></td><td><b>3</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-minimalSubmissionSet"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-minimalSubmissionSet</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-65-response-minimal"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-response-minimal</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Organization-ex-organization"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Organization-ex-organization</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-66-docref"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-docref</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Patient-ex-patient"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Patient-ex-patient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-66-response"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-response</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Practitioner-ex-practitioner"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Practitioner-ex-practitioner</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-67-response"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-67-response</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_SearchParameter-DocumentReference-Creation"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-DocumentReference-Creation</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_listFolder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_SearchParameter-List-DesignationType"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-List-DesignationType</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_listFolder-c"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder-c</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_SearchParameter-List-SourceId"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-List-SourceId</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_minimalDocRef"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.DocumentReference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.DocumentReference</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_minimalSubmissionSet"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet</b></a></td><td><b>0</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_minimalSubmissionSetList"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList</b></a></td><td><b>8</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.Folder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.Folder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-ComprehensiveSubmission"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission</b></a></td><td><b>0</b></td><td><b>3</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.ProvideBundle"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.ProvideBundle</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-degenerateSubmission"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-degenerateSubmission</b></a></td><td><b>0</b></td><td><b>4</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.SubmissionSet"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.SubmissionSet</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Consumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Consumer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission_2"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_2</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Responder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Responder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission_with_externalDocument"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_externalDocument</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentListsResponseMessage"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentListsResponseMessage</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission_with_noDocument"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Consumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Consumer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_implementationguide-IHE.MHD"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\implementationguide-IHE.MHD</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Responder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Responder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CodeSystem-MHDlistTypes"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CodeSystem-MHDlistTypes</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentConsumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferencesResponseMessage"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesResponseMessage</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentRecipient"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentRecipient</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.List"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.List</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentResponder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentResponder</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.DocumentReference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.DocumentReference</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentSource"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentSource</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.Folder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.Folder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Comprehensive.DocumentManifest"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.DocumentManifest</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.ProvideBundle"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideBundle</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Comprehensive.List"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.List</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.ProvideDocumentBundleResponse"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideDocumentBundleResponse</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.DocumentManifest"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.DocumentManifest</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.SubmissionSet"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.SubmissionSet</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.List"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.List</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.ProvideBundle.Audit.Recipient"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Recipient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.ListFolder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListFolder</b></a></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.ProvideBundle.Audit.Source"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Source</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.ListManifest"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest</b></a></td><td><b>0</b></td><td><b>2</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Consumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Consumer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Responder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Responder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.ProvideDocumentBundle.Degenerate"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Degenerate</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.ProvideDocumentBundle.Minimal"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Minimal</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-authorOrg"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-authorOrg</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Query.Comprehensive.DocumentReference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Comprehensive.DocumentReference</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-designationType"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-designationType</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Query.Minimal.DocumentReference"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Minimal.DocumentReference</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-intendedRecipient"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-intendedRecipient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-sourceId"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-sourceId</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ValueSet-MHDlistTypesVS"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDlistTypesVS</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ValueSet-MHDprovideFolderActions"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDprovideFolderActions</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ValueSet-MHDprovidePatientActions"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDprovidePatientActions</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_Bundle-FindDocumentReferences"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Bundle-FindDocumentReferences</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_DocumentReference-IHE.MHD.Comprehensive.MedicationCard"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\DocumentReference-IHE.MHD.Comprehensive.MedicationCard</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentConsumer"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentConsumer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentRecipient"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentRecipient.Comprehensive"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.Comprehensive</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentRecipient.UnContained"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.UnContained</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentResponder"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentResponder</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentSource"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentSource.Comprehensive"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.Comprehensive</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentSource.UnContained"><b>C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.UnContained</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
@@ -166,876 +295,804 @@
 <h2><a href="">n/a</a></h2>
  <table class="grid">
    <tr style="background-color: #ffebcc">
-     <td><b></b></td><td><b>warning</b></td><td><b>The IGPublisher used is not up-to-date.  Published content might not be properly checked and/or rendered.</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ImplementationGuide.definition.parameter[15].value</b></td><td><b>error</b></td><td><b>Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Comprehensive.DocumentManifest.html#ca0eb844-4d4d-4a41-b3f5-c03e39e6c84d">IHE.MHD.Comprehensive.DocumentManifest.html#/html/body/div/div/div/div/div/p/a at Line 458, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Comprehensive.DocumentManifest.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Comprehensive.List.html#6fe19f3d-eea2-4f99-b28b-a142a6062092">IHE.MHD.Comprehensive.List.html#/html/body/div/div/div/div/div/p/a at Line 454, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Comprehensive.List.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Minimal.DocumentManifest.html#a97d63e7-e113-450d-b24d-cb0bb7fb0a86">IHE.MHD.Minimal.DocumentManifest.html#/html/body/div/div/div/div/div/p/a at Line 474, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Minimal.DocumentManifest.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Minimal.List.html#4b06a1bd-83b9-40d3-ab04-704a4b71da9e">IHE.MHD.Minimal.List.html#/html/body/div/div/div/div/div/p/a at Line 496, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Minimal.List.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Minimal.ListFolder.html#963d7e3e-7625-4bc4-ac7a-2156eb86088a">IHE.MHD.Minimal.ListFolder.html#/html/body/div/div/div/div/div/p/a at Line 556, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Minimal.ListFolder.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Minimal.ListManifest.html#e27efc70-a119-49a2-af6c-477bc2aeb2c1">IHE.MHD.Minimal.ListManifest.html#/html/body/div/div/div/div/div/p/a at Line 556, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Minimal.ListManifest.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Provide.Comprehensive.DocumentReference.html#86eb36a7-e527-4b77-9dbc-9ad23da1ad2c">IHE.MHD.Provide.Comprehensive.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 606, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Provide.Comprehensive.DocumentReference.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Provide.Minimal.DocumentReference.html#2dae0266-849b-426f-b85a-48b1d1bc2e3a">IHE.MHD.Provide.Minimal.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 648, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Provide.Minimal.DocumentReference.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.ProvideDocumentBundle.Comprehensive.html#cb67a02b-8bfa-47d2-b209-3b938a33ff5f">IHE.MHD.ProvideDocumentBundle.Comprehensive.html#/html/body/div/div/div/div/div/p/a at Line 1258, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.ProvideDocumentBundle.Comprehensive.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.ProvideDocumentBundle.Degenerate.html#84f9d35c-3e14-4a39-8edd-32779951904a">IHE.MHD.ProvideDocumentBundle.Degenerate.html#/html/body/div/div/div/div/div/p/a at Line 756, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.ProvideDocumentBundle.Degenerate.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.ProvideDocumentBundle.Minimal.html#69cc783c-7d27-4e18-9b7f-28b14d1d667a">IHE.MHD.ProvideDocumentBundle.Minimal.html#/html/body/div/div/div/div/div/p/a at Line 1432, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.ProvideDocumentBundle.Minimal.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Query.Comprehensive.DocumentReference.html#c8013885-0cf5-48cd-9aec-58e306e615f3">IHE.MHD.Query.Comprehensive.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 582, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Query.Comprehensive.DocumentReference.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="IHE.MHD.Query.Minimal.DocumentReference.html#ef1d6f72-f070-4681-8c8d-a5ac7a05e75d">IHE.MHD.Query.Minimal.DocumentReference.html#/html/body/div/div/div/div/div/p/a at Line 582, column 41</a></b></td><td><b>error</b></td><td><b>The link 'IHE.MHD.Query.Minimal.DocumentReference.sch' for &quot;Schematron&quot; cannot be resolved</b></td>
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/Bundle-FindDocumentReferences.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_Patient-example"> </a>
-<h2><a href="example.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Patient-example.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentLists-consumer"> </a>
+<h2><a href="AuditEvent-ex-auditFindDocumentLists-consumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-consumer.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Patient/example: Patient (l2/c178)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_ProvideMinimalDocRef"> </a>
-<h2><a href="ProvideMinimalDocRef.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\ProvideMinimalDocRef.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentLists-responder"> </a>
+<h2><a href="AuditEvent-ex-auditFindDocumentLists-responder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-responder.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/ProvideMinimalDocRef: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/ProvideMinimalDocRef: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_comprehensiveSubmissionSet"> </a>
-<h2><a href="comprehensiveSubmissionSet.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\comprehensiveSubmissionSet.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentReferences-consumer"> </a>
+<h2><a href="AuditEvent-ex-auditFindDocumentReferences-consumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-consumer.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentManifest/comprehensiveSubmissionSet: DocumentManifest (l2/c187)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentManifest/comprehensiveSubmissionSet: DocumentManifest (l2/c187)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-65-docef"> </a>
-<h2><a href="iti-65-docref.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-docef.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentReferences-post-responder"> </a>
+<h2><a href="AuditEvent-ex-auditFindDocumentReferences-post-responder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-post-responder.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-65-docref: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditFindDocumentReferences-responder"> </a>
+<h2><a href="AuditEvent-ex-auditFindDocumentReferences-responder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-responder.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-65-docref: DocumentReference.contained[0].ofType(Practitioner) (l18/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditProvideBundle-recipient"> </a>
+<h2><a href="AuditEvent-ex-auditProvideBundle-recipient.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditProvideBundle-recipient.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-65-docref: DocumentReference.contained[1].ofType(Practitioner) (l28/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditProvideBundle-source"> </a>
+<h2><a href="AuditEvent-ex-auditProvideBundle-source.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditProvideBundle-source.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-65-docref: DocumentReference.contained[2].ofType(Patient) (l38/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditRetrieveDocument-consumer"> </a>
+<h2><a href="AuditEvent-ex-auditRetrieveDocument-consumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-consumer.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_AuditEvent-ex-auditRetrieveDocument-responder"> </a>
+<h2><a href="AuditEvent-ex-auditRetrieveDocument-responder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-responder.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Binary-ex-b-binary"> </a>
+<h2><a href="Binary-ex-b-binary.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Binary-ex-b-binary.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-ProvideDocumentBundleResponse"> </a>
+<h2><a href="Bundle-ex-ProvideDocumentBundleResponse.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-ProvideDocumentBundleResponse.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-dummyProvideDocumentBundle"> </a>
+<h2><a href="Bundle-ex-dummyProvideDocumentBundle.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-dummyProvideDocumentBundle.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-findDocumentListsResponse"> </a>
+<h2><a href="Bundle-ex-findDocumentListsResponse.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-findDocumentListsResponse.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-findDocumentReferencesResponse"> </a>
+<h2><a href="Bundle-ex-findDocumentReferencesResponse.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-findDocumentReferencesResponse.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-minimalProvideDocumentBundle"> </a>
+<h2><a href="Bundle-ex-minimalProvideDocumentBundle.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Bundle-ex-minimalProvideDocumentBundle2"> </a>
+<h2><a href="Bundle-ex-minimalProvideDocumentBundle2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_CodeSystem-MHDlistTypes"> </a>
+<h2><a href="CodeSystem-MHDlistTypes.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\CodeSystem-MHDlistTypes.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ConceptMap-AssociationTypeVsRelatesTo"> </a>
+<h2><a href="ConceptMap-AssociationTypeVsRelatesTo.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ConceptMap-AssociationTypeVsRelatesTo.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Device-ex-device"> </a>
+<h2><a href="Device-ex-device.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Device-ex-device.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceComprehensive"> </a>
+<h2><a href="DocumentReference-ex-DocumentReferenceComprehensive.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceComprehensive.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceMinimal"> </a>
+<h2><a href="DocumentReference-ex-DocumentReferenceMinimal.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceMinimal.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceUnContained"> </a>
+<h2><a href="DocumentReference-ex-DocumentReferenceUnContained.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContained.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-DocumentReferenceUnContainedFully"> </a>
+<h2><a href="DocumentReference-ex-DocumentReferenceUnContainedFully.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContainedFully.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-documentreference"> </a>
+<h2><a href="DocumentReference-ex-documentreference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_DocumentReference-ex-documentreference2"> </a>
+<h2><a href="DocumentReference-ex-documentreference2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ImplementationGuide-ihe.mhd.fhir"> </a>
+<h2><a href="ImplementationGuide-ihe.mhd.fhir.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ImplementationGuide-ihe.mhd.fhir.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compEmailPackage"> </a>
+<h2><a href="List-ex-compEmailPackage.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compEmailPackage.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compFolder"> </a>
+<h2><a href="List-ex-compFolder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compFolder.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compSubmissionSetFull"> </a>
+<h2><a href="List-ex-compSubmissionSetFull.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFull.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>List/ex-compSubmissionSetFull: List.source.extension[0]</b></td><td><b>error</b></td><td title="Extension_EXT_Url_NotFound"><b>Extension.url is required</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>DocumentReference/iti-65-docref: DocumentReference.content[0].format (l112/c11)</b></td><td><b>information</b></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-65-docref: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference - listed in meta</b></td>
+     <td><b><a href="">List/ex-compSubmissionSetFull: List.source.extension[0] (l64/c8)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.SubmissionSet</b> <span id="sl2" class="flip" onclick="flip('l2')">Show Reasoning</span><div id="l2" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.SubmissionSet<ul><li>List.source.extension[0]: discriminator = true and ('http://profiles.ihe.net/ITI/MHD/StructureDefinition/ihe-authorOrg' in url)</li></ul></div></td>
    </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-65-request-xdstools-adapted"> </a>
-<h2><a href="iti-65-request-xdstools-adapted.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-request-xdstools-adapted.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compSubmissionSetFullUnContained"> </a>
+<h2><a href="List-ex-compSubmissionSetFullUnContained.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFullUnContained.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle (l1/c37)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[0].resource.ofType(Binary) (l17/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference) (l38/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).contained[0].ofType(Practitioner) (l54/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).contained[1].ofType(Practitioner) (l64/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).contained[2].ofType(Patient) (l74/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference).content[0].format (l149/c14)</b></td><td><b>information</b></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[1].resource.ofType(DocumentReference) (l38/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[2].resource.ofType(DocumentManifest) (l186/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[2].resource.ofType(DocumentManifest).contained.ofType(Practitioner) (l201/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.entry[2].resource.ofType(DocumentManifest) (l186/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle.meta.profile[0] (l1/c37)</b></td><td><b>warning</b></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-request-xdstools-adapted: Bundle (l1/c37)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle/iti-65-request-xdstools-adapted: Bundle.meta.profile[1] (l7/c118)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive</b> <span id="sl39" class="flip" onclick="flip('l39')">Show Reasoning</span><div id="l39" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive<ul><li>Bundle.meta.profile[1]: discriminator = true and ('http://ihe.net/fhir/tag/iti-65' in $this)</li></ul></div></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-65-response-minimal"> </a>
-<h2><a href="iti-65-response-minimal.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-response-minimal.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-compSubmissionSetList"> </a>
+<h2><a href="List-ex-compSubmissionSetList.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetList.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-65-response-minimal: Bundle (l1/c37)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-66-docref"> </a>
-<h2><a href="iti-66-docref.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-docref.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-list"> </a>
+<h2><a href="List-ex-list.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-list.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-66-docref: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-66-docref: DocumentReference.contained[0].ofType(Practitioner) (l18/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-66-docref: DocumentReference.contained[1].ofType(Practitioner) (l28/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-66-docref: DocumentReference.contained[2].ofType(Patient) (l38/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>DocumentReference/iti-66-docref: DocumentReference.content[0].format (l116/c11)</b></td><td><b>information</b></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/iti-66-docref: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Query.Comprehensive.DocumentReference - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-66-response"> </a>
-<h2><a href="iti-66-response.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-response.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-minimalFolder"> </a>
+<h2><a href="List-ex-minimalFolder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-minimalFolder.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-66-response: Bundle (l1/c37)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-66-response: Bundle.entry[0].resource.ofType(DocumentManifest) (l19/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-66-response: Bundle.entry[0].resource.ofType(DocumentManifest).contained.ofType(Practitioner) (l37/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-66-response: Bundle.entry[0].resource.ofType(DocumentManifest) (l19/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_iti-67-response"> </a>
-<h2><a href="iti-67-response.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-67-response.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_List-ex-minimalSubmissionSet"> </a>
+<h2><a href="List-ex-minimalSubmissionSet.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-minimalSubmissionSet.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-67-response: Bundle (l1/c37)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference) (l19/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).contained[0].ofType(Practitioner) (l38/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).contained[1].ofType(Practitioner) (l48/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).contained[2].ofType(Patient) (l58/c16)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference).content[0].format (l136/c14)</b></td><td><b>information</b></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/iti-67-response: Bundle.entry[0].resource.ofType(DocumentReference) (l19/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Query.Comprehensive.DocumentReference - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_listFolder"> </a>
-<h2><a href="listFolder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Organization-ex-organization"> </a>
+<h2><a href="Organization-ex-organization.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Organization-ex-organization.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>List/listFolder: List (l2/c35)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/List</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>List/listFolder: List (l2/c35)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.List - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_listFolder-c"> </a>
-<h2><a href="listFolder-c.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\listFolder-c.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Patient-ex-patient"> </a>
+<h2><a href="Patient-ex-patient.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Patient-ex-patient.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>List/listFolder-c: List (l2/c35)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/List</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>List/listFolder-c: List (l2/c35)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.List - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_minimalDocRef"> </a>
-<h2><a href="minimalDocRef.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalDocRef.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_Practitioner-ex-practitioner"> </a>
+<h2><a href="Practitioner-ex-practitioner.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Practitioner-ex-practitioner.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/minimalDocRef: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentReference/minimalDocRef: DocumentReference (l2/c188)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Query.Minimal.DocumentReference - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_minimalSubmissionSet"> </a>
-<h2><a href="minimalSubmissionSet.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSet.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_SearchParameter-DocumentReference-Creation"> </a>
+<h2><a href="SearchParameter-DocumentReference-Creation.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-DocumentReference-Creation.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentManifest/minimalSubmissionSet: DocumentManifest (l2/c187)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>DocumentManifest/minimalSubmissionSet: DocumentManifest (l2/c187)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_minimalSubmissionSetList"> </a>
-<h2><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_SearchParameter-List-DesignationType"> </a>
+<h2><a href="SearchParameter-List-DesignationType.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-List-DesignationType.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>List/minimalSubmissionSetList2: List (l2/c175)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/List</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List (l2/c175)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/workflow-reasonCode is not allowed to be used at this point (allowed = e:Observation, e:DiagnosticReport, e:Media, e:NutritionOrder; this element is [[List])</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List.code.coding[0].display (l46/c24)</b></td><td><b>error</b></td><td><b>@value cannot be empty</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List.code.coding[0].display (l46/c24)</b></td><td><b>error</b></td><td><b>ele-1: All FHIR elements must have a @value or children [hasValue() or (children().count() &gt; id.count())]</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List.source (l53/c10)</b></td><td><b>error</b></td><td><b>Unable to resolve resource &quot;Organization/example&quot;</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List.entry[0].item (l57/c9)</b></td><td><b>error</b></td><td><b>Unable to resolve resource &quot;DocumentReference/example&quot;</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List.entry[1].item (l62/c9)</b></td><td><b>error</b></td><td><b>Unable to resolve resource &quot;List/example&quot;</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>List/minimalSubmissionSetList2: List (l2/c175)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List.code.coding.display (l46/c24)</b></td><td><b>error</b></td><td><b>Value is &quot;&quot; but must be &quot;SubmissionSet as a FHIR List&quot;</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>List/minimalSubmissionSetList2: List.source</b></td><td><b>error</b></td><td><b>Bundled or contained reference not found within the bundle/resource Organization/example</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-ComprehensiveSubmission"> </a>
-<h2><a href="pdb-ComprehensiveSubmission.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_SearchParameter-List-SourceId"> </a>
+<h2><a href="SearchParameter-List-SourceId.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-List-SourceId.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[0].resource.ofType(List) (l18/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/List</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[0].resource.ofType(List) (l18/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.List - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.ofType(DocumentReference) (l71/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.ofType(DocumentReference).content[0].format (l118/c14)</b></td><td><b>information</b></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[1].resource.ofType(DocumentReference) (l71/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[2].resource.ofType(DocumentManifest) (l133/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[2].resource.ofType(DocumentManifest) (l133/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.entry[3].resource.ofType(Binary) (l190/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle.meta.profile[0] (l2/c177)</b></td><td><b>warning</b></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-ComprehensiveSubmission: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle/pdb-ComprehensiveSubmission: Bundle.meta.profile[1] (l8/c118)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive</b> <span id="sl87" class="flip" onclick="flip('l87')">Show Reasoning</span><div id="l87" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive<ul><li>Bundle.meta.profile[1]: discriminator = true and ('http://ihe.net/fhir/tag/iti-65' in $this)</li></ul></div></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-degenerateSubmission"> </a>
-<h2><a href="pdb-degenerateSubmission.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-degenerateSubmission.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.DocumentReference"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Comprehensive.DocumentReference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.DocumentReference.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-degenerateSubmission: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-degenerateSubmission: Bundle.entry[0].resource.ofType(Binary) (l21/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-degenerateSubmission: Bundle.entry[1].resource.ofType(DocumentReference) (l42/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-degenerateSubmission: Bundle.entry[2].resource.ofType(DocumentManifest) (l78/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-degenerateSubmission: Bundle.entry[2].resource.ofType(DocumentManifest) (l78/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle/pdb-degenerateSubmission: Bundle.meta.profile[0] (l2/c177)</b></td><td><b>warning</b></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-degenerateSubmission: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle/pdb-degenerateSubmission: Bundle.entry[0] (l19/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate</b> <span id="sl95" class="flip" onclick="flip('l95')">Show Reasoning</span><div id="l95" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate<ul><li>Bundle.entry[0]: discriminator = true and $this.resource.conformsTo('http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest')</li>, <li>Bundle.entry[0]: Profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest does not match for Bundle because of the following profile issues: <ul><li>resource: Specified profile type was &quot;DocumentManifest&quot;, but found type &quot;Binary&quot;</li></ul></li></ul></div></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle/pdb-degenerateSubmission: Bundle.entry[1] (l40/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate</b> <span id="sl96" class="flip" onclick="flip('l96')">Show Reasoning</span><div id="l96" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate<ul><li>Bundle.entry[1]: discriminator = true and $this.resource.conformsTo('http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest')</li>, <li>Bundle.entry[1]: Profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest does not match for Bundle because of the following profile issues: <ul><li>resource: Specified profile type was &quot;DocumentManifest&quot;, but found type &quot;DocumentReference&quot;</li></ul></li></ul></div></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle/pdb-degenerateSubmission: Bundle.meta.profile[1] (l10/c115)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate</b> <span id="sl97" class="flip" onclick="flip('l97')">Show Reasoning</span><div id="l97" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate<ul><li>Bundle.meta.profile[1]: discriminator = true and ('http://ihe.net/fhir/tag/iti-65' in $this)</li></ul></div></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission"> </a>
-<h2><a href="pdb-minimalSubmission.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.Folder"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Comprehensive.Folder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.Folder.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle.entry[0].resource.ofType(Binary) (l21/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle.entry[1].resource.ofType(DocumentReference) (l42/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle.entry[1].resource.ofType(DocumentReference) (l42/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle.entry[2].resource.ofType(DocumentManifest) (l80/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle.entry[2].resource.ofType(DocumentManifest) (l80/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle.meta.profile[0] (l2/c177)</b></td><td><b>warning</b></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission_2"> </a>
-<h2><a href="pdb-minimalSubmission_2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_2.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.ProvideBundle"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Comprehensive.ProvideBundle.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.ProvideBundle.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[0].resource.ofType(List) (l17/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/List</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[0].resource.ofType(List) (l17/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.List - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[1].resource.ofType(Binary) (l76/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[2].resource.ofType(DocumentReference) (l98/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[2].resource.ofType(DocumentReference) (l98/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[3].resource.ofType(Binary) (l146/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[4].resource.ofType(DocumentReference) (l168/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[4].resource.ofType(DocumentReference) (l168/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[5].resource.ofType(DocumentManifest) (l216/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.entry[5].resource.ofType(DocumentManifest) (l216/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle.meta.profile[0] (l2/c177)</b></td><td><b>warning</b></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_2: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission_with_externalDocument"> </a>
-<h2><a href="pdb-minimalSubmission_with_externalDocument.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_externalDocument.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Comprehensive.SubmissionSet"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Comprehensive.SubmissionSet.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.SubmissionSet.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_externalDocument: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[0].resource.ofType(DocumentReference) (l21/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[0].resource.ofType(DocumentReference) (l21/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[1].resource.ofType(DocumentManifest) (l65/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.entry[1].resource.ofType(DocumentManifest) (l65/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle/pdb-minimalSubmission_with_externalDocument: Bundle.meta.profile[0] (l2/c177)</b></td><td><b>warning</b></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_externalDocument: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_pdb-minimalSubmission_with_noDocument"> </a>
-<h2><a href="pdb-minimalSubmission_with_noDocument.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Consumer"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Consumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Consumer.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_noDocument: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_noDocument: Bundle.entry[0].resource.ofType(DocumentManifest) (l21/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentManifest</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_noDocument: Bundle.entry[0].resource.ofType(DocumentManifest) (l21/c13)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.DocumentManifest - listed in meta</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle/pdb-minimalSubmission_with_noDocument: Bundle.meta.profile[0] (l2/c177)</b></td><td><b>warning</b></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>Bundle/pdb-minimalSubmission_with_noDocument: Bundle (l2/c177)</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal - listed in meta</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_implementationguide-IHE.MHD"> </a>
-<h2><a href="ihe.mhd.fhir.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\implementationguide-IHE.MHD.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Responder"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Responder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Responder.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>ImplementationGuide/ihe.mhd.fhir: ImplementationGuide</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CodeSystem-MHDlistTypes"> </a>
-<h2><a href="MHDlistTypes.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CodeSystem-MHDlistTypes.json</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentListsResponseMessage"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.FindDocumentListsResponseMessage.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentListsResponseMessage.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>CodeSystem/MHDlistTypes: CodeSystem</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentConsumer"> </a>
-<h2><a href="IHE.MHD.DocumentConsumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentConsumer.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Consumer"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Consumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Consumer.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>CapabilityStatement/IHE.MHD.DocumentConsumer: CapabilityStatement</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentRecipient"> </a>
-<h2><a href="IHE.MHD.DocumentRecipient.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentRecipient.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Responder"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Responder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Responder.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>CapabilityStatement/IHE.MHD.DocumentRecipient: CapabilityStatement</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentResponder"> </a>
-<h2><a href="IHE.MHD.DocumentResponder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentResponder.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>CapabilityStatement/IHE.MHD.DocumentResponder: CapabilityStatement</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_capabilitystatement-IHE.MHD.DocumentSource"> </a>
-<h2><a href="IHE.MHD.DocumentSource.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\capabilitystatement-IHE.MHD.DocumentSource.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.FindDocumentReferencesResponseMessage"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.FindDocumentReferencesResponseMessage.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesResponseMessage.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>CapabilityStatement/IHE.MHD.DocumentSource: CapabilityStatement</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Comprehensive.DocumentManifest"> </a>
-<h2><a href="IHE.MHD.Comprehensive.DocumentManifest.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.DocumentManifest.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.List"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.List.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.List.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Comprehensive.DocumentManifest: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Comprehensive.List"> </a>
-<h2><a href="IHE.MHD.Comprehensive.List.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Comprehensive.List.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.DocumentReference"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Minimal.DocumentReference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.DocumentReference.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Comprehensive.List: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.DocumentManifest"> </a>
-<h2><a href="IHE.MHD.Minimal.DocumentManifest.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.DocumentManifest.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.Folder"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Minimal.Folder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.Folder.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Minimal.DocumentManifest: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.List"> </a>
-<h2><a href="IHE.MHD.Minimal.List.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.List.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.ProvideBundle"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Minimal.ProvideBundle.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideBundle.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Minimal.List: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.ListFolder"> </a>
-<h2><a href="IHE.MHD.Minimal.ListFolder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListFolder.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.ProvideDocumentBundleResponse"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Minimal.ProvideDocumentBundleResponse.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideDocumentBundleResponse.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Minimal.ListFolder: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.where(url = 'http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListFolder')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.Minimal.SubmissionSet"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.Minimal.SubmissionSet.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.SubmissionSet.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Minimal.ListManifest"> </a>
-<h2><a href="IHE.MHD.Minimal.ListManifest.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Minimal.ListManifest.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.ProvideBundle.Audit.Recipient"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.ProvideBundle.Audit.Recipient.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Recipient.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.ProvideBundle.Audit.Source"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.ProvideBundle.Audit.Source.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Source.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Consumer"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Consumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Consumer.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Responder"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Responder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Responder.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet"> </a>
+<h2><a href="StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-authorOrg"> </a>
+<h2><a href="StructureDefinition-ihe-authorOrg.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-authorOrg.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Minimal.ListManifest#List.entry.item</b></td><td><b>warning</b></td><td><b>Connect check whether the target profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.List is valid constraint on the base because it is not known</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Minimal.ListManifest: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition/IHE.MHD.Minimal.ListManifest: StructureDefinition.differential.element.where(path = 'List.entry.item')</b></td><td><b>warning</b></td><td><b>Connect check whether the target profile http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.List is valid constraint on the base because it is not known</b></td>
+     <td><b>StructureDefinition.where(url = 'http://profiles.ihe.net/ITI/MHD/StructureDefinition/ihe-authorOrg')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference"> </a>
-<h2><a href="IHE.MHD.Provide.Comprehensive.DocumentReference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Comprehensive.DocumentReference.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-designationType"> </a>
+<h2><a href="StructureDefinition-ihe-designationType.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-designationType.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference"> </a>
-<h2><a href="IHE.MHD.Provide.Minimal.DocumentReference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Provide.Minimal.DocumentReference.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-intendedRecipient"> </a>
+<h2><a href="StructureDefinition-ihe-intendedRecipient.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-intendedRecipient.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive"> </a>
-<h2><a href="IHE.MHD.ProvideDocumentBundle.Comprehensive.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Comprehensive.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_StructureDefinition-ihe-sourceId"> </a>
+<h2><a href="StructureDefinition-ihe-sourceId.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-sourceId.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.ProvideDocumentBundle.Comprehensive: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.ProvideDocumentBundle.Degenerate"> </a>
-<h2><a href="IHE.MHD.ProvideDocumentBundle.Degenerate.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Degenerate.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ValueSet-MHDlistTypesVS"> </a>
+<h2><a href="ValueSet-MHDlistTypesVS.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDlistTypesVS.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.ProvideDocumentBundle.Degenerate: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.ProvideDocumentBundle.Minimal"> </a>
-<h2><a href="IHE.MHD.ProvideDocumentBundle.Minimal.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.ProvideDocumentBundle.Minimal.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ValueSet-MHDprovideFolderActions"> </a>
+<h2><a href="ValueSet-MHDprovideFolderActions.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDprovideFolderActions.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.ProvideDocumentBundle.Minimal: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Query.Comprehensive.DocumentReference"> </a>
-<h2><a href="IHE.MHD.Query.Comprehensive.DocumentReference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Comprehensive.DocumentReference.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_fsh-generated_resources_ValueSet-MHDprovidePatientActions"> </a>
+<h2><a href="ValueSet-MHDprovidePatientActions.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDprovidePatientActions.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Query.Comprehensive.DocumentReference: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
 </table>
 <hr/>
-<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_structuredefinition-IHE.MHD.Query.Minimal.DocumentReference"> </a>
-<h2><a href="IHE.MHD.Query.Minimal.DocumentReference.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\structuredefinition-IHE.MHD.Query.Minimal.DocumentReference.xml</a></h2>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_Bundle-FindDocumentReferences"> </a>
+<h2><a href="Bundle-Bundle-FindDocumentReferences.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Bundle-FindDocumentReferences.json</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/IHE.MHD.Query.Minimal.DocumentReference: StructureDefinition</b></td><td><b>Process Info</b></td><td><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_examples_DocumentReference-IHE.MHD.Comprehensive.MedicationCard"> </a>
+<h2><a href="DocumentReference-DocumentReference-IHE.MHD.Comprehensive.MedicationCard.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\DocumentReference-IHE.MHD.Comprehensive.MedicationCard.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentConsumer"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentConsumer.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentConsumer.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentRecipient"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentRecipient.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentRecipient.Comprehensive"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentRecipient.Comprehensive.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.Comprehensive.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentRecipient.UnContained"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentRecipient.UnContained.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.UnContained.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentResponder"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentResponder.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentResponder.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentSource"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentSource.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentSource.Comprehensive"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentSource.Comprehensive.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.Comprehensive.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__work_org.hl7.fhir_test-igs_ihe.mhd.fhir_input_resources_CapabilityStatement-IHE.MHD.DocumentSource.UnContained"> </a>
+<h2><a href="CapabilityStatement-IHE.MHD.DocumentSource.UnContained.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.UnContained.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
 <p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
-<p><b>?pub-msg-2?</b></p><ul>
- <li>Found multiple matching profiles for urn:uuid:1e404af3-077f-4bee-b7a6-a9be97e1ce01 among choices: http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference, http://ihe.net/fhir/ihe.mhd.fhir/StructureDefinition/IHE.MHD.Provide.Comprehensive.DocumentReference</li>
- <li>Profile reference 'http://ihe.net/fhir/tag/iti-65' could not be resolved, so has not been checked</li>
- <li>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set. (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</li>
+<p><b>Capability Statements</b></p><ul>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentSource: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentResponder: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentSource.UnContained: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentRecipient.Comprehensive: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentSource.Comprehensive: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentConsumer: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentRecipient.UnContained: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>INFORMATION: CapabilityStatement/IHE.MHD.DocumentRecipient: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+</ul>
+<p><b>Example DocumentReference-IHE.MHD.Comprehensive.MedicationCard uses realworld values that are okay</b></p><ul>
+ <li>None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-doc-typecodes (http://hl7.org/fhir/ValueSet/c80-doc-typecodes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#721912009)</li>
+</ul>
+<p><b>Examples use realworld OIDs for code systems</b></p><ul>
+ <li>Code System URI 'urn:oid:1.3.6.1.4.1.19376.1.2.3' is unknown so the code cannot be validated</li>
+</ul>
+<p><b>FHIR core resources profiled</b></p><ul>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/SearchParameter</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/AuditEvent</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</li>
+ <li>Validate resource against profile http://hl7.org/fhir/StructureDefinition/List</li>
+</ul>
+<p><b>Structure Definitions</b></p><ul>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.ProvideBundle.Audit.Recipient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/ihe-authorOrg: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Minimal.SubmissionSet: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.RetrieveDocument.Audit.Responder: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: List/ex-compFolder: List: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.Folder</li>
+ <li>INFORMATION: Bundle/ex-minimalProvideDocumentBundle: Bundle: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.ProvideBundle</li>
+ <li>INFORMATION: AuditEvent/ex-auditFindDocumentReferences-post-responder: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferences.Audit.Responder</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.FindDocumentLists.Audit.Responder: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Minimal.DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: Bundle/ex-findDocumentReferencesResponse: Bundle: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferencesResponseMessage</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.RetrieveDocument.Audit.Consumer: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Minimal.Folder: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Comprehensive.SubmissionSet: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: Bundle/ex-ProvideDocumentBundleResponse: Bundle: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.ProvideDocumentBundleResponse</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.UnContained.Comprehensive.ProvideBundle: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: AuditEvent/ex-auditProvideBundle-recipient: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.ProvideBundle.Audit.Recipient</li>
+ <li>INFORMATION: AuditEvent/ex-auditFindDocumentReferences-consumer: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferences.Audit.Consumer</li>
+ <li>INFORMATION: StructureDefinition/ihe-sourceId: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/ihe-designationType: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: Bundle/ex-minimalProvideDocumentBundle2: Bundle: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.ProvideBundle</li>
+ <li>INFORMATION: AuditEvent/ex-auditFindDocumentLists-consumer: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentLists.Audit.Consumer</li>
+ <li>INFORMATION: List/ex-compEmailPackage: List: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.SubmissionSet</li>
+ <li>INFORMATION: AuditEvent/ex-auditRetrieveDocument-consumer: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.RetrieveDocument.Audit.Consumer</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Comprehensive.DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/ihe-intendedRecipient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: AuditEvent/ex-auditProvideBundle-source: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.ProvideBundle.Audit.Source</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Comprehensive.Folder: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: Bundle/Bundle-FindDocumentReferences: Bundle: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.UnContained.Comprehensive.SubmissionSet: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: AuditEvent/ex-auditRetrieveDocument-responder: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.RetrieveDocument.Audit.Responder</li>
+ <li>INFORMATION: Bundle/ex-findDocumentListsResponse: Bundle: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentListsResponseMessage</li>
+ <li>INFORMATION: AuditEvent/ex-auditFindDocumentReferences-responder: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferences.Audit.Responder</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Minimal.ProvideBundle: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.FindDocumentReferences.Audit.Consumer: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.Comprehensive.ProvideBundle: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: AuditEvent/ex-auditFindDocumentLists-responder: AuditEvent: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentLists.Audit.Responder</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.FindDocumentReferencesResponseMessage: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.UnContained.Comprehensive.DocumentReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.ProvideBundle.Audit.Source: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: List/ex-compSubmissionSetFullUnContained: List: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.UnContained.Comprehensive.SubmissionSet</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.List: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.UnContained.Comprehensive.DocumentReference</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.FindDocumentReferences.Audit.Responder: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+ <li>INFORMATION: DocumentReference/ex-DocumentReferenceUnContained: DocumentReference: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.UnContained.Comprehensive.DocumentReference</li>
+ <li>INFORMATION: List/ex-compSubmissionSetList: List: Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.SubmissionSet</li>
+ <li>INFORMATION: StructureDefinition/IHE.MHD.FindDocumentLists.Audit.Consumer: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</li>
+</ul>
+<p><b>did not include examples of comprehensive or uncontained bundles due to trouble with sushi and IG builder</b></p><ul>
+ <li>WARNING: StructureDefinition.where(url = 'http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.UnContained.Comprehensive.ProvideBundle'): The Implementation Guide contains no examples for this profile</li>
+ <li>WARNING: StructureDefinition.where(url = 'http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.ProvideBundle'): The Implementation Guide contains no examples for this profile</li>
+</ul>
+<p><b>profile for MHD that is just structural and thus has no examples</b></p><ul>
+ <li>WARNING: StructureDefinition.where(url = 'http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.List'): The Implementation Guide contains no examples for this profile</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.List</li>
+</ul>
+<p><b>profiles for ATNA audit that have examples</b></p><ul>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentLists.Audit.Consumer - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentLists.Audit.Responder - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.RetrieveDocument.Audit.Responder - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.RetrieveDocument.Audit.Consumer - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.ProvideBundle.Audit.Recipient - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferences.Audit.Responder - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.ProvideBundle.Audit.Source - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferences.Audit.Consumer - listed in meta</li>
+</ul>
+<p><b>profiles for MHD that have examples</b></p><ul>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.DocumentReference - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.DocumentReference</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentListsResponseMessage - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.UnContained.Comprehensive.DocumentReference</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.ProvideBundle</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.Folder - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.Folder</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.DocumentReference</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.ProvideBundle - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.DocumentReference - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.Folder - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.SubmissionSet</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.UnContained.Comprehensive.DocumentReference - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Comprehensive.SubmissionSet - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.ProvideDocumentBundleResponse - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.SubmissionSet - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.UnContained.Comprehensive.SubmissionSet - listed in meta</li>
+ <li>Validate resource against profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.FindDocumentReferencesResponseMessage - listed in meta</li>
+</ul>
+<p><b>show DICOM system is okay. This may not be what FHIR wants to be the system, but it is what is often done in the IHE and DICOM</b></p><ul>
+ <li>Code System URI 'urn:ihe:event-type-code' is unknown so the code cannot be validated</li>
+</ul>
+<p><b>the formal IHE formatcode code system</b></p><ul>
+ <li>Code System URI 'http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode' is unknown so the code cannot be validated</li>
 </ul>
 <p>No suppressed messsages</p><a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
 <hr/>
-<a name="Extension_EXT_Context_Wrong"> </a>
-<h2>Extension_EXT_Context_Wrong</h2>
+<a name="Extension_EXT_Url_NotFound"> </a>
+<h2>Extension_EXT_Url_NotFound</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/workflow-reasonCode is not allowed to be used at this point (allowed = e:Observation, e:DiagnosticReport, e:Media, e:NutritionOrder; this element is [[List])</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Reference_REF_CantResolve"> </a>
-<h2>Reference_REF_CantResolve</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></td><td><b>Unable to resolve resource &quot;Organization/example&quot;</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></td><td><b>Unable to resolve resource &quot;DocumentReference/example&quot;</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></td><td><b>Unable to resolve resource &quot;List/example&quot;</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Reference_REF_NotFound_Bundle"> </a>
-<h2>Reference_REF_NotFound_Bundle</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></td><td><b>Bundled or contained reference not found within the bundle/resource Organization/example</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Terminology_TX_NoValid_14"> </a>
-<h2>Terminology_TX_NoValid_14</h2>
- <table class="grid">
-   <tr style="background-color: #fffff2">
-     <td><a href="iti-65-docref.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-docef.xml</a></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="iti-65-request-xdstools-adapted.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-request-xdstools-adapted.xml</a></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="iti-66-docref.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-66-docref.xml</a></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="iti-67-response.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-67-response.xml</a></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-   <tr style="background-color: #fffff2">
-     <td><a href="pdb-ComprehensiveSubmission.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission.xml</a></td><td><b>The Coding provided is not in the value set http://hl7.org/fhir/ValueSet/formatcodes, and a code is recommended to come from this value set.  (error message = Not in value set http://hl7.org/fhir/ValueSet/formatcodes)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Type_Specific_Checks_DT_Primitive_NotEmpty"> </a>
-<h2>Type_Specific_Checks_DT_Primitive_NotEmpty</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></td><td><b>@value cannot be empty</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Validation_VAL_Profile_Unknown"> </a>
-<h2>Validation_VAL_Profile_Unknown</h2>
- <table class="grid">
-   <tr style="background-color: #fff4ee">
-     <td><a href="iti-65-request-xdstools-adapted.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\iti-65-request-xdstools-adapted.xml</a></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="pdb-ComprehensiveSubmission.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-ComprehensiveSubmission.xml</a></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="pdb-degenerateSubmission.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-degenerateSubmission.xml</a></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="pdb-minimalSubmission.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission.xml</a></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="pdb-minimalSubmission_2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_2.xml</a></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="pdb-minimalSubmission_with_externalDocument.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_externalDocument.xml</a></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="pdb-minimalSubmission_with_noDocument.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\pdb-minimalSubmission_with_noDocument.xml</a></td><td><b>Profile reference &quot;http://ihe.net/fhir/tag/iti-65&quot; could not be resolved, so has not been checked</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="_DT_Fixed_Wrong"> </a>
-<h2>_DT_Fixed_Wrong</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="minimalSubmissionSetList2.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\minimalSubmissionSetList.xml</a></td><td><b>Value is &quot;&quot; but must be &quot;SubmissionSet as a FHIR List&quot;</b></td>
+     <td><a href="List-ex-compSubmissionSetFull.html">C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFull.json</a></td><td><b>Extension.url is required</b></td>
    </tr>
 </table>
 </body>

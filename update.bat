@@ -47,3 +47,17 @@ cd C:\work\org.hl7.fhir\test-igs\cda-ccda-2.2
 git pull
 git reset --hard
 git clean -fd
+
+cd C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.howto
+git pull
+git reset --hard
+git clean -fd
+
+cd C:\work\org.hl7.fhir\test-igs\example.fhir.uv.myig
+git pull
+git reset --hard
+git clean -fd
+
+pause
+
+

@@ -1,11 +1,12 @@
 {
-  "url": "http://ihe.net/fhir/ihe.mhd.fhir/ImplementationGuide/ihe.mhd.fhir",
+  "url": "http://profiles.ihe.net/ITI/MHD/ImplementationGuide/ihe.mhd.fhir",
   "name": "IHE_MHD",
   "package-id": "ihe.mhd.fhir",
-  "date": "Mon, 27 Jul, 2020 14:04:11 +1000",
-  "errs": 9,
-  "warnings": 11,
-  "hints": 10,
+  "ig-ver": "4.0.0",
+  "date": "Wed, 26 May, 2021 20:27:34 +1000",
+  "errs": 1,
+  "warnings": 2,
+  "hints": 1,
   "version": "4.0.1",
-  "tool": "4.4.0 (3)"
+  "tool": "4.6.0 (3)"
 }
