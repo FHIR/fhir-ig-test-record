@@ -3,10 +3,10 @@
   "name": "ElectronicCaseReporting",
   "package-id": "hl7.fhir.us.ecr",
   "ig-ver": "1.1.0",
-  "date": "Wed, 26 May, 2021 20:23:49 +1000",
+  "date": "Thu, 11 Nov, 2021 17:21:22 +1100",
   "errs": 5,
-  "warnings": 3,
-  "hints": 0,
+  "warnings": 27,
+  "hints": 1,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

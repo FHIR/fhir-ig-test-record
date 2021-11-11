@@ -1,10 +1,9 @@
 ﻿IHE_MHD : Validation Results
 =========================================
 
-err = 1, warn = 2, info = 1
-IG Publisher Version: 1.1.27-SNAPSHOT Out of date - current version is 1.1.72
-Generated Wed May 26 20:29:09 AEST 2021. FHIR version 4.0.1 for ihe.mhd.fhir#4.0.0 (canonical = http://profiles.ihe.net/ITI/MHD)
-
+err = 0, warn = 1, info = 0
+IG Publisher Version: 1.1.27-SNAPSHOT Out of date - current version is 1.1.84
+Generated Thu Nov 11 17:29:23 AEDT 2021. FHIR version 4.0.1 for ihe.mhd.fhir#4.0.0 (canonical = http://profiles.ihe.net/ITI/MHD)
  Build Errors : 0 / 1 / 0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-consumer : 0 / 0 / 2
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-responder : 0 / 0 / 2
@@ -25,16 +24,16 @@ Generated Wed May 26 20:29:09 AEST 2021. FHIR version 4.0.1 for ihe.mhd.fhir#4.0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\CodeSystem-MHDlistTypes : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ConceptMap-AssociationTypeVsRelatesTo : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Device-ex-device : 0 / 0 / 1
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceComprehensive : 0 / 0 / 4
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceComprehensive : 0 / 0 / 3
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceMinimal : 0 / 0 / 1
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContained : 0 / 0 / 2
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContainedFully : 0 / 0 / 2
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContained : 0 / 0 / 1
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContainedFully : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference2 : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ImplementationGuide-ihe.mhd.fhir : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compEmailPackage : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compFolder : 0 / 0 / 1
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFull : 1 / 0 / 3
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFull : 0 / 0 / 2
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFullUnContained : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetList : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-list : 0 / 0 / 1
@@ -70,7 +69,7 @@ Generated Wed May 26 20:29:09 AEST 2021. FHIR version 4.0.1 for ihe.mhd.fhir#4.0
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle : 0 / 1 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet : 0 / 0 / 1
- C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-authorOrg : 0 / 1 / 1
+ C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-authorOrg : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-designationType : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-intendedRecipient : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-sourceId : 0 / 0 / 1
@@ -93,249 +92,246 @@ Generated Wed May 26 20:29:09 AEST 2021. FHIR version 4.0.1 for ihe.mhd.fhir#4.0
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/Bundle-FindDocumentReferences.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-consumer.json ==
+== fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-consumer.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-responder.json ==
+== fsh-generated\resources\AuditEvent-ex-auditFindDocumentLists-responder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-consumer.json ==
+== fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-consumer.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-post-responder.json ==
+== fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-post-responder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-responder.json ==
+== fsh-generated\resources\AuditEvent-ex-auditFindDocumentReferences-responder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditProvideBundle-recipient.json ==
+== fsh-generated\resources\AuditEvent-ex-auditProvideBundle-recipient.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditProvideBundle-source.json ==
+== fsh-generated\resources\AuditEvent-ex-auditProvideBundle-source.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-consumer.json ==
+== fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-consumer.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-responder.json ==
+== fsh-generated\resources\AuditEvent-ex-auditRetrieveDocument-responder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Binary-ex-b-binary.json ==
+== fsh-generated\resources\Binary-ex-b-binary.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-ProvideDocumentBundleResponse.json ==
+== fsh-generated\resources\Bundle-ex-ProvideDocumentBundleResponse.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-dummyProvideDocumentBundle.json ==
+== fsh-generated\resources\Bundle-ex-dummyProvideDocumentBundle.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-findDocumentListsResponse.json ==
+== fsh-generated\resources\Bundle-ex-findDocumentListsResponse.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-findDocumentReferencesResponse.json ==
+== fsh-generated\resources\Bundle-ex-findDocumentReferencesResponse.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle.json ==
+== fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle2.json ==
+== fsh-generated\resources\Bundle-ex-minimalProvideDocumentBundle2.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\CodeSystem-MHDlistTypes.json ==
+== fsh-generated\resources\CodeSystem-MHDlistTypes.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ConceptMap-AssociationTypeVsRelatesTo.json ==
+== fsh-generated\resources\ConceptMap-AssociationTypeVsRelatesTo.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Device-ex-device.json ==
+== fsh-generated\resources\Device-ex-device.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceComprehensive.json ==
+== fsh-generated\resources\DocumentReference-ex-DocumentReferenceComprehensive.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceMinimal.json ==
+== fsh-generated\resources\DocumentReference-ex-DocumentReferenceMinimal.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContained.json ==
+== fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContained.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContainedFully.json ==
+== fsh-generated\resources\DocumentReference-ex-DocumentReferenceUnContainedFully.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference.json ==
+== fsh-generated\resources\DocumentReference-ex-documentreference.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\DocumentReference-ex-documentreference2.json ==
+== fsh-generated\resources\DocumentReference-ex-documentreference2.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ImplementationGuide-ihe.mhd.fhir.json ==
+== fsh-generated\resources\ImplementationGuide-ihe.mhd.fhir.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compEmailPackage.json ==
+== fsh-generated\resources\List-ex-compEmailPackage.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compFolder.json ==
+== fsh-generated\resources\List-ex-compFolder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFull.json ==
-ERROR: List/ex-compSubmissionSetFull: List.source.extension[0]: Extension.url is required
-INFORMATION: List/ex-compSubmissionSetFull: List.source.extension[0]: This element does not match any known slice defined in the profile http://profiles.ihe.net/ITI/MHD/StructureDefinition/IHE.MHD.Minimal.SubmissionSet
+== fsh-generated\resources\List-ex-compSubmissionSetFull.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetFullUnContained.json ==
+== fsh-generated\resources\List-ex-compSubmissionSetFullUnContained.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-compSubmissionSetList.json ==
+== fsh-generated\resources\List-ex-compSubmissionSetList.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-list.json ==
+== fsh-generated\resources\List-ex-list.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-minimalFolder.json ==
+== fsh-generated\resources\List-ex-minimalFolder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\List-ex-minimalSubmissionSet.json ==
+== fsh-generated\resources\List-ex-minimalSubmissionSet.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Organization-ex-organization.json ==
+== fsh-generated\resources\Organization-ex-organization.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Patient-ex-patient.json ==
+== fsh-generated\resources\Patient-ex-patient.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\Practitioner-ex-practitioner.json ==
+== fsh-generated\resources\Practitioner-ex-practitioner.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-DocumentReference-Creation.json ==
+== fsh-generated\resources\SearchParameter-DocumentReference-Creation.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-List-DesignationType.json ==
+== fsh-generated\resources\SearchParameter-List-DesignationType.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\SearchParameter-List-SourceId.json ==
+== fsh-generated\resources\SearchParameter-List-SourceId.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.DocumentReference.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.DocumentReference.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.Folder.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.Folder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.ProvideBundle.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.ProvideBundle.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.SubmissionSet.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Comprehensive.SubmissionSet.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Consumer.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Consumer.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Responder.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentLists.Audit.Responder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentListsResponseMessage.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentListsResponseMessage.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Consumer.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Consumer.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Responder.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferences.Audit.Responder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesComprehensiveResponseMessage.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesResponseMessage.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.FindDocumentReferencesResponseMessage.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.List.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.List.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.DocumentReference.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.DocumentReference.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.Folder.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.Folder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideBundle.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideBundle.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideDocumentBundleResponse.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.ProvideDocumentBundleResponse.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.SubmissionSet.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.Minimal.SubmissionSet.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Recipient.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Recipient.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Source.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.ProvideBundle.Audit.Source.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Consumer.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Consumer.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Responder.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.RetrieveDocument.Audit.Responder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.DocumentReference.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet.json ==
+== fsh-generated\resources\StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-authorOrg.json ==
-WARNING: StructureDefinition.where(url = 'http://profiles.ihe.net/ITI/MHD/StructureDefinition/ihe-authorOrg'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-ihe-authorOrg.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-designationType.json ==
+== fsh-generated\resources\StructureDefinition-ihe-designationType.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-intendedRecipient.json ==
+== fsh-generated\resources\StructureDefinition-ihe-intendedRecipient.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\StructureDefinition-ihe-sourceId.json ==
+== fsh-generated\resources\StructureDefinition-ihe-sourceId.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDlistTypesVS.json ==
+== fsh-generated\resources\ValueSet-MHDlistTypesVS.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDprovideFolderActions.json ==
+== fsh-generated\resources\ValueSet-MHDprovideFolderActions.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\fsh-generated\resources\ValueSet-MHDprovidePatientActions.json ==
+== fsh-generated\resources\ValueSet-MHDprovidePatientActions.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\Bundle-FindDocumentReferences.json ==
+== input\examples\Bundle-FindDocumentReferences.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\examples\DocumentReference-IHE.MHD.Comprehensive.MedicationCard.json ==
+== input\examples\DocumentReference-IHE.MHD.Comprehensive.MedicationCard.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentConsumer.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentConsumer.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.Comprehensive.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.Comprehensive.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.UnContained.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentRecipient.UnContained.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentResponder.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentResponder.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentSource.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.Comprehensive.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentSource.Comprehensive.json ==
 
 
-== C:\work\org.hl7.fhir\test-igs\ihe.mhd.fhir\input\resources\CapabilityStatement-IHE.MHD.DocumentSource.UnContained.json ==
+== input\resources\CapabilityStatement-IHE.MHD.DocumentSource.UnContained.json ==
 
 

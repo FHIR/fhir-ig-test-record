@@ -1,14 +1,13 @@
 ﻿ElectronicCaseReporting : Validation Results
 =========================================
 
-err = 5, warn = 3, info = 0
-IG Publisher Version: 1.1.27-SNAPSHOT Out of date - current version is 1.1.72
-Generated Wed May 26 20:27:17 AEST 2021. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.1.0 (canonical = http://hl7.org/fhir/us/ecr)
-
- Build Errors : 1 / 1 / 0
+err = 5, warn = 27, info = 1
+IG Publisher Version: 1.1.27-SNAPSHOT Out of date - current version is 1.1.84
+Generated Thu Nov 11 17:26:48 AEDT 2021. FHIR version 4.0.1 for hl7.fhir.us.ecr#1.1.0 (canonical = http://hl7.org/fhir/us/ecr)
+ Build Errors : 26 / 1 / 0
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\hl7-fhir-us-ecr : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-ecr-message-zika : 0 / 0 / 11
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-eicr-document-pertussis-zika : 0 / 2 / 48
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-eicr-document-pertussis-zika : 0 / 3 / 48
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-eicr-document-zika : 0 / 0 / 37
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-ersd-specification-bundle : 0 / 8 / 17
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-ersd-supplemental-bundle : 0 / 0 / 13
@@ -57,7 +56,7 @@ Generated Wed May 26 20:27:17 AEST 2021. FHIR version 4.0.1 for hl7.fhir.us.ecr#
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\medicationadministration\medicationadministration-eve-everywoman-naloxone-response : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\messageheader\messageheader-ecr-requested-eicr : 0 / 0 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-characteristics-of-home-environment-eve-everywoman : 0 / 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-disability-status-eve-everywoman : 0 / 1 / 1
+ C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-disability-status-eve-everywoman : 0 / 2 / 1
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-last-menstrual-period-eve-everywoman : 0 / 0 / 2
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-odh-past-or-present-job-eve-everywoman : 2 / 2 / 4
  C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-odh-usual-work-eve-everywoman : 0 / 2 / 4
@@ -184,536 +183,585 @@ Generated Wed May 26 20:27:17 AEST 2021. FHIR version 4.0.1 for hl7.fhir.us.ecr#
 
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\artifacts.html#/html/body/div/div/div/div/div/div/p/table/tbody/tr/td/a at Line 1472, column 20: The link '' for "RR Communication Collection Bundle Example: bundle-rr-collection-communication" cannot be resolved
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-rr-determination-of-reportability-extension.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 349, column 626: The link 'StructureDefinition-rr-determination-of-reportability-extension-definitions.html#Extension.valueCodeableConcept:valueCodeableConcept' for "valueCodeableConcept:valueCodeableConcept" cannot be resolved (valid targets: [Extension.extension, publish-box, segment-post-footer, Extension.value[x], hl7-search, hl7-search-lnk, Extension.id, family-logo, top, root, Extension.value[x]:valueCodeableConcept, stripe, segment-footer, segment-content, Extension.url, extension-rr_determination_of_reportability_extension-detailed-descriptions, Extension.valueCodeableConcept, segment-header, bottom, hl7-logo, family-nav, Extension, ig-status, hl7-nav, segment-navbar, segment-breadcrumb])
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-rr-determination-of-reportability-extension.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 478, column 626: The link 'StructureDefinition-rr-determination-of-reportability-extension-definitions.html#Extension.valueCodeableConcept:valueCodeableConcept' for "valueCodeableConcept:valueCodeableConcept" cannot be resolved (valid targets: [Extension.extension, publish-box, segment-post-footer, Extension.value[x], hl7-search, hl7-search-lnk, Extension.id, family-logo, top, root, Extension.value[x]:valueCodeableConcept, stripe, segment-footer, segment-content, Extension.url, extension-rr_determination_of_reportability_extension-detailed-descriptions, Extension.valueCodeableConcept, segment-header, bottom, hl7-logo, family-nav, Extension, ig-status, hl7-nav, segment-navbar, segment-breadcrumb])
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-rr-determination-of-reportability-rule-extension.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 288, column 626: The link 'StructureDefinition-rr-determination-of-reportability-rule-extension-definitions.html#Extension.valueString:valueString' for "valueString:valueString" cannot be resolved (valid targets: [Extension.extension, publish-box, Extension.valueString, segment-post-footer, Extension.value[x], hl7-search, hl7-search-lnk, Extension.id, family-logo, top, root, stripe, segment-footer, segment-content, Extension.url, segment-header, Extension.value[x]:valueString, bottom, hl7-logo, family-nav, Extension, ig-status, extension-rr_determination_of_reportability_rule_extension-detailed-descriptions, hl7-nav, segment-navbar, segment-breadcrumb])
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-rr-determination-of-reportability-rule-extension.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 373, column 626: The link 'StructureDefinition-rr-determination-of-reportability-rule-extension-definitions.html#Extension.valueString:valueString' for "valueString:valueString" cannot be resolved (valid targets: [Extension.extension, publish-box, Extension.valueString, segment-post-footer, Extension.value[x], hl7-search, hl7-search-lnk, Extension.id, family-logo, top, root, stripe, segment-footer, segment-content, Extension.url, segment-header, Extension.value[x]:valueString, bottom, hl7-logo, family-nav, Extension, ig-status, extension-rr_determination_of_reportability_rule_extension-detailed-descriptions, hl7-nav, segment-navbar, segment-breadcrumb])
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-rr-eicr-receipt-time-extension.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 288, column 626: The link 'StructureDefinition-rr-eicr-receipt-time-extension-definitions.html#Extension.valueDateTime:valueDateTime' for "valueDateTime:valueDateTime" cannot be resolved (valid targets: [Extension.extension, publish-box, segment-post-footer, Extension.value[x], hl7-search, hl7-search-lnk, extension-rr_eicr_receipt_time_extension-detailed-descriptions, Extension.id, family-logo, Extension.value[x]:valueDateTime, top, root, stripe, segment-footer, segment-content, Extension.url, segment-header, Extension.valueDateTime, bottom, hl7-logo, family-nav, Extension, ig-status, hl7-nav, segment-navbar, segment-breadcrumb])
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-rr-eicr-receipt-time-extension.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 373, column 626: The link 'StructureDefinition-rr-eicr-receipt-time-extension-definitions.html#Extension.valueDateTime:valueDateTime' for "valueDateTime:valueDateTime" cannot be resolved (valid targets: [Extension.extension, publish-box, segment-post-footer, Extension.value[x], hl7-search, hl7-search-lnk, extension-rr_eicr_receipt_time_extension-detailed-descriptions, Extension.id, family-logo, Extension.value[x]:valueDateTime, top, root, stripe, segment-footer, segment-content, Extension.url, segment-header, Extension.valueDateTime, bottom, hl7-logo, family-nav, Extension, ig-status, hl7-nav, segment-navbar, segment-breadcrumb])
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 326, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.identifier.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 331, column 814: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.name.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 336, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.telecom.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 341, column 814: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.gender.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 346, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.birthDate.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 352, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.address.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 358, column 896: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.contact.name.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 362, column 896: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.contact.telecom.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 366, column 896: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.contact.address.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 371, column 902: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.communication.language.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 920, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.identifier.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 925, column 814: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.name.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 930, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.telecom.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 935, column 814: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.gender.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 940, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.birthDate.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 946, column 808: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.address.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 952, column 896: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.contact.name.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 956, column 896: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.contact.telecom.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 960, column 896: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.contact.address.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
+ERROR: C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\output\StructureDefinition-us-ph-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 965, column 902: The link 'StructureDefinition-us-ph-patient-definitions.html#Patient.communication.language.extension:extensionDataAbsentReason.valueCode:valueCode' for "valueCode:valueCode" cannot be resolved (valid targets: 222 targets)
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\hl7-fhir-us-ecr.xml ==
+== input\hl7-fhir-us-ecr.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-ecr-message-zika.xml ==
+== input\resources\bundle\bundle-ecr-message-zika.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-eicr-document-pertussis-zika.xml ==
+== input\resources\bundle\bundle-eicr-document-pertussis-zika.xml ==
+WARNING: Bundle/bundle-eicr-document-pertussis-zika: Bundle.entry[19]: Entry 'http://example.org/fhir/Condition/condition-eicr-eve-everywoman-diabetes' isn't reachable by traversing forwards from first Bundle entry, and isn't a resource type that is typically used that way - check this is not missed somewhere
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-eicr-document-zika.xml ==
+== input\resources\bundle\bundle-eicr-document-zika.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-ersd-specification-bundle.xml ==
+== input\resources\bundle\bundle-ersd-specification-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-ersd-supplemental-bundle.xml ==
+== input\resources\bundle\bundle-ersd-supplemental-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-rr-collection-communication.xml ==
+== input\resources\bundle\bundle-rr-collection-communication.xml ==
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).jurisdiction[0].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.6 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[0].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.4 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[0].extension[1].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[1].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.4 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[1].extension[1].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[2].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.4 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Bundle/bundle-rr-collection-communication: Bundle.entry[2].resource.ofType(PlanDefinition).action[0].documentation[2].extension[1].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-us-ph-specification-bundle-example.xml ==
+== input\resources\bundle\bundle-us-ph-specification-bundle-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\bundle\bundle-us-ph-supplemental-bundle-example.xml ==
+== input\resources\bundle\bundle-us-ph-supplemental-bundle-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\capabilitystatement\capabilitystatement-ecr.xml ==
+== input\resources\capabilitystatement\capabilitystatement-ecr.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\capabilitystatement\capabilitystatement-ersd-client.xml ==
+== input\resources\capabilitystatement\capabilitystatement-ersd-client.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\codesystem-messageHeader-event.xml ==
+== input\resources\codesystem\codesystem-messageHeader-event.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\codesystem-task-businessStatus.xml ==
+== input\resources\codesystem\codesystem-task-businessStatus.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\ersd-endpoint-connection-type.xml ==
+== input\resources\codesystem\ersd-endpoint-connection-type.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\ersd-jurisdiction-types.xml ==
+== input\resources\codesystem\ersd-jurisdiction-types.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\ersd-jurisdictions-example.xml ==
-INFORMATION: CodeSystem/ersd-jurisdictions-example: CodeSystem: Validate resource against profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-codesystem - listed in meta
+== input\resources\codesystem\ersd-jurisdictions-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\executabletask-type.xml ==
+== input\resources\codesystem\executabletask-type.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\us-ph-triggerdefinition-namedevents.xml ==
+== input\resources\codesystem\us-ph-triggerdefinition-namedevents.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\us-ph-usage-context.xml ==
+== input\resources\codesystem\us-ph-usage-context.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\codesystem\us-ph-usage-context-type.xml ==
+== input\resources\codesystem\us-ph-usage-context-type.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\communication\communication-rr-one-cond-one-pha.xml ==
+== input\resources\communication\communication-rr-one-cond-one-pha.xml ==
+WARNING: Communication/communication-rr-one-cond-one-pha: Communication.extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\communication\communication-rr-single-single-html-validation-output.xml ==
+== input\resources\communication\communication-rr-single-single-html-validation-output.xml ==
+WARNING: Communication/communication-rr-single-single-html-validation-output: Communication.extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+INFORMATION: Communication/communication-rr-single-single-html-validation-output: Communication.payload[2].extension[0].extension[1].value.ofType(markdown): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\composition\composition-eicr-pertussis-zika.xml ==
+== input\resources\composition\composition-eicr-pertussis-zika.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\composition\composition-eicr-zika.xml ==
+== input\resources\composition\composition-eicr-zika.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\composition\composition-eicr-zika-manual-initiation.xml ==
+== input\resources\composition\composition-eicr-zika-manual-initiation.xml ==
+WARNING: Composition/composition-eicr-zika-manual-initiation: Composition.extension[1].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.11 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\condition\condition-eicr-eve-everywoman-common-cold.xml ==
+== input\resources\condition\condition-eicr-eve-everywoman-common-cold.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\condition\condition-eicr-eve-everywoman-diabetes.xml ==
+== input\resources\condition\condition-eicr-eve-everywoman-diabetes.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\condition\condition-eicr-eve-everywoman-pertussis.xml ==
+== input\resources\condition\condition-eicr-eve-everywoman-pertussis.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\condition\condition-eicr-eve-everywoman-zika.xml ==
+== input\resources\condition\condition-eicr-eve-everywoman-zika.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\device\device-ecr-software-ymca.xml ==
+== input\resources\device\device-ecr-software-ymca.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\device\us-core-device-ecmo.xml ==
+== input\resources\device\us-core-device-ecmo.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient.xml ==
+== input\resources\encounter\encounter-eicr-eve-everywoman-completed-inpatient.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient.xml ==
+== input\resources\encounter\encounter-eicr-eve-everywoman-current-inpatient.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\encounter\encounter-eicr-eve-everywoman-external-encounter.xml ==
+== input\resources\encounter\encounter-eicr-eve-everywoman-external-encounter.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\encounter\encounter-eicr-eve-everywoman-external-historical.xml ==
+== input\resources\encounter\encounter-eicr-eve-everywoman-external-historical.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\encounter\encounter-eicr-eve-everywoman-outpatient.xml ==
+== input\resources\encounter\encounter-eicr-eve-everywoman-outpatient.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\endpoint\endpoint-ecr-salem-medical-center.xml ==
+== input\resources\endpoint\endpoint-ecr-salem-medical-center.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\endpoint\endpoint-ecr-ymca.xml ==
+== input\resources\endpoint\endpoint-ecr-ymca.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\immunization\immunization-ecr-pneumo.xml ==
-WARNING: Immunization/immunization-ecr-pneumo: Immunization.vaccineCode.coding[0]: The display "pneumococcal" is not a valid display for the code {http://hl7.org/fhir/sid/cvx}33 - should be one of ["pneumococcal polysaccharide vaccine, 23 valent"] (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/cvx#33'
-WARNING: Immunization/immunization-ecr-pneumo: Immunization.vaccineCode: The display "pneumococcal" is not a valid display for the code {http://hl7.org/fhir/sid/cvx}33 - should be one of ["pneumococcal polysaccharide vaccine, 23 valent"] (from http://tx.fhir.org/r4)
+== input\resources\immunization\immunization-ecr-pneumo.xml ==
+WARNING: Immunization/immunization-ecr-pneumo: Immunization.vaccineCode.coding[0]: The display "pneumococcal" is not a valid display for the code {http://hl7.org/fhir/sid/cvx}33 - should be one of ['pneumococcal polysaccharide vaccine, 23 valent', 'pneumococcal polysaccharide PPV23' (en)] (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/cvx#33'
+WARNING: Immunization/immunization-ecr-pneumo: Immunization.vaccineCode: The display "pneumococcal" is not a valid display for the code {http://hl7.org/fhir/sid/cvx}33 - should be one of ['pneumococcal polysaccharide vaccine, 23 valent', 'pneumococcal polysaccharide PPV23' (en)] (from http://tx.fhir.org/r4)
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\library\FHIR-ModelInfo.xml ==
+== input\resources\library\FHIR-ModelInfo.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\library\FHIRHelpers.xml ==
+== input\resources\library\FHIRHelpers.xml ==
 ERROR: Library/FHIRHelpers: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\library\RuleFilters.xml ==
+== input\resources\library\RuleFilters.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\library\library-rctc.xml ==
+== input\resources\library\library-rctc.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\library\library-us-ph-supplemental-valueset-library-example.xml ==
+== input\resources\library\library-us-ph-supplemental-valueset-library-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\library\library-us-ph-valueset-library-example.xml ==
+== input\resources\library\library-us-ph-valueset-library-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\location\location-ecr-city-football-stadium.xml ==
+== input\resources\location\location-ecr-city-football-stadium.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\location\location-ecr-salem-medical-center.xml ==
+== input\resources\location\location-ecr-salem-medical-center.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\medicationadministration\medicationadministration-eve-everywoman-azithromycin.xml ==
+== input\resources\medicationadministration\medicationadministration-eve-everywoman-azithromycin.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\medicationadministration\medicationadministration-eve-everywoman-naloxone-response.xml ==
+== input\resources\medicationadministration\medicationadministration-eve-everywoman-naloxone-response.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\messageheader\messageheader-ecr-requested-eicr.xml ==
+== input\resources\messageheader\messageheader-ecr-requested-eicr.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-characteristics-of-home-environment-eve-everywoman.xml ==
+== input\resources\observation\observation-characteristics-of-home-environment-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-disability-status-eve-everywoman.xml ==
+== input\resources\observation\observation-disability-status-eve-everywoman.xml ==
+WARNING: Observation/observation-disability-status-eve-everywoman: Observation.code.coding[0]: The display "Are you deaf, or do you have serious difficulty hearing [HHS.ACA Section 4302]" is not a valid display for the code {http://loinc.org}69856-3 - should be one of ['Are you deaf, or do you have serious difficulty hearing', 'Are you deaf, or do you have serious difficulty hearing?', ''] (from http://tx.fhir.org/r4) for 'http://loinc.org#69856-3'
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-last-menstrual-period-eve-everywoman.xml ==
+== input\resources\observation\observation-last-menstrual-period-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-odh-past-or-present-job-eve-everywoman.xml ==
+== input\resources\observation\observation-odh-past-or-present-job-eve-everywoman.xml ==
 ERROR: Observation/observation-odh-past-or-present-job-eve-everywoman: Observation.component[0]: Slicing cannot be evaluated: Could not match discriminator ([code.coding.code]) for slice Observation.component:odh-IsCurrentJob in profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob - the discriminator [code.coding.code] does not have fixed value, binding or existence assertions
 ERROR: Observation/observation-odh-past-or-present-job-eve-everywoman: Observation.component[1]: Slicing cannot be evaluated: Could not match discriminator ([code.coding.code]) for slice Observation.component:odh-IsCurrentJob in profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob - the discriminator [code.coding.code] does not have fixed value, binding or existence assertions
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-odh-usual-work-eve-everywoman.xml ==
+== input\resources\observation\observation-odh-usual-work-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-postpartum-status-eve-everywoman.xml ==
+== input\resources\observation\observation-postpartum-status-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-pregnancy-outcome-eve-everywoman.xml ==
+== input\resources\observation\observation-pregnancy-outcome-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-pregnancy-status-eve-everywoman.xml ==
+== input\resources\observation\observation-pregnancy-status-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-rr-eicr-processing-status.xml ==
+== input\resources\observation\observation-rr-eicr-processing-status.xml ==
+WARNING: Observation/observation-rr-eicr-processing-status: Observation.code: [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.8 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-rr-eicr-processing-status-reason.xml ==
+== input\resources\observation\observation-rr-eicr-processing-status-reason.xml ==
+WARNING: Observation/observation-rr-eicr-processing-status-reason: Observation.value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.7 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: Observation/observation-rr-eicr-processing-status-reason: Observation.component[0].code: [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.10 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-travel-history-eve-everywoman-1999.xml ==
+== input\resources\observation\observation-travel-history-eve-everywoman-1999.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-travel-history-eve-everywoman-201610.xml ==
+== input\resources\observation\observation-travel-history-eve-everywoman-201610.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-travel-history-eve-everywoman-201801.xml ==
+== input\resources\observation\observation-travel-history-eve-everywoman-201801.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-us-core-results-eve-everywoman-lymphocytes.xml ==
+== input\resources\observation\observation-us-core-results-eve-everywoman-lymphocytes.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-us-core-results-eve-everywoman-pertussis.xml ==
+== input\resources\observation\observation-us-core-results-eve-everywoman-pertussis.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-us-ph-emergency-outbreak-info-eve-everywoman.xml ==
+== input\resources\observation\observation-us-ph-emergency-outbreak-info-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-us-ph-exposure-contact-info-football-game.xml ==
+== input\resources\observation\observation-us-ph-exposure-contact-info-football-game.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\observation\observation-us-ph-transportation-details-eve-everywoman.xml ==
+== input\resources\observation\observation-us-ph-transportation-details-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\organization\organization-ecr-acme-laboratory.xml ==
+== input\resources\organization\organization-ecr-acme-laboratory.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\organization\organization-ecr-health-authority-west.xml ==
+== input\resources\organization\organization-ecr-health-authority-west.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\organization\organization-ecr-salem-medical-center.xml ==
+== input\resources\organization\organization-ecr-salem-medical-center.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\organization\organization-ecr-ymca-center.xml ==
+== input\resources\organization\organization-ecr-ymca-center.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\organization\organization-rr-responsible-agency-haw.xml ==
+== input\resources\organization\organization-rr-responsible-agency-haw.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\organization\organization-rr-routing-entity-haw.xml ==
+== input\resources\organization\organization-rr-routing-entity-haw.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\organization\organization-rr-rules-authoring-agency-haw.xml ==
+== input\resources\organization\organization-rr-rules-authoring-agency-haw.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\parameters\expansion-parameters-ecr.xml ==
+== input\resources\parameters\expansion-parameters-ecr.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\patient\patient-ecr-eve-everywoman.xml ==
+== input\resources\patient\patient-ecr-eve-everywoman.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\plandefinition\plandefinition-ersd-instance.xml ==
+== input\resources\plandefinition\plandefinition-ersd-instance.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\plandefinition\plandefinition-ersd-instance-namedEvent-example.xml ==
+== input\resources\plandefinition\plandefinition-ersd-instance-namedEvent-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\plandefinition\plandefinition-rr-relevant-reportable-condition.xml ==
+== input\resources\plandefinition\plandefinition-rr-relevant-reportable-condition.xml ==
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.3 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.jurisdiction[0].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.6 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[0].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.4 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[0].extension[1].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[1].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.4 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[1].extension[1].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[2].extension[0].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.4 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+WARNING: PlanDefinition/plandefinition-rr-relevant-reportable-condition: PlanDefinition.action[0].documentation[2].extension[1].value.ofType(CodeableConcept): [Unable to determine whether the provided codes are in the value set http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.113883.10.20.15.2.5.5 because the value set or a code system it depends on is not known to the validator, Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\plandefinition\plandefinition-us-public-health-example.xml ==
+== input\resources\plandefinition\plandefinition-us-public-health-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\practitioner\practitioner-us-core-henry-seven.xml ==
+== input\resources\practitioner\practitioner-us-core-henry-seven.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\practitionerrole\practitionerrole-henry-seven.xml ==
+== input\resources\practitionerrole\practitionerrole-henry-seven.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\procedure\us-ph-procedure-ecmo.xml ==
+== input\resources\procedure\us-ph-procedure-ecmo.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\servicerequest\servicerequest-eicr-eve-everywoman-zika.xml ==
+== input\resources\servicerequest\servicerequest-eicr-eve-everywoman-zika.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\servicerequest\servicerequest-eicr-zika.xml ==
+== input\resources\servicerequest\servicerequest-eicr-zika.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\address-extension.xml ==
+== input\resources\structuredefinition\address-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\characteristics-of-home-environment.xml ==
+== input\resources\structuredefinition\characteristics-of-home-environment.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\date-determined-extension.xml ==
+== input\resources\structuredefinition\date-determined-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\date-recorded-extension.xml ==
+== input\resources\structuredefinition\date-recorded-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\disability-status.xml ==
+== input\resources\structuredefinition\disability-status.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\ecr-message-bundle.xml ==
+== input\resources\structuredefinition\ecr-message-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\ecr-messageheader.xml ==
+== input\resources\structuredefinition\ecr-messageheader.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\ecr-task.xml ==
+== input\resources\structuredefinition\ecr-task.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\eicr-composition.xml ==
+== input\resources\structuredefinition\eicr-composition.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\eicr-condition.xml ==
+== input\resources\structuredefinition\eicr-condition.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\eicr-document-bundle.xml ==
+== input\resources\structuredefinition\eicr-document-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\eicr-initiation-reason-extension.xml ==
+== input\resources\structuredefinition\eicr-initiation-reason-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\eicr-initiation-type-extension.xml ==
+== input\resources\structuredefinition\eicr-initiation-type-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\eicr-servicerequest.xml ==
+== input\resources\structuredefinition\eicr-servicerequest.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\eicr-trigger-code-flag-extension.xml ==
+== input\resources\structuredefinition\eicr-trigger-code-flag-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\ersd-plandefinition.xml ==
+== input\resources\structuredefinition\ersd-plandefinition.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\ersd-specification-bundle.xml ==
+== input\resources\structuredefinition\ersd-specification-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\ersd-supplemental-bundle.xml ==
+== input\resources\structuredefinition\ersd-supplemental-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\postpartum-status.xml ==
+== input\resources\structuredefinition\postpartum-status.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\pregnancy-outcome-observation.xml ==
+== input\resources\structuredefinition\pregnancy-outcome-observation.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\pregnancy-status-observation.xml ==
+== input\resources\structuredefinition\pregnancy-status-observation.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\relates-to-extension.xml ==
+== input\resources\structuredefinition\relates-to-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-communication.xml ==
+== input\resources\structuredefinition\rr-communication.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-determination-of-reportability-extension.xml ==
+== input\resources\structuredefinition\rr-determination-of-reportability-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-determination-of-reportability-reason-extension.xml ==
+== input\resources\structuredefinition\rr-determination-of-reportability-reason-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-determination-of-reportability-rule-extension.xml ==
+== input\resources\structuredefinition\rr-determination-of-reportability-rule-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-eicr-processing-status-extension.xml ==
+== input\resources\structuredefinition\rr-eicr-processing-status-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-eicr-processing-status-observation.xml ==
+== input\resources\structuredefinition\rr-eicr-processing-status-observation.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-eicr-processing-status-reason-observation.xml ==
+== input\resources\structuredefinition\rr-eicr-processing-status-reason-observation.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-eicr-receipt-time-extension.xml ==
+== input\resources\structuredefinition\rr-eicr-receipt-time-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-external-resource-type-extension.xml ==
+== input\resources\structuredefinition\rr-external-resource-type-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-location-relevance-extension.xml ==
+== input\resources\structuredefinition\rr-location-relevance-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-priority-extension.xml ==
+== input\resources\structuredefinition\rr-priority-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-relevant-reportable-condition-plandefinition.xml ==
+== input\resources\structuredefinition\rr-relevant-reportable-condition-plandefinition.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-responsible-agency-organization.xml ==
+== input\resources\structuredefinition\rr-responsible-agency-organization.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-responsible-agency-organization-extension.xml ==
+== input\resources\structuredefinition\rr-responsible-agency-organization-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-routing-entity-organization.xml ==
+== input\resources\structuredefinition\rr-routing-entity-organization.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-routing-entity-organization-extension.xml ==
+== input\resources\structuredefinition\rr-routing-entity-organization-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-rules-authoring-agency-organization.xml ==
+== input\resources\structuredefinition\rr-rules-authoring-agency-organization.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\rr-rules-authoring-agency-organization-extension.xml ==
+== input\resources\structuredefinition\rr-rules-authoring-agency-organization-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\therapeutic-medication-response-extension.xml ==
+== input\resources\structuredefinition\therapeutic-medication-response-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\travel-history-observation.xml ==
+== input\resources\structuredefinition\travel-history-observation.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\tribal-affiliation-extension.xml ==
+== input\resources\structuredefinition\tribal-affiliation-extension.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-alternativeExpression.xml ==
+== input\resources\structuredefinition\us-ph-alternativeExpression.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-codesystem.xml ==
+== input\resources\structuredefinition\us-ph-codesystem.xml ==
 ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-codesystem'): The diff list size changed when sorting - was 6 is now 3
 ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-codesystem'): Sort failed: counts differ; at least one of the paths in the differential is illegal
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-codesystem-propertyBinding.xml ==
+== input\resources\structuredefinition\us-ph-codesystem-propertyBinding.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-computablelibrary.xml ==
+== input\resources\structuredefinition\us-ph-computablelibrary.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-computablevalueset.xml ==
+== input\resources\structuredefinition\us-ph-computablevalueset.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-emergency-outbreak-information.xml ==
+== input\resources\structuredefinition\us-ph-emergency-outbreak-information.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-encounter.xml ==
+== input\resources\structuredefinition\us-ph-encounter.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-executablelibrary.xml ==
+== input\resources\structuredefinition\us-ph-executablelibrary.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-executablevalueset.xml ==
+== input\resources\structuredefinition\us-ph-executablevalueset.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-exposure-contact-information.xml ==
+== input\resources\structuredefinition\us-ph-exposure-contact-information.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-location.xml ==
+== input\resources\structuredefinition\us-ph-location.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-namedEventType.xml ==
+== input\resources\structuredefinition\us-ph-namedEventType.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-organization.xml ==
+== input\resources\structuredefinition\us-ph-organization.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-patient.xml ==
+== input\resources\structuredefinition\us-ph-patient.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-plandefinition.xml ==
+== input\resources\structuredefinition\us-ph-plandefinition.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-practitionerrole.xml ==
+== input\resources\structuredefinition\us-ph-practitionerrole.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-procedure.xml ==
+== input\resources\structuredefinition\us-ph-procedure.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-specification-bundle.xml ==
+== input\resources\structuredefinition\us-ph-specification-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-supplemental-bundle.xml ==
+== input\resources\structuredefinition\us-ph-supplemental-bundle.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-supplemental-valueset.xml ==
+== input\resources\structuredefinition\us-ph-supplemental-valueset.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-supplemental-valueset-library.xml ==
+== input\resources\structuredefinition\us-ph-supplemental-valueset-library.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-transportation-details.xml ==
+== input\resources\structuredefinition\us-ph-transportation-details.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-triggering-valueset.xml ==
+== input\resources\structuredefinition\us-ph-triggering-valueset.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-triggering-valueset-library.xml ==
+== input\resources\structuredefinition\us-ph-triggering-valueset-library.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-usageWarning.xml ==
+== input\resources\structuredefinition\us-ph-usageWarning.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-valueset.xml ==
+== input\resources\structuredefinition\us-ph-valueset.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\structuredefinition\us-ph-valueset-library.xml ==
+== input\resources\structuredefinition\us-ph-valueset-library.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\subscription\subscription-dxtc.xml ==
+== input\resources\subscription\subscription-dxtc.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\subscription\subscription-lotc.xml ==
+== input\resources\subscription\subscription-lotc.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\subscription\subscription-ostc.xml ==
+== input\resources\subscription\subscription-ostc.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\task\task-ecr-ehr-requested-eicr.xml ==
+== input\resources\task\task-ecr-ehr-requested-eicr.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\2.16.840.1.113762.1.4.1099.24.xml ==
+== input\resources\valueset\2.16.840.1.113762.1.4.1099.24.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\pregnancy-status.xml ==
+== input\resources\valueset\pregnancy-status.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\us-ph-triggerdefinition-namedevent.xml ==
+== input\resources\valueset\us-ph-triggerdefinition-namedevent.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-dxtc-example.xml ==
+== input\resources\valueset\valueset-dxtc-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-ecr-messageheader-event.xml ==
+== input\resources\valueset\valueset-ecr-messageheader-event.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-ecr-task-businessstatus.xml ==
+== input\resources\valueset\valueset-ecr-task-businessstatus.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-ersd-endpoint-connection-type.xml ==
+== input\resources\valueset\valueset-ersd-endpoint-connection-type.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-iztc-example.xml ==
+== input\resources\valueset\valueset-iztc-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-lotc-example.xml ==
+== input\resources\valueset\valueset-lotc-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-lrtc-example.xml ==
+== input\resources\valueset\valueset-lrtc-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-mrtc-example.xml ==
+== input\resources\valueset\valueset-mrtc-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-ostc-example.xml ==
+== input\resources\valueset\valueset-ostc-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-pctc-example.xml ==
+== input\resources\valueset\valueset-pctc-example.xml ==
 
 
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.us.ecr\input\resources\valueset\valueset-us-ph-supplemental-valueset-example.xml ==
+== input\resources\valueset\valueset-us-ph-supplemental-valueset-example.xml ==
 
 
