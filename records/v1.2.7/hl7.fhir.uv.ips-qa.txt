@@ -3,7 +3,7 @@
 
 err = 1, warn = 6, info = 9
 IG Publisher Version: (unknown) Out of date - current version is 1.2.6
-Generated Sat Oct 15 08:33:50 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
+Generated Sat Oct 15 09:00:11 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
  Build Errors : 0 / 5 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/DiagnosticReport-hemoglobin : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-01 : 0 / 0 / 43

@@ -3,7 +3,7 @@
 
 err = 19, warn = 10, info = 0
 IG Publisher Version: (unknown) Out of date - current version is 1.2.6
-Generated Sat Oct 15 06:52:02 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
+Generated Sat Oct 15 09:04:55 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
  Build Errors : 5 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Bundle-map-population-example : 0 / 0 / 10
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Library-CHF : 0 / 0 / 1
