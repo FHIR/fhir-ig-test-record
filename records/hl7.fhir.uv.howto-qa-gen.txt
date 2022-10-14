@@ -1,0 +1,26 @@
+﻿HowToCreateIGs : Validation Results
+=========================================
+
+err = 2, warn = 4, info = 0
+IG Publisher Version: (unknown) Out of date - current version is 1.2.6
+Generated Sat Oct 15 06:52:33 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.howto#0.1.0 (canonical = http://hl7.org/fhir/uv/howto)
+ Build Errors : 5 / 4 / 0
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/input/howto : 1 / 0 / 1
+</table>
+
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/output/using-templates.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/p/a at Line 476, column 62: The link 'template.html#todo' for "Using IG Templates" cannot be resolved (valid targets: [summary, segment-header, adding-an-icon-to-the-template, publish-box, bottom, segment-post-footer, append-a-css-to-change-the-background-color, extending-the-hl7-ig-templates, example, ig-status, top, changing-the-custom-template, stripe, running-the-publisher, segment-footer, customize-a-template, segment-navbar, segment-content, segment-breadcrumb, setting-up-the-local-custom-template])
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/output/using-templates.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/p/a at Line 481, column 70: The link '#todo' for "here" cannot be resolved (valid targets: [authoring, handling-errors-and-warnings, resource-formats, publish-box, invoking, segment-post-footer, resource-fmt, directory, narrative-content, pages, top, the-implementation-guide, root, stripe, segment-footer, intros-and-usage-notes, segment-content, ig, using-the-ig-publisher, overview, segment-header, updatePub, bottom, warnings, directory-structure, -igroot, authoring-with-templates, root.input, -igroot-input, using-the-hl7-templates, -igroot-input-cache, page-files, ig-status, file-content, liquid, 2.2, intros, segment-navbar, narrative-fmt, segment-breadcrumb])
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/output/using-templates.html#/html/body/div/div/div/div/div/div/p/a at Line 616, column 6: The link 'template.html#todo' for "authoring templates." cannot be resolved (valid targets: [summary, segment-header, adding-an-icon-to-the-template, publish-box, bottom, segment-post-footer, append-a-css-to-change-the-background-color, extending-the-hl7-ig-templates, example, ig-status, top, changing-the-custom-template, stripe, running-the-publisher, segment-footer, customize-a-template, segment-navbar, segment-content, segment-breadcrumb, setting-up-the-local-custom-template])
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/output/using-templates.html#/html/body/div/div/div/div/div/div/ul/li/p/a at Line 627, column 17: The link 'template.html#todo' for "templates section" cannot be resolved (valid targets: [summary, segment-header, adding-an-icon-to-the-template, publish-box, bottom, segment-post-footer, append-a-css-to-change-the-background-color, extending-the-hl7-ig-templates, example, ig-status, top, changing-the-custom-template, stripe, running-the-publisher, segment-footer, customize-a-template, segment-navbar, segment-content, segment-breadcrumb, setting-up-the-local-custom-template])
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+
+== input/howto.xml ==
+ERROR: ImplementationGuide/hl7.fhir.uv.howto: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+
+

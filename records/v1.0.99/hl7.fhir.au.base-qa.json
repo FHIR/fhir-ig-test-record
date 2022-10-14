@@ -1,0 +1,12 @@
+{
+  "url": "http://hl7.org.au/fhir/ImplementationGuide/au-base",
+  "name": "AUBaseImplementationGuide",
+  "package-id": "hl7.fhir.au.base",
+  "ig-ver": "2.1.0",
+  "date": "Fri, 05 Jun, 2020 09:58:57 +1000",
+  "errs": 144,
+  "warnings": 105,
+  "hints": 91,
+  "version": "4.0.1",
+  "tool": "4.4.0 (3)"
+}

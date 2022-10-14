@@ -1,12 +1,12 @@
 {
-  "url": "http://profiles.ihe.net/ITI/MHD/ImplementationGuide/ihe.mhd.fhir",
-  "name": "IHE_MHD",
-  "package-id": "ihe.mhd.fhir",
-  "ig-ver": "4.0.0",
-  "date": "Thu, 11 Nov, 2021 17:27:10 +1100",
-  "errs": 0,
-  "warnings": 1,
-  "hints": 0,
+  "url": "https://profiles.ihe.net/ITI/MHD/ImplementationGuide/ihe.iti.mhd",
+  "name": "IHE_ITI_MHD",
+  "package-id": "ihe.iti.mhd",
+  "ig-ver": "4.1.1-current",
+  "date": "Sat, 15 Oct, 2022 06:47:19 +1100",
+  "errs": 9,
+  "warnings": 10,
+  "hints": 8,
   "version": "4.0.1",
-  "tool": "4.6.0 (3)"
+  "tool": "5.0.0-ballot (3)"
 }

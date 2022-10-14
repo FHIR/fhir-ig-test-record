@@ -31,3 +31,17 @@ ihe.mhd.fhir
 /records/ihe.mhd.fhir-current-qa.html
 /records/ihe.mhd.fhir-current-qa.json
 /records/ihe.mhd.fhir-current-qa.txt
+
+.DS_Store
+
+example.fhir.uv.myig/
+
+fhir.base.template.ig/
+
+hl7.base.template.ig/
+
+hl7.fhir.template.ig/
+
+hl7.fhir.uv.howto/
+
+hl7.fhir.uv.ipa/
