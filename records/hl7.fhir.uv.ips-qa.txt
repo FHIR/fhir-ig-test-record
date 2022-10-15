@@ -1,239 +1,612 @@
 ﻿InternationalPatientSummaryIG : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 12
-IG Publisher Version: v1.0.76-SNAPSHOT Out of date - current version is v1.0.77-SNAPSHOT
-Generated Thu Apr 02 12:03:33 AEDT 2020. FHIR version 4.0.1 for hl7.fhir.uv.ips#0.3.0 (canonical = http://hl7.org/fhir/uv/ips)
-
- Build Errors : 1 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\DiagnosticReport-hemoglobin : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\IPS-bundle-01 : 0 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680 : 0 / 2
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-with-abatement : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\condition-39-07-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-70-275-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-imaging-example-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\deviceUseStatement-70-275-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\imagingStudy-imaging-ex-5-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\media-example-smile : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medication-39-07-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medicationStatement-39-07-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-alcoholuse-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-hemoglobin : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-4 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-eed-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-outcome-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-status-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-serum-creatinine-adult : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-tobaccouse-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\organization-imaging-example-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-39-07-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-example-female : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\practictioner-39-07-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\procedure-39-07-1 : 0 / 1
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\specimen-example-1 : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\AllergyIntolerance-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\CodeableConcept-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Coding-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Composition-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-absence-to-snomedct-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-loinc-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-snomedct-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Condition-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-observer-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DeviceUseStatement-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DiagnosticReport-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ImagingStudy-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Immunization-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Media-observation-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Medication-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\MedicationStatement-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-alcoholUse-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-imaging-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-laboratory-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pathology-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-edd-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-outcome-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-status-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-tobaccoUse-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-laboratory-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-observation-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Patient-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Practitioner-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Procedure-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Quantity-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Range-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Ratio-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\SimpleQuantity-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Specimen-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\abatement-dateTime-uv-ips.structuredefinition : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\codesystem-absent-unknown-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ig-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-allergies-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-devices-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-immunizations-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-medications-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-problems-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-procedures-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-gps-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-reaction-gps-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-condition-severity-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-core-problem-finding-situation-event-gps-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-current-smoking-status-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-edd-method-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-numobs-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-observations-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-txtobs-code-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-absence-presence-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-blood-abo-rh-grp-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-result-coded-value-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-and-vital-signs-observations : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-tests-and-panels-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-med-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medical-devices-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medication-snomed-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-active-substances-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-doseform : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-route-of-administration : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-observation-codes-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-organism-gps-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-organism-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-and-vital-signs-observations : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-result-coded-value-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-personal-relationship-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancies-summary-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancy-status-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-problem-type-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-procedures-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-snomed-intl-gps : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-collection-method-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-type-gps-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-target-site-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-vaccines-uv-ips : 0 / 0
- C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-whoatc-uv-ips : 0 / 0
+err = 1, warn = 6, info = 9
+IG Publisher Version: (unknown) Out of date - current version is 1.2.6
+Generated Sat Oct 15 09:26:31 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
+ Build Errors : 0 / 5 / 0
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/DiagnosticReport-hemoglobin : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-01 : 0 / 0 / 43
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-with-immunization : 0 / 0 / 44
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Immunization-75680 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/MedicationRequest-eumfh-39-07-1-request : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Organization-simple-org : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Patient-66033 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/PractitionerRole-simple-pr : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyIntolerance-39-07-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyIntolerance-with-abatement : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyintolerance-multiple-codings : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-minimal : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-no-info-required-sections : 0 / 0 / 24
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/condition-39-07-1 : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/device-70-275-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/device-imaging-example-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/deviceUseStatement-70-275-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/imagingStudy-imaging-ex-5-1 : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/media-example-smile : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/medication-39-07-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/medicationStatement-39-07-1 : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-alcoholuse-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-hemoglobin : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-imaging-example-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-imaging-example-4 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-pathology-cancer : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-pregnancy-edd-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-pregnancy-outcome-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-pregnancy-status-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-serum-creatinine-adult : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-tobaccouse-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-urine-wbc-range : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/organization-imaging-example-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/organization-lab-example-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/patient-39-07-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/patient-example-female : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/practictioner-39-07-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/procedure-39-07-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/specimen-example-1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/extensions/abatement-dateTime-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/ig-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-absence-to-snomedct-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-loinc-pregnancy-status-to-snomed-ct-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-loinc-smoking-status-to-snomed-ct-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-severity-snomedct-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/AllergyIntolerance-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Bundle-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/CapabilityStatement-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/CodeableConcept-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Coding-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Composition-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Condition-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Device-observer-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Device-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/DeviceUseStatement-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/DiagnosticReport-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/ImagingStudy-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Immunization-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Media-observation-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Medication-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/MedicationRequest-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/MedicationStatement-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-alcoholUse-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-pregnancy-edd-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-pregnancy-outcome-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-pregnancy-status-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-results-laboratory-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-results-pathology-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-results-radiology-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-results-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Observation-tobaccoUse-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/OperationDefinition-summary-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Organization-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Patient-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Practitioner-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/PractitionerRole-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Procedure-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Quantity-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Range-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Ratio-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/SimpleQuantity-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Specimen-uv-ips.structuredefinition : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/ValueSet-targetDiseases-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-1.3.182.4.11.22 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.1 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.7 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-absent-unknown-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-allergies-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-devices-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-immunizations-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-medications-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-problems-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-procedures-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-allergy-intolerance-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-allergy-intolerance-substance-condition-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-allergy-intolerance-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-allergy-reaction-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-body-site-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-condition-severity-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-current-smoking-status-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-edd-method-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-healthcare-professional-roles-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medical-devices-snomed-absent-unknown-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medical-devices-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medical-devices-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medication-example-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medication-snomed-absent-unknown-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medication-snomed-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medications-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medicine-active-substances-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medicine-doseform : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-medicine-route-of-administration : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-personal-relationship-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-pregnancies-summary-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-pregnancy-status-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-problem-type-loinc : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-problem-type-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-problems-snomed-absent-unknown-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-problems-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-problems-snomed-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-procedures-snomed-absent-unknown-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-procedures-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-procedures-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-radiology-numobs-snomed-dicom-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-blood-group-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-blood-group-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-coded-values-laboratory-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-coded-values-pathology-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-laboratory-observations-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-microorganism-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-microorganism-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-pathology-observations-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-presence-absence-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-presence-absence-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-radiology-observations-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-radiology-txtobs-snomed-dicom-loinc-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-specimen-collection-method-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-specimen-type-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-results-specimen-type-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-target-diseases-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-target-diseases-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-target-site-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-vaccines-snomed-ct-ips-free-set : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-vaccines-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-vaccines-whoatc-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-whoatc-uv-ips : 0 / 0 / 1
 </table>
+
 == n/a ==
-ERROR: ConfigFile.suppressedWarningFile: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\DiagnosticReport-hemoglobin.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\IPS-bundle-01.xml ==
-INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
-INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[5].entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Immunization-75680.xml ==
-INFORMATION: Immunization/75680: Immunization.vaccineCode: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips
-INFORMATION: Immunization/75680: Immunization.vaccineCode.coding[2]: Code System URI "urn:oid:1.3.182.4.11.22" is unknown so the code cannot be validated
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\Patient-66033.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-39-07-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\allergyIntolerance-with-abatement.xml ==
-INFORMATION: AllergyIntolerance/allergyintolerance-with-abatement: AllergyIntolerance.code: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\condition-39-07-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-70-275-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\device-imaging-example-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\deviceUseStatement-70-275-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\imagingStudy-imaging-ex-5-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\media-example-smile.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medication-39-07-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\medicationStatement-39-07-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-alcoholuse-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-hemoglobin.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-imaging-example-4.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-eed-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-outcome-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-pregnancy-status-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-serum-creatinine-adult.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\observation-tobaccouse-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\organization-imaging-example-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-39-07-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\patient-example-female.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\practictioner-39-07-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\procedure-39-07-1.xml ==
-INFORMATION: Procedure/eumfh-39-07-1: Procedure.code: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\examples\specimen-example-1.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\AllergyIntolerance-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\CodeableConcept-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Coding-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Composition-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-absence-to-snomedct-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-loinc-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ConceptMap-severity-snomedct-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Condition-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-observer-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Device-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DeviceUseStatement-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\DiagnosticReport-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ImagingStudy-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Immunization-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Media-observation-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Medication-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\MedicationStatement-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-alcoholUse-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-imaging-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-laboratory-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pathology-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-edd-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-outcome-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-pregnancy-status-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-tobaccoUse-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Observation-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-laboratory-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Organization-observation-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Patient-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Practitioner-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Procedure-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Quantity-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Range-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Ratio-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\SimpleQuantity-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\Specimen-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\abatement-dateTime-uv-ips.structuredefinition.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\codesystem-absent-unknown-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\ig-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-allergies-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-devices-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-immunizations-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-medications-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-problems-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-absent-or-unknown-procedures-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-gps-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-intolerance-substance-condition-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-allergy-reaction-gps-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-condition-severity-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-core-problem-finding-situation-event-gps-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-current-smoking-status-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-edd-method-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-numobs-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-observations-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-imaging-txtobs-code-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-absence-presence-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-blood-abo-rh-grp-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-lab-result-coded-value-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-and-vital-signs-observations.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-laboratory-tests-and-panels-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-med-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medical-devices-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medication-snomed-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-active-substances-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-doseform.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-medicine-route-of-administration.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-observation-codes-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-organism-gps-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-organism-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-and-vital-signs-observations.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pathology-result-coded-value-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-personal-relationship-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancies-summary-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-pregnancy-status-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-problem-type-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-procedures-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-snomed-intl-gps.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-collection-method-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-specimen-type-gps-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-target-site-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-vaccines-uv-ips.xml ==
-== C:\work\org.hl7.fhir\test-igs\hl7.fhir.uv.ips\resources\valueset-whoatc-uv-ips.xml ==
+WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+
+== input/examples/DiagnosticReport-hemoglobin.xml ==
+
+
+== input/examples/IPS-bundle-01.xml ==
+INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips
+INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips
+INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[1].entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
+INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[1].entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
+
+
+== input/examples/IPS-bundle-with-immunization.xml ==
+INFORMATION: Bundle/IPS-examples-Bundle-with-immunization: Bundle.entry[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips
+INFORMATION: Bundle/IPS-examples-Bundle-with-immunization: Bundle.entry[0].resource.section[1].entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
+
+
+== input/examples/Immunization-75680.xml ==
+
+
+== input/examples/MedicationRequest-eumfh-39-07-1-request.json ==
+
+
+== input/examples/Organization-simple-org.xml ==
+
+
+== input/examples/Patient-66033.xml ==
+
+
+== input/examples/PractitionerRole-simple-pr.xml ==
+
+
+== input/examples/allergyIntolerance-39-07-1.xml ==
+
+
+== input/examples/allergyIntolerance-with-abatement.xml ==
+
+
+== input/examples/allergyintolerance-multiple-codings.xml ==
+
+
+== input/examples/bundle-minimal.json ==
+INFORMATION: Bundle/bundle-minimal: Bundle.entry[0].resource.section[1].entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
+
+
+== input/examples/bundle-no-info-required-sections.json ==
+INFORMATION: Bundle/bundle-no-info-required-sections: Bundle.entry[3].resource.code[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/PractitionerRole-uv-ips
+
+
+== input/examples/condition-39-07-1.xml ==
+INFORMATION: Condition/eumfh-39-07-1: Condition.code.coding[1]: Code System URI 'http://id.who.int/icd/release/11/mms' is unknown so the code cannot be validated
+
+
+== input/examples/device-70-275-1.xml ==
+
+
+== input/examples/device-imaging-example-1.xml ==
+
+
+== input/examples/deviceUseStatement-70-275-1.xml ==
+
+
+== input/examples/imagingStudy-imaging-ex-5-1.xml ==
+WARNING: ImagingStudy/TII-ImagingStudy-5-1: ImagingStudy.series[0].modality: ValueSet http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html not found by validator
+
+
+== input/examples/media-example-smile.xml ==
+
+
+== input/examples/medication-39-07-1.xml ==
+
+
+== input/examples/medicationStatement-39-07-1.xml ==
+ERROR: MedicationStatement/eumfh-39-07-1: MedicationStatement.effective.ofType(Period).start: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips, Element matches more than one slice - , 
+
+
+== input/examples/observation-alcoholuse-1.xml ==
+
+
+== input/examples/observation-hemoglobin.xml ==
+
+
+== input/examples/observation-imaging-example-1.xml ==
+
+
+== input/examples/observation-imaging-example-4.xml ==
+
+
+== input/examples/observation-pathology-cancer.xml ==
+
+
+== input/examples/observation-pregnancy-edd-1.xml ==
+
+
+== input/examples/observation-pregnancy-outcome-1.xml ==
+
+
+== input/examples/observation-pregnancy-status-1.xml ==
+
+
+== input/examples/observation-serum-creatinine-adult.xml ==
+
+
+== input/examples/observation-tobaccouse-1.xml ==
+
+
+== input/examples/observation-urine-wbc-range.xml ==
+
+
+== input/examples/organization-imaging-example-1.xml ==
+
+
+== input/examples/organization-lab-example-1.xml ==
+
+
+== input/examples/patient-39-07-1.xml ==
+
+
+== input/examples/patient-example-female.xml ==
+
+
+== input/examples/practictioner-39-07-1.xml ==
+
+
+== input/examples/procedure-39-07-1.xml ==
+
+
+== input/examples/specimen-example-1.xml ==
+
+
+== input/extensions/abatement-dateTime-uv-ips.structuredefinition.xml ==
+
+
+== input/ig-uv-ips.xml ==
+
+
+== input/maps/ConceptMap-absence-to-snomedct-uv-ips.xml ==
+
+
+== input/maps/ConceptMap-loinc-pregnancy-status-to-snomed-ct-uv-ips.xml ==
+
+
+== input/maps/ConceptMap-loinc-smoking-status-to-snomed-ct-uv-ips.xml ==
+
+
+== input/maps/ConceptMap-severity-snomedct-uv-ips.xml ==
+
+
+== input/profiles/AllergyIntolerance-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Bundle-uv-ips.json ==
+
+
+== input/profiles/CapabilityStatement-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/CodeableConcept-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Coding-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Composition-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Condition-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Device-observer-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Device-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/DeviceUseStatement-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/DiagnosticReport-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/ImagingStudy-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Immunization-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Media-observation-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Medication-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/MedicationRequest-uv-ips.json ==
+
+
+== input/profiles/MedicationStatement-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-alcoholUse-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-pregnancy-edd-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-pregnancy-outcome-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-pregnancy-status-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-results-laboratory-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-results-pathology-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-results-radiology-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-results-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Observation-tobaccoUse-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/OperationDefinition-summary-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Organization-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Patient-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Practitioner-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/PractitionerRole-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Procedure-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Quantity-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Range-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Ratio-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/SimpleQuantity-uv-ips.structuredefinition.xml ==
+
+
+== input/profiles/Specimen-uv-ips.structuredefinition.xml ==
+
+
+== input/vocabulary/ValueSet-targetDiseases-uv-ips.xml ==
+
+
+== input/vocabulary/codesystem-1.3.182.4.11.22.xml ==
+
+
+== input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.1.xml ==
+
+
+== input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.7.xml ==
+
+
+== input/vocabulary/codesystem-absent-unknown-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-absent-or-unknown-allergies-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-absent-or-unknown-devices-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-absent-or-unknown-immunizations-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-absent-or-unknown-medications-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-absent-or-unknown-problems-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-absent-or-unknown-procedures-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-allergy-intolerance-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-allergy-intolerance-substance-condition-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-allergy-intolerance-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-allergy-reaction-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-body-site-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-condition-severity-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-current-smoking-status-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-edd-method-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-healthcare-professional-roles-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-medical-devices-snomed-absent-unknown-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-medical-devices-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-medical-devices-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-medication-example-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-medication-snomed-absent-unknown-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-medication-snomed-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-medications-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-medicine-active-substances-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-medicine-doseform.xml ==
+
+
+== input/vocabulary/valueset-medicine-route-of-administration.xml ==
+
+
+== input/vocabulary/valueset-personal-relationship-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-pregnancies-summary-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-pregnancy-status-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-problem-type-loinc.xml ==
+
+
+== input/vocabulary/valueset-problem-type-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-problems-snomed-absent-unknown-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-problems-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-problems-snomed-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-procedures-snomed-absent-unknown-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-procedures-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-procedures-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-radiology-numobs-snomed-dicom-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-blood-group-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-results-blood-group-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-coded-values-laboratory-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-coded-values-pathology-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-laboratory-observations-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-microorganism-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-results-microorganism-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-pathology-observations-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-presence-absence-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-results-presence-absence-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-radiology-observations-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-radiology-txtobs-snomed-dicom-loinc-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-specimen-collection-method-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-results-specimen-type-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-results-specimen-type-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-target-diseases-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-target-diseases-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-target-site-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-vaccines-snomed-ct-ips-free-set.json ==
+
+
+== input/vocabulary/valueset-vaccines-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-vaccines-whoatc-uv-ips.xml ==
+
+
+== input/vocabulary/valueset-whoatc-uv-ips.xml ==
+
+

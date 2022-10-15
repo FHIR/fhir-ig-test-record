@@ -3,7 +3,7 @@
   "name": "USCore",
   "package-id": "hl7.fhir.us.core",
   "ig-ver": "6.0.0-preview",
-  "date": "Sat, 15 Oct, 2022 06:56:42 +1100",
+  "date": "Sat, 15 Oct, 2022 09:35:50 +1100",
   "errs": 41,
   "warnings": 11,
   "hints": 29,

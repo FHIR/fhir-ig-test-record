@@ -3,7 +3,7 @@
 
 err = 9, warn = 10, info = 8
 IG Publisher Version: (unknown) Out of date - current version is 1.2.6
-Generated Sat Oct 15 09:02:15 AEDT 2022. FHIR version 4.0.1 for ihe.iti.mhd#4.1.1-current (canonical = https://profiles.ihe.net/ITI/MHD)
+Generated Sat Oct 15 09:28:34 AEDT 2022. FHIR version 4.0.1 for ihe.iti.mhd#4.1.1-current (canonical = https://profiles.ihe.net/ITI/MHD)
  Build Errors : 0 / 4 / 0
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/AuditEvent-ex-auditFindDocumentLists-consumer : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/AuditEvent-ex-auditFindDocumentLists-responder : 0 / 0 / 2
