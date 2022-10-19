@@ -1,9 +1,9 @@
 ﻿StructuredDataCapture : Validation Results
 =========================================
 
-err = 19, warn = 10, info = 0
-IG Publisher Version: (unknown) Out of date - current version is 1.2.6
-Generated Sat Oct 15 09:31:08 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
+err = 23, warn = 10, info = 0
+IG Publisher Version: (unknown) Out of date - current version is 1.2.7
+Generated Wed Oct 19 13:55:27 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
  Build Errors : 5 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Bundle-map-population-example : 0 / 0 / 10
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Library-CHF : 0 / 0 / 1
@@ -47,7 +47,7 @@ Generated Sat Oct 15 09:31:08 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-adaptive-questionnaireresponse-sdc-example-phq9 : 0 / 0 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-questionnaireresponse-sdc-profile-example-PHQ9 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-example-ussg-fht-answers : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example : 4 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example-loinc : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example-multi-subject : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/request-task-example : 0 / 0 / 1
@@ -303,6 +303,10 @@ ERROR: Questionnaire/sdc-modular-name: Questionnaire.extension[3].extension[0].v
 
 
 == input/examples/questionnaireresponse-sdc-profile-example.xml ==
+ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[0].item[1].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921060v1.0-cs::Primary) is not in the options value set in the questionnaire
+ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[1].item[0].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921071v1.0-cs::At Restaging) is not in the options value set in the questionnaire
+ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[2].item[2].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921081v1.0-cs::Histologic) is not in the options value set in the questionnaire
+ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[2].item[3].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921085v1.0-cs::G2) is not in the options value set in the questionnaire
 
 
 == input/examples/questionnaireresponse-sdc-profile-example-loinc.xml ==

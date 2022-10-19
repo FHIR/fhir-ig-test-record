@@ -2,7 +2,7 @@
   "url": "http://fhir.org/templates/hl7.base.template",
   "package-id": "hl7.base.template",
   "ig-ver": "0.3.2",
-  "date": "Sat, 15 Oct, 2022 09:31:08 +1100",
+  "date": "Wed, 19 Oct, 2022 13:56:39 +1100",
   "version": "5.0.0-ballot",
   "tool": "5.0.0-ballot (3)"
 }

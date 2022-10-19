@@ -70,6 +70,14 @@ git reset --hard
 git clean -fd
 cd ..
 
+
+cd ./hl7.fhir.uv.tools
+git pull
+git reset --hard
+git clean -fd
+cd ..
+
+
 pause
 
 

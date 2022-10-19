@@ -3,7 +3,7 @@
   "name": "HowToCreateIGs",
   "package-id": "hl7.fhir.uv.howto",
   "ig-ver": "0.1.0",
-  "date": "Sat, 15 Oct, 2022 09:31:24 +1100",
+  "date": "Wed, 19 Oct, 2022 13:56:52 +1100",
   "errs": 2,
   "warnings": 4,
   "hints": 0,

@@ -3,7 +3,7 @@
   "name": "InternationalPatientAccess",
   "package-id": "hl7.fhir.uv.ipa",
   "ig-ver": "1.0.0-preview",
-  "date": "Sat, 15 Oct, 2022 09:23:20 +1100",
+  "date": "Wed, 19 Oct, 2022 13:47:14 +1100",
   "errs": 6,
   "warnings": 5,
   "hints": 0,

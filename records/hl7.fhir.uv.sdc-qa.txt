@@ -1,654 +1,184 @@
-﻿StructuredDataCapture : Validation Results
+﻿FHIRToolExtensionsIG : Validation Results
 =========================================
 
-err = 19, warn = 10, info = 0
-IG Publisher Version: (unknown) Out of date - current version is 1.2.6
-Generated Sat Oct 15 09:31:08 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
- Build Errors : 5 / 4 / 0
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Bundle-map-population-example : 0 / 0 / 10
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Library-CHF : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/QuestionnaireResponse-map-populate-out : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/SDOHCC-QuestionnaireHungerVitalSign : 0 / 0 / 27
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/SDOHCC-StructureMapHungerVitalSign : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/StructureMap-questionnaire-population-transform : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/codesystem-CSPHQ9 : 3 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/codesystem-chf-codes : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/parameters-sdc-modular-root-assembled : 1 / 0 / 15
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-anc-quick-check : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-demographics : 0 / 0 / 8
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-modular-contact : 0 / 0 / 3
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-modular-name : 1 / 0 / 6
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-modular-root : 0 / 0 / 6
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example : 0 / 0 / 37
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-PHQ9 : 0 / 0 / 11
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-PHQ9-search : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-cap : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-context-expression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-cqf-PHQ9 : 0 / 0 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-form-behavior : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-framingham-hchd-lhc : 0 / 0 / 33
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-hunger-vital-signs : 0 / 0 / 15
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-image-options : 0 / 0 / 3
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-loinc : 0 / 0 / 19
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-multi-subject : 0 / 0 / 3
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-ordinal-value : 0 / 0 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-render : 0 / 0 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-ussg-fht : 0 / 0 / 8
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-profile-example-weight-height-tracking-panel : 0 / 0 / 13
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-all-data-types : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-enableWhen : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-fhirpath-prepop-candexpr : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-fhirpath-prepop-initialexpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-fhirpath-prepop-source-query : 0 / 0 / 6
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-initialvalue : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-initialvalue-multiple : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-nested-groups : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-required-radios : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-adaptive-questionnaireresponse-sdc-example-phq9 : 0 / 0 / 3
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-questionnaireresponse-sdc-profile-example-PHQ9 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-example-ussg-fht-answers : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example-loinc : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example-multi-subject : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/request-task-example : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/servicerequest-example : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/structuredefinition-sdc-profile-example : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/structuredefinition-sdc-question-library : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/task-example : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/valueset-sdc-profile-example : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/valueset-sdc-question-library-states : 0 / 2 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-adapt : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-adapt-srch : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-answerExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-answerOptionsToggleExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-assemble-expectation : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-assembleContext : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-assembledFrom : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-behave : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-calculatedExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-candidateExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-choiceColumn : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-collapsible : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-contextExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-enableWhenExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-endpoint : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-entryMode : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-extr-defn : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-extr-obsn : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-extr-smap : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-initialExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-isSubject : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-itemAnswerMedia : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-itemExtractionContext : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-itemMedia : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-itemPopulationContext : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-launchContext : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-lookupQuestionnaire : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-maxQuantity : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-minQuantity : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-modular : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-observation-extract-category : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-observationExtract : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-observationLinkPeriod : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-openLabel : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-optionalDisplay : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-performerType : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-pop-exp : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-pop-obsn : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-pop-smap : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-preferredTerminologyServer : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-questionnaireAdaptive : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-render : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-search : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-shortText : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-sourceQueries : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-sourceStructureMap : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-subQuestionnaire : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-targetStructureMap : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-unitOpen : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-unitSupplementalSystem : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-width : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaireresponse-isSubject : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-referencesContained : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-servicerequest : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-servicerequest-questionnaire : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-archiver : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-designer : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-filler : 0 / 2 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-manager : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-receiver : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-response-manager : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/operationdefinition-Questionnaire-assemble : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/operationdefinition-Questionnaire-next-question : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/operationdefinition-Questionnaire-populate : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/operationdefinition-Questionnaire-populatehtml : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/operationdefinition-Questionnaire-populatelink : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/operationdefinition-Questionnaire-process-response : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/operationdefinition-QuestionnaireResponse-extract : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/searchparameter-questionnaire-assemble-expectation : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/searchparameter-questionnaire-assembledFrom : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/searchparameter-questionnaire-definition : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-parameters-questionnaire-assemble-out : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-parameters-questionnaire-next-question-in : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-parameters-questionnaire-next-question-out : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-parameters-questionnaire-process-response-in : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-parameters-questionnaireresponse-extract-in - Copy : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-sdc-codesystem : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-sdc-library : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-sdc-questionnaireresponse : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-sdc-questionnaireresponse-adapt : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-sdc-task : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-sdc-usagecontext : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/structuredefinition-sdc-valueset : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/sdc : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/codesystem-assemble-expectation : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/codesystem-collapsible : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/codesystem-entryMode : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/codesystem-launchContext : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/codesystem-questionnaire-answer-constraint : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/codesystem-temp : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-assemble-expectation : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-collapsible : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-dex-mimetype : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-entryMode : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-launchContext : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-performerType : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-questionnaire-answer-constraint : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-species : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-task-code : 1 / 0 / 1
+err = 13, warn = 14, info = 2
+IG Publisher Version: (unknown) Out of date - current version is 1.2.7
+Generated Wed Oct 19 13:56:39 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.tools#0.1.0 (canonical = http://hl7.org/fhir/tools)
+ Build Errors : 6 / 5 / 0
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/binary-CDSHookServices : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-CDSActionType : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-CDSIndicator : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-CDSLinkType : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-CDSSelectionBehavior : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-additional-binding-purpose : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-ig-parameters : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-json-empty-behavior : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-obligation : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/codesystem-organ-inventory-status : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/observation-inventory-example : 6 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-CDSHookContext : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-CDSHookPatientContext : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-CDSHooksRequest : 0 / 6 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-CDSHooksResponse : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-CDSHooksServices : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-additional-binding : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-implementationguide-resource-format : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-implied-string-prefix : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-json-empty-behavior : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-json-property-key : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-obligation : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-organ-inventory : 4 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-profile-mapping : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/structuredefinition-type-specifier : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valueset-CDSActionType : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valueset-CDSIndicator : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valueset-CDSLinkType : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valueset-CDSSelectionBehavior : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valueset-additional-binding-purpose : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valueset-json-empty-behavior : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valueset-obligation : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valuest-organ-inventory-list : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/resources/valuest-organ-inventory-status : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/input/tools-ig : 0 / 0 / 1
 </table>
 
 == n/a ==
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 312, column 312: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-v3-snomed-CT.html' for "SNOMED and CT International Edition" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 312, column 460: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html' for "Logical Observation Identifiers, Names and Codes (LOINC)" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 312, column 711: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-condition-clinical.html' for "Condition Clinical Status Codes" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 312, column 861: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-condition-ver-status.html' for "ConditionVerificationStatus" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/StructureDefinition-sdc-library.html#/html/body/div/div/div/div/div/div/div/p/a at Line 355, column 88: The link 'http://build.fhir.org/ig/HL7/cqf-recommendations/StructureDefinition-cpg-computablelibrary.html' for "cpg-computablelibrary" cannot be resolved
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Observation/inventory-example.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/inventory-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Binary/CDSHookServices.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: There is no jira specification file defined with the expected name of FHIR-tools in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/output/Observation-inventory-example.html#/html/body/div/div/div/div/div/div/p/a at Line 191, column 864: The link 'Patient/f001' for "Patient/f001" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/output/Observation-inventory-example.html#/html/body/div/div/div/div/div/div/p/a at Line 191, column 977: The link 'Practitioner/f005' for "Practitioner/f005" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.tools/output/StructureDefinition-implementationguide-resource-format.html#/html/body/div/div/div/div/div/ul/li/a at Line 252, column 37: The link 'ImplementationGuide-hl7.fhir.uv.tools.html' for "FHIRToolExtensionsIG" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 
 
-== input/examples/Bundle-map-population-example.xml ==
+== input/resources/binary-CDSHookServices.json ==
 
 
-== input/examples/Library-CHF.xml ==
+== input/resources/codesystem-CDSActionType.xml ==
 
 
-== input/examples/QuestionnaireResponse-map-populate-out.xml ==
+== input/resources/codesystem-CDSIndicator.xml ==
 
 
-== input/examples/SDOHCC-QuestionnaireHungerVitalSign.xml ==
+== input/resources/codesystem-CDSLinkType.xml ==
 
 
-== input/examples/SDOHCC-StructureMapHungerVitalSign.xml ==
+== input/resources/codesystem-CDSSelectionBehavior.xml ==
 
 
-== input/examples/StructureMap-questionnaire-population-transform.xml ==
+== input/resources/codesystem-additional-binding-purpose.xml ==
 
 
-== input/examples/codesystem-CSPHQ9.xml ==
-ERROR: CodeSystem/CSPHQ9: CodeSystem: The ShareableCodeSystem profile says that the title element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-ERROR: CodeSystem/CSPHQ9: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-ERROR: CodeSystem/CSPHQ9: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+== input/resources/codesystem-ig-parameters.xml ==
+INFORMATION: CodeSystem/ig-parameters: CodeSystem.concept[19].definition: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 
 
-== input/examples/codesystem-chf-codes.xml ==
+== input/resources/codesystem-json-empty-behavior.xml ==
 
 
-== input/examples/parameters-sdc-modular-root-assembled.xml ==
-ERROR: Parameters/sdc-modular-root-assembled: Parameters.parameter[0].resource.ofType(Questionnaire).item[0].extension[1].extension[0].value.ofType(string): The Profile 'http://hl7.org/fhir/StructureDefinition/questionnaire-constraint' definition allows for the type id but found type string
+== input/resources/codesystem-obligation.xml ==
 
 
-== input/examples/questionnaire-anc-quick-check.xml ==
+== input/resources/codesystem-organ-inventory-status.json ==
 
 
-== input/examples/questionnaire-demographics.xml ==
+== input/resources/observation-inventory-example.json ==
+ERROR: Observation/inventory-example: Observation.category[0].coding[0]: Unknown Code http://terminology.hl7.org/CodeSystem/observation-category#organ-inventory in http://terminology.hl7.org/CodeSystem/observation-category for 'http://terminology.hl7.org/CodeSystem/observation-category#organ-inventory'
+ERROR: Observation/inventory-example: Observation.code.coding[0]: The code "XXXXX-Y" is not valid in the system http://loinc.org; The code provided (http://loinc.org#XXXXX-Y) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#XXXXX-Y'
+ERROR: Observation/inventory-example: Observation.subject: Unable to resolve resource with reference 'Patient/f001'
+ERROR: Observation/inventory-example: Observation.performer[0]: Unable to resolve resource with reference 'Practitioner/f005'
+ERROR: Observation/inventory-example: Observation.value.ofType(CodeableConcept): None of the codings provided are in the value set 'Organ Status' (http://hl7.org/fhir/tools/ValueSet/organ-inventory-status), and a coding from this value set is required) (codes = http://hl7.org/fhir/tools/CodeSystem/organ-status#excised)
+ERROR: Observation/inventory-example: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/organ-status'
 
 
-== input/examples/questionnaire-sdc-modular-contact.xml ==
+== input/resources/structuredefinition-CDSHookContext.json ==
 
 
-== input/examples/questionnaire-sdc-modular-name.xml ==
-ERROR: Questionnaire/sdc-modular-name: Questionnaire.extension[3].extension[0].value.ofType(string): The Profile 'http://hl7.org/fhir/StructureDefinition/questionnaire-constraint' definition allows for the type id but found type string
+== input/resources/structuredefinition-CDSHookPatientContext.json ==
 
 
-== input/examples/questionnaire-sdc-modular-root.xml ==
+== input/resources/structuredefinition-CDSHooksRequest.json ==
+WARNING: StructureDefinition/CDSHooksRequest: StructureDefinition.snapshot.element[5]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/CDSHooksRequest: StructureDefinition.snapshot.element[6]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/CDSHooksRequest: StructureDefinition.snapshot.element[7]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/CDSHooksRequest: StructureDefinition.differential.element[5]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/CDSHooksRequest: StructureDefinition.differential.element[6]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/CDSHooksRequest: StructureDefinition.differential.element[7]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 
 
-== input/examples/questionnaire-sdc-profile-example.xml ==
+== input/resources/structuredefinition-CDSHooksResponse.json ==
 
 
-== input/examples/questionnaire-sdc-profile-example-PHQ9.xml ==
+== input/resources/structuredefinition-CDSHooksServices.json ==
 
 
-== input/examples/questionnaire-sdc-profile-example-PHQ9-search.xml ==
+== input/resources/structuredefinition-additional-binding.xml ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/tools/StructureDefinition/additional-binding'): The Implementation Guide contains no examples for this extension
 
 
-== input/examples/questionnaire-sdc-profile-example-cap.xml ==
+== input/resources/structuredefinition-implementationguide-resource-format.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-context-expression.xml ==
+== input/resources/structuredefinition-implied-string-prefix.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-cqf-PHQ9.xml ==
+== input/resources/structuredefinition-json-empty-behavior.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-form-behavior.xml ==
+== input/resources/structuredefinition-json-property-key.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-framingham-hchd-lhc.xml ==
+== input/resources/structuredefinition-obligation.xml ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/tools/StructureDefinition/obligation'): The Implementation Guide contains no examples for this extension
 
 
-== input/examples/questionnaire-sdc-profile-example-hunger-vital-signs.xml ==
+== input/resources/structuredefinition-organ-inventory.json ==
+ERROR: StructureDefinition/organ-inventory: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Unknown Code http://terminology.hl7.org/CodeSystem/observation-category#organ-inventory in http://terminology.hl7.org/CodeSystem/observation-category for 'http://terminology.hl7.org/CodeSystem/observation-category#organ-inventory'
+ERROR: StructureDefinition/organ-inventory: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code "XXXXX-Y" is not valid in the system http://loinc.org; The code provided (http://loinc.org#XXXXX-Y) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#XXXXX-Y'
+ERROR: StructureDefinition/organ-inventory: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Unknown Code http://terminology.hl7.org/CodeSystem/observation-category#organ-inventory in http://terminology.hl7.org/CodeSystem/observation-category for 'http://terminology.hl7.org/CodeSystem/observation-category#organ-inventory'
+ERROR: StructureDefinition/organ-inventory: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: The code "XXXXX-Y" is not valid in the system http://loinc.org; The code provided (http://loinc.org#XXXXX-Y) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#XXXXX-Y'
+INFORMATION: StructureDefinition/organ-inventory: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) 
 
 
-== input/examples/questionnaire-sdc-profile-example-image-options.xml ==
+== input/resources/structuredefinition-profile-mapping.xml ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/tools/StructureDefinition/profile-mapping'): The Implementation Guide contains no examples for this extension
 
 
-== input/examples/questionnaire-sdc-profile-example-loinc.xml ==
+== input/resources/structuredefinition-type-specifier.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-multi-subject.xml ==
+== input/resources/valueset-CDSActionType.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-ordinal-value.xml ==
+== input/resources/valueset-CDSIndicator.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-render.xml ==
+== input/resources/valueset-CDSLinkType.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-ussg-fht.xml ==
+== input/resources/valueset-CDSSelectionBehavior.xml ==
 
 
-== input/examples/questionnaire-sdc-profile-example-weight-height-tracking-panel.xml ==
+== input/resources/valueset-additional-binding-purpose.xml ==
 
 
-== input/examples/questionnaire-sdc-test-all-data-types.xml ==
+== input/resources/valueset-json-empty-behavior.xml ==
 
 
-== input/examples/questionnaire-sdc-test-enableWhen.xml ==
+== input/resources/valueset-obligation.xml ==
 
 
-== input/examples/questionnaire-sdc-test-fhirpath-prepop-candexpr.xml ==
+== input/resources/valuest-organ-inventory-list.json ==
 
 
-== input/examples/questionnaire-sdc-test-fhirpath-prepop-initialexpression.xml ==
+== input/resources/valuest-organ-inventory-status.json ==
 
 
-== input/examples/questionnaire-sdc-test-fhirpath-prepop-source-query.xml ==
-
-
-== input/examples/questionnaire-sdc-test-initialvalue.xml ==
-
-
-== input/examples/questionnaire-sdc-test-initialvalue-multiple.xml ==
-
-
-== input/examples/questionnaire-sdc-test-nested-groups.xml ==
-
-
-== input/examples/questionnaire-sdc-test-required-radios.xml ==
-
-
-== input/examples/questionnaireresponse-adaptive-questionnaireresponse-sdc-example-phq9.xml ==
-
-
-== input/examples/questionnaireresponse-questionnaireresponse-sdc-profile-example-PHQ9.xml ==
-
-
-== input/examples/questionnaireresponse-sdc-example-ussg-fht-answers.xml ==
-
-
-== input/examples/questionnaireresponse-sdc-profile-example.xml ==
-
-
-== input/examples/questionnaireresponse-sdc-profile-example-loinc.xml ==
-
-
-== input/examples/questionnaireresponse-sdc-profile-example-multi-subject.xml ==
-
-
-== input/examples/request-task-example.xml ==
-
-
-== input/examples/servicerequest-example.xml ==
-
-
-== input/examples/structuredefinition-sdc-profile-example.xml ==
-
-
-== input/examples/structuredefinition-sdc-question-library.xml ==
-
-
-== input/examples/task-example.xml ==
-
-
-== input/examples/valueset-sdc-profile-example.xml ==
-ERROR: ValueSet/sdc-profile-example: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/examples/valueset-sdc-question-library-states.xml ==
-WARNING: ValueSet/sdc-question-library-states: ValueSet.compose[0].include[0]: Unknown System 'http://example.org/CodeSystem/Australian-States' specified, so Concepts and Filters cant be checked
-
-
-== input/resources/StructureDefinition-sdc-questionnaire.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-adapt.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-adapt-srch.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-answerExpression.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-answerOptionsToggleExpression.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-assemble-expectation.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-assembleContext.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-assembledFrom.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-behave.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-calculatedExpression.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-candidateExpression.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-choiceColumn.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-collapsible.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-contextExpression.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-enableWhenExpression.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-endpoint.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-entryMode.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-extr-defn.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-extr-obsn.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-extr-smap.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-initialExpression.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-isSubject.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-itemAnswerMedia.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-itemExtractionContext.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-itemMedia.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-itemPopulationContext.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-launchContext.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-lookupQuestionnaire.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-maxQuantity.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-minQuantity.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-modular.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-observation-extract-category.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-observationExtract.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-observationLinkPeriod.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-openLabel.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-optionalDisplay.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-performerType.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-pop-exp.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-pop-obsn.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-pop-smap.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-preferredTerminologyServer.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-questionnaireAdaptive.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-render.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-search.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-shortText.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-sourceQueries.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-sourceStructureMap.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-subQuestionnaire.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-targetStructureMap.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-unitOpen.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-unitSupplementalSystem.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaire-width.xml ==
-
-
-== input/resources/StructureDefinition-sdc-questionnaireresponse-isSubject.xml ==
-
-
-== input/resources/StructureDefinition-sdc-referencesContained.xml ==
-
-
-== input/resources/StructureDefinition-sdc-servicerequest.xml ==
-
-
-== input/resources/StructureDefinition-sdc-servicerequest-questionnaire.xml ==
-
-
-== input/resources/capabilitystatement-sdc-form-archiver.xml ==
-WARNING: CapabilityStatement/sdc-form-archiver: CapabilityStatement.description: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-
-
-== input/resources/capabilitystatement-sdc-form-designer.xml ==
-
-
-== input/resources/capabilitystatement-sdc-form-filler.xml ==
-WARNING: CapabilityStatement/sdc-form-filler: CapabilityStatement.description: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-WARNING: CapabilityStatement/sdc-form-filler: CapabilityStatement.rest[0].documentation: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-
-
-== input/resources/capabilitystatement-sdc-form-manager.xml ==
-
-
-== input/resources/capabilitystatement-sdc-form-receiver.xml ==
-
-
-== input/resources/capabilitystatement-sdc-form-response-manager.xml ==
-
-
-== input/resources/operationdefinition-Questionnaire-assemble.xml ==
-
-
-== input/resources/operationdefinition-Questionnaire-next-question.xml ==
-
-
-== input/resources/operationdefinition-Questionnaire-populate.xml ==
-
-
-== input/resources/operationdefinition-Questionnaire-populatehtml.xml ==
-
-
-== input/resources/operationdefinition-Questionnaire-populatelink.xml ==
-
-
-== input/resources/operationdefinition-Questionnaire-process-response.xml ==
-
-
-== input/resources/operationdefinition-QuestionnaireResponse-extract.xml ==
-
-
-== input/resources/searchparameter-questionnaire-assemble-expectation.xml ==
-
-
-== input/resources/searchparameter-questionnaire-assembledFrom.xml ==
-
-
-== input/resources/searchparameter-questionnaire-definition.xml ==
-
-
-== input/resources/structuredefinition-parameters-questionnaire-assemble-out.xml ==
-
-
-== input/resources/structuredefinition-parameters-questionnaire-next-question-in.xml ==
-
-
-== input/resources/structuredefinition-parameters-questionnaire-next-question-out.xml ==
-
-
-== input/resources/structuredefinition-parameters-questionnaire-process-response-in.xml ==
-
-
-== input/resources/structuredefinition-parameters-questionnaireresponse-extract-in - Copy.xml ==
-
-
-== input/resources/structuredefinition-sdc-codesystem.xml ==
-
-
-== input/resources/structuredefinition-sdc-library.xml ==
-WARNING: StructureDefinition/sdc-library: StructureDefinition.snapshot.element[17].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-
-
-== input/resources/structuredefinition-sdc-questionnaireresponse.xml ==
-
-
-== input/resources/structuredefinition-sdc-questionnaireresponse-adapt.xml ==
-
-
-== input/resources/structuredefinition-sdc-task.xml ==
-
-
-== input/resources/structuredefinition-sdc-usagecontext.xml ==
-
-
-== input/resources/structuredefinition-sdc-valueset.xml ==
-
-
-== input/sdc.xml ==
-WARNING: ImplementationGuide/hl7.fhir.uv.sdc: ImplementationGuide.description: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-
-
-== input/vocabulary/codesystem-assemble-expectation.xml ==
-ERROR: CodeSystem/assemble-expectation: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
-== input/vocabulary/codesystem-collapsible.xml ==
-ERROR: CodeSystem/collapsible: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
-== input/vocabulary/codesystem-entryMode.xml ==
-ERROR: CodeSystem/entryMode: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
-== input/vocabulary/codesystem-launchContext.xml ==
-ERROR: CodeSystem/launchContext: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
-== input/vocabulary/codesystem-questionnaire-answer-constraint.xml ==
-
-
-== input/vocabulary/codesystem-temp.xml ==
-ERROR: CodeSystem/temp: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
-== input/vocabulary/valueset-assemble-expectation.xml ==
-ERROR: ValueSet/assemble-expectation: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/vocabulary/valueset-collapsible.xml ==
-ERROR: ValueSet/collapsible: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/vocabulary/valueset-dex-mimetype.xml ==
-ERROR: ValueSet/dex-mimetype: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/vocabulary/valueset-entryMode.xml ==
-ERROR: ValueSet/entryMode: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/vocabulary/valueset-launchContext.xml ==
-ERROR: ValueSet/launchContext: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/vocabulary/valueset-performerType.xml ==
-ERROR: ValueSet/performerType: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/vocabulary/valueset-questionnaire-answer-constraint.xml ==
-
-
-== input/vocabulary/valueset-species.xml ==
-ERROR: ValueSet/species: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
-== input/vocabulary/valueset-task-code.xml ==
-ERROR: ValueSet/task-code: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+== input/tools-ig.xml ==
 
 
