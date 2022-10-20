@@ -3,7 +3,7 @@
 
 err = 10, warn = 5, info = 1
 IG Publisher Version: (unknown) Out of date - current version is 1.2.7
-Generated Wed Oct 19 14:00:54 AEDT 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Thu Oct 20 10:27:21 AEDT 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-image-example : 0 / 0 / 1

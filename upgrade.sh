@@ -66,8 +66,8 @@ cp hl7.fhir.us.ecr/output/qa.txt records/hl7.fhir.us.ecr-qa.txt
 cp hl7.fhir.uv.howto/output/qa.txt records/hl7.fhir.uv.howto-qa.txt
 cp ihe.mhd.fhir/output/qa.txt records/ihe.mhd.fhir-qa.txt
 cp example.fhir.uv.myig/output/qa.txt records/example.fhir.uv.myig-qa.txt
-cp hl7.fhir.uv.sdc/output/qa.txt records/hl7.fhir.uv.tools-qa.txt
-cp hl7.fhir.uv.tools/output/qa.txt records/hl7.fhir.uv.sdc-qa.txt
+cp hl7.fhir.uv.sdc/output/qa.txt records/hl7.fhir.uv.sdc-qa.txt
+cp hl7.fhir.uv.tools/output/qa.txt records/hl7.fhir.uv.tools-qa.txt
 cp hl7.fhir.us.core/output/qa.txt records/hl7.fhir.us.core-qa.txt
 cp hl7.fhir.uv.ips/output/qa.txt records/hl7.fhir.uv.ips-qa.txt
 cp hl7.fhir.uv.ipa/output/qa.txt records/hl7.fhir.uv.ipa-qa.txt

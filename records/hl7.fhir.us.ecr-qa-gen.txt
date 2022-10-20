@@ -3,7 +3,7 @@
 
 err = 22, warn = 24, info = 0
 IG Publisher Version: (unknown) Out of date - current version is 1.2.7
-Generated Wed Oct 19 13:46:55 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ecr#2.1.0 (canonical = http://hl7.org/fhir/us/ecr)
+Generated Thu Oct 20 10:13:23 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ecr#2.1.0 (canonical = http://hl7.org/fhir/us/ecr)
  Build Errors : 0 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/hl7-fhir-us-ecr : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/bundle/bundle-ecr-message-zika : 0 / 1 / 147
