@@ -1,13 +1,13 @@
 ﻿InternationalPatientSummaryIG : Validation Results
 =========================================
 
-err = 1, warn = 6, info = 9
-IG Publisher Version: (unknown) Out of date - current version is 1.2.7
-Generated Thu Oct 20 10:17:03 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
- Build Errors : 11 / 5 / 0
+err = 0, warn = 6, info = 2
+IG Publisher Version: (unknown) Out of date - current version is 1.2.14
+Generated Wed Nov 16 15:26:30 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
+ Build Errors : 0 / 5 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/DiagnosticReport-hemoglobin : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-01 : 0 / 0 / 43
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-with-immunization : 0 / 0 / 44
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-01 : 0 / 0 / 41
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-with-immunization : 0 / 0 / 43
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Immunization-75680 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/MedicationRequest-eumfh-39-07-1-request : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Organization-simple-org : 0 / 0 / 1
@@ -16,7 +16,7 @@ Generated Thu Oct 20 10:17:03 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyIntolerance-39-07-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyIntolerance-with-abatement : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyintolerance-multiple-codings : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-minimal : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-minimal : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-no-info-required-sections : 0 / 0 / 24
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/condition-39-07-1 : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/device-70-275-1 : 0 / 0 / 1
@@ -25,7 +25,7 @@ Generated Thu Oct 20 10:17:03 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/imagingStudy-imaging-ex-5-1 : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/media-example-smile : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/medication-39-07-1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/medicationStatement-39-07-1 : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/medicationStatement-39-07-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-alcoholuse-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-hemoglobin : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/observation-imaging-example-1 : 0 / 0 / 1
@@ -155,20 +155,9 @@ Generated Thu Oct 20 10:17:03 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#
 
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-DeviceUseStatement-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 318, column 226: The link 'null.html' for "http://hl7.org/fhir/StructureDefinition/bodySite" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-DeviceUseStatement-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 430, column 226: The link 'null.html' for "http://hl7.org/fhir/StructureDefinition/bodySite" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-alcoholuse-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 423, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-pregnancy-edd-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 432, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-pregnancy-outcome-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 430, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-pregnancy-status-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 442, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-results-laboratory-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 534, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-results-pathology-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 536, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-results-radiology-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 577, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-results-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 449, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/output/StructureDefinition-Observation-tobaccouse-uv-ips-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/p/a at Line 424, column 282: The link 'datatypes.html#timing' for "Timing" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, datatypes-defined-for-this-guide, family-logo, family-nav, ig-status, top, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 
 
@@ -176,15 +165,9 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 
 
 == input/examples/IPS-bundle-01.xml ==
-INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips
-INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips
-INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[1].entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
-INFORMATION: Bundle/IPS-examples-Bundle-01: Bundle.entry[0].resource.section[1].entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
 
 
 == input/examples/IPS-bundle-with-immunization.xml ==
-INFORMATION: Bundle/IPS-examples-Bundle-with-immunization: Bundle.entry[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips
-INFORMATION: Bundle/IPS-examples-Bundle-with-immunization: Bundle.entry[0].resource.section[1].entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
 
 
 == input/examples/Immunization-75680.xml ==
@@ -212,11 +195,10 @@ INFORMATION: Bundle/IPS-examples-Bundle-with-immunization: Bundle.entry[0].resou
 
 
 == input/examples/bundle-minimal.json ==
-INFORMATION: Bundle/bundle-minimal: Bundle.entry[0].resource.section[1].entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips
 
 
 == input/examples/bundle-no-info-required-sections.json ==
-INFORMATION: Bundle/bundle-no-info-required-sections: Bundle.entry[3].resource.code[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/PractitionerRole-uv-ips
+INFORMATION: Bundle/bundle-no-info-required-sections: Bundle.entry[3].resource.code[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/PractitionerRole-uv-ips|1.1.0
 
 
 == input/examples/condition-39-07-1.xml ==
@@ -243,7 +225,6 @@ WARNING: ImagingStudy/TII-ImagingStudy-5-1: ImagingStudy.series[0].modality: Val
 
 
 == input/examples/medicationStatement-39-07-1.xml ==
-ERROR: MedicationStatement/eumfh-39-07-1: MedicationStatement.effective.ofType(Period).start: Profile http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips, Element matches more than one slice - , 
 
 
 == input/examples/observation-alcoholuse-1.xml ==

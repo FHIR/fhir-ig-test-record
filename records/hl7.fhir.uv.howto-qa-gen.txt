@@ -2,8 +2,8 @@
 =========================================
 
 err = 2, warn = 4, info = 0
-IG Publisher Version: (unknown) Out of date - current version is 1.2.7
-Generated Thu Oct 20 10:23:29 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.howto#0.1.0 (canonical = http://hl7.org/fhir/uv/howto)
+IG Publisher Version: (unknown) Out of date - current version is 1.2.14
+Generated Wed Nov 16 15:33:05 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.howto#0.1.0 (canonical = http://hl7.org/fhir/uv/howto)
  Build Errors : 5 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/input/howto : 1 / 0 / 1
 </table>
@@ -15,12 +15,12 @@ ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/output/using-templat
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/output/using-templates.html#/html/body/div/div/div/div/div/div/p/a at Line 616, column 6: The link 'template.html#todo' for "authoring templates." cannot be resolved (valid targets: [summary, segment-header, adding-an-icon-to-the-template, publish-box, bottom, segment-post-footer, append-a-css-to-change-the-background-color, extending-the-hl7-ig-templates, example, ig-status, top, changing-the-custom-template, stripe, running-the-publisher, segment-footer, customize-a-template, segment-navbar, segment-content, segment-breadcrumb, setting-up-the-local-custom-template])
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/output/using-templates.html#/html/body/div/div/div/div/div/div/ul/li/p/a at Line 627, column 17: The link 'template.html#todo' for "templates section" cannot be resolved (valid targets: [summary, segment-header, adding-an-icon-to-the-template, publish-box, bottom, segment-post-footer, append-a-css-to-change-the-background-color, extending-the-hl7-ig-templates, example, ig-status, top, changing-the-custom-template, stripe, running-the-publisher, segment-footer, customize-a-template, segment-navbar, segment-content, segment-breadcrumb, setting-up-the-local-custom-template])
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 
 
 == input/howto.xml ==
-ERROR: ImplementationGuide/hl7.fhir.uv.howto: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+ERROR: ImplementationGuide/hl7.fhir.uv.howto: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
 
 

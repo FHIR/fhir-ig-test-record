@@ -1,80 +1,80 @@
 ﻿USCore : Validation Results
 =========================================
 
-err = 41, warn = 11, info = 29
-IG Publisher Version: (unknown) Out of date - current version is 1.2.7
-Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core#6.0.0-preview (canonical = http://hl7.org/fhir/us/core)
- Build Errors : 20 / 5 / 0
+err = 157, warn = 78, info = 197
+IG Publisher Version: (unknown) Out of date - current version is 1.2.15
+Generated Thu Nov 17 05:27:20 CLST 2022. FHIR version 4.0.1 for hl7.fhir.us.core#6.0.0-preview (canonical = http://hl7.org/fhir/us/core)
+ Build Errors : 74 / 1 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.core : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Device-defib : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Device-knee : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/DiagnosticReport-bone-density-report : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/DiagnosticReport-cardiology-report : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/DiagnosticReport-chest-xray-report : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-color : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-heart-rate : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-muscle-tone : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-reflex-irritability : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-respiratory-effort : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-score : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-score-panel : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-44250-9 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-44255-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-68516-4 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-68517-2 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-68524-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-69858-9 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-69861-3 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-76513-1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-89555-7 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-93038-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-93159-2 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-95530-2 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96780-2 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96781-0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96782-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96842-0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-97027-7 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-panel-example-96777-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88122-7 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88123-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88124-3 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-panel-example-88121-9 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-54899-0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-56051-6 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-56799-0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-63512-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-63586-2 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-67875-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-71802-3 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-76437-3 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-76501-6 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-82589-3 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93026-3 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93027-1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93028-9 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93029-7 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93030-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93033-9 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93034-7 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93035-4 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93038-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93025-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93039-6 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93040-4 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93041-2 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93042-0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93043-8 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-color : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-heart-rate : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-muscle-tone : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-reflex-irritability : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-respiratory-effort : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-score : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-score-panel : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-44250-9 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-44255-8 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-68516-4 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-68517-2 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-68524-8 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-69858-9 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-69861-3 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-76513-1 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-89555-7 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-93038-8 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-93159-2 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-95530-2 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96780-2 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96781-0 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96782-8 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96842-0 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-97027-7 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-panel-example-96777-8 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88122-7 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88123-5 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88124-3 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-panel-example-88121-9 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-54899-0 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-56051-6 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-56799-0 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-63512-8 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-63586-2 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-67875-5 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-71802-3 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-76437-3 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-76501-6 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-82589-3 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93026-3 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93027-1 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93028-9 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93029-7 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93030-5 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93033-9 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93034-7 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93035-4 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-item-example-93038-8 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer0 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer1 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer0 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer1 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93025-5 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93039-6 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93040-4 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93041-2 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93042-0 : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-PRAPARE-panel-example-93043-8 : 2 / 1 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/PractitionerRole_Practitioner_Endpoint_Bundle_Example : 0 / 0 / 10
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Procedure-R4-defib-implant : 0 / 1 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-AHC-HRSN-example : 0 / 0 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-PRAPARE-example : 1 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-glasgow-coma-score : 0 / 0 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-hunger-vital-sign-example : 1 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-AHC-HRSN-example : 2 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-PRAPARE-example : 3 / 2 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-glasgow-coma-score : 1 / 1 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-hunger-vital-sign-example : 3 / 2 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/acme-lab : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/allergyintolerance-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/allergyintolerance-provenance-example : 0 / 0 / 5
@@ -84,7 +84,7 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/capillary-refill-time-nail-bed : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/careteam-example : 4 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/colonoscopy : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/condition-SDOH-example : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/condition-SDOH-example : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/condition-duodenal-ulcer : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/condition-encounter-diagnosis-example1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/condition-encounter-diagnosis-example2 : 0 / 0 / 1
@@ -105,7 +105,7 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/encounter-example-1 : 0 / 1 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/episode-summary : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/example-organization-2 : 0 / 0 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/foodpantry-referral : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/foodpantry-referral : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/goal-1 : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/goal-sdoh-2 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/head-circumference : 0 / 0 / 1
@@ -127,6 +127,7 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/medicationrequest-self-tylenol : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/observation-blood-glucose : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/observation-bun : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/observation-clinical-judgement-example : 1 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/observation-erythrocytes : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/observation-hemoglobin : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/observation-mchc : 0 / 0 / 1
@@ -149,12 +150,13 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/p-r-interval-ekg-lead : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-child-example : 0 / 0 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-deceased-example : 0 / 0 / 4
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-example : 0 / 0 / 9
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-example : 0 / 3 / 9
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-infant-example : 0 / 0 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/pediatric-bmi-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/pediatric-wt-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/practitioner-1 : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/practitioner-2 : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/practitioner-pharmacist : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/pulse-intensity-palpation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/q-t-interval-ekg-lead : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/qrs-dur-ekg-lead : 0 / 0 / 1
@@ -163,9 +165,8 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/respiratory-rate : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/saint-luke-w-endpoint : 0 / 0 / 4
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/sexual-orientation-example : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/social-history-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/some-day-smoker : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/specimen-example : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/specimen-example : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/temperature : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/udi-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/urobilinogen : 0 / 0 / 1
@@ -174,10 +175,10 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/weight : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/CodeSystem-careplan-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/CodeSystem-condition-category : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/CodeSystem-us-core-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/CodeSystem-us-core-documentreference-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/CodeSystem-us-core-observation-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/CodeSystem-us-core-provenance-participant-type : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/CodeSystem-us-core-tags : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-allergyintolerance : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-birthsex : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-blood-pressure : 0 / 0 / 1
@@ -188,7 +189,7 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-careplan : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-careteam : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-condition-encounter-diagnosis : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-condition-problems-health-concerns : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-condition-problems-health-concerns : 2 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-coverage : 0 / 2 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-diagnosticreport-lab : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-diagnosticreport-note : 0 / 0 / 1
@@ -207,16 +208,15 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-medication : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-medicationdispense : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-medicationrequest : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-clinical-judgement : 4 / 8 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-clinical-test : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-imaging : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-lab : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-occupation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-pregnancyintent : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-pregnancystatus : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-sdoh-assessment : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-screening-assessments : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-sexual-orientation : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-social-history : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-survey : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-organization : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-pediatric-bmi-for-age : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-pediatric-weight-for-height : 0 / 0 / 1
@@ -225,13 +225,12 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-procedure : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-provenance : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-pulse-oximetry : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-questionnaireresponse : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-race : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-relatedperson : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-respiratory-rate : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-sex : 28 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-sex : 0 / 2 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-smokingstatus : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-specimen : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-specimen : 0 / 2 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-tribal-affiliation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-vital-signs : 2 / 1 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-birthsex : 0 / 0 / 1
@@ -239,8 +238,8 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-detailed-race : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-omb-ethnicity-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-omb-race-category : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-sex : 3 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-simple-language : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-assessment-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-clinical-note-type : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-diagnosticreport-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-diagnosticreport-lab-codes : 0 / 0 / 1
@@ -259,10 +258,9 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-sexual-orientation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-smoking-status-observation-codes : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-survey-codes : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-tags : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-usps-state : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/capabilitystatement-us-core-client : 0 / 0 / 64
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/capabilitystatement-us-core-server : 0 / 0 / 67
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/capabilitystatement-us-core-client : 10 / 0 / 64
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/capabilitystatement-us-core-server : 10 / 0 / 67
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/operationdefinition-docref : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-allergyintolerance-clinical-status : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-allergyintolerance-patient : 0 / 0 / 1
@@ -352,12 +350,6 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-procedure-date : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-procedure-patient : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-procedure-status : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-questionnaireresponse-authored : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-questionnaireresponse-id : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-questionnaireresponse-patient : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-questionnaireresponse-questionnaire : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-questionnaireresponse-status : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-questionnaireresponse-tag : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-race : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-relatedperson-id : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/searchparameter-us-core-relatedperson-name : 0 / 0 / 1
@@ -376,39 +368,89 @@ Generated Thu Oct 20 10:31:44 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-condition-code : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-encounter-type : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-goal-description : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-observation-category : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-observation-category : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-problem-or-health-concern : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-procedure-code : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-servicerequest-category : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-servicerequest-category : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-vital-signs : 0 / 0 / 1
 </table>
 
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 306, column 92543: The link 'http://hl7.org/fhir/R4/death-date.html#search' for "death-date" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/Location-hospital.html#/html/body/div/div/div/div/div/div/p/a at Line 262, column 664: The link '??phinvads??' for "http://example.org/fhir/Organization/holy-healthcare: Holy Healthcare" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-observation-occupation.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 371, column 106: The link '#.html' for "Occupational Data for Health (ODH) Usual Work Profile" cannot be resolved (valid targets: 110 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/ValueSet-us-core-observation-smoking-status-status.html#/html/body/div/div/div/div/div/div/table/tr/td/div/p/a at Line 312, column 911: The link 'provenance.html' for "Provenance" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 6877: The link 'StructureDefinition-us-core-observation-sdoh-assessment.html' for "US Core Observation SDOH Assessment Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 7095: The link 'StructureDefinition-us-core-observation-social-history.html' for "US Core Observation Social History Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 8108: The link 'StructureDefinition-us-core-observation-survey.html' for "US Core Observation Survey Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 10877: The link 'StructureDefinition-us-core-questionnaireresponse.html' for "US Core QuestionnaireResponse Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 71747: The link 'StructureDefinition-us-core-observation-sdoh-assessment.html' for "US Core Observation SDOH Assessment Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 72049: The link 'StructureDefinition-us-core-observation-social-history.html' for "US Core Observation Social History Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 73482: The link 'StructureDefinition-us-core-observation-survey.html' for "US Core Observation Survey Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 97761: The link 'StructureDefinition-us-core-questionnaireresponse.html' for "US Core QuestionnaireResponse Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 98953: The link 'SearchParameter-us-core-questionnaireresponse-id.html' for "_id" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 99098: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 99444: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 99527: The link 'SearchParameter-us-core-questionnaireresponse-authored.html' for "authored" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 99692: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 99775: The link 'SearchParameter-us-core-questionnaireresponse-tag.html' for "_tag" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 99851: The link 'SearchParameter-us-core-questionnaireresponse-authored.html' for "authored" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 100022: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 100105: The link 'SearchParameter-us-core-questionnaireresponse-status.html' for "status" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 100267: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 100350: The link 'SearchParameter-us-core-questionnaireresponse-tag.html' for "_tag" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 100507: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 100590: The link 'SearchParameter-us-core-questionnaireresponse-questionnaire.html' for "questionnaire" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 100832: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 101121: The link 'SearchParameter-us-core-questionnaireresponse-status.html' for "status" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 101410: The link 'SearchParameter-us-core-questionnaireresponse-tag.html' for "_tag" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 101694: The link 'SearchParameter-us-core-questionnaireresponse-authored.html' for "authored" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-client.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 101996: The link 'SearchParameter-us-core-questionnaireresponse-questionnaire.html' for "questionnaire" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 8711: The link 'StructureDefinition-us-core-observation-sdoh-assessment.html' for "US Core Observation SDOH Assessment Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 8929: The link 'StructureDefinition-us-core-observation-social-history.html' for "US Core Observation Social History Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 9942: The link 'StructureDefinition-us-core-observation-survey.html' for "US Core Observation Survey Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 12742: The link 'StructureDefinition-us-core-questionnaireresponse.html' for "US Core QuestionnaireResponse Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 80818: The link 'StructureDefinition-us-core-observation-sdoh-assessment.html' for "US Core Observation SDOH Assessment Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 81120: The link 'StructureDefinition-us-core-observation-social-history.html' for "US Core Observation Social History Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 82553: The link 'StructureDefinition-us-core-observation-survey.html' for "US Core Observation Survey Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 308, column 107315: The link 'StructureDefinition-us-core-questionnaireresponse.html' for "US Core QuestionnaireResponse Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 108507: The link 'SearchParameter-us-core-questionnaireresponse-id.html' for "_id" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 108652: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 108998: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109081: The link 'SearchParameter-us-core-questionnaireresponse-status.html' for "status" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109243: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109326: The link 'SearchParameter-us-core-questionnaireresponse-questionnaire.html' for "questionnaire" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109506: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109589: The link 'SearchParameter-us-core-questionnaireresponse-tag.html' for "_tag" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109746: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109829: The link 'SearchParameter-us-core-questionnaireresponse-authored.html' for "authored" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 109994: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 110077: The link 'SearchParameter-us-core-questionnaireresponse-tag.html' for "_tag" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 308, column 110153: The link 'SearchParameter-us-core-questionnaireresponse-authored.html' for "authored" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 110386: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 110675: The link 'SearchParameter-us-core-questionnaireresponse-status.html' for "status" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 110964: The link 'SearchParameter-us-core-questionnaireresponse-tag.html' for "_tag" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 111248: The link 'SearchParameter-us-core-questionnaireresponse-authored.html' for "authored" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/CapabilityStatement-us-core-server.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 308, column 111550: The link 'SearchParameter-us-core-questionnaireresponse-questionnaire.html' for "questionnaire" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/Location-hospital.html#/html/body/div/div/div/div/div/div/p/a at Line 264, column 664: The link '??phinvads??' for "http://example.org/fhir/Organization/holy-healthcare: Holy Healthcare" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-implantable-device.html#/html/body/div/div/div/div/div/div/ol/li/p/strong/a at Line 1228, column 233: The link 'SearchParameter-us-core-device-status.html' for "status" cannot be resolved
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/a at Line 247, column 13: The link 'http://build.fhir.org/ig/HL7/US-Core/' for "http://build.fhir.org/ig/HL7/US-Core/" cannot be resolved
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 259, column 38: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-coverage.html' for "Health Insurance Information" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 260, column 244: The link '#.html' for "Functional Status" cannot be resolved (valid targets: 89 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 260, column 284: The link '#.html' for "Disability Status" cannot be resolved (valid targets: 89 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 260, column 324: The link '#.html' for "Mental/Cognitive Status" cannot be resolved (valid targets: 89 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 260, column 374: The link '#.html' for "Pregnancy Status" cannot be resolved (valid targets: 89 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 261, column 161: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-observation-lab.html' for "See Change Here" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 261, column 281: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-specimen.html' for "Here" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 262, column 124: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-medicationrequest.html' for "See Changes Here" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 262, column 247: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-medicationdispense.html' for "Here" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 265, column 79: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-patient.html' for "See Change Here" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 266, column 72: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-relatedperson.html' for "See Change Here" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 267, column 51: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-observation-occupation.html' for "See Change Here" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 270, column 87: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-servicerequest.html' for "See Change Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 262, column 161: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-observation-lab.html' for "See Change Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 262, column 281: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-specimen.html' for "Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 263, column 124: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-medicationrequest.html' for "See Changes Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 263, column 247: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-medicationdispense.html' for "Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 266, column 79: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-patient.html' for "See Change Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 267, column 72: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-relatedperson.html' for "See Change Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 268, column 51: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-observation-occupation.html' for "See Change Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 271, column 87: The link 'http://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-servicerequest.html' for "See Change Here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/search-parameters-and-operations.html#/html/body/div/div/div/div/div/ul/li/a at Line 450, column 8: The link 'SearchParameter-us-core-questionnaireresponse-id.html' for "_id" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/search-parameters-and-operations.html#/html/body/div/div/div/div/div/ul/li/a at Line 451, column 8: The link 'SearchParameter-us-core-questionnaireresponse-patient.html' for "patient" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/search-parameters-and-operations.html#/html/body/div/div/div/div/div/ul/li/a at Line 452, column 8: The link 'SearchParameter-us-core-questionnaireresponse-status.html' for "status" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/search-parameters-and-operations.html#/html/body/div/div/div/div/div/ul/li/a at Line 453, column 8: The link 'SearchParameter-us-core-questionnaireresponse-tag.html' for "_tag" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/search-parameters-and-operations.html#/html/body/div/div/div/div/div/ul/li/a at Line 454, column 8: The link 'SearchParameter-us-core-questionnaireresponse-authored.html' for "authored" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/search-parameters-and-operations.html#/html/body/div/div/div/div/div/ul/li/a at Line 455, column 8: The link 'SearchParameter-us-core-questionnaireresponse-questionnaire.html' for "questionnaire" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/uscdi.html#/html/body/div/div/div/div/div/div/div/table/tbody/tr/td/a at Line 341, column 14: The link 'StructureDefinition-us-core-observation-sdoh-assessment.html' for "US Core Observation SDOH Assessment Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/uscdi.html#/html/body/div/div/div/div/div/div/div/table/tbody/tr/td/a at Line 341, column 154: The link 'StructureDefinition-us-core-observation-social-history.html' for "US Core Observation Social History Profile" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/uscdi.html#/html/body/div/div/div/div/div/div/div/table/tbody/tr/td/a at Line 341, column 292: The link 'StructureDefinition-us-core-questionnaireresponse.html' for "US Core QuestionnaireResponse Profile" cannot be resolved
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/uscdi.html#/html/body/div/div/div/div/div/div/div/div/img at Line 557, column 6: The image source 'foo.png' cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/uscdi.html#/html/body/div/div/div/div/div/div/div/table/tbody/tr/td/a at Line 683, column 14: The link 'assessments.html' for "See Assessments Guidance" cannot be resolved
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 
 
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.us.core.json ==
@@ -430,197 +472,422 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 
 
 == input/examples/Observation-10-minute-apgar-color.json ==
+ERROR: Observation/10-minute-apgar-color: Observation.category[0]: Profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessments|6.0.0-preview, Element matches more than one slice - survey, uscore
 
 
 == input/examples/Observation-10-minute-apgar-heart-rate.json ==
+ERROR: Observation/10-minute-apgar-heart-rate: Observation.category[0]: Profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessments|6.0.0-preview, Element matches more than one slice - survey, uscore
 
 
 == input/examples/Observation-10-minute-apgar-muscle-tone.json ==
+ERROR: Observation/10-minute-apgar-muscle-tone: Observation.category[0]: Profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessments|6.0.0-preview, Element matches more than one slice - survey, uscore
 
 
 == input/examples/Observation-10-minute-apgar-reflex-irritability.json ==
+ERROR: Observation/10-minute-apgar-reflex-irritability: Observation.category[0]: Profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessments|6.0.0-preview, Element matches more than one slice - survey, uscore
 
 
 == input/examples/Observation-10-minute-apgar-respiratory-effort.json ==
+ERROR: Observation/10-minute-apgar-respiratory-effort: Observation.category[0]: Profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessments|6.0.0-preview, Element matches more than one slice - survey, uscore
 
 
 == input/examples/Observation-10-minute-apgar-score.json ==
+ERROR: Observation/10-minute-apgar-score: Observation.category[0]: Profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessments|6.0.0-preview, Element matches more than one slice - survey, uscore
 
 
 == input/examples/Observation-10-minute-apgar-score-panel.json ==
+ERROR: Observation/10-minute-apgar-score-panel: Observation.category[0]: Profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessments|6.0.0-preview, Element matches more than one slice - survey, uscore
 
 
 == input/examples/Observation-AHC-HRSN-item-example-44250-9.json ==
+ERROR: Observation/AHC-HRSN-item-example-44250-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-44250-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-44250-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-44250-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-44255-8.json ==
+ERROR: Observation/AHC-HRSN-item-example-44255-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-44255-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-44255-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-44255-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-68516-4.json ==
+ERROR: Observation/AHC-HRSN-item-example-68516-4: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-68516-4: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-68516-4: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-68516-4: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-68517-2.json ==
+ERROR: Observation/AHC-HRSN-item-example-68517-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-68517-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-68517-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-68517-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-68524-8.json ==
+ERROR: Observation/AHC-HRSN-item-example-68524-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-68524-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-68524-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-68524-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-69858-9.json ==
+ERROR: Observation/AHC-HRSN-item-example-69858-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-69858-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-69858-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-69858-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-69861-3.json ==
+ERROR: Observation/AHC-HRSN-item-example-69861-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-69861-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-69861-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-69861-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-76513-1.json ==
+ERROR: Observation/AHC-HRSN-item-example-76513-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-76513-1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-76513-1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-76513-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-89555-7.json ==
+ERROR: Observation/AHC-HRSN-item-example-89555-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-89555-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-89555-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-89555-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-93038-8.json ==
+ERROR: Observation/AHC-HRSN-item-example-93038-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-93038-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-93038-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-93038-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-93159-2.json ==
+ERROR: Observation/AHC-HRSN-item-example-93159-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-93159-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-93159-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-93159-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-95530-2.json ==
+ERROR: Observation/AHC-HRSN-item-example-95530-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-95530-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-95530-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-95530-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-96780-2.json ==
+ERROR: Observation/AHC-HRSN-item-example-96780-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-96780-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-96780-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-96780-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-96781-0.json ==
+ERROR: Observation/AHC-HRSN-item-example-96781-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-96781-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-96781-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-96781-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-96782-8.json ==
+ERROR: Observation/AHC-HRSN-item-example-96782-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-96782-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-96782-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-96782-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-96842-0.json ==
+ERROR: Observation/AHC-HRSN-item-example-96842-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-96842-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-96842-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-96842-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-item-example-97027-7.json ==
+ERROR: Observation/AHC-HRSN-item-example-97027-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-item-example-97027-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-item-example-97027-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-item-example-97027-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-AHC-HRSN-panel-example-96777-8.json ==
+ERROR: Observation/AHC-HRSN-panel-example-96777-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/AHC-HRSN-panel-example-96777-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/AHC-HRSN-panel-example-96777-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/AHC-HRSN-panel-example-96777-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-HVS-item-example-88122-7.json ==
+ERROR: Observation/HVS-item-example-88122-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/HVS-item-example-88122-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/HVS-item-example-88122-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/HVS-item-example-88122-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-HVS-item-example-88123-5.json ==
+ERROR: Observation/HVS-item-example-88123-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/HVS-item-example-88123-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/HVS-item-example-88123-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/HVS-item-example-88123-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-HVS-item-example-88124-3.json ==
+ERROR: Observation/HVS-item-example-88124-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/HVS-item-example-88124-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/HVS-item-example-88124-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/HVS-item-example-88124-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-HVS-panel-example-88121-9.json ==
+ERROR: Observation/HVS-panel-example-88121-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/HVS-panel-example-88121-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/HVS-panel-example-88121-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/HVS-panel-example-88121-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-54899-0.json ==
+ERROR: Observation/PRAPARE-item-example-54899-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-54899-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-54899-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-54899-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-56051-6.json ==
+ERROR: Observation/PRAPARE-item-example-56051-6: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-56051-6: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-56051-6: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-56051-6: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-56799-0.json ==
+ERROR: Observation/PRAPARE-item-example-56799-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-56799-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-56799-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-56799-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-63512-8.json ==
+ERROR: Observation/PRAPARE-item-example-63512-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-63512-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-63512-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-63512-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-63586-2.json ==
+ERROR: Observation/PRAPARE-item-example-63586-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-63586-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-63586-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-63586-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-67875-5.json ==
+ERROR: Observation/PRAPARE-item-example-67875-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-67875-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-67875-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-67875-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-71802-3.json ==
+ERROR: Observation/PRAPARE-item-example-71802-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-71802-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-71802-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-71802-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-76437-3.json ==
+ERROR: Observation/PRAPARE-item-example-76437-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-76437-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-76437-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-76437-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-76501-6.json ==
+ERROR: Observation/PRAPARE-item-example-76501-6: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-76501-6: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-76501-6: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-76501-6: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-82589-3.json ==
+ERROR: Observation/PRAPARE-item-example-82589-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-82589-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-82589-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-82589-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93026-3.json ==
+ERROR: Observation/PRAPARE-item-example-93026-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93026-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93026-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93026-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93027-1.json ==
+ERROR: Observation/PRAPARE-item-example-93027-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93027-1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93027-1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93027-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93028-9.json ==
+ERROR: Observation/PRAPARE-item-example-93028-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93028-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93028-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93028-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93029-7.json ==
+ERROR: Observation/PRAPARE-item-example-93029-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93029-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93029-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93029-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93030-5.json ==
+ERROR: Observation/PRAPARE-item-example-93030-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93030-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93030-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93030-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93033-9.json ==
+ERROR: Observation/PRAPARE-item-example-93033-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93033-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93033-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93033-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93034-7.json ==
+ERROR: Observation/PRAPARE-item-example-93034-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93034-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93034-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93034-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93035-4.json ==
+ERROR: Observation/PRAPARE-item-example-93035-4: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93035-4: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93035-4: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93035-4: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-item-example-93038-8.json ==
+ERROR: Observation/PRAPARE-item-example-93038-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-item-example-93038-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-item-example-93038-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-item-example-93038-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer0.json ==
+ERROR: Observation/PRAPARE-multiselect-item-example-32624-9-answer0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-multiselect-item-example-32624-9-answer0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-multiselect-item-example-32624-9-answer0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-multiselect-item-example-32624-9-answer0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer1.json ==
+ERROR: Observation/PRAPARE-multiselect-item-example-32624-9-answer1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-multiselect-item-example-32624-9-answer1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-multiselect-item-example-32624-9-answer1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-multiselect-item-example-32624-9-answer1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer0.json ==
+ERROR: Observation/PRAPARE-multiselect-item-example-93031-3-answer0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-multiselect-item-example-93031-3-answer0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-multiselect-item-example-93031-3-answer0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-multiselect-item-example-93031-3-answer0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer1.json ==
+ERROR: Observation/PRAPARE-multiselect-item-example-93031-3-answer1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-multiselect-item-example-93031-3-answer1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-multiselect-item-example-93031-3-answer1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-multiselect-item-example-93031-3-answer1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-panel-example-93025-5.json ==
+ERROR: Observation/PRAPARE-panel-example-93025-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-panel-example-93025-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-panel-example-93025-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-panel-example-93025-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-panel-example-93039-6.json ==
+ERROR: Observation/PRAPARE-panel-example-93039-6: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-panel-example-93039-6: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-panel-example-93039-6: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-panel-example-93039-6: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-panel-example-93040-4.json ==
+ERROR: Observation/PRAPARE-panel-example-93040-4: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-panel-example-93040-4: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-panel-example-93040-4: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-panel-example-93040-4: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-panel-example-93041-2.json ==
+ERROR: Observation/PRAPARE-panel-example-93041-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-panel-example-93041-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-panel-example-93041-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-panel-example-93041-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-panel-example-93042-0.json ==
+ERROR: Observation/PRAPARE-panel-example-93042-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-panel-example-93042-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-panel-example-93042-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-panel-example-93042-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/Observation-PRAPARE-panel-example-93043-8.json ==
+ERROR: Observation/PRAPARE-panel-example-93043-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-panel-example-93043-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-tags#sdoh)
+ERROR: Observation/PRAPARE-panel-example-93043-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: Observation/PRAPARE-panel-example-93043-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/PractitionerRole_Practitioner_Endpoint_Bundle_Example.json ==
+INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[0].resource.ofType(PractitionerRole).specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes|4.0.1), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#208D00000X)
+INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource.ofType(Practitioner).identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
+INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource.ofType(Practitioner).identifier[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
 
 
 == input/examples/Procedure-R4-defib-implant.json ==
 
 
 == input/examples/QuestionnaireResponse-AHC-HRSN-example.json ==
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+ERROR: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse.meta.tag[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+WARNING: QuestionnaireResponse/AHC-HRSN-screening-example: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/QuestionnaireResponse-PRAPARE-example.json ==
+ERROR: QuestionnaireResponse/PRAPARE-example: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+ERROR: QuestionnaireResponse/PRAPARE-example: QuestionnaireResponse.meta.tag[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
 ERROR: QuestionnaireResponse/PRAPARE-example: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/Questionnaire/SDOHCC-QuestionnairePRAPARE' does not resolve
+WARNING: QuestionnaireResponse/PRAPARE-example: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/QuestionnaireResponse-glasgow-coma-score.json ==
+ERROR: QuestionnaireResponse/glascow-coma-score: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+WARNING: QuestionnaireResponse/glascow-coma-score: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/QuestionnaireResponse-hunger-vital-sign-example.json ==
+ERROR: QuestionnaireResponse/hunger-vital-sign-example: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+ERROR: QuestionnaireResponse/hunger-vital-sign-example: QuestionnaireResponse.meta.tag[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
 ERROR: QuestionnaireResponse/hunger-vital-sign-example: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/Questionnaire/SDOHCC-QuestionnaireHungerVitalSign' does not resolve
+WARNING: QuestionnaireResponse/hunger-vital-sign-example: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 
 
 == input/examples/acme-lab.json ==
@@ -645,16 +912,17 @@ ERROR: QuestionnaireResponse/hunger-vital-sign-example: QuestionnaireResponse.qu
 
 
 == input/examples/careteam-example.json ==
-ERROR: CareTeam/example: CareTeam.participant[0].role[0]: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
-ERROR: CareTeam/example: CareTeam.participant[1].role[0]: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
-ERROR: CareTeam/example: CareTeam.participant[2].role[0]: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
-ERROR: CareTeam/example: CareTeam.participant[3].role[0]: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
+ERROR: CareTeam/example: CareTeam.participant[0].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
+ERROR: CareTeam/example: CareTeam.participant[1].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
+ERROR: CareTeam/example: CareTeam.participant[2].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
+ERROR: CareTeam/example: CareTeam.participant[3].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
 
 
 == input/examples/colonoscopy.json ==
 
 
 == input/examples/condition-SDOH-example.json ==
+ERROR: Condition/condition-SDOH-example: Condition.category[1].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
 
 
 == input/examples/condition-duodenal-ulcer.json ==
@@ -719,12 +987,15 @@ INFORMATION: Coverage/coverage-selfpay-example: Coverage.type.coding[0]: Code Sy
 
 
 == input/examples/example-organization-2.json ==
+INFORMATION: Organization/example-organization-2: Organization.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.0.0-preview
 
 
 == input/examples/foodpantry-referral.json ==
+ERROR: ServiceRequest/foodpantry-referral: ServiceRequest.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
 
 
 == input/examples/goal-1.json ==
+WARNING: Goal/goal-1: Goal.description: No code provided, and a code should be provided from the value set 'US Core Goal Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|6.0.0-preview)
 
 
 == input/examples/goal-sdoh-2.json ==
@@ -787,6 +1058,11 @@ INFORMATION: Coverage/coverage-selfpay-example: Coverage.type.coding[0]: Code Sy
 == input/examples/observation-bun.json ==
 
 
+== input/examples/observation-clinical-judgement-example.json ==
+INFORMATION: Observation/clinical-judgement-example: Observation.category[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-judgment|6.0.0-preview
+ERROR: Observation/clinical-judgement-example: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+
+
 == input/examples/observation-erythrocytes.json ==
 
 
@@ -801,7 +1077,7 @@ INFORMATION: Coverage/coverage-selfpay-example: Coverage.type.coding[0]: Code Sy
 
 == input/examples/observation-occupation.json ==
 INFORMATION: Observation/observation-occupation: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH' is unknown so the code cannot be validated
-ERROR: Observation/observation-occupation: Observation.component[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Occupation CDC Census 2018' (http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.114222.4.11.8065), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH#621610.008495)
+ERROR: Observation/observation-occupation: Observation.component[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Occupation CDC Census 2018' (http://phinvads.cdc.gov/fhir/ValueSet/2.16.840.1.114222.4.11.8065|1), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH#621610.008495)
 INFORMATION: Observation/observation-occupation: Observation.component[0].value.ofType(CodeableConcept).coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH' is unknown so the code cannot be validated
 
 
@@ -812,6 +1088,7 @@ INFORMATION: Observation/observation-occupation: Observation.component[0].value.
 
 
 == input/examples/observation-satO2-fiO2.json ==
+INFORMATION: Observation/satO2-fiO2: Observation.code.coding[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.0.0-preview
 
 
 == input/examples/observation-serum-calcium.json ==
@@ -860,6 +1137,9 @@ INFORMATION: Patient/deceased-example: Patient.extension[1].extension[0].value.o
 
 
 == input/examples/patient-example.json ==
+WARNING: Patient/example: Patient.extension[2].extension[0].value.ofType(CodeableConcept).coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#187 should be 'Paiute-Shoshone Tribe of the Fallon Reservation and Colony, Nevada', not 'Paiute-Shoshone Tribe of the Fallon Reservation an' for 'http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#187'
+WARNING: Patient/example: Patient.extension[2].extension[0].value.ofType(CodeableConcept): Display Name for http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#187 should be 'Paiute-Shoshone Tribe of the Fallon Reservation and Colony, Nevada', not 'Paiute-Shoshone Tribe of the Fallon Reservation an'
+WARNING: Patient/example: Patient.extension[4].extension[0].value.ofType(code): ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.53 not found by validator
 
 
 == input/examples/patient-infant-example.json ==
@@ -872,9 +1152,14 @@ INFORMATION: Patient/deceased-example: Patient.extension[1].extension[0].value.o
 
 
 == input/examples/practitioner-1.json ==
+INFORMATION: Practitioner/practitioner-1: Practitioner.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
 
 
 == input/examples/practitioner-2.json ==
+INFORMATION: Practitioner/practitioner-2: Practitioner.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
+
+
+== input/examples/practitioner-pharmacist.json ==
 
 
 == input/examples/pulse-intensity-palpation.json ==
@@ -896,18 +1181,17 @@ INFORMATION: Patient/deceased-example: Patient.extension[1].extension[0].value.o
 
 
 == input/examples/saint-luke-w-endpoint.json ==
+INFORMATION: Organization/saint-luke-w-endpoint: Organization.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.0.0-preview
 
 
 == input/examples/sexual-orientation-example.json ==
-
-
-== input/examples/social-history-example.json ==
 
 
 == input/examples/some-day-smoker.json ==
 
 
 == input/examples/specimen-example.json ==
+WARNING: Specimen/specimen-example: Specimen.type: ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.54 not found by validator
 
 
 == input/examples/temperature.json ==
@@ -934,6 +1218,9 @@ INFORMATION: Patient/deceased-example: Patient.extension[1].extension[0].value.o
 == input/resources/CodeSystem-condition-category.json ==
 
 
+== input/resources/CodeSystem-us-core-category.json ==
+
+
 == input/resources/CodeSystem-us-core-documentreference-category.json ==
 
 
@@ -941,9 +1228,6 @@ INFORMATION: Patient/deceased-example: Patient.extension[1].extension[0].value.o
 
 
 == input/resources/CodeSystem-us-core-provenance-participant-type.json ==
-
-
-== input/resources/CodeSystem-us-core-tags.json ==
 
 
 == input/resources/StructureDefinition-us-core-allergyintolerance.json ==
@@ -978,6 +1262,8 @@ WARNING: StructureDefinition/us-core-careplan: StructureDefinition.snapshot.elem
 
 
 == input/resources/StructureDefinition-us-core-condition-problems-health-concerns.json ==
+ERROR: StructureDefinition/us-core-condition-problems-health-concerns: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
+ERROR: StructureDefinition/us-core-condition-problems-health-concerns: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
 
 
 == input/resources/StructureDefinition-us-core-coverage.json ==
@@ -1037,6 +1323,21 @@ INFORMATION: StructureDefinition/us-core-medicationdispense: StructureDefinition
 == input/resources/StructureDefinition-us-core-medicationrequest.json ==
 
 
+== input/resources/StructureDefinition-us-core-observation-clinical-judgement.json ==
+WARNING: http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-judgment#Observation.derivedFrom: Cannot check whether the target profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey is valid constraint on the base because it is not known
+WARNING: http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-judgment#Observation.derivedFrom: Cannot check whether the target profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse is valid constraint on the base because it is not known
+ERROR: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.snapshot.element[41].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey' does not resolve
+ERROR: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.snapshot.element[41].type[0].targetProfile[1]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+ERROR: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.differential.element[9].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey' does not resolve
+ERROR: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.differential.element[9].type[0].targetProfile[1]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+WARNING: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.differential.element.where(path = 'Observation.derivedFrom'): Cannot check whether the target profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey is valid constraint on the base because it is not known
+WARNING: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.differential.element.where(path = 'Observation.derivedFrom'): Cannot check whether the target profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse is valid constraint on the base because it is not known
+WARNING: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.differential.element[9].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey
+WARNING: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.differential.element[9].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse
+WARNING: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.snapshot.element[41].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey
+WARNING: StructureDefinition/us-core-observation-clinical-judgment: StructureDefinition.snapshot.element[41].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse
+
+
 == input/resources/StructureDefinition-us-core-observation-clinical-test.json ==
 
 
@@ -1055,16 +1356,10 @@ INFORMATION: StructureDefinition/us-core-medicationdispense: StructureDefinition
 == input/resources/StructureDefinition-us-core-observation-pregnancystatus.json ==
 
 
-== input/resources/StructureDefinition-us-core-observation-sdoh-assessment.json ==
+== input/resources/StructureDefinition-us-core-observation-screening-assessments.json ==
 
 
 == input/resources/StructureDefinition-us-core-observation-sexual-orientation.json ==
-
-
-== input/resources/StructureDefinition-us-core-observation-social-history.json ==
-
-
-== input/resources/StructureDefinition-us-core-observation-survey.json ==
 
 
 == input/resources/StructureDefinition-us-core-organization.json ==
@@ -1091,9 +1386,6 @@ INFORMATION: StructureDefinition/us-core-medicationdispense: StructureDefinition
 == input/resources/StructureDefinition-us-core-pulse-oximetry.json ==
 
 
-== input/resources/StructureDefinition-us-core-questionnaireresponse.json ==
-
-
 == input/resources/StructureDefinition-us-core-race.json ==
 
 
@@ -1104,41 +1396,16 @@ INFORMATION: StructureDefinition/us-core-medicationdispense: StructureDefinition
 
 
 == input/resources/StructureDefinition-us-core-sex.json ==
-ERROR: StructureDefinition.differential.element[1]: Unrecognized property '@slicename'
-ERROR: StructureDefinition.differential.element[4]: Unrecognized property '@slicename'
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension: Duplicate Element id Extension.extension
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension.url: Duplicate Element id Extension.extension.url
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension.value[x]: Duplicate Element id Extension.extension.value[x]
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension: Duplicate Element id Extension.extension
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension.id: Duplicate Element id Extension.extension.id
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension.extension: Duplicate Element id Extension.extension.extension
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension.url: Duplicate Element id Extension.extension.url
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex.Extension.extension.value[x]: Duplicate Element id Extension.extension.value[x]
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Rule sdf-16: 'All element definitions must have unique ids (snapshot)' Failed (ids: Extension,Extension.id,Extension.extension,Extension.extension.id,Extension.extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.extension,Extension.extension.id,Extension.extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.url,Extension.value[x]) (log:  (ids: Extension,Extension.id,Extension.extension,Extension.extension.id,Extension.extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.extension,Extension.extension.id,Extension.extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.url,Extension.value[x]))
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Rule sdf-17: 'All element definitions must have unique ids (diff)' Failed (ids: Extension,Extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.url,Extension.value[x]) (log:  (ids: Extension,Extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.extension,Extension.extension.url,Extension.extension.value[x],Extension.url,Extension.value[x]))
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.snapshot.element[7]: Duplicate id value 'Extension.extension'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.snapshot.element[8]: Duplicate id value 'Extension.extension.id'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.snapshot.element[9]: Duplicate id value 'Extension.extension.extension'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.snapshot.element[10]: Duplicate id value 'Extension.extension.url'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.snapshot.element[11]: Duplicate id value 'Extension.extension.value[x]'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.differential.element[4]: Duplicate id value 'Extension.extension'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.differential.element[5]: Duplicate id value 'Extension.extension.url'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition.differential.element[6]: Duplicate id value 'Extension.extension.value[x]'
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension.url
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension.value[x]
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension.id
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension.extension
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension.url
-ERROR: StructureDefinition/us-core-sex: StructureDefinition: Duplicate Element id Extension.extension.value[x]
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition/us-core-sex: StructureDefinition.differential.element[3].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.53 on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/us-core-sex: StructureDefinition.snapshot.element[7].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.53 on element Extension.extension.value[x] could not be resolved
 
 
 == input/resources/StructureDefinition-us-core-smokingstatus.json ==
 
 
 == input/resources/StructureDefinition-us-core-specimen.json ==
+WARNING: StructureDefinition/us-core-specimen: StructureDefinition.differential.element[1].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.54 on element Specimen.type could not be resolved
+WARNING: StructureDefinition/us-core-specimen: StructureDefinition.snapshot.element[12].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.54 on element Specimen.type could not be resolved
 
 
 == input/resources/StructureDefinition-us-core-tribal-affiliation.json ==
@@ -1164,14 +1431,11 @@ ERROR: StructureDefinition/us-core-vital-signs: StructureDefinition: illegal att
 == input/resources/ValueSet-omb-race-category.json ==
 
 
-== input/resources/ValueSet-sex.json ==
-ERROR: ValueSet.compose.include[0].concept[0].code: Error parsing JSON: the primitive value must be a string
-ERROR: ValueSet.compose.include[0].concept[1].code: Error parsing JSON: the primitive value must be a string
-ERROR: ValueSet.compose.include[0].concept[2].code: Error parsing JSON: the primitive value must be a string
-
-
 == input/resources/ValueSet-simple-language.json ==
 ERROR: ValueSet.where(id = 'simple-language'): Error from server: Language valuesets cannot be expanded as they are based on a grammar
+
+
+== input/resources/ValueSet-us-core-assessment-category.json ==
 
 
 == input/resources/ValueSet-us-core-clinical-note-type.json ==
@@ -1228,37 +1492,162 @@ ERROR: ValueSet.where(id = 'simple-language'): Error from server: Language value
 == input/resources/ValueSet-us-core-survey-codes.json ==
 
 
-== input/resources/ValueSet-us-core-tags.json ==
-
-
 == input/resources/ValueSet-us-core-usps-state.json ==
 
 
 == input/resources/capabilitystatement-us-core-client.json ==
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[0].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[1].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[1].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[1].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[1].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[2].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[2].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[6].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[7].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[3].extension[8].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[4].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[5].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[5].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[5].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[5].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[5].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[6].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[6].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[6].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[6].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[6].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[7].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[7].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[7].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[7].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[7].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[7].extension[6].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[8].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[8].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[8].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[9].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[9].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[12].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[12].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[12].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[12].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].supportedProfile[1]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].supportedProfile[3]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-social-history' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[13].supportedProfile[13]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey' does not resolve
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[15].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[15].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[15].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[15].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[18].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[18].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[18].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].supportedProfile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].searchParam[0].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-id' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].searchParam[1].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-patient' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].searchParam[2].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-status' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].searchParam[3].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-tag' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].searchParam[4].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-authored' does not resolve
+ERROR: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[20].searchParam[5].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-questionnaire' does not resolve
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[22].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[22].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[22].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[22].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-client: CapabilityStatement.rest[0].resource[22].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
 
 
 == input/resources/capabilitystatement-us-core-server.json ==
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[6].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[9].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[10].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[10].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
-INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[0].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[1].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[1].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[1].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[1].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[2].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[2].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[6].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[7].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[3].extension[8].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[5].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[6].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[6].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[6].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[6].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[6].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[7].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[7].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[7].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[7].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[7].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[8].extension[6].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[9].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[9].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[9].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[10].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[10].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[13].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[13].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[14].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].supportedProfile[4]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sdoh-assessment' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].supportedProfile[6]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-social-history' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[15].supportedProfile[16]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-survey' does not resolve
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[17].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[20].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[20].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[20].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].supportedProfile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].searchParam[0].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-id' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].searchParam[1].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-patient' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].searchParam[2].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-status' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].searchParam[3].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-tag' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].searchParam[4].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-authored' does not resolve
+ERROR: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[22].searchParam[5].definition: Canonical URL 'http://hl7.org/fhir/us/core/SearchParameter/us-core-questionnaireresponse-questionnaire' does not resolve
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].resource[24].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
 
 
 == input/resources/operationdefinition-docref.json ==
@@ -1528,24 +1917,6 @@ INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].res
 == input/resources/searchparameter-us-core-procedure-status.json ==
 
 
-== input/resources/searchparameter-us-core-questionnaireresponse-authored.json ==
-
-
-== input/resources/searchparameter-us-core-questionnaireresponse-id.json ==
-
-
-== input/resources/searchparameter-us-core-questionnaireresponse-patient.json ==
-
-
-== input/resources/searchparameter-us-core-questionnaireresponse-questionnaire.json ==
-
-
-== input/resources/searchparameter-us-core-questionnaireresponse-status.json ==
-
-
-== input/resources/searchparameter-us-core-questionnaireresponse-tag.json ==
-
-
 == input/resources/searchparameter-us-core-race.json ==
 
 
@@ -1601,6 +1972,7 @@ INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].res
 
 
 == input/resources/valueset-us-core-observation-category.json ==
+ERROR: ValueSet/us-core-observation-category: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
 
 
 == input/resources/valueset-us-core-problem-or-health-concern.json ==
@@ -1610,6 +1982,7 @@ INFORMATION: CapabilityStatement/us-core-server: CapabilityStatement.rest[0].res
 
 
 == input/resources/valueset-us-core-servicerequest-category.json ==
+ERROR: ValueSet/us-core-servicerequest-category: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-tags' does not resolve
 
 
 == input/resources/valueset-us-core-vital-signs.json ==

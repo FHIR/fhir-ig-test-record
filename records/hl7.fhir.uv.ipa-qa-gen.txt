@@ -1,9 +1,9 @@
 ﻿InternationalPatientAccess : Validation Results
 =========================================
 
-err = 6, warn = 5, info = 0
-IG Publisher Version: (unknown) Out of date - current version is 1.2.7
-Generated Thu Oct 20 10:14:22 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ipa#1.0.0-preview (canonical = http://hl7.org/fhir/uv/ipa)
+err = 6, warn = 5, info = 28
+IG Publisher Version: (unknown) Out of date - current version is 1.2.14
+Generated Wed Nov 16 17:17:06 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.ipa#1.0.0-preview (canonical = http://hl7.org/fhir/uv/ipa)
  Build Errors : 0 / 5 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ipa/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.ipa : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ipa/input/examples/AllergyIntolerance-AllIntExample1 : 0 / 0 / 1
@@ -41,8 +41,8 @@ Generated Thu Oct 20 10:14:22 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ipa#
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 
 
@@ -103,7 +103,35 @@ ERROR: Patient/PatientGenderExample1: Patient.generalPractitioner[0]: Unable to 
 
 
 == input/resources/CapabilityStatement-ipa-server.json ==
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[0].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[1].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[1].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[1].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[1].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[1].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[2].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[2].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[2].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[2].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[2].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[2].extension[6].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[2].extension[7].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[3].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[3].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[5].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[5].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[5].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[6].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
 ERROR: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[6].searchParam[1].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/MedicationStatement-patient' does not resolve
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[7].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[7].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[7].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[7].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[7].extension[5].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[8].extension[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[8].extension[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[8].extension[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
+INFORMATION: CapabilityStatement/ipa-server: CapabilityStatement.rest[0].resource[8].extension[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination|4.0.1
 
 
 == input/resources/OperationDefinition-docref.json ==
