@@ -1,14 +1,14 @@
 ﻿InternationalPatientSummaryIG : Validation Results
 =========================================
 
-err = 0, warn = 6, info = 2
-IG Publisher Version: (unknown) Out of date - current version is 1.2.14
-Generated Wed Nov 16 15:26:30 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
- Build Errors : 0 / 5 / 0
+err = 0, warn = 1, info = 0
+IG Publisher Version: (unknown) Out of date - current version is 1.2.24
+Generated Wed Dec 14 19:04:59 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
+ Build Errors : 0 / 1 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/DiagnosticReport-hemoglobin : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-01 : 0 / 0 / 41
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-with-immunization : 0 / 0 / 43
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Immunization-75680 : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-01 : 0 / 0 / 45
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-with-immunization : 0 / 0 / 47
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Immunization-75680 : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/MedicationRequest-eumfh-39-07-1-request : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Organization-simple-org : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/Patient-66033 : 0 / 0 / 1
@@ -16,13 +16,14 @@ Generated Wed Nov 16 15:26:30 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyIntolerance-39-07-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyIntolerance-with-abatement : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/allergyintolerance-multiple-codings : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-minimal : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-no-info-required-sections : 0 / 0 / 24
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-minimal : 0 / 0 / 21
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/bundle-no-info-required-sections : 0 / 0 / 23
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/composition-minimal : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/condition-39-07-1 : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/device-70-275-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/device-imaging-example-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/deviceUseStatement-70-275-1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/imagingStudy-imaging-ex-5-1 : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/imagingStudy-imaging-ex-5-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/media-example-smile : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/medication-39-07-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/medicationStatement-39-07-1 : 0 / 0 / 1
@@ -88,9 +89,6 @@ Generated Wed Nov 16 15:26:30 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/SimpleQuantity-uv-ips.structuredefinition : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Specimen-uv-ips.structuredefinition : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/ValueSet-targetDiseases-uv-ips : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-1.3.182.4.11.22 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.7 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/codesystem-absent-unknown-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-allergies-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-absent-or-unknown-devices-uv-ips : 0 / 0 / 1
@@ -152,453 +150,149 @@ Generated Wed Nov 16 15:26:30 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.ips#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-vaccines-whoatc-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/vocabulary/valueset-whoatc-uv-ips : 0 / 0 / 1
 </table>
-
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-
-
 == input/examples/DiagnosticReport-hemoglobin.xml ==
-
-
 == input/examples/IPS-bundle-01.xml ==
-
-
 == input/examples/IPS-bundle-with-immunization.xml ==
-
-
 == input/examples/Immunization-75680.xml ==
-
-
 == input/examples/MedicationRequest-eumfh-39-07-1-request.json ==
-
-
 == input/examples/Organization-simple-org.xml ==
-
-
 == input/examples/Patient-66033.xml ==
-
-
 == input/examples/PractitionerRole-simple-pr.xml ==
-
-
 == input/examples/allergyIntolerance-39-07-1.xml ==
-
-
 == input/examples/allergyIntolerance-with-abatement.xml ==
-
-
 == input/examples/allergyintolerance-multiple-codings.xml ==
-
-
 == input/examples/bundle-minimal.json ==
-
-
 == input/examples/bundle-no-info-required-sections.json ==
-INFORMATION: Bundle/bundle-no-info-required-sections: Bundle.entry[3].resource.code[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/PractitionerRole-uv-ips|1.1.0
-
-
+== input/examples/composition-minimal.json ==
 == input/examples/condition-39-07-1.xml ==
-INFORMATION: Condition/eumfh-39-07-1: Condition.code.coding[1]: Code System URI 'http://id.who.int/icd/release/11/mms' is unknown so the code cannot be validated
-
-
 == input/examples/device-70-275-1.xml ==
-
-
 == input/examples/device-imaging-example-1.xml ==
-
-
 == input/examples/deviceUseStatement-70-275-1.xml ==
-
-
 == input/examples/imagingStudy-imaging-ex-5-1.xml ==
-WARNING: ImagingStudy/TII-ImagingStudy-5-1: ImagingStudy.series[0].modality: ValueSet http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html not found by validator
-
-
 == input/examples/media-example-smile.xml ==
-
-
 == input/examples/medication-39-07-1.xml ==
-
-
 == input/examples/medicationStatement-39-07-1.xml ==
-
-
 == input/examples/observation-alcoholuse-1.xml ==
-
-
 == input/examples/observation-hemoglobin.xml ==
-
-
 == input/examples/observation-imaging-example-1.xml ==
-
-
 == input/examples/observation-imaging-example-4.xml ==
-
-
 == input/examples/observation-pathology-cancer.xml ==
-
-
 == input/examples/observation-pregnancy-edd-1.xml ==
-
-
 == input/examples/observation-pregnancy-outcome-1.xml ==
-
-
 == input/examples/observation-pregnancy-status-1.xml ==
-
-
 == input/examples/observation-serum-creatinine-adult.xml ==
-
-
 == input/examples/observation-tobaccouse-1.xml ==
-
-
 == input/examples/observation-urine-wbc-range.xml ==
-
-
 == input/examples/organization-imaging-example-1.xml ==
-
-
 == input/examples/organization-lab-example-1.xml ==
-
-
 == input/examples/patient-39-07-1.xml ==
-
-
 == input/examples/patient-example-female.xml ==
-
-
 == input/examples/practictioner-39-07-1.xml ==
-
-
 == input/examples/procedure-39-07-1.xml ==
-
-
 == input/examples/specimen-example-1.xml ==
-
-
 == input/extensions/abatement-dateTime-uv-ips.structuredefinition.xml ==
-
-
 == input/ig-uv-ips.xml ==
-
-
 == input/maps/ConceptMap-absence-to-snomedct-uv-ips.xml ==
-
-
 == input/maps/ConceptMap-loinc-pregnancy-status-to-snomed-ct-uv-ips.xml ==
-
-
 == input/maps/ConceptMap-loinc-smoking-status-to-snomed-ct-uv-ips.xml ==
-
-
 == input/maps/ConceptMap-severity-snomedct-uv-ips.xml ==
-
-
 == input/profiles/AllergyIntolerance-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Bundle-uv-ips.json ==
-
-
 == input/profiles/CapabilityStatement-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/CodeableConcept-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Coding-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Composition-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Condition-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Device-observer-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Device-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/DeviceUseStatement-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/DiagnosticReport-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/ImagingStudy-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Immunization-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Media-observation-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Medication-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/MedicationRequest-uv-ips.json ==
-
-
 == input/profiles/MedicationStatement-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-alcoholUse-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-pregnancy-edd-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-pregnancy-outcome-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-pregnancy-status-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-results-laboratory-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-results-pathology-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-results-radiology-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-results-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Observation-tobaccoUse-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/OperationDefinition-summary-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Organization-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Patient-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Practitioner-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/PractitionerRole-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Procedure-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Quantity-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Range-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Ratio-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/SimpleQuantity-uv-ips.structuredefinition.xml ==
-
-
 == input/profiles/Specimen-uv-ips.structuredefinition.xml ==
-
-
 == input/vocabulary/ValueSet-targetDiseases-uv-ips.xml ==
-
-
-== input/vocabulary/codesystem-1.3.182.4.11.22.xml ==
-
-
-== input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.1.xml ==
-
-
-== input/vocabulary/codesystem-2.16.840.1.113883.2.4.4.7.xml ==
-
-
 == input/vocabulary/codesystem-absent-unknown-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-absent-or-unknown-allergies-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-absent-or-unknown-devices-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-absent-or-unknown-immunizations-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-absent-or-unknown-medications-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-absent-or-unknown-problems-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-absent-or-unknown-procedures-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-allergy-intolerance-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-allergy-intolerance-substance-condition-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-allergy-intolerance-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-allergy-reaction-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-body-site-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-condition-severity-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-current-smoking-status-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-edd-method-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-healthcare-professional-roles-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-medical-devices-snomed-absent-unknown-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-medical-devices-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-medical-devices-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-medication-example-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-medication-snomed-absent-unknown-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-medication-snomed-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-medications-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-medicine-active-substances-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-medicine-doseform.xml ==
-
-
 == input/vocabulary/valueset-medicine-route-of-administration.xml ==
-
-
 == input/vocabulary/valueset-personal-relationship-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-pregnancies-summary-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-pregnancy-status-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-problem-type-loinc.xml ==
-
-
 == input/vocabulary/valueset-problem-type-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-problems-snomed-absent-unknown-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-problems-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-problems-snomed-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-procedures-snomed-absent-unknown-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-procedures-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-procedures-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-radiology-numobs-snomed-dicom-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-blood-group-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-results-blood-group-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-coded-values-laboratory-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-coded-values-pathology-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-laboratory-observations-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-microorganism-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-results-microorganism-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-pathology-observations-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-presence-absence-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-results-presence-absence-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-radiology-observations-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-radiology-txtobs-snomed-dicom-loinc-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-specimen-collection-method-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-results-specimen-type-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-results-specimen-type-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-target-diseases-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-target-diseases-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-target-site-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-vaccines-snomed-ct-ips-free-set.json ==
-
-
 == input/vocabulary/valueset-vaccines-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-vaccines-whoatc-uv-ips.xml ==
-
-
 == input/vocabulary/valueset-whoatc-uv-ips.xml ==
-
-

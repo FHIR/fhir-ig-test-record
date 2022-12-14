@@ -2,8 +2,8 @@
 =========================================
 
 err = 2, warn = 4, info = 0
-IG Publisher Version: (unknown) Out of date - current version is 1.2.14
-Generated Wed Nov 16 15:33:05 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.howto#0.1.0 (canonical = http://hl7.org/fhir/uv/howto)
+IG Publisher Version: (unknown) Out of date - current version is 1.2.23
+Generated Wed Dec 14 07:14:07 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.howto#0.1.0 (canonical = http://hl7.org/fhir/uv/howto)
  Build Errors : 5 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/input/howto : 1 / 0 / 1
 </table>

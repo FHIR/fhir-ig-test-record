@@ -1,9 +1,9 @@
 ﻿AUBaseImplementationGuide : Validation Results
 =========================================
 
-err = 66, warn = 140, info = 10
-IG Publisher Version: (unknown) Out of date - current version is 1.2.14
-Generated Wed Nov 16 15:38:19 CLST 2022. FHIR version 4.0.1 for hl7.fhir.au.base#4.1.0-ballot (canonical = http://hl7.org.au/fhir)
+err = 66, warn = 6, info = 10
+IG Publisher Version: (unknown) Out of date - current version is 1.2.24
+Generated Wed Dec 14 19:23:36 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.au.base#4.1.0-ballot (canonical = http://hl7.org.au/fhir)
  Build Errors : 0 / 0 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/examples/address-example0 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/examples/address-example1 : 0 / 0 / 1
@@ -257,976 +257,337 @@ Generated Wed Nov 16 15:38:19 CLST 2022. FHIR version 4.0.1 for hl7.fhir.au.base
  /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-pbs-item : 2 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-service-provision-conditions : 2 / 0 / 1
 </table>
-
 == n/a ==
-
-
 == input/examples/address-example0.xml ==
-
-
 == input/examples/address-example1.xml ==
-
-
 == input/examples/address-example2.xml ==
-
-
 == input/examples/address-example3.xml ==
-
-
 == input/examples/allergyintolerance-example0.xml ==
-
-
 == input/examples/allergyintolerance-example1.xml ==
-
-
 == input/examples/allergyintolerance-example2.xml ==
-
-
 == input/examples/allergyintolerance-example3.xml ==
-
-
 == input/examples/bodystructure-example0.xml ==
-
-
 == input/examples/bodystructure-example1.xml ==
-
-
 == input/examples/bundle-example0.xml ==
-
-
 == input/examples/composition-different-authors.xml ==
-
-
 == input/examples/composition-example0.xml ==
-
-
 == input/examples/composition-multiple-information-recipients.xml ==
-
-
 == input/examples/condition-example0.xml ==
-
-
 == input/examples/device-example1.xml ==
-
-
 == input/examples/encounter-example0.xml ==
-
-
 == input/examples/encounter-example1.xml ==
-
-
 == input/examples/encounter-example2.xml ==
-
-
 == input/examples/endpoint-example0.xml ==
-
-
 == input/examples/healthcareservice-example0.xml ==
-
-
 == input/examples/healthcareservice-example1.xml ==
-
-
 == input/examples/healthcareservice-example2.xml ==
-
-
 == input/examples/healthcareservice-example3.xml ==
-
-
 == input/examples/healthcareservice-example4.xml ==
-
-
 == input/examples/healthcareservice-example5.xml ==
-
-
 == input/examples/healthprogramparticipation-example0.xml ==
-
-
 == input/examples/healthprogramparticipation-example1.xml ==
-
-
 == input/examples/immunization-example0.xml ==
-
-
 == input/examples/immunization-example1.xml ==
 INFORMATION: Immunization/example1: Immunization.vaccineCode.coding[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-immunization|4.1.0-ballot
-
-
 == input/examples/immunization-example2.xml ==
 INFORMATION: Immunization/example2: Immunization.vaccineCode.coding[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-immunization|4.1.0-ballot
-
-
 == input/examples/immunization-example3.xml ==
-
-
 == input/examples/list-example0.xml ==
-
-
 == input/examples/list-example1.xml ==
-
-
 == input/examples/list-example2.xml ==
-
-
 == input/examples/list-example3.xml ==
-
-
 == input/examples/location-example0.xml ==
-
-
 == input/examples/location-example1.xml ==
-
-
 == input/examples/location-example2.xml ==
-
-
 == input/examples/location-example3.xml ==
-
-
 == input/examples/location-example4.xml ==
-
-
 == input/examples/location-example5.xml ==
-
-
 == input/examples/location-example6.xml ==
-
-
 == input/examples/location-example7.xml ==
-
-
 == input/examples/location-example8.xml ==
-
-
 == input/examples/location-example9.xml ==
-
-
 == input/examples/medication-BrandProductwithBatchDetails0.xml ==
-
-
 == input/examples/medication-BrandedPack0.xml ==
 INFORMATION: Medication/BrandedPack0: Medication.code.coding[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-medication|4.1.0-ballot
 INFORMATION: Medication/BrandedPack0: Medication.code.coding[2]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-medication|4.1.0-ballot
-
-
 == input/examples/medication-BrandedPack1.xml ==
-
-
 == input/examples/medication-BrandedPackSingleActiveIngredient0.xml ==
-
-
 == input/examples/medication-DoseBased.xml ==
-
-
 == input/examples/medication-FourOrMoreActiveIngredientsProduct0.xml ==
-
-
 == input/examples/medication-GenericPack0.xml ==
 INFORMATION: Medication/GenericPack0: Medication.code.coding[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-medication|4.1.0-ballot
-
-
 == input/examples/medication-TwoActiveIngredientsProduct0.xml ==
-
-
 == input/examples/medication-UnbrandedProduct0.xml ==
-
-
 == input/examples/medication-UnbrandedProduct1.xml ==
-
-
 == input/examples/medication-UnbrandedProduct2.xml ==
-
-
 == input/examples/medicationadministration-example0.xml ==
-
-
 == input/examples/medicationadministration-example1.xml ==
-
-
 == input/examples/medicationdispense-example0.xml ==
-
-
 == input/examples/medicationdispense-example1.xml ==
-
-
 == input/examples/medicationrequest-example0.xml ==
-
-
 == input/examples/medicationrequest-example1.xml ==
-
-
 == input/examples/medicationrequest-example2.xml ==
-
-
 == input/examples/medicationstatement-example0.xml ==
-
-
 == input/examples/medicationstatement-example1.xml ==
-
-
 == input/examples/medicationstatement-example2.xml ==
-
-
 == input/examples/norelevantfinding-example0.xml ==
-
-
 == input/examples/norelevantfinding-example1.xml ==
-
-
 == input/examples/norelevantfinding-example2.xml ==
-
-
 == input/examples/norelevantfinding-example3.xml ==
-
-
 == input/examples/observation-specimen-hepatitis-b-serology.xml ==
-
-
 == input/examples/organization-5-8631-1.xml ==
-
-
 == input/examples/organization-example0.xml ==
-
-
 == input/examples/organization-example1.xml ==
-
-
 == input/examples/organization-example2.xml ==
-
-
 == input/examples/organization-example3.xml ==
-
-
 == input/examples/organization-example4.xml ==
-
-
 == input/examples/organization-example5.xml ==
-
-
 == input/examples/organization-example6.xml ==
-
-
 == input/examples/patient-DateAccuracyIndicatorAAAexample0.xml ==
-
-
 == input/examples/patient-DateAccuracyIndicatorAAUexample1.xml ==
-
-
 == input/examples/patient-DateAccuracyIndicatorUAAexample2.xml ==
-
-
 == input/examples/patient-DateAccuracyIndicatorUEAexample3.xml ==
-
-
 == input/examples/patient-DateAccuracyIndicatorUUUexample4.xml ==
-
-
 == input/examples/patient-example0.xml ==
-
-
 == input/examples/patient-example1.xml ==
-
-
 == input/examples/patient-example2.xml ==
-
-
 == input/examples/patient-example3.xml ==
-
-
 == input/examples/patient-example4.xml ==
 INFORMATION: Patient/example4: Patient.extension[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-patient|4.1.0-ballot
 ERROR: Patient/example4: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Unable to find code 33791000087105 in http://snomed.info/sct (version http://snomed.info/sct/32506021000036107/version/20220731); The code "33791000087105" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#33791000087105) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#33791000087105'
-
-
 == input/examples/patient-example5.xml ==
-
-
 == input/examples/patient-example6.xml ==
-
-
 == input/examples/patient-example7.xml ==
-
-
 == input/examples/patient-example8.xml ==
-
-
 == input/examples/practitioner-example0.xml ==
-
-
 == input/examples/practitioner-example1.xml ==
-
-
 == input/examples/practitioner-example2.xml ==
-
-
 == input/examples/practitioner-example3.xml ==
-
-
 == input/examples/practitioner-example4.xml ==
-
-
 == input/examples/practitionerrole-example0.xml ==
-
-
 == input/examples/practitionerrole-example1.xml ==
-
-
 == input/examples/practitionerrole-example2.xml ==
-
-
 == input/examples/practitionerrole-example3.xml ==
-
-
 == input/examples/practitionerrole-example4.xml ==
-
-
 == input/examples/procedure-example0.xml ==
-
-
 == input/examples/procedure-example1.xml ==
-
-
 == input/examples/procedure-example2.xml ==
-
-
 == input/examples/relatedperson-example0.xml ==
-
-
 == input/examples/relatedperson-example1.xml ==
-
-
 == input/examples/relatedperson-example2.xml ==
-
-
 == input/examples/relatedperson-example3.xml ==
-
-
 == input/examples/servicerequest-hepatitis-b-antibody.xml ==
-
-
 == input/examples/servicerequest-path-example0.xml ==
 INFORMATION: ServiceRequest/path-example0: ServiceRequest.extension[0]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-diagnosticrequest|4.1.0-ballot
 INFORMATION: ServiceRequest/path-example0: ServiceRequest.extension[1]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-diagnosticrequest|4.1.0-ballot
 INFORMATION: ServiceRequest/path-example0: ServiceRequest.extension[2]: This element does not match any known slice defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-diagnosticrequest|4.1.0-ballot
-
-
 == input/examples/specimen-serum.xml ==
-
-
 == input/examples/substance-example0.xml ==
-
-
 == input/examples/substance-example1.xml ==
-
-
 == input/examples/substance-example2.xml ==
-
-
 == input/ig.xml ==
-
-
 == input/resources/au-accessionnumber.xml ==
-
-
 == input/resources/au-address.xml ==
-
-
 == input/resources/au-ahpraregistrationnumber.xml ==
-
-
 == input/resources/au-allergyintolerance.xml ==
-
-
 == input/resources/au-australianbusinessnumber.xml ==
-
-
 == input/resources/au-australiancompanynumber.xml ==
-
-
 == input/resources/au-australianregistredbodynumber.xml ==
-
-
 == input/resources/au-bodystructure.xml ==
-
-
 == input/resources/au-careagencyemployeeidentifier.xml ==
-
-
 == input/resources/au-composition.xml ==
-
-
 == input/resources/au-condition.xml ==
-WARNING: StructureDefinition/au-condition: StructureDefinition.differential.element[3].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Condition.bodySite could not be resolved
-WARNING: StructureDefinition/au-condition: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1 on element Condition.evidence.code could not be resolved
-WARNING: StructureDefinition/au-condition: StructureDefinition.snapshot.element[15].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Condition.bodySite could not be resolved
-WARNING: StructureDefinition/au-condition: StructureDefinition.snapshot.element[34].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1 on element Condition.evidence.code could not be resolved
-
-
 == input/resources/au-cspregistrationnumber.xml ==
-
-
 == input/resources/au-cwlthseniorshealthcardnumber.xml ==
-
-
 == input/resources/au-deliverypointidentifier.xml ==
-
-
 == input/resources/au-diagnosticreport.xml ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-diagnosticreport'): The Implementation Guide contains no examples for this profile
-
-
 == input/resources/au-diagnosticrequest.xml ==
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/evaluation-procedure-1 on element ServiceRequest.code could not be resolved
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.differential.element[6].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/practitioner-role-1 on element ServiceRequest.performerType could not be resolved
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.differential.element[7].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-for-request-1 on element ServiceRequest.reasonCode could not be resolved
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.differential.element[9].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element ServiceRequest.bodySite could not be resolved
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.snapshot.element[21].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/evaluation-procedure-1 on element ServiceRequest.code could not be resolved
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.snapshot.element[30].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/practitioner-role-1 on element ServiceRequest.performerType could not be resolved
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.snapshot.element[34].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-for-request-1 on element ServiceRequest.reasonCode could not be resolved
-WARNING: StructureDefinition/au-diagnosticrequest: StructureDefinition.snapshot.element[39].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element ServiceRequest.bodySite could not be resolved
-
-
 == input/resources/au-diagnosticresult.xml ==
-WARNING: StructureDefinition/au-diagnosticresult: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/evaluation-procedure-1 on element Observation.code could not be resolved
-WARNING: StructureDefinition/au-diagnosticresult: StructureDefinition.snapshot.element[15].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/evaluation-procedure-1 on element Observation.code could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-diagnosticresult'): The Implementation Guide contains no examples for this profile
-
-
 == input/resources/au-dosage.xml ==
-WARNING: StructureDefinition/au-dosage: StructureDefinition.differential.element[2].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1 on element Dosage.asNeeded[x] could not be resolved
-WARNING: StructureDefinition/au-dosage: StructureDefinition.differential.element[3].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Dosage.site could not be resolved
-WARNING: StructureDefinition/au-dosage: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1 on element Dosage.route could not be resolved
-WARNING: StructureDefinition/au-dosage: StructureDefinition.snapshot.element[9].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1 on element Dosage.asNeeded[x] could not be resolved
-WARNING: StructureDefinition/au-dosage: StructureDefinition.snapshot.element[10].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Dosage.site could not be resolved
-WARNING: StructureDefinition/au-dosage: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1 on element Dosage.route could not be resolved
-
-
 == input/resources/au-dvanumber.xml ==
-
-
 == input/resources/au-employeenumber.xml ==
-
-
 == input/resources/au-encounter.xml ==
-WARNING: StructureDefinition/au-encounter: StructureDefinition.differential.element[5].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/encounter-type-1 on element Encounter.type could not be resolved
-WARNING: StructureDefinition/au-encounter: StructureDefinition.differential.element[6].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/service-type-1 on element Encounter.serviceType could not be resolved
-WARNING: StructureDefinition/au-encounter: StructureDefinition.differential.element[8].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/separation-mode-1 on element Encounter.hospitalization.dischargeDisposition could not be resolved
-WARNING: StructureDefinition/au-encounter: StructureDefinition.snapshot.element[26].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/encounter-type-1 on element Encounter.type could not be resolved
-WARNING: StructureDefinition/au-encounter: StructureDefinition.snapshot.element[27].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/service-type-1 on element Encounter.serviceType could not be resolved
-WARNING: StructureDefinition/au-encounter: StructureDefinition.snapshot.element[64].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/separation-mode-1 on element Encounter.hospitalization.dischargeDisposition could not be resolved
-
-
 == input/resources/au-etpprescriptionidentifier.xml ==
-
-
 == input/resources/au-gnafidentifier.xml ==
-
-
 == input/resources/au-healthcarecardnumber.xml ==
-
-
 == input/resources/au-healthcareservice.xml ==
-WARNING: StructureDefinition/au-healthcareservice: StructureDefinition.differential.element[2].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/service-type-1 on element HealthcareService.type could not be resolved
-WARNING: StructureDefinition/au-healthcareservice: StructureDefinition.differential.element[3].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1 on element HealthcareService.specialty could not be resolved
-WARNING: StructureDefinition/au-healthcareservice: StructureDefinition.snapshot.element[13].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/service-type-1 on element HealthcareService.type could not be resolved
-WARNING: StructureDefinition/au-healthcareservice: StructureDefinition.snapshot.element[14].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1 on element HealthcareService.specialty could not be resolved
-
-
 == input/resources/au-healthprogramparticipation.xml ==
-WARNING: StructureDefinition/au-healthprogramparticipation: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/participation-in-health-program-1 on element Observation.code could not be resolved
-WARNING: StructureDefinition/au-healthprogramparticipation: StructureDefinition.differential.element[10].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/health-program-participation-status-1 on element Observation.component.value[x] could not be resolved
-WARNING: StructureDefinition/au-healthprogramparticipation: StructureDefinition.differential.element[16].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-non-participation-health-program-1 on element Observation.component.value[x] could not be resolved
-WARNING: StructureDefinition/au-healthprogramparticipation: StructureDefinition.snapshot.element[15].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/participation-in-health-program-1 on element Observation.code could not be resolved
-WARNING: StructureDefinition/au-healthprogramparticipation: StructureDefinition.snapshot.element[56].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/health-program-participation-status-1 on element Observation.component.value[x] could not be resolved
-WARNING: StructureDefinition/au-healthprogramparticipation: StructureDefinition.snapshot.element[74].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-non-participation-health-program-1 on element Observation.component.value[x] could not be resolved
-
-
 == input/resources/au-hpii.xml ==
-
-
 == input/resources/au-hpio.xml ==
-
-
 == input/resources/au-ihi.xml ==
-
-
 == input/resources/au-imagingreport.xml ==
-WARNING: StructureDefinition/au-imagingreport: StructureDefinition.differential.element[5].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-anatomic-region-of-interest-1 on element DiagnosticReport.category.coding could not be resolved
-WARNING: StructureDefinition/au-imagingreport: StructureDefinition.differential.element[7].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-procedure-1 on element DiagnosticReport.code could not be resolved
-WARNING: StructureDefinition/au-imagingreport: StructureDefinition.snapshot.element[16].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-anatomic-region-of-interest-1 on element DiagnosticReport.category.coding could not be resolved
-WARNING: StructureDefinition/au-imagingreport: StructureDefinition.snapshot.element[25].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-procedure-1 on element DiagnosticReport.code could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-imagingreport'): The Implementation Guide contains no examples for this profile
-
-
 == input/resources/au-imagingresult.xml ==
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.differential.element[8].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-anatomic-region-of-interest-1 on element Observation.category could not be resolved
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.differential.element[10].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-procedure-1 on element Observation.code could not be resolved
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.differential.element[13].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Observation.bodySite could not be resolved
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.differential.element[16].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-procedure-1 on element Observation.component.code could not be resolved
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.snapshot.element[27].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-anatomic-region-of-interest-1 on element Observation.category could not be resolved
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.snapshot.element[39].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-procedure-1 on element Observation.code could not be resolved
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.snapshot.element[50].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Observation.bodySite could not be resolved
-WARNING: StructureDefinition/au-imagingresult: StructureDefinition.snapshot.element[70].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/imaging-procedure-1 on element Observation.component.code could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-imagingresult'): The Implementation Guide contains no examples for this profile
-
-
 == input/resources/au-immunization.xml ==
-WARNING: StructureDefinition/au-immunization: StructureDefinition.differential.element[1].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-vaccine-not-administered-3 on element Immunization.statusReason could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.differential.element[3].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/amt-vaccine-1 on element Immunization.vaccineCode.coding could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.differential.element[5].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-immunisation-register-vaccine-1 on element Immunization.vaccineCode.coding could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.differential.element[8].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/immunisation-anatomical-site-1 on element Immunization.site could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.differential.element[10].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/immunisation-route-of-administration-1 on element Immunization.route could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.differential.element[20].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-vaccine-administered-1 on element Immunization.reasonCode could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.differential.element[21].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/vaccination-target-disease-1 on element Immunization.protocolApplied.targetDisease could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-vaccine-not-administered-3 on element Immunization.statusReason could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[16].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/amt-vaccine-1 on element Immunization.vaccineCode.coding could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[24].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-immunisation-register-vaccine-1 on element Immunization.vaccineCode.coding could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[43].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/immunisation-anatomical-site-1 on element Immunization.site could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[48].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/immunisation-route-of-administration-1 on element Immunization.route could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[73].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-vaccine-administered-1 on element Immunization.reasonCode could not be resolved
-WARNING: StructureDefinition/au-immunization: StructureDefinition.snapshot.element[100].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/vaccination-target-disease-1 on element Immunization.protocolApplied.targetDisease could not be resolved
-
-
 == input/resources/au-insurancemembernumber.xml ==
-
-
 == input/resources/au-localdispenseidentifier.xml ==
-
-
 == input/resources/au-localorderidentifier.xml ==
-
-
 == input/resources/au-localprescriptionidentifier.xml ==
-
-
 == input/resources/au-localreportidentifier.xml ==
-
-
 == input/resources/au-location.xml ==
-
-
 == input/resources/au-locationspecificpracticenumber.xml ==
-
-
 == input/resources/au-medicalrecordnumber.xml ==
-
-
 == input/resources/au-medicarecardnumber.xml ==
-
-
 == input/resources/au-medicareprovidernumber.xml ==
-
-
 == input/resources/au-medication.xml ==
-WARNING: StructureDefinition/au-medication: StructureDefinition.differential.element[8].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element Medication.code.coding could not be resolved
-WARNING: StructureDefinition/au-medication: StructureDefinition.differential.element[16].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medication-form-1 on element Medication.form could not be resolved
-WARNING: StructureDefinition/au-medication: StructureDefinition.snapshot.element[30].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element Medication.code.coding could not be resolved
-WARNING: StructureDefinition/au-medication: StructureDefinition.snapshot.element[50].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medication-form-1 on element Medication.form could not be resolved
-
-
 == input/resources/au-medicationadministration.xml ==
-WARNING: StructureDefinition/au-medicationadministration: StructureDefinition.differential.element[8].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationAdministration.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationadministration: StructureDefinition.differential.element[15].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element MedicationAdministration.dosage.site could not be resolved
-WARNING: StructureDefinition/au-medicationadministration: StructureDefinition.differential.element[16].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1 on element MedicationAdministration.dosage.route could not be resolved
-WARNING: StructureDefinition/au-medicationadministration: StructureDefinition.snapshot.element[36].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationAdministration.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationadministration: StructureDefinition.snapshot.element[75].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element MedicationAdministration.dosage.site could not be resolved
-WARNING: StructureDefinition/au-medicationadministration: StructureDefinition.snapshot.element[76].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1 on element MedicationAdministration.dosage.route could not be resolved
-
-
 == input/resources/au-medicationdispense.xml ==
 INFORMATION: StructureDefinition/au-medicationdispense: StructureDefinition.snapshot.element[69].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition/au-medicationdispense: StructureDefinition.differential.element[12].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationDispense.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationdispense: StructureDefinition.differential.element[23].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medicine-substitution-reason-1 on element MedicationDispense.substitution.reason could not be resolved
-WARNING: StructureDefinition/au-medicationdispense: StructureDefinition.snapshot.element[37].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationDispense.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationdispense: StructureDefinition.snapshot.element[82].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medicine-substitution-reason-1 on element MedicationDispense.substitution.reason could not be resolved
-
-
 == input/resources/au-medicationrequest.xml ==
-WARNING: StructureDefinition/au-medicationrequest: StructureDefinition.differential.element[11].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationRequest.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationrequest: StructureDefinition.differential.element[23].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-for-request-1 on element MedicationRequest.reasonCode could not be resolved
-WARNING: StructureDefinition/au-medicationrequest: StructureDefinition.differential.element[29].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medicine-substitution-reason-1 on element MedicationRequest.substitution.reason could not be resolved
-WARNING: StructureDefinition/au-medicationrequest: StructureDefinition.snapshot.element[39].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationRequest.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationrequest: StructureDefinition.snapshot.element[68].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/reason-for-request-1 on element MedicationRequest.reasonCode could not be resolved
-WARNING: StructureDefinition/au-medicationrequest: StructureDefinition.snapshot.element[99].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medicine-substitution-reason-1 on element MedicationRequest.substitution.reason could not be resolved
-
-
 == input/resources/au-medicationstatement.xml ==
-WARNING: StructureDefinition/au-medicationstatement: StructureDefinition.differential.element[10].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationStatement.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationstatement: StructureDefinition.differential.element[18].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medication-reason-taken-1 on element MedicationStatement.reasonCode could not be resolved
-WARNING: StructureDefinition/au-medicationstatement: StructureDefinition.snapshot.element[37].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1 on element MedicationStatement.medication[x].coding could not be resolved
-WARNING: StructureDefinition/au-medicationstatement: StructureDefinition.snapshot.element[62].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medication-reason-taken-1 on element MedicationStatement.reasonCode could not be resolved
-
-
 == input/resources/au-medlist.xml ==
-
-
 == input/resources/au-nataaccreditationnumber.xml ==
-
-
 == input/resources/au-natasitenumber.xml ==
-
-
 == input/resources/au-nationalprovideridentifieratorganisation.xml ==
-
-
 == input/resources/au-norelevantfinding.xml ==
-WARNING: StructureDefinition/au-norelevantfinding: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/assertion-of-absence-1 on element Observation.value[x] could not be resolved
-WARNING: StructureDefinition/au-norelevantfinding: StructureDefinition.snapshot.element[21].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/assertion-of-absence-1 on element Observation.value[x] could not be resolved
-
-
 == input/resources/au-organization.xml ==
-WARNING: StructureDefinition/au-organization: StructureDefinition.differential.element[2].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/healthcare-organisation-role-type-1 on element Organization.type could not be resolved
-WARNING: StructureDefinition/au-organization: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/healthcare-organisation-role-type-1 on element Organization.type could not be resolved
-
-
 == input/resources/au-paididentifier.xml ==
-
-
 == input/resources/au-paioidentifier.xml ==
-
-
 == input/resources/au-pathologyreport.xml ==
-WARNING: StructureDefinition/au-pathologyreport: StructureDefinition.differential.element[3].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/pathology-diagnostic-service-category-1 on element DiagnosticReport.category could not be resolved
-WARNING: StructureDefinition/au-pathologyreport: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/spia-pathology-reporting-1 on element DiagnosticReport.code could not be resolved
-WARNING: StructureDefinition/au-pathologyreport: StructureDefinition.snapshot.element[12].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/pathology-diagnostic-service-category-1 on element DiagnosticReport.category could not be resolved
-WARNING: StructureDefinition/au-pathologyreport: StructureDefinition.snapshot.element[13].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/spia-pathology-reporting-1 on element DiagnosticReport.code could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.org.au/fhir/StructureDefinition/au-pathologyreport'): The Implementation Guide contains no examples for this profile
-
-
 == input/resources/au-pathologyresult.xml ==
-WARNING: StructureDefinition/au-pathologyresult: StructureDefinition.differential.element[6].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/pathology-diagnostic-service-category-1 on element Observation.category could not be resolved
-WARNING: StructureDefinition/au-pathologyresult: StructureDefinition.differential.element[8].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/spia-pathology-reporting-1 on element Observation.code could not be resolved
-WARNING: StructureDefinition/au-pathologyresult: StructureDefinition.differential.element[14].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/spia-pathology-reporting-1 on element Observation.component.code could not be resolved
-WARNING: StructureDefinition/au-pathologyresult: StructureDefinition.snapshot.element[26].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/pathology-diagnostic-service-category-1 on element Observation.category could not be resolved
-WARNING: StructureDefinition/au-pathologyresult: StructureDefinition.snapshot.element[38].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/spia-pathology-reporting-1 on element Observation.code could not be resolved
-WARNING: StructureDefinition/au-pathologyresult: StructureDefinition.snapshot.element[69].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/spia-pathology-reporting-1 on element Observation.component.code could not be resolved
-
-
 == input/resources/au-patient.xml ==
-WARNING: StructureDefinition/au-patient: StructureDefinition.differential.element[9].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/gender-identity-response-1 on element Patient.extension.valueCodeableConcept could not be resolved
-WARNING: StructureDefinition/au-patient: StructureDefinition.differential.element[21].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3 on element Patient.contact.relationship could not be resolved
-WARNING: StructureDefinition/au-patient: StructureDefinition.differential.element[23].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 on element Patient.communication.language could not be resolved
-WARNING: StructureDefinition/au-patient: StructureDefinition.snapshot.element[19].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/gender-identity-response-1 on element Patient.extension.value[x] could not be resolved
-WARNING: StructureDefinition/au-patient: StructureDefinition.snapshot.element[47].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3 on element Patient.contact.relationship could not be resolved
-WARNING: StructureDefinition/au-patient: StructureDefinition.snapshot.element[58].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 on element Patient.communication.language could not be resolved
-
-
 == input/resources/au-pbsprescribernumber.xml ==
-
-
 == input/resources/au-pensionerconcessioncardnumber.xml ==
-
-
 == input/resources/au-pharmacyapprovalnumber.xml ==
-
-
 == input/resources/au-practitioner.xml ==
-WARNING: StructureDefinition/au-practitioner: StructureDefinition.differential.element[9].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 on element Practitioner.communication could not be resolved
-WARNING: StructureDefinition/au-practitioner: StructureDefinition.snapshot.element[27].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 on element Practitioner.communication could not be resolved
-
-
 == input/resources/au-practitionerrole.xml ==
-WARNING: StructureDefinition/au-practitionerrole: StructureDefinition.differential.element[2].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/practitioner-role-1 on element PractitionerRole.code could not be resolved
-WARNING: StructureDefinition/au-practitionerrole: StructureDefinition.differential.element[3].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1 on element PractitionerRole.specialty could not be resolved
-WARNING: StructureDefinition/au-practitionerrole: StructureDefinition.snapshot.element[14].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/practitioner-role-1 on element PractitionerRole.code could not be resolved
-WARNING: StructureDefinition/au-practitionerrole: StructureDefinition.snapshot.element[15].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1 on element PractitionerRole.specialty could not be resolved
-
-
 == input/resources/au-procedure.xml ==
-WARNING: StructureDefinition/au-procedure: StructureDefinition.differential.element[3].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/procedure-1 on element Procedure.code could not be resolved
-WARNING: StructureDefinition/au-procedure: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Procedure.bodySite could not be resolved
-WARNING: StructureDefinition/au-procedure: StructureDefinition.snapshot.element[18].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/procedure-1 on element Procedure.code could not be resolved
-WARNING: StructureDefinition/au-procedure: StructureDefinition.snapshot.element[34].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Procedure.bodySite could not be resolved
-
-
 == input/resources/au-relatedperson.xml ==
-WARNING: StructureDefinition/au-relatedperson: StructureDefinition.differential.element[2].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/related-person-relationship-type-1 on element RelatedPerson.relationship could not be resolved
-WARNING: StructureDefinition/au-relatedperson: StructureDefinition.differential.element[5].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 on element RelatedPerson.communication.language could not be resolved
-WARNING: StructureDefinition/au-relatedperson: StructureDefinition.snapshot.element[12].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/related-person-relationship-type-1 on element RelatedPerson.relationship could not be resolved
-WARNING: StructureDefinition/au-relatedperson: StructureDefinition.snapshot.element[24].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 on element RelatedPerson.communication.language could not be resolved
-
-
 == input/resources/au-residentialagedcareserviceidentifier.xml ==
-
-
 == input/resources/au-specimen.xml ==
-WARNING: StructureDefinition/au-specimen: StructureDefinition.differential.element[1].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1 on element Specimen.type could not be resolved
-WARNING: StructureDefinition/au-specimen: StructureDefinition.differential.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/specimen-collection-procedure-1 on element Specimen.collection.method could not be resolved
-WARNING: StructureDefinition/au-specimen: StructureDefinition.differential.element[5].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Specimen.collection.bodySite could not be resolved
-WARNING: StructureDefinition/au-specimen: StructureDefinition.differential.element[6].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/specimen-container-type-1 on element Specimen.container could not be resolved
-WARNING: StructureDefinition/au-specimen: StructureDefinition.snapshot.element[12].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/specimen-type-1 on element Specimen.type could not be resolved
-WARNING: StructureDefinition/au-specimen: StructureDefinition.snapshot.element[25].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/specimen-collection-procedure-1 on element Specimen.collection.method could not be resolved
-WARNING: StructureDefinition/au-specimen: StructureDefinition.snapshot.element[26].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/body-site-1 on element Specimen.collection.bodySite could not be resolved
-
-
 == input/resources/au-substance.xml ==
-WARNING: StructureDefinition/au-substance: StructureDefinition.differential.element[1].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/substance-1 on element Substance.code could not be resolved
-WARNING: StructureDefinition/au-substance: StructureDefinition.differential.element[2].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/substance-1 on element Substance.ingredient.substance[x] could not be resolved
-WARNING: StructureDefinition/au-substance: StructureDefinition.snapshot.element[12].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/substance-1 on element Substance.code could not be resolved
-WARNING: StructureDefinition/au-substance: StructureDefinition.snapshot.element[26].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/substance-1 on element Substance.ingredient.substance[x] could not be resolved
-
-
 == input/resources/codesystem-au-location-physical-type.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/location-physical-type'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-location-physical-type.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/au-location-physical-type) does not match the URL (http://terminology.hl7.org.au/CodeSystem/location-physical-type)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-location-physical-type: URL Mismatch http://hl7.org.au/fhir/CodeSystem/au-location-physical-type vs http://terminology.hl7.org.au/CodeSystem/location-physical-type
-
-
 == input/resources/codesystem-au-location-type.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/location-type'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-location-type.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/au-location-type) does not match the URL (http://terminology.hl7.org.au/CodeSystem/location-type)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-location-type: URL Mismatch http://hl7.org.au/fhir/CodeSystem/au-location-type vs http://terminology.hl7.org.au/CodeSystem/location-type
-
-
 == input/resources/codesystem-au-observation-category.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/observation-category'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-observation-category.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/au-observation-category) does not match the URL (http://terminology.hl7.org.au/CodeSystem/observation-category)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-observation-category: URL Mismatch http://hl7.org.au/fhir/CodeSystem/au-observation-category vs http://terminology.hl7.org.au/CodeSystem/observation-category
-
-
 == input/resources/codesystem-au-v2-0203.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/v2-0203'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v2-0203.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/au-v2-0203) does not match the URL (http://terminology.hl7.org.au/CodeSystem/v2-0203)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v2-0203: URL Mismatch http://hl7.org.au/fhir/CodeSystem/au-v2-0203 vs http://terminology.hl7.org.au/CodeSystem/v2-0203
-
-
 == input/resources/codesystem-au-v2-0360.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/v2-0360'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v2-0360.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/au-v2-0360) does not match the URL (http://terminology.hl7.org.au/CodeSystem/v2-0360)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v2-0360: URL Mismatch http://hl7.org.au/fhir/CodeSystem/au-v2-0360 vs http://terminology.hl7.org.au/CodeSystem/v2-0360
-
-
 == input/resources/codesystem-au-v2-0443.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/v2-0443'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v2-0443.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/au-v2-0443) does not match the URL (http://terminology.hl7.org.au/CodeSystem/v2-0443)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v2-0443: URL Mismatch http://hl7.org.au/fhir/CodeSystem/au-v2-0443 vs http://terminology.hl7.org.au/CodeSystem/v2-0443
-
-
 == input/resources/codesystem-au-v3-ActCode.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/v3-ActCode'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v3-ActCode.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/au-v3-ActCode) does not match the URL (http://terminology.hl7.org.au/CodeSystem/v3-ActCode)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-au-v3-ActCode: URL Mismatch http://hl7.org.au/fhir/CodeSystem/au-v3-ActCode vs http://terminology.hl7.org.au/CodeSystem/v3-ActCode
-
-
 == input/resources/codesystem-contact-purpose.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/contact-purpose'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-contact-purpose.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/contact-purpose) does not match the URL (http://terminology.hl7.org.au/CodeSystem/contact-purpose)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-contact-purpose: URL Mismatch http://hl7.org.au/fhir/CodeSystem/contact-purpose vs http://terminology.hl7.org.au/CodeSystem/contact-purpose
-
-
 == input/resources/codesystem-medication-type.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/medication-type'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-medication-type.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/medication-type) does not match the URL (http://terminology.hl7.org.au/CodeSystem/medication-type)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-medication-type: URL Mismatch http://hl7.org.au/fhir/CodeSystem/medication-type vs http://terminology.hl7.org.au/CodeSystem/medication-type
-
-
 == input/resources/codesystem-medicine-item-change.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/medicine-item-change'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-medicine-item-change.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/medicine-item-change) does not match the URL (http://terminology.hl7.org.au/CodeSystem/medicine-item-change)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-medicine-item-change: URL Mismatch http://hl7.org.au/fhir/CodeSystem/medicine-item-change vs http://terminology.hl7.org.au/CodeSystem/medicine-item-change
-
-
 == input/resources/codesystem-mims-external.xml ==
 ERROR: CodeSystem.where(url = 'http://www.mims.com.au/codes'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-mims-external.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/mims-external) does not match the URL (http://www.mims.com.au/codes)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-mims-external: URL Mismatch http://hl7.org.au/fhir/CodeSystem/mims-external vs http://www.mims.com.au/codes
-
-
 == input/resources/codesystem-pbs-item-external.xml ==
 ERROR: CodeSystem.where(url = 'http://pbs.gov.au/code/item'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-pbs-item-external.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/pbs-item-external) does not match the URL (http://pbs.gov.au/code/item)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-pbs-item-external: URL Mismatch http://hl7.org.au/fhir/CodeSystem/pbs-item-external vs http://pbs.gov.au/code/item
-
-
 == input/resources/codesystem-service-provision-conditions.xml ==
 ERROR: CodeSystem.where(url = 'http://terminology.hl7.org.au/CodeSystem/service-provision-conditions'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-service-provision-conditions.xml - the canonical URL (http://hl7.org.au/fhir/CodeSystem/service-provision-conditions) does not match the URL (http://terminology.hl7.org.au/CodeSystem/service-provision-conditions)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/codesystem-service-provision-conditions: URL Mismatch http://hl7.org.au/fhir/CodeSystem/service-provision-conditions vs http://terminology.hl7.org.au/CodeSystem/service-provision-conditions
-
-
 == input/resources/structuredefinition-address-identifier.xml ==
-
-
 == input/resources/structuredefinition-ahpraprofession-details.xml ==
-
-
 == input/resources/structuredefinition-ahpraregistration-details.xml ==
-
-
 == input/resources/structuredefinition-associated-healthcareservice.xml ==
-
-
 == input/resources/structuredefinition-au-assigningauthority.xml ==
-
-
 == input/resources/structuredefinition-au-receivingapplication.xml ==
-
-
 == input/resources/structuredefinition-au-receivingfacility.xml ==
-
-
 == input/resources/structuredefinition-au-timezone.xml ==
-
-
 == input/resources/structuredefinition-author-related-person.xml ==
-
-
 == input/resources/structuredefinition-change-description.xml ==
-
-
 == input/resources/structuredefinition-closing-the-gap-registration.xml ==
-
-
 == input/resources/structuredefinition-contact-purpose.xml ==
-
-
 == input/resources/structuredefinition-date-accuracy-indicator.xml ==
-
-
 == input/resources/structuredefinition-date-of-arrival.xml ==
-WARNING: StructureDefinition/date-of-arrival: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/date-accuracy-indicator-1 on element Extension.value[x].extension.value[x] could not be resolved
-
-
 == input/resources/structuredefinition-dispense-number.xml ==
-
-
 == input/resources/structuredefinition-encounter-description.xml ==
-
-
 == input/resources/structuredefinition-encryption-certificate-pem-x509.xml ==
-
-
 == input/resources/structuredefinition-ethnicity.xml ==
-
-
 == input/resources/structuredefinition-identifier-routability.xml ==
-
-
 == input/resources/structuredefinition-ihi-record-status.xml ==
-
-
 == input/resources/structuredefinition-ihi-status.xml ==
-WARNING: StructureDefinition/ihi-status: StructureDefinition.differential.element[2].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/ihi-status-1 on element Extension.value[x] could not be resolved
-WARNING: StructureDefinition/ihi-status: StructureDefinition.snapshot.element[4].binding: The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/ihi-status-1 on element Extension.value[x] could not be resolved
-
-
 == input/resources/structuredefinition-ihi-verified-date.xml ==
-
-
 == input/resources/structuredefinition-indigenous-status.xml ==
-
-
 == input/resources/structuredefinition-information-recipient.xml ==
-
-
 == input/resources/structuredefinition-medication-brand-name.xml ==
-
-
 == input/resources/structuredefinition-medication-generic-name.xml ==
-
-
 == input/resources/structuredefinition-medication-long-term.xml ==
-
-
 == input/resources/structuredefinition-medication-strength.xml ==
-
-
 == input/resources/structuredefinition-medication-type.xml ==
-
-
 == input/resources/structuredefinition-no-fixed-address.xml ==
-
-
 == input/resources/structuredefinition-result-copies-to.xml ==
-
-
 == input/resources/structuredefinition-subsidised-concurrent-supply.xml ==
-
-
 == input/resources/structuredefinition-vaccine-serial-number.xml ==
-
-
 == input/resources/valueset-accession-number-type.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/accession-number-type'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-accession-number-type.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/accession-number-type) does not match the URL (http://terminology.hl7.org.au/ValueSet/accession-number-type)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-accession-number-type: URL Mismatch http://hl7.org.au/fhir/ValueSet/accession-number-type vs http://terminology.hl7.org.au/ValueSet/accession-number-type
-
-
 == input/resources/valueset-amt-mp-codes.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/amt-mp-codes'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-amt-mp-codes.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/amt-mp-codes) does not match the URL (http://terminology.hl7.org.au/ValueSet/amt-mp-codes)
 WARNING: ValueSet/amt-mp-codes: ValueSet.compose[0].include[1].valueSet[0]: The value set import https://healthterminologies.gov.au/fhir/ValueSet/substance-1 could not be found so cannot be checked
 ERROR: ValueSet.where(id = 'amt-mp-codes'): Error from server: Unable to find value set "https://healthterminologies.gov.au/fhir/ValueSet/substance-1"
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-amt-mp-codes: URL Mismatch http://hl7.org.au/fhir/ValueSet/amt-mp-codes vs http://terminology.hl7.org.au/ValueSet/amt-mp-codes
-
-
 == input/resources/valueset-au-conditon-category-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/condition-category-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-conditon-category-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-condition-category-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/condition-category-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-conditon-category-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-condition-category-extended vs http://terminology.hl7.org.au/ValueSet/condition-category-extended
-
-
 == input/resources/valueset-au-location-physical-type-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/location-physical-type-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-location-physical-type-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-location-physical-type-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/location-physical-type-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-location-physical-type-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-location-physical-type-extended vs http://terminology.hl7.org.au/ValueSet/location-physical-type-extended
-
-
 == input/resources/valueset-au-observation-category-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/observation-category-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-observation-category-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-observation-category-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/observation-category-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-observation-category-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-observation-category-extended vs http://terminology.hl7.org.au/ValueSet/observation-category-extended
-
-
 == input/resources/valueset-au-timezone.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/au-timezone'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-timezone.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-timezone) does not match the URL (http://terminology.hl7.org.au/ValueSet/au-timezone)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-timezone: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-timezone vs http://terminology.hl7.org.au/ValueSet/au-timezone
-
-
 == input/resources/valueset-au-v2-0203-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/v2-0203-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v2-0203-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-v2-0203-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/v2-0203-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v2-0203-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-v2-0203-extended vs http://terminology.hl7.org.au/ValueSet/v2-0203-extended
-
-
 == input/resources/valueset-au-v2-0360-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/v2-0360-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v2-0360-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-v2-0360-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/v2-0360-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v2-0360-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-v2-0360-extended vs http://terminology.hl7.org.au/ValueSet/v2-0360-extended
-
-
 == input/resources/valueset-au-v2-0443-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/v2-0443-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v2-0443-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-v2-0443-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/v2-0443-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v2-0443-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-v2-0443-extended vs http://terminology.hl7.org.au/ValueSet/v2-0443-extended
-
-
 == input/resources/valueset-au-v3-ActEncounterCode-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/v3-ActEncounterCode-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v3-ActEncounterCode-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-v3-ActEncounterCode-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/v3-ActEncounterCode-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v3-ActEncounterCode-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-v3-ActEncounterCode-extended vs http://terminology.hl7.org.au/ValueSet/v3-ActEncounterCode-extended
-
-
 == input/resources/valueset-au-v3-ServiceDeliveryLocationRoleType-extended.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/v3-ServiceDeliveryLocationRoleType-extended'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v3-ServiceDeliveryLocationRoleType-extended.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/au-v3-ServiceDeliveryLocationRoleType-extended) does not match the URL (http://terminology.hl7.org.au/ValueSet/v3-ServiceDeliveryLocationRoleType-extended)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-au-v3-ServiceDeliveryLocationRoleType-extended: URL Mismatch http://hl7.org.au/fhir/ValueSet/au-v3-ServiceDeliveryLocationRoleType-extended vs http://terminology.hl7.org.au/ValueSet/v3-ServiceDeliveryLocationRoleType-extended
-
-
 == input/resources/valueset-contact-purpose.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/contact-purpose'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-contact-purpose.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/contact-purpose) does not match the URL (http://terminology.hl7.org.au/ValueSet/contact-purpose)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-contact-purpose: URL Mismatch http://hl7.org.au/fhir/ValueSet/contact-purpose vs http://terminology.hl7.org.au/ValueSet/contact-purpose
-
-
 == input/resources/valueset-dva-entitlement.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/dva-entitlement'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-dva-entitlement.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/dva-entitlement) does not match the URL (http://terminology.hl7.org.au/ValueSet/dva-entitlement)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-dva-entitlement: URL Mismatch http://hl7.org.au/fhir/ValueSet/dva-entitlement vs http://terminology.hl7.org.au/ValueSet/dva-entitlement
-
-
 == input/resources/valueset-medication-type.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/medication-type'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-medication-type.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/medication-type) does not match the URL (http://terminology.hl7.org.au/ValueSet/medication-type)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-medication-type: URL Mismatch http://hl7.org.au/fhir/ValueSet/medication-type vs http://terminology.hl7.org.au/ValueSet/medication-type
-
-
 == input/resources/valueset-medicine-item-change.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/medicine-item-change'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-medicine-item-change.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/medicine-item-change) does not match the URL (http://terminology.hl7.org.au/ValueSet/medicine-item-change)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-medicine-item-change: URL Mismatch http://hl7.org.au/fhir/ValueSet/medicine-item-change vs http://terminology.hl7.org.au/ValueSet/medicine-item-change
-
-
 == input/resources/valueset-mims.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/mims'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-mims.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/mims) does not match the URL (http://terminology.hl7.org.au/ValueSet/mims)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-mims: URL Mismatch http://hl7.org.au/fhir/ValueSet/mims vs http://terminology.hl7.org.au/ValueSet/mims
-
-
 == input/resources/valueset-order-identifier-type.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/order-identifier-type'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-order-identifier-type.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/order-identifier-type) does not match the URL (http://terminology.hl7.org.au/ValueSet/order-identifier-type)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-order-identifier-type: URL Mismatch http://hl7.org.au/fhir/ValueSet/order-identifier-type vs http://terminology.hl7.org.au/ValueSet/order-identifier-type
-
-
 == input/resources/valueset-pbs-item.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/pbs-item'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-pbs-item.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/pbs-item) does not match the URL (http://terminology.hl7.org.au/ValueSet/pbs-item)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-pbs-item: URL Mismatch http://hl7.org.au/fhir/ValueSet/pbs-item vs http://terminology.hl7.org.au/ValueSet/pbs-item
-
-
 == input/resources/valueset-service-provision-conditions.xml ==
 ERROR: ValueSet.where(url = 'http://terminology.hl7.org.au/ValueSet/service-provision-conditions'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-service-provision-conditions.xml - the canonical URL (http://hl7.org.au/fhir/ValueSet/service-provision-conditions) does not match the URL (http://terminology.hl7.org.au/ValueSet/service-provision-conditions)
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.au.base/input/resources/valueset-service-provision-conditions: URL Mismatch http://hl7.org.au/fhir/ValueSet/service-provision-conditions vs http://terminology.hl7.org.au/ValueSet/service-provision-conditions
-
-

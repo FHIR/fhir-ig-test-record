@@ -2,8 +2,8 @@
 =========================================
 
 err = 25, warn = 10, info = 125
-IG Publisher Version: (unknown) Out of date - current version is 1.2.14
-Generated Wed Nov 16 15:32:11 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
+IG Publisher Version: (unknown) Out of date - current version is 1.2.24
+Generated Wed Dec 14 19:15:39 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
  Build Errors : 7 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Bundle-map-population-example : 0 / 0 / 10
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Library-CHF : 0 / 0 / 1
@@ -158,7 +158,6 @@ Generated Wed Nov 16 15:32:11 CLST 2022. FHIR version 4.0.1 for hl7.fhir.uv.sdc#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-species : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/vocabulary/valueset-task-code : 1 / 0 / 1
 </table>
-
 == n/a ==
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 314, column 312: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-v3-snomed-CT.html' for "SNOMED and CT International Edition" cannot be resolved
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 314, column 460: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html' for "Logical Observation Identifiers, Names and Codes (LOINC)" cannot be resolved
@@ -171,17 +170,9 @@ WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in 
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-
-
 == input/examples/Bundle-map-population-example.xml ==
-
-
 == input/examples/Library-CHF.xml ==
-
-
 == input/examples/QuestionnaireResponse-map-populate-out.xml ==
-
-
 == input/examples/SDOHCC-QuestionnaireHungerVitalSign.xml ==
 INFORMATION: Questionnaire/SDOHCC-QuestionnaireHungerVitalSign: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-smap|3.0.0
 INFORMATION: Questionnaire/SDOHCC-QuestionnaireHungerVitalSign: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-smap|3.0.0
@@ -207,23 +198,13 @@ INFORMATION: Questionnaire/SDOHCC-QuestionnaireHungerVitalSign: Questionnaire.it
 INFORMATION: Questionnaire/SDOHCC-QuestionnaireHungerVitalSign: Questionnaire.item[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn|3.0.0
 INFORMATION: Questionnaire/SDOHCC-QuestionnaireHungerVitalSign: Questionnaire.item[2].extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn|3.0.0
 INFORMATION: Questionnaire/SDOHCC-QuestionnaireHungerVitalSign: Questionnaire.item[2].extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn|3.0.0
-
-
 == input/examples/SDOHCC-StructureMapHungerVitalSign.xml ==
-
-
 == input/examples/StructureMap-questionnaire-population-transform.xml ==
-
-
 == input/examples/codesystem-CSPHQ9.xml ==
 ERROR: CodeSystem/CSPHQ9: CodeSystem: The ShareableCodeSystem profile says that the title element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
 ERROR: CodeSystem/CSPHQ9: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
 ERROR: CodeSystem/CSPHQ9: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
 == input/examples/codesystem-chf-codes.xml ==
-
-
 == input/examples/parameters-sdc-modular-root-assembled.xml ==
 INFORMATION: Parameters/sdc-modular-root-assembled: Parameters.parameter[0].resource.ofType(Questionnaire).extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Parameters/sdc-modular-root-assembled: Parameters.parameter[0].resource.ofType(Questionnaire).extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
@@ -237,24 +218,16 @@ INFORMATION: Parameters/sdc-modular-root-assembled: Parameters.parameter[0].reso
 INFORMATION: Parameters/sdc-modular-root-assembled: Parameters.parameter[0].resource.ofType(Questionnaire).item[1].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Parameters/sdc-modular-root-assembled: Parameters.parameter[0].resource.ofType(Questionnaire).item[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Parameters/sdc-modular-root-assembled: Parameters.parameter[0].resource.ofType(Questionnaire).item[4].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
-
-
 == input/examples/questionnaire-anc-quick-check.xml ==
-
-
 == input/examples/questionnaire-demographics.xml ==
 INFORMATION: Questionnaire/demographics: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-pop-exp|3.0.0
 INFORMATION: Questionnaire/demographics: Questionnaire.item[3].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-pop-exp|3.0.0
 INFORMATION: Questionnaire/demographics: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn|3.0.0
 INFORMATION: Questionnaire/demographics: Questionnaire.item[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn|3.0.0
 INFORMATION: Questionnaire/demographics: Questionnaire.item[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn|3.0.0
-
-
 == input/examples/questionnaire-sdc-modular-contact.xml ==
 INFORMATION: Questionnaire/sdc-modular-contact: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-contact: Questionnaire.item[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
-
-
 == input/examples/questionnaire-sdc-modular-name.xml ==
 INFORMATION: Questionnaire/sdc-modular-name: Questionnaire.extension[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-name: Questionnaire.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
@@ -262,45 +235,27 @@ ERROR: Questionnaire/sdc-modular-name: Questionnaire.extension[3].extension[0].v
 INFORMATION: Questionnaire/sdc-modular-name: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-name: Questionnaire.item[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-name: Questionnaire.item[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
-
-
 == input/examples/questionnaire-sdc-modular-root.xml ==
 INFORMATION: Questionnaire/sdc-modular-root: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-root: Questionnaire.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-root: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-root: Questionnaire.item[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
 INFORMATION: Questionnaire/sdc-modular-root: Questionnaire.item[4].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example.xml ==
 INFORMATION: Bundle/questionnaire-sdc-profile-example: Bundle.entry[0].resource.item[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Bundle/questionnaire-sdc-profile-example: Bundle.entry[0].resource.item[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example-PHQ9.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-PHQ9: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-PHQ9: Questionnaire.contained[0].ofType(ValueSet).compose.include[0].concept[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-PHQ9: Questionnaire.contained[0].ofType(ValueSet).compose.include[0].concept[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-PHQ9: Questionnaire.contained[0].ofType(ValueSet).compose.include[0].concept[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-PHQ9: Questionnaire.contained[0].ofType(ValueSet).compose.include[0].concept[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example-PHQ9-search.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-cap.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-context-expression.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-cqf-PHQ9.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-cqf-PHQ9: Questionnaire.item[8].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-obsn|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example-form-behavior.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-framingham-hchd-lhc.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-framingham-hchd-lhc: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-framingham-hchd-lhc: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
@@ -334,8 +289,6 @@ INFORMATION: Questionnaire/questionnaire-sdc-profile-example-framingham-hchd-lhc
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-framingham-hchd-lhc: Questionnaire.item[9].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-framingham-hchd-lhc: Questionnaire.item[9].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-framingham-hchd-lhc: Questionnaire.item[10].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example-hunger-vital-signs.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-hunger-vital-signs: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-hunger-vital-signs: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
@@ -351,31 +304,17 @@ INFORMATION: Questionnaire/questionnaire-sdc-profile-example-hunger-vital-signs:
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-hunger-vital-signs: Questionnaire.item[2].extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-hunger-vital-signs: Questionnaire.item[2].extension[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-hunger-vital-signs: Questionnaire.item[2].extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example-image-options.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-loinc.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-loinc: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-loinc: Questionnaire.item[2].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-loinc: Questionnaire.item[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example-multi-subject.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-multi-subject: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-obsn|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-multi-subject: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-obsn|3.0.0
-
-
 == input/examples/questionnaire-sdc-profile-example-ordinal-value.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-render.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-ussg-fht.xml ==
-
-
 == input/examples/questionnaire-sdc-profile-example-weight-height-tracking-panel.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-weight-height-tracking-panel: Questionnaire.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-weight-height-tracking-panel: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
@@ -389,399 +328,153 @@ INFORMATION: Questionnaire/questionnaire-sdc-profile-example-weight-height-track
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-weight-height-tracking-panel: Questionnaire.item[3].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-weight-height-tracking-panel: Questionnaire.item[3].extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-profile-example-weight-height-tracking-panel: Questionnaire.item[4].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0
-
-
 == input/examples/questionnaire-sdc-test-all-data-types.xml ==
-
-
 == input/examples/questionnaire-sdc-test-enableWhen.xml ==
-
-
 == input/examples/questionnaire-sdc-test-fhirpath-prepop-candexpr.xml ==
-
-
 == input/examples/questionnaire-sdc-test-fhirpath-prepop-initialexpression.xml ==
-
-
 == input/examples/questionnaire-sdc-test-fhirpath-prepop-source-query.xml ==
 INFORMATION: Questionnaire/questionnaire-sdc-test-fhirpath-prepop-source-query: Questionnaire.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-pop-exp|3.0.0
 INFORMATION: Questionnaire/questionnaire-sdc-test-fhirpath-prepop-source-query: Questionnaire.extension[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-pop-exp|3.0.0
-
-
 == input/examples/questionnaire-sdc-test-initialvalue.xml ==
-
-
 == input/examples/questionnaire-sdc-test-initialvalue-multiple.xml ==
-
-
 == input/examples/questionnaire-sdc-test-nested-groups.xml ==
-
-
 == input/examples/questionnaire-sdc-test-required-radios.xml ==
-
-
 == input/examples/questionnaireresponse-adaptive-questionnaireresponse-sdc-example-phq9.xml ==
-
-
 == input/examples/questionnaireresponse-questionnaireresponse-sdc-profile-example-PHQ9.xml ==
-
-
 == input/examples/questionnaireresponse-sdc-example-ussg-fht-answers.xml ==
-
-
 == input/examples/questionnaireresponse-sdc-profile-example.xml ==
 ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[0].item[1].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921060v1.0-cs::Primary) is not in the options value set in the questionnaire
 ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[1].item[0].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921071v1.0-cs::At Restaging) is not in the options value set in the questionnaire
 ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[2].item[2].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921081v1.0-cs::Histologic) is not in the options value set in the questionnaire
 ERROR: QuestionnaireResponse/questionnaireresponse-sdc-profile-example: QuestionnaireResponse.item[2].item[3].answer[0]: The value provided (http://example.org/nci.nih.gov/xml/owl/cadsr/form/form_design_identifier/3921052v1.0/question_identifier#3921085v1.0-cs::G2) is not in the options value set in the questionnaire
-
-
 == input/examples/questionnaireresponse-sdc-profile-example-loinc.xml ==
-
-
 == input/examples/questionnaireresponse-sdc-profile-example-multi-subject.xml ==
-
-
 == input/examples/request-task-example.xml ==
-
-
 == input/examples/servicerequest-example.xml ==
-
-
 == input/examples/structuredefinition-sdc-profile-example.xml ==
 ERROR: StructureDefinition/structuredefinition-sdc-profile-example: StructureDefinition.type: The type DataelementSdcProfileExample is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
-
-
 == input/examples/structuredefinition-sdc-question-library.xml ==
 ERROR: StructureDefinition/sdc-question-library: StructureDefinition.type: The type Demographics is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
-
-
 == input/examples/task-example.xml ==
-
-
 == input/examples/valueset-sdc-profile-example.xml ==
 ERROR: ValueSet/sdc-profile-example: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/examples/valueset-sdc-question-library-states.xml ==
-WARNING: ValueSet/sdc-question-library-states: ValueSet.compose[0].include[0]: Unknown System 'http://example.org/CodeSystem/Australian-States' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://example.org/CodeSystem/Australian-States. Server Error: The code system 'http://example.org/CodeSystem/Australian-States' is not known (encountered paired with code = 'ACT'); The code provided (http://example.org/CodeSystem/Australian-States#ACT) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
-
-
+WARNING: ValueSet/sdc-question-library-states: ValueSet.compose[0].include[0]: Unknown System 'http://example.org/CodeSystem/Australian-States' specified, so Concepts and Filters can't be checked (Details: The code system 'http://example.org/CodeSystem/Australian-States' is not known (encountered paired with code = 'ACT'); The code provided (http://example.org/CodeSystem/Australian-States#ACT) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 == input/resources/StructureDefinition-sdc-questionnaire.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-adapt.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-adapt-srch.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-answerExpression.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-answerOptionsToggleExpression.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-assemble-expectation.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-assembleContext.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-assembledFrom.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-behave.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-calculatedExpression.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-candidateExpression.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-choiceColumn.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-collapsible.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-contextExpression.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-enableWhenExpression.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-endpoint.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-entryMode.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-extr-defn.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-extr-obsn.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-extr-smap.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-initialExpression.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-isSubject.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-itemAnswerMedia.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-itemExtractionContext.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-itemMedia.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-itemPopulationContext.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-launchContext.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-lookupQuestionnaire.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-maxQuantity.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-minQuantity.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-modular.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-observation-extract-category.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-observationExtract.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-observationLinkPeriod.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-openLabel.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-optionalDisplay.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-performerType.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-pop-exp.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-pop-obsn.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-pop-smap.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-preferredTerminologyServer.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-questionnaireAdaptive.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-render.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-search.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-shortText.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-sourceQueries.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-sourceStructureMap.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-subQuestionnaire.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-targetStructureMap.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-unitOpen.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-unitSupplementalSystem.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaire-width.xml ==
-
-
 == input/resources/StructureDefinition-sdc-questionnaireresponse-isSubject.xml ==
-
-
 == input/resources/StructureDefinition-sdc-referencesContained.xml ==
-
-
 == input/resources/StructureDefinition-sdc-servicerequest.xml ==
-
-
 == input/resources/StructureDefinition-sdc-servicerequest-questionnaire.xml ==
-
-
 == input/resources/capabilitystatement-sdc-form-archiver.xml ==
 WARNING: CapabilityStatement/sdc-form-archiver: CapabilityStatement.description: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-
-
 == input/resources/capabilitystatement-sdc-form-designer.xml ==
-
-
 == input/resources/capabilitystatement-sdc-form-filler.xml ==
 WARNING: CapabilityStatement/sdc-form-filler: CapabilityStatement.description: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 WARNING: CapabilityStatement/sdc-form-filler: CapabilityStatement.rest[0].documentation: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-
-
 == input/resources/capabilitystatement-sdc-form-manager.xml ==
-
-
 == input/resources/capabilitystatement-sdc-form-receiver.xml ==
-
-
 == input/resources/capabilitystatement-sdc-form-response-manager.xml ==
-
-
 == input/resources/operationdefinition-Questionnaire-assemble.xml ==
-
-
 == input/resources/operationdefinition-Questionnaire-next-question.xml ==
-
-
 == input/resources/operationdefinition-Questionnaire-populate.xml ==
-
-
 == input/resources/operationdefinition-Questionnaire-populatehtml.xml ==
-
-
 == input/resources/operationdefinition-Questionnaire-populatelink.xml ==
-
-
 == input/resources/operationdefinition-Questionnaire-process-response.xml ==
-
-
 == input/resources/operationdefinition-QuestionnaireResponse-extract.xml ==
-
-
 == input/resources/searchparameter-questionnaire-assemble-expectation.xml ==
-
-
 == input/resources/searchparameter-questionnaire-assembledFrom.xml ==
-
-
 == input/resources/searchparameter-questionnaire-definition.xml ==
-
-
 == input/resources/structuredefinition-parameters-questionnaire-assemble-out.xml ==
-
-
 == input/resources/structuredefinition-parameters-questionnaire-next-question-in.xml ==
-
-
 == input/resources/structuredefinition-parameters-questionnaire-next-question-out.xml ==
-
-
 == input/resources/structuredefinition-parameters-questionnaire-process-response-in.xml ==
-
-
 == input/resources/structuredefinition-parameters-questionnaireresponse-extract-in - Copy.xml ==
-
-
 == input/resources/structuredefinition-sdc-codesystem.xml ==
-
-
 == input/resources/structuredefinition-sdc-library.xml ==
 WARNING: StructureDefinition/sdc-library: StructureDefinition.snapshot.element[17].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-
-
 == input/resources/structuredefinition-sdc-questionnaireresponse.xml ==
-
-
 == input/resources/structuredefinition-sdc-questionnaireresponse-adapt.xml ==
-
-
 == input/resources/structuredefinition-sdc-task.xml ==
-
-
 == input/resources/structuredefinition-sdc-usagecontext.xml ==
-
-
 == input/resources/structuredefinition-sdc-valueset.xml ==
-
-
 == input/sdc.xml ==
 WARNING: ImplementationGuide/hl7.fhir.uv.sdc: ImplementationGuide.description: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-
-
 == input/vocabulary/codesystem-assemble-expectation.xml ==
 ERROR: CodeSystem/assemble-expectation: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
 == input/vocabulary/codesystem-collapsible.xml ==
 ERROR: CodeSystem/collapsible: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
 == input/vocabulary/codesystem-entryMode.xml ==
 ERROR: CodeSystem/entryMode: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
 == input/vocabulary/codesystem-launchContext.xml ==
 ERROR: CodeSystem/launchContext: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
 == input/vocabulary/codesystem-questionnaire-answer-constraint.xml ==
-
-
 == input/vocabulary/codesystem-temp.xml ==
 ERROR: CodeSystem/temp: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
-
-
 == input/vocabulary/valueset-assemble-expectation.xml ==
 ERROR: ValueSet/assemble-expectation: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/vocabulary/valueset-collapsible.xml ==
 ERROR: ValueSet/collapsible: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/vocabulary/valueset-dex-mimetype.xml ==
 ERROR: ValueSet/dex-mimetype: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/vocabulary/valueset-entryMode.xml ==
 ERROR: ValueSet/entryMode: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/vocabulary/valueset-launchContext.xml ==
 ERROR: ValueSet/launchContext: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/vocabulary/valueset-performerType.xml ==
 ERROR: ValueSet/performerType: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/vocabulary/valueset-questionnaire-answer-constraint.xml ==
-
-
 == input/vocabulary/valueset-species.xml ==
 ERROR: ValueSet/species: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
 == input/vocabulary/valueset-task-code.xml ==
 ERROR: ValueSet/task-code: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
-
-
