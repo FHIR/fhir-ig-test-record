@@ -3,7 +3,7 @@
 
 err = 10, warn = 2, info = 7
 IG Publisher Version: (unknown) Out of date - current version is 1.2.24
-Generated Wed Dec 14 19:33:00 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core#6.0.0-preview (canonical = http://hl7.org/fhir/us/core)
+Generated Fri Dec 16 10:25:06 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core#6.0.0-preview (canonical = http://hl7.org/fhir/us/core)
  Build Errors : 0 / 1 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.core : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Device-defib : 0 / 0 / 1
@@ -393,410 +393,1187 @@ Generated Wed Dec 14 19:33:00 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.core
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-servicerequest-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-vital-signs : 0 / 0 / 1
 </table>
+
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
+
+
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.us.core.json ==
+
+
 == input/examples/Device-defib.json ==
+
+
 == input/examples/Device-knee.json ==
+
+
 == input/examples/DiagnosticReport-bone-density-report.json ==
+
+
 == input/examples/DiagnosticReport-cardiology-report.json ==
+
+
 == input/examples/DiagnosticReport-chest-xray-report.json ==
+
+
 == input/examples/Observation-10-minute-apgar-color.json ==
+
+
 == input/examples/Observation-10-minute-apgar-heart-rate.json ==
+
+
 == input/examples/Observation-10-minute-apgar-muscle-tone.json ==
+
+
 == input/examples/Observation-10-minute-apgar-reflex-irritability.json ==
+
+
 == input/examples/Observation-10-minute-apgar-respiratory-effort.json ==
+
+
 == input/examples/Observation-10-minute-apgar-score.json ==
+
+
 == input/examples/Observation-10-minute-apgar-score-panel.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-44250-9.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-44255-8.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-68516-4.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-68517-2.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-68524-8.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-69858-9.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-69861-3.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-76513-1.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-89555-7.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-93038-8.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-93159-2.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-95530-2.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-96780-2.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-96781-0.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-96782-8.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-96842-0.json ==
+
+
 == input/examples/Observation-AHC-HRSN-item-example-97027-7.json ==
+
+
 == input/examples/Observation-AHC-HRSN-panel-example-96777-8.json ==
+
+
 == input/examples/Observation-HVS-item-example-88122-7.json ==
+
+
 == input/examples/Observation-HVS-item-example-88123-5.json ==
+
+
 == input/examples/Observation-HVS-item-example-88124-3.json ==
+
+
 == input/examples/Observation-HVS-panel-example-88121-9.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44250-9.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44251-7.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44252-5.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44253-3.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44254-1.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44255-8.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44258-2.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44259-0.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44260-8.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-44261-6.json ==
+
+
 == input/examples/Observation-PHQ9-item-example-69722-7.json ==
+
+
 == input/examples/Observation-PHQ9-panel-example-44249-1.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-54899-0.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-56051-6.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-56799-0.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-63512-8.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-63586-2.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-67875-5.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-71802-3.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-76437-3.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-76501-6.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-82589-3.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93026-3.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93027-1.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93028-9.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93029-7.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93030-5.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93033-9.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93034-7.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93035-4.json ==
+
+
 == input/examples/Observation-PRAPARE-item-example-93038-8.json ==
+
+
 == input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer0.json ==
+
+
 == input/examples/Observation-PRAPARE-multiselect-item-example-32624-9-answer1.json ==
+
+
 == input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer0.json ==
+
+
 == input/examples/Observation-PRAPARE-multiselect-item-example-93031-3-answer1.json ==
+
+
 == input/examples/Observation-PRAPARE-panel-example-93025-5.json ==
+
+
 == input/examples/Observation-PRAPARE-panel-example-93039-6.json ==
+
+
 == input/examples/Observation-PRAPARE-panel-example-93040-4.json ==
+
+
 == input/examples/Observation-PRAPARE-panel-example-93041-2.json ==
+
+
 == input/examples/Observation-PRAPARE-panel-example-93042-0.json ==
+
+
 == input/examples/Observation-PRAPARE-panel-example-93043-8.json ==
+
+
 == input/examples/Observation-simple-observation-cognitive-status.json ==
+
+
 == input/examples/Observation-simple-observation-disability-status.json ==
+
+
 == input/examples/Observation-simple-observation-sdoh.json ==
+
+
 == input/examples/PractitionerRole_Practitioner_Endpoint_Bundle_Example.json ==
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource.ofType(Practitioner).identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
 INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource.ofType(Practitioner).identifier[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
+
+
 == input/examples/Procedure-R4-defib-implant.json ==
+
+
 == input/examples/QuestionnaireResponse-5774968.json ==
+
+
 == input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json ==
+
+
 == input/examples/QuestionnaireResponse-PRAPARE-example.json ==
+
+
 == input/examples/QuestionnaireResponse-hunger-vital-sign-example.json ==
+
+
 == input/examples/allergyintolerance-example.json ==
+
+
 == input/examples/allergyintolerance-provenance-example.json ==
+
+
 == input/examples/blood-pressure.json ==
+
+
 == input/examples/bmi.json ==
+
+
 == input/examples/bp-data-absent.json ==
+
+
 == input/examples/capillary-refill-time-nail-bed.json ==
+
+
 == input/examples/careteam-example.json ==
 ERROR: CareTeam/example: CareTeam.participant[0].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
 ERROR: CareTeam/example: CareTeam.participant[1].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
 ERROR: CareTeam/example: CareTeam.participant[2].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
 ERROR: CareTeam/example: CareTeam.participant[3].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
+
+
 == input/examples/colonoscopy.json ==
+
+
 == input/examples/condition-SDOH-example.json ==
+
+
 == input/examples/condition-duodenal-ulcer.json ==
+
+
 == input/examples/condition-encounter-diagnosis-example1.json ==
+
+
 == input/examples/condition-encounter-diagnosis-example2.json ==
+
+
 == input/examples/coverage-example.json ==
+
+
 == input/examples/diagnosticreport-cbc.json ==
+
+
 == input/examples/diagnosticreport-metabolic-panel.json ==
+
+
 == input/examples/dxa-femur-l-armass-bmd.json ==
+
+
 == input/examples/dxa-femur-l-t-score-bmd.json ==
+
+
 == input/examples/dxa-femur-l-z-score-bmd.json ==
+
+
 == input/examples/dxa-hip-l-armass-bmd.json ==
+
+
 == input/examples/dxa-hip-l-t-score-bmd.json ==
+
+
 == input/examples/dxa-hip-l-z-score-bmd.json ==
+
+
 == input/examples/ekg-impression.json ==
+
+
 == input/examples/ekg-lead.json ==
+
+
 == input/examples/encounter-1036.json ==
+
+
 == input/examples/encounter-delivery.json ==
+
+
 == input/examples/encounter-example-1.json ==
+
+
 == input/examples/episode-summary.json ==
+
+
 == input/examples/example-organization-2.json ==
 INFORMATION: Organization/example-organization-2: Organization.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.0.0-preview
+
+
 == input/examples/foodpantry-referral.json ==
+
+
 == input/examples/goal-1.json ==
 WARNING: Goal/goal-1: Goal.description: No code provided, and a code should be provided from the value set 'US Core Goal Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|6.0.0-preview)
+
+
 == input/examples/goal-sdoh-2.json ==
+
+
 == input/examples/head-circumference.json ==
+
+
 == input/examples/health-concern-example.json ==
+
+
 == input/examples/heart-rate.json ==
+
+
 == input/examples/heart-rate-rhythm.json ==
+
+
 == input/examples/height.json ==
+
+
 == input/examples/hl7east.json ==
+
+
 == input/examples/imm-1.json ==
+
+
 == input/examples/jugular-vein-distension.json ==
+
+
 == input/examples/length.json ==
+
+
 == input/examples/location-hospital.json ==
+
+
 == input/examples/media-chest-xray.json ==
+
+
 == input/examples/media-ekg-strip.json ==
+
+
 == input/examples/medicationdispense-example.json ==
+
+
 == input/examples/medicationrequest-coded-oral-axid.json ==
+
+
 == input/examples/medicationrequest-contained-oral-axid.json ==
+
+
 == input/examples/medicationrequest-referenced-oral-axid.json ==
+
+
 == input/examples/medicationrequest-self-tylenol.json ==
+
+
 == input/examples/missing-coded-data-example.json ==
 ERROR: CareTeam/missing-coded-data-example: CareTeam.participant[1].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
 ERROR: CareTeam/missing-coded-data-example: CareTeam.participant[2].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
 ERROR: CareTeam/missing-coded-data-example: CareTeam.participant[3].role[0]: Local Error: Unable to evaluate based on empty code system. Server Error: Error from server: The filter "concept = 768734005" from the value set http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27 was not understood in the context of http://snomed.info/sct
+
+
 == input/examples/observation-blood-glucose.json ==
+
+
 == input/examples/observation-bun.json ==
+
+
 == input/examples/observation-erythrocytes.json ==
+
+
 == input/examples/observation-hemoglobin.json ==
+
+
 == input/examples/observation-mchc.json ==
+
+
 == input/examples/observation-neutrophils.json ==
+
+
 == input/examples/observation-occupation.json ==
+
+
 == input/examples/observation-pregnancy-intent.json ==
+
+
 == input/examples/observation-pregnancy-status.json ==
+
+
 == input/examples/observation-satO2-fiO2.json ==
 INFORMATION: Observation/satO2-fiO2: Observation.code.coding[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.0.0-preview
+
+
 == input/examples/observation-serum-calcium.json ==
+
+
 == input/examples/observation-serum-chloride.json ==
+
+
 == input/examples/observation-serum-co2.json ==
+
+
 == input/examples/observation-serum-creatinine.json ==
+
+
 == input/examples/observation-serum-potassium.json ==
+
+
 == input/examples/observation-serum-sodium.json ==
+
+
 == input/examples/observation-serum-total-bilirubin.json ==
+
+
 == input/examples/observation-xray-chest-findings.json ==
+
+
 == input/examples/observation-xray-chest-impression.json ==
+
+
 == input/examples/ofc-percentile.json ==
+
+
 == input/examples/organization-acme-lab.json ==
+
+
 == input/examples/organization-acme-payer.json ==
+
+
 == input/examples/organization-holy-healthcare.json ==
+
+
 == input/examples/oxygen-saturation.json ==
+
+
 == input/examples/p-r-interval-ekg-lead.json ==
+
+
 == input/examples/patient-child-example.json ==
+
+
 == input/examples/patient-deceased-example.json ==
+
+
 == input/examples/patient-example.json ==
+
+
 == input/examples/patient-infant-example.json ==
+
+
 == input/examples/pediatric-bmi-example.json ==
+
+
 == input/examples/pediatric-wt-example.json ==
+
+
 == input/examples/practitioner-1.json ==
 INFORMATION: Practitioner/practitioner-1: Practitioner.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
+
+
 == input/examples/practitioner-2.json ==
 INFORMATION: Practitioner/practitioner-2: Practitioner.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
+
+
 == input/examples/practitioner-pharmacist.json ==
+
+
 == input/examples/procedure-rehab.json ==
+
+
 == input/examples/pulse-intensity-palpation.json ==
+
+
 == input/examples/q-t-interval-ekg-lead.json ==
+
+
 == input/examples/qrs-dur-ekg-lead.json ==
+
+
 == input/examples/relatedperson-shaw-niece.json ==
+
+
 == input/examples/respiratory-rate.json ==
+
+
 == input/examples/saint-luke-w-endpoint.json ==
 INFORMATION: Organization/saint-luke-w-endpoint: Organization.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.0.0-preview
+
+
 == input/examples/servicerequest-defib-implant.json ==
+
+
 == input/examples/servicerequest-rehab.json ==
+
+
 == input/examples/sexual-orientation-example.json ==
+
+
 == input/examples/some-day-smoker.json ==
+
+
 == input/examples/specimen-example-serum.json ==
+
+
 == input/examples/temperature.json ==
+
+
 == input/examples/udi-1.json ==
+
+
 == input/examples/urobilinogen.json ==
+
+
 == input/examples/uscore-med1.json ==
+
+
 == input/examples/uscore-med2.json ==
+
+
 == input/examples/weight.json ==
+
+
 == input/resources/CodeSystem-careplan-category.json ==
+
+
 == input/resources/CodeSystem-condition-category.json ==
+
+
 == input/resources/CodeSystem-us-core-category.json ==
+
+
 == input/resources/CodeSystem-us-core-documentreference-category.json ==
+
+
 == input/resources/CodeSystem-us-core-provenance-participant-type.json ==
+
+
 == input/resources/CodeSystem-us-core-sex-for-clinical-use.json ==
+
+
 == input/resources/StructureDefinition-us-core-allergyintolerance.json ==
+
+
 == input/resources/StructureDefinition-us-core-birthsex.json ==
+
+
 == input/resources/StructureDefinition-us-core-blood-pressure.json ==
+
+
 == input/resources/StructureDefinition-us-core-bmi.json ==
+
+
 == input/resources/StructureDefinition-us-core-body-height.json ==
+
+
 == input/resources/StructureDefinition-us-core-body-temperature.json ==
+
+
 == input/resources/StructureDefinition-us-core-body-weight.json ==
+
+
 == input/resources/StructureDefinition-us-core-careplan.json ==
+
+
 == input/resources/StructureDefinition-us-core-careteam.json ==
+
+
 == input/resources/StructureDefinition-us-core-condition-encounter-diagnosis.json ==
+
+
 == input/resources/StructureDefinition-us-core-condition-problems-health-concerns.json ==
+
+
 == input/resources/StructureDefinition-us-core-coverage.json ==
+
+
 == input/resources/StructureDefinition-us-core-diagnosticreport-lab.json ==
+
+
 == input/resources/StructureDefinition-us-core-diagnosticreport-note.json ==
+
+
 == input/resources/StructureDefinition-us-core-direct.json ==
+
+
 == input/resources/StructureDefinition-us-core-documentreference.json ==
+
+
 == input/resources/StructureDefinition-us-core-encounter.json ==
+
+
 == input/resources/StructureDefinition-us-core-ethnicity.json ==
+
+
 == input/resources/StructureDefinition-us-core-genderIdentity.json ==
+
+
 == input/resources/StructureDefinition-us-core-goal.json ==
+
+
 == input/resources/StructureDefinition-us-core-head-circumference.json ==
+
+
 == input/resources/StructureDefinition-us-core-heart-rate.json ==
+
+
 == input/resources/StructureDefinition-us-core-immunization.json ==
+
+
 == input/resources/StructureDefinition-us-core-implantable-device.json ==
+
+
 == input/resources/StructureDefinition-us-core-jurisdiction.json ==
+
+
 == input/resources/StructureDefinition-us-core-location.json ==
+
+
 == input/resources/StructureDefinition-us-core-medication.json ==
+
+
 == input/resources/StructureDefinition-us-core-medicationdispense.json ==
+
+
 == input/resources/StructureDefinition-us-core-medicationrequest.json ==
+
+
 == input/resources/StructureDefinition-us-core-observation-clinical-result.json ==
+
+
 == input/resources/StructureDefinition-us-core-observation-lab.json ==
+
+
 == input/resources/StructureDefinition-us-core-observation-occupation.json ==
+
+
 == input/resources/StructureDefinition-us-core-observation-pregnancyintent.json ==
+
+
 == input/resources/StructureDefinition-us-core-observation-pregnancystatus.json ==
+
+
 == input/resources/StructureDefinition-us-core-observation-screening-assessment.json ==
+
+
 == input/resources/StructureDefinition-us-core-observation-sexual-orientation.json ==
+
+
 == input/resources/StructureDefinition-us-core-organization.json ==
+
+
 == input/resources/StructureDefinition-us-core-pediatric-bmi-for-age.json ==
+
+
 == input/resources/StructureDefinition-us-core-pediatric-weight-for-height.json ==
+
+
 == input/resources/StructureDefinition-us-core-practitioner.json ==
+
+
 == input/resources/StructureDefinition-us-core-practitionerrole.json ==
+
+
 == input/resources/StructureDefinition-us-core-procedure.json ==
+
+
 == input/resources/StructureDefinition-us-core-provenance.json ==
+
+
 == input/resources/StructureDefinition-us-core-pulse-oximetry.json ==
+
+
 == input/resources/StructureDefinition-us-core-race.json ==
+
+
 == input/resources/StructureDefinition-us-core-relatedperson.json ==
+
+
 == input/resources/StructureDefinition-us-core-respiratory-rate.json ==
+
+
 == input/resources/StructureDefinition-us-core-sex-for-clinical-use.json ==
+
+
 == input/resources/StructureDefinition-us-core-simple-observation.json ==
+
+
 == input/resources/StructureDefinition-us-core-smokingstatus.json ==
+
+
 == input/resources/StructureDefinition-us-core-specimen.json ==
+
+
 == input/resources/StructureDefinition-us-core-tribal-affiliation.json ==
+
+
 == input/resources/StructureDefinition-us-core-vital-signs.json ==
 ERROR: US Core Vital Signs Profile.Observation.component.value[x]: illegal attempt to change the binding on Observation.component.value[x] from required to extensible
 ERROR: StructureDefinition/us-core-vital-signs: StructureDefinition: illegal attempt to change the binding on Observation.component.value[x] from required to extensible
+
+
 == input/resources/ValueSet-birthsex.json ==
+
+
 == input/resources/ValueSet-detailed-ethnicity.json ==
+
+
 == input/resources/ValueSet-detailed-race.json ==
+
+
 == input/resources/ValueSet-omb-ethnicity-category.json ==
+
+
 == input/resources/ValueSet-omb-race-category.json ==
+
+
 == input/resources/ValueSet-simple-language.json ==
 ERROR: ValueSet.where(id = 'simple-language'): Error from server: Language valuesets cannot be expanded as they are based on a grammar
+
+
 == input/resources/ValueSet-us-core-clinical-note-type.json ==
+
+
 == input/resources/ValueSet-us-core-diagnosticreport-category.json ==
+
+
 == input/resources/ValueSet-us-core-diagnosticreport-report-and-note-codes.json ==
+
+
 == input/resources/ValueSet-us-core-discharge-disposition.json ==
+
+
 == input/resources/ValueSet-us-core-documentreference-category.json ==
+
+
 == input/resources/ValueSet-us-core-documentreference-type.json ==
+
+
 == input/resources/ValueSet-us-core-narrative-status.json ==
+
+
 == input/resources/ValueSet-us-core-observation-category.json ==
+
+
 == input/resources/ValueSet-us-core-observation-smoking-status-status.json ==
+
+
 == input/resources/ValueSet-us-core-observation-smokingstatus-max.json ==
+
+
 == input/resources/ValueSet-us-core-observation-value-codes.json ==
+
+
 == input/resources/ValueSet-us-core-pregnancy-intent.json ==
+
+
 == input/resources/ValueSet-us-core-pregnancy-status.json ==
+
+
 == input/resources/ValueSet-us-core-provenance-participant-type.json ==
+
+
 == input/resources/ValueSet-us-core-provider-role.json ==
+
+
 == input/resources/ValueSet-us-core-sex-for-clinical-use.json ==
+
+
 == input/resources/ValueSet-us-core-sexual-orientation.json ==
+
+
 == input/resources/ValueSet-us-core-simple-observation.json ==
+
+
 == input/resources/ValueSet-us-core-simple-observation-category.json ==
+
+
 == input/resources/ValueSet-us-core-smoking-status-observation-codes.json ==
+
+
 == input/resources/ValueSet-us-core-survey-codes.json ==
+
+
 == input/resources/ValueSet-us-core-usps-state.json ==
+
+
 == input/resources/capabilitystatement-us-core-client.json ==
+
+
 == input/resources/capabilitystatement-us-core-server.json ==
+
+
 == input/resources/operationdefinition-docref.json ==
+
+
 == input/resources/searchparameter-us-core-allergyintolerance-clinical-status.json ==
+
+
 == input/resources/searchparameter-us-core-allergyintolerance-patient.json ==
+
+
 == input/resources/searchparameter-us-core-careplan-category.json ==
+
+
 == input/resources/searchparameter-us-core-careplan-date.json ==
+
+
 == input/resources/searchparameter-us-core-careplan-patient.json ==
+
+
 == input/resources/searchparameter-us-core-careplan-status.json ==
+
+
 == input/resources/searchparameter-us-core-careteam-patient.json ==
+
+
 == input/resources/searchparameter-us-core-careteam-role.json ==
+
+
 == input/resources/searchparameter-us-core-careteam-status.json ==
+
+
 == input/resources/searchparameter-us-core-condition-abatement-date.json ==
+
+
 == input/resources/searchparameter-us-core-condition-asserted-date.json ==
+
+
 == input/resources/searchparameter-us-core-condition-category.json ==
+
+
 == input/resources/searchparameter-us-core-condition-clinical-status.json ==
+
+
 == input/resources/searchparameter-us-core-condition-code.json ==
+
+
 == input/resources/searchparameter-us-core-condition-encounter.json ==
+
+
 == input/resources/searchparameter-us-core-condition-onset-date.json ==
+
+
 == input/resources/searchparameter-us-core-condition-patient.json ==
+
+
 == input/resources/searchparameter-us-core-condition-recorded-date.json ==
+
+
 == input/resources/searchparameter-us-core-coverage-patient.json ==
+
+
 == input/resources/searchparameter-us-core-device-patient.json ==
+
+
 == input/resources/searchparameter-us-core-device-status.json ==
+
+
 == input/resources/searchparameter-us-core-device-type.json ==
+
+
 == input/resources/searchparameter-us-core-diagnosticreport-category.json ==
+
+
 == input/resources/searchparameter-us-core-diagnosticreport-code.json ==
+
+
 == input/resources/searchparameter-us-core-diagnosticreport-date.json ==
+
+
 == input/resources/searchparameter-us-core-diagnosticreport-patient.json ==
+
+
 == input/resources/searchparameter-us-core-diagnosticreport-status.json ==
+
+
 == input/resources/searchparameter-us-core-documentreference-category.json ==
+
+
 == input/resources/searchparameter-us-core-documentreference-date.json ==
+
+
 == input/resources/searchparameter-us-core-documentreference-id.json ==
+
+
 == input/resources/searchparameter-us-core-documentreference-patient.json ==
+
+
 == input/resources/searchparameter-us-core-documentreference-period.json ==
+
+
 == input/resources/searchparameter-us-core-documentreference-status.json ==
+
+
 == input/resources/searchparameter-us-core-documentreference-type.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-class.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-date.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-discharge-disposition.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-id.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-identifier.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-location.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-patient.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-status.json ==
+
+
 == input/resources/searchparameter-us-core-encounter-type.json ==
+
+
 == input/resources/searchparameter-us-core-ethnicity.json ==
+
+
 == input/resources/searchparameter-us-core-goal-description.json ==
+
+
 == input/resources/searchparameter-us-core-goal-lifecycle-status.json ==
+
+
 == input/resources/searchparameter-us-core-goal-patient.json ==
+
+
 == input/resources/searchparameter-us-core-goal-target-date.json ==
+
+
 == input/resources/searchparameter-us-core-immunization-date.json ==
+
+
 == input/resources/searchparameter-us-core-immunization-patient.json ==
+
+
 == input/resources/searchparameter-us-core-immunization-status.json ==
+
+
 == input/resources/searchparameter-us-core-location-address.json ==
+
+
 == input/resources/searchparameter-us-core-location-address-city.json ==
+
+
 == input/resources/searchparameter-us-core-location-address-postalcode.json ==
+
+
 == input/resources/searchparameter-us-core-location-address-state.json ==
+
+
 == input/resources/searchparameter-us-core-location-name.json ==
+
+
 == input/resources/searchparameter-us-core-medicationdispense-patient.json ==
+
+
 == input/resources/searchparameter-us-core-medicationdispense-status.json ==
+
+
 == input/resources/searchparameter-us-core-medicationdispense-type.json ==
+
+
 == input/resources/searchparameter-us-core-medicationrequest-authoredon.json ==
+
+
 == input/resources/searchparameter-us-core-medicationrequest-encounter.json ==
+
+
 == input/resources/searchparameter-us-core-medicationrequest-intent.json ==
+
+
 == input/resources/searchparameter-us-core-medicationrequest-patient.json ==
+
+
 == input/resources/searchparameter-us-core-medicationrequest-status.json ==
+
+
 == input/resources/searchparameter-us-core-observation-category.json ==
+
+
 == input/resources/searchparameter-us-core-observation-code.json ==
+
+
 == input/resources/searchparameter-us-core-observation-date.json ==
+
+
 == input/resources/searchparameter-us-core-observation-patient.json ==
+
+
 == input/resources/searchparameter-us-core-observation-status.json ==
+
+
 == input/resources/searchparameter-us-core-organization-address.json ==
+
+
 == input/resources/searchparameter-us-core-organization-name.json ==
+
+
 == input/resources/searchparameter-us-core-patient-birthdate.json ==
+
+
 == input/resources/searchparameter-us-core-patient-death-date.json ==
+
+
 == input/resources/searchparameter-us-core-patient-family.json ==
+
+
 == input/resources/searchparameter-us-core-patient-gender.json ==
+
+
 == input/resources/searchparameter-us-core-patient-gender-identity.json ==
+
+
 == input/resources/searchparameter-us-core-patient-given.json ==
+
+
 == input/resources/searchparameter-us-core-patient-id.json ==
+
+
 == input/resources/searchparameter-us-core-patient-identifier.json ==
+
+
 == input/resources/searchparameter-us-core-patient-name.json ==
+
+
 == input/resources/searchparameter-us-core-practitioner-id.json ==
+
+
 == input/resources/searchparameter-us-core-practitioner-identifier.json ==
+
+
 == input/resources/searchparameter-us-core-practitioner-name.json ==
+
+
 == input/resources/searchparameter-us-core-practitionerrole-practitioner.json ==
+
+
 == input/resources/searchparameter-us-core-practitionerrole-specialty.json ==
+
+
 == input/resources/searchparameter-us-core-procedure-code.json ==
+
+
 == input/resources/searchparameter-us-core-procedure-date.json ==
+
+
 == input/resources/searchparameter-us-core-procedure-patient.json ==
+
+
 == input/resources/searchparameter-us-core-procedure-status.json ==
+
+
 == input/resources/searchparameter-us-core-race.json ==
+
+
 == input/resources/searchparameter-us-core-relatedperson-id.json ==
+
+
 == input/resources/searchparameter-us-core-relatedperson-name.json ==
+
+
 == input/resources/searchparameter-us-core-relatedperson-patient.json ==
+
+
 == input/resources/searchparameter-us-core-servicerequest-authored.json ==
+
+
 == input/resources/searchparameter-us-core-servicerequest-category.json ==
+
+
 == input/resources/searchparameter-us-core-servicerequest-code.json ==
+
+
 == input/resources/searchparameter-us-core-servicerequest-id.json ==
+
+
 == input/resources/searchparameter-us-core-servicerequest-patient.json ==
+
+
 == input/resources/searchparameter-us-core-servicerequest-status.json ==
+
+
 == input/resources/structuredefinition-head-occipital-frontal-circumference-percentile.json ==
+
+
 == input/resources/structuredefinition-us-core-patient.json ==
+
+
 == input/resources/structuredefinition-us-core-servicerequest.json ==
+
+
 == input/resources/valueset-us-core-common-sdoh-assessments.json ==
+
+
 == input/resources/valueset-us-core-condition-code.json ==
+
+
 == input/resources/valueset-us-core-encounter-type.json ==
+
+
 == input/resources/valueset-us-core-goal-description.json ==
+
+
 == input/resources/valueset-us-core-laboratory-test-codes.json ==
+
+
 == input/resources/valueset-us-core-problem-or-health-concern.json ==
+
+
 == input/resources/valueset-us-core-procedure-code.json ==
+
+
 == input/resources/valueset-us-core-servicerequest-category.json ==
+
+
 == input/resources/valueset-us-core-vital-signs.json ==
+
+

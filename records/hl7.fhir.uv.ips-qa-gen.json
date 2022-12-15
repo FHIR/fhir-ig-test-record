@@ -3,7 +3,7 @@
   "name" : "InternationalPatientSummaryIG",
   "package-id" : "hl7.fhir.uv.ips",
   "ig-ver" : "1.1.0",
-  "date" : "Wed, 14 Dec, 2022 19:01:23 +1100",
+  "date" : "Fri, 16 Dec, 2022 09:53:14 +1100",
   "errs" : 0,
   "warnings" : 1,
   "hints" : 0,

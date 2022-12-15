@@ -3,7 +3,7 @@
 
 err = 40, warn = 61, info = 123
 IG Publisher Version: (unknown) Out of date - current version is 1.2.24
-Generated Wed Dec 14 19:00:11 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ecr#2.1.0 (canonical = http://hl7.org/fhir/us/ecr)
+Generated Fri Dec 16 09:51:59 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ecr#2.1.0 (canonical = http://hl7.org/fhir/us/ecr)
  Build Errors : 1 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/hl7-fhir-us-ecr : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/bundle/bundle-ecr-message-zika : 0 / 3 / 147
@@ -213,14 +213,19 @@ Generated Wed Dec 14 19:00:11 AEDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ecr#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/valueset-sdtc-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/valueset-us-ph-supplemental-valueset-example : 0 / 0 / 1
 </table>
+
 == n/a ==
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/output/ValueSet-2.16.840.1.113762.1.4.1099.24.html#/html/body/div/div/div/div/div/ul/li/a at Line 251, column 22: The link 'http://hl7.org/fhir/us/core/2023Jan/ValueSet-us-core-pregnancy-status.html' for "USCorePregnancyStatusCodes" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+
 == input/hl7-fhir-us-ecr.xml ==
 WARNING: ImplementationGuide/hl7.fhir.us.ecr: ImplementationGuide.description: The markdown contains content that appears to be an embedded HTML tag starting at '# '. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+
+
 == input/resources/bundle/bundle-ecr-message-zika.xml ==
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-reporting-bundle|2.1.0
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-reporting-bundle|2.1.0
@@ -254,6 +259,8 @@ INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.entry[1].r
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.entry[1].resource.ofType(Bundle).entry[23]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle|2.1.0
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.entry[1].resource.ofType(Bundle).entry[24]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle|2.1.0
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.entry[1].resource.ofType(Bundle).entry[25]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle|2.1.0
+
+
 == input/resources/bundle/bundle-eicr-document-zika.xml ==
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle|2.1.0
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle|2.1.0
@@ -284,6 +291,8 @@ WARNING: Bundle/bundle-eicr-document-zika: Bundle.entry[11].resource.ofType(Pati
 WARNING: Bundle/bundle-eicr-document-zika: Bundle.entry[0].resource.entry[11].resource.ofType(Patient).extension[4].extension[0].value.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#91 should be 'Fort Mojave Indian Tribe of Arizona, California & Nevada', not 'Fort Mojave Indian Tribe of Arizona, California' for 'http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#91'
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[20].resource.ofType(Organization).identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-organization|2.1.0
 INFORMATION: Bundle/bundle-eicr-document-zika: Bundle.entry[14].resource.entry[23].resource.ofType(Organization).identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-organization|2.1.0
+
+
 == input/resources/bundle/bundle-ersd-specification-example.xml ==
 INFORMATION: Bundle/bundle-ersd-specification-example: Bundle.entry[0].resource.ofType(Library).relatedArtifact[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-specification-library|2.1.0
 ERROR: Bundle/bundle-ersd-specification-example: Bundle.entry[0].resource.ofType(Library): Library.relatedArtifact:slicePlanDefinition: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-specification-library|2.1.0)
@@ -317,11 +326,15 @@ WARNING: Bundle/bundle-ersd-specification-example: Bundle.entry[33].resource.ofT
 WARNING: Bundle/bundle-ersd-specification-example: Bundle.entry[34].resource.ofType(ValueSet).compose[0].include[0]: Unknown System/Version 'http://snomed.info/sct#Provisional_2022-01-10' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version 'Provisional_2022-01-10' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '772150003'). ValidVersions = [http://snomed.info/sct/11000146104/version/20210930,http://snomed.info/sct/11000172109/version/20220315,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20210930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#772150003) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: Bundle/bundle-ersd-specification-example: Bundle.entry[35].resource.ofType(ValueSet).compose[0].include[0]: Unknown System/Version 'http://snomed.info/sct#Provisional_2022-01-10' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version 'Provisional_2022-01-10' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '772158005'). ValidVersions = [http://snomed.info/sct/11000146104/version/20210930,http://snomed.info/sct/11000172109/version/20220315,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20210930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#772158005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: Bundle/bundle-ersd-specification-example: Bundle.entry[36].resource.ofType(ValueSet).compose[0].include[0]: Unknown System/Version 'http://snomed.info/sct#Provisional_2022-01-10' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version 'Provisional_2022-01-10' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '772155008'). ValidVersions = [http://snomed.info/sct/11000146104/version/20210930,http://snomed.info/sct/11000172109/version/20220315,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20210930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#772155008) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+
+
 == input/resources/bundle/bundle-ersd-supplemental-example.xml ==
 INFORMATION: Bundle/bundle-ersd-supplemental-example: Bundle.entry[1].resource.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-executable-library|2.1.0
 INFORMATION: Bundle/bundle-ersd-supplemental-example: Bundle.entry[1].resource.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-computable-library|2.1.0
 WARNING: Bundle/bundle-ersd-supplemental-example: Bundle.entry[12].resource.ofType(ValueSet).compose[0].include[0]: Unknown System/Version 'http://snomed.info/sct#2019-09' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2019-09' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '280414007'). ValidVersions = [http://snomed.info/sct/11000146104/version/20210930,http://snomed.info/sct/11000172109/version/20220315,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20210930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#280414007) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: Bundle/bundle-ersd-supplemental-example: Bundle.entry[13].resource.ofType(ValueSet).compose[0].include[0]: Unknown System/Version 'http://snomed.info/sct#2019-09' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2019-09' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '131194007'). ValidVersions = [http://snomed.info/sct/11000146104/version/20210930,http://snomed.info/sct/11000172109/version/20220315,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20210930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#131194007) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+
+
 == input/resources/bundle/bundle-rr-document-one-cond-one-pha.xml ==
 INFORMATION: Bundle/bundle-rr-document-one-cond-one-pha: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/rr-document-bundle|2.1.0
 INFORMATION: Bundle/bundle-rr-document-one-cond-one-pha: Bundle.entry[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/rr-document-bundle|2.1.0
@@ -365,66 +378,138 @@ WARNING: Bundle/bundle-rr-document-one-cond-one-pha: Bundle.entry[20].resource.o
 WARNING: Bundle/bundle-rr-document-one-cond-one-pha: Bundle.entry[20].resource.ofType(DocumentReference).category[0]: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 WARNING: Bundle/bundle-rr-document-one-cond-one-pha: Bundle.entry[21].resource.ofType(DocumentReference).extension[0].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 WARNING: Bundle/bundle-rr-document-one-cond-one-pha: Bundle.entry[21].resource.ofType(DocumentReference).category[0]: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/capabilitystatement/capabilitystatement-ecr.xml ==
+
+
 == input/resources/capabilitystatement/capabilitystatement-ersd-client.xml ==
+
+
 == input/resources/codesystem/codesystem-messageHeader-event.xml ==
 ERROR: CodeSystem/codesystem-messageHeader-event: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/codesystem/ersd-endpoint-connection-type.xml ==
 ERROR: CodeSystem/ersd-endpoint-connection-type: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/codesystem/ersd-jurisdiction-types.xml ==
 ERROR: CodeSystem/ersd-jurisdiction-types: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/codesystem/ersd-jurisdictions-example.xml ==
+
+
 == input/resources/codesystem/us-ph-message-types-codesystem.xml ==
 ERROR: CodeSystem/us-ph-message-types-codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/codesystem/us-ph-plandefinition-actions.xml ==
 ERROR: CodeSystem/us-ph-plandefinition-actions: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/codesystem/us-ph-triggerdefinition-namedevents.xml ==
 ERROR: CodeSystem/us-ph-triggerdefinition-namedevents: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/codesystem/us-ph-usage-context.xml ==
 ERROR: CodeSystem/us-ph-usage-context: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/codesystem/us-ph-usage-context-type.xml ==
 ERROR: CodeSystem/us-ph-usage-context-type: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
+
+
 == input/resources/composition/composition-eicr-pertussis-zika.xml ==
+
+
 == input/resources/composition/composition-eicr-zika.xml ==
+
+
 == input/resources/composition/composition-eicr-zika-manual-initiation.xml ==
 WARNING: Composition/composition-eicr-zika-manual-initiation: Composition.extension[1].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/composition/composition-rr-one-cond-one-pha.xml ==
 WARNING: Composition/composition-rr-one-cond-one-pha: Composition.section[2].extension[0].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/composition/composition-rr-single-single-html-validation-output.xml ==
 WARNING: Composition/composition-rr-single-single-html-validation-output: Composition.section[1].extension[0].extension[1].value.ofType(markdown): The markdown contains content that appears to be an embedded HTML tag starting at '<h'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 WARNING: Composition/composition-rr-single-single-html-validation-output: Composition.section[2].extension[0].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/condition/condition-eicr-eve-everywoman-common-cold.xml ==
+
+
 == input/resources/condition/condition-eicr-eve-everywoman-diabetes.xml ==
+
+
 == input/resources/condition/condition-eicr-eve-everywoman-pertussis.xml ==
+
+
 == input/resources/condition/condition-eicr-eve-everywoman-zika.xml ==
+
+
 == input/resources/device/device-ecmo.xml ==
+
+
 == input/resources/device/device-ecr-software-ymca.xml ==
+
+
 == input/resources/documentreference/documentreference-add-reporting-needs-pdf.xml ==
 WARNING: DocumentReference/documentreference-add-reporting-needs-pdf: DocumentReference.extension[0].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 WARNING: DocumentReference/documentreference-add-reporting-needs-pdf: DocumentReference.category[0]: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/documentreference/documentreference-zika-follow-up-pdf.xml ==
 WARNING: DocumentReference/documentreference-zika-follow-up-pdf: DocumentReference.extension[0].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 WARNING: DocumentReference/documentreference-zika-follow-up-pdf: DocumentReference.category[0]: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/documentreference/documentreference-zika-info-pdf.xml ==
 WARNING: DocumentReference/documentreference-zika-info-pdf: DocumentReference.extension[0].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 WARNING: DocumentReference/documentreference-zika-info-pdf: DocumentReference.category[0]: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/encounter/encounter-eicr-eve-everywoman-completed-inpatient.xml ==
+
+
 == input/resources/encounter/encounter-eicr-eve-everywoman-current-inpatient.xml ==
+
+
 == input/resources/encounter/encounter-eicr-eve-everywoman-external-encounter.xml ==
 WARNING: Encounter/encounter-eicr-eve-everywoman-external-encounter: Encounter.type[0]: No code provided, and a code should be provided from the value set 'US Core Encounter Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type|4.0.0)
+
+
 == input/resources/encounter/encounter-eicr-eve-everywoman-external-historical.xml ==
 WARNING: Encounter/encounter-eicr-eve-everywoman-external-historical: Encounter.type[0]: No code provided, and a code should be provided from the value set 'US Core Encounter Type' (http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type|4.0.0)
+
+
 == input/resources/encounter/encounter-eicr-eve-everywoman-outpatient.xml ==
+
+
 == input/resources/endpoint/endpoint-ecr-salem-medical-center.xml ==
+
+
 == input/resources/endpoint/endpoint-ecr-ymca.xml ==
+
+
 == input/resources/immunization/immunization-ecr-pneumo.xml ==
+
+
 == input/resources/library/RuleFilters.xml ==
 INFORMATION: Library/RuleFilters: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-executable-library|2.1.0
 INFORMATION: Library/RuleFilters: Library.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-computable-library|2.1.0
+
+
 == input/resources/library/library-ersd-specification-library-example.xml ==
 INFORMATION: Library/library-ersd-specification-library-example: Library.relatedArtifact[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-specification-library|2.1.0
 ERROR: Library/library-ersd-specification-library-example: Library: Library.relatedArtifact:slicePlanDefinition: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-specification-library|2.1.0)
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' has already been used by library-ersd-supplemental-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-ersd-supplemental-library-example
+
+
 == input/resources/library/library-ersd-supplemental-library-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' is also used by library-us-ph-specification-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-us-ph-specification-library-example
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' is also used by library-us-ph-supplemental-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-us-ph-supplemental-library-example
@@ -432,217 +517,549 @@ ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' is also used by library-
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' is also used by library-us-ph-valueset-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-us-ph-valueset-library-example
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' is also used by library-us-ph-valueset-library-expansion-parameters-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-us-ph-valueset-library-expansion-parameters-example
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' is also used by library-ersd-specification-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-ersd-specification-library-example
+
+
 == input/resources/library/library-rctc-example.xml ==
+
+
 == input/resources/library/library-us-ph-specification-library-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' has already been used by library-ersd-supplemental-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-ersd-supplemental-library-example
+
+
 == input/resources/library/library-us-ph-supplemental-library-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' has already been used by library-ersd-supplemental-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-ersd-supplemental-library-example
+
+
 == input/resources/library/library-us-ph-supplemental-valueset-library-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' has already been used by library-ersd-supplemental-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-ersd-supplemental-library-example
+
+
 == input/resources/library/library-us-ph-valueset-library-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' has already been used by library-ersd-supplemental-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-ersd-supplemental-library-example
+
+
 == input/resources/library/library-us-ph-valueset-library-expansion-parameters-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.114222.4.11.11111' has already been used by library-ersd-supplemental-library-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/library/library-ersd-supplemental-library-example
+
+
 == input/resources/location/location-ecr-city-football-stadium.xml ==
+
+
 == input/resources/location/location-ecr-salem-medical-center.xml ==
+
+
 == input/resources/medicationadministration/medicationadministration-eve-everywoman-azithromycin.xml ==
+
+
 == input/resources/medicationadministration/medicationadministration-eve-everywoman-naloxone-response.xml ==
+
+
 == input/resources/messageheader/messageheader-ecr-requested-eicr.xml ==
+
+
 == input/resources/observation/observation-blood-pressure-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-characteristics-of-home-environment-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-country-of-nationality-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-country-of-residence-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-disability-status-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-last-menstrual-period-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-odh-employment-status-ecr-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-odh-past-or-present-job-eve-everywoman.xml ==
 INFORMATION: Observation/observation-odh-past-or-present-job-eve-everywoman: Observation.value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob|1.1.0
 INFORMATION: Observation/observation-odh-past-or-present-job-eve-everywoman: Observation.value.ofType(CodeableConcept).coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob|1.1.0
 INFORMATION: Observation/observation-odh-past-or-present-job-eve-everywoman: Observation.component[0].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob|1.1.0
 INFORMATION: Observation/observation-odh-past-or-present-job-eve-everywoman: Observation.component[0].value.ofType(CodeableConcept).coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob|1.1.0
+
+
 == input/resources/observation/observation-odh-usual-work-eve-everywoman.xml ==
 INFORMATION: Observation/observation-odh-usual-work-eve-everywoman: Observation.value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-UsualWork|1.1.0
 INFORMATION: Observation/observation-odh-usual-work-eve-everywoman: Observation.component[0].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/odh/StructureDefinition/odh-UsualWork|1.1.0
+
+
 == input/resources/observation/observation-postpartum-status-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-pregnancy-outcome-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-pregnancy-status-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-rr-eicr-processing-status.xml ==
 WARNING: Observation/observation-rr-eicr-processing-status: Observation.code: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/observation/observation-rr-eicr-processing-status-reason.xml ==
 WARNING: Observation/observation-rr-eicr-processing-status-reason: Observation.value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 WARNING: Observation/observation-rr-eicr-processing-status-reason: Observation.component[0].code: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/observation/observation-rr-relevant-reportable-condition-observation.xml ==
+
+
 == input/resources/observation/observation-rr-reportability-information-observation.xml ==
 WARNING: Observation/observation-rr-reportability-information-observation: Observation.extension[0].value.ofType(CodeableConcept): [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
 WARNING: Observation/observation-rr-reportability-information-observation: Observation.code: [Code System URI 'urn:oid:2.16.840.1.114222.4.5.274' is unknown so the code cannot be validated]
+
+
 == input/resources/observation/observation-rr-summary.xml ==
+
+
 == input/resources/observation/observation-travel-history-eve-everywoman-1999.xml ==
+
+
 == input/resources/observation/observation-travel-history-eve-everywoman-201610.xml ==
+
+
 == input/resources/observation/observation-travel-history-eve-everywoman-201801.xml ==
+
+
 == input/resources/observation/observation-us-ph-emergency-outbreak-info-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-us-ph-exposure-contact-info-football-game.xml ==
+
+
 == input/resources/observation/observation-us-ph-lab-result-eve-everywoman-lymphocytes.xml ==
+
+
 == input/resources/observation/observation-us-ph-lab-result-eve-everywoman-pertussis.xml ==
+
+
 == input/resources/observation/observation-us-ph-transportation-details-eve-everywoman.xml ==
+
+
 == input/resources/observation/observation-vaccine-credential-assertion-eve-everywoman.xml ==
+
+
 == input/resources/operationdefinition/operationdefinition-library-package.xml ==
+
+
 == input/resources/organization/organization-ecr-acme-laboratory.xml ==
 INFORMATION: Organization/organization-ecr-acme-laboratory: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-organization|2.1.0
+
+
 == input/resources/organization/organization-ecr-health-authority-west.xml ==
 INFORMATION: Organization/organization-ecr-health-authority-west: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-organization|2.1.0
+
+
 == input/resources/organization/organization-ecr-salem-medical-center.xml ==
 INFORMATION: Organization/organization-ecr-salem-medical-center: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-organization|2.1.0
+
+
 == input/resources/organization/organization-ecr-ymca-center.xml ==
 INFORMATION: Organization/organization-ecr-ymca-center: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-organization|2.1.0
+
+
 == input/resources/organization/organization-rr-responsible-agency-haw.xml ==
 INFORMATION: Organization/organization-rr-responsible-agency-haw: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/rr-responsible-agency-organization|2.1.0
+
+
 == input/resources/organization/organization-rr-routing-entity-haw.xml ==
 INFORMATION: Organization/organization-rr-routing-entity-haw: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/rr-routing-entity-organization|2.1.0
+
+
 == input/resources/organization/organization-rr-rules-authoring-agency-haw.xml ==
 INFORMATION: Organization/organization-rr-rules-authoring-agency-haw: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/rr-rules-authoring-agency-organization|2.1.0
+
+
 == input/resources/parameters/expansion-parameters-ecr.xml ==
+
+
 == input/resources/patient/patient-ecr-eve-everywoman.xml ==
 WARNING: Patient/patient-ecr-eve-everywoman: Patient.extension[4].extension[0].value.ofType(Coding): Display Name for http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#91 should be 'Fort Mojave Indian Tribe of Arizona, California & Nevada', not 'Fort Mojave Indian Tribe of Arizona, California' for 'http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#91'
+
+
 == input/resources/plandefinition/plandefinition-ersd-instance-example.xml ==
 ERROR: PlanDefinition/plandefinition-ersd-instance-example: PlanDefinition: The modifier extension http://hl7.org/fhir/StructureDefinition/variable is not allowed to be used at this point (allowed = e:Questionnaire, e:Questionnaire.item, e:Questionnaire.item.item; this element is [PlanDefinition])
 INFORMATION: PlanDefinition/plandefinition-ersd-instance-example: PlanDefinition.action[0].input[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-plandefinition|2.1.0
 INFORMATION: PlanDefinition/plandefinition-ersd-instance-example: PlanDefinition.action[0].input[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-plandefinition|2.1.0
 INFORMATION: PlanDefinition/plandefinition-ersd-instance-example: PlanDefinition.action[2].action[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-plandefinition|2.1.0
+
+
 == input/resources/plandefinition/plandefinition-ersd-instance-namedEvent-example.xml ==
+
+
 == input/resources/plandefinition/plandefinition-ersd-instance-simple-example.xml ==
 ERROR: PlanDefinition/plandefinition-ersd-instance-simple-example: PlanDefinition: The modifier extension http://hl7.org/fhir/StructureDefinition/variable is not allowed to be used at this point (allowed = e:Questionnaire, e:Questionnaire.item, e:Questionnaire.item.item; this element is [PlanDefinition])
 INFORMATION: PlanDefinition/plandefinition-ersd-instance-simple-example: PlanDefinition.action[0].input[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-plandefinition|2.1.0
 INFORMATION: PlanDefinition/plandefinition-ersd-instance-simple-example: PlanDefinition.action[0].input[1].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-plandefinition|2.1.0
 INFORMATION: PlanDefinition/plandefinition-ersd-instance-simple-example: PlanDefinition.action[2].action[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-plandefinition|2.1.0
+
+
 == input/resources/plandefinition/plandefinition-us-public-health-example.xml ==
+
+
 == input/resources/practitioner/practitioner-us-core-henry-seven.xml ==
+
+
 == input/resources/practitionerrole/practitionerrole-henry-seven.xml ==
+
+
 == input/resources/procedure/us-ph-procedure-ecmo.xml ==
+
+
 == input/resources/servicerequest/servicerequest-eicr-eve-everywoman-zika.xml ==
+
+
 == input/resources/servicerequest/servicerequest-eicr-zika.xml ==
+
+
 == input/resources/structuredefinition/ecr-messageheader.xml ==
+
+
 == input/resources/structuredefinition/eicr-composition.xml ==
+
+
 == input/resources/structuredefinition/eicr-country-of-nationality.xml ==
+
+
 == input/resources/structuredefinition/eicr-country-of-residence.xml ==
+
+
 == input/resources/structuredefinition/eicr-document-bundle.xml ==
+
+
 == input/resources/structuredefinition/eicr-encounter.xml ==
+
+
 == input/resources/structuredefinition/eicr-initiation-type-extension.xml ==
+
+
 == input/resources/structuredefinition/eicr-procedure.xml ==
+
+
 == input/resources/structuredefinition/eicr-servicerequest.xml ==
+
+
 == input/resources/structuredefinition/eicr-trigger-code-flag-extension.xml ==
+
+
 == input/resources/structuredefinition/eicr-vaccine-credential-patient-assertion.xml ==
+
+
 == input/resources/structuredefinition/ersd-plandefinition.xml ==
 WARNING: StructureDefinition/ersd-plandefinition: StructureDefinition.snapshot.element[17].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+
+
 == input/resources/structuredefinition/ersd-supplemental-library.xml ==
+
+
 == input/resources/structuredefinition/rr-composition.xml ==
+
+
 == input/resources/structuredefinition/rr-document-bundle.xml ==
+
+
 == input/resources/structuredefinition/rr-documentreference.xml ==
+
+
 == input/resources/structuredefinition/rr-eicr-processing-status-extension.xml ==
+
+
 == input/resources/structuredefinition/rr-eicr-processing-status-observation.xml ==
+
+
 == input/resources/structuredefinition/rr-eicr-processing-status-reason-observation.xml ==
+
+
 == input/resources/structuredefinition/rr-eicr-receipt-time-extension.xml ==
+
+
 == input/resources/structuredefinition/rr-external-resource-extension.xml ==
+
+
 == input/resources/structuredefinition/rr-priority-extension.xml ==
+
+
 == input/resources/structuredefinition/rr-relevant-reportable-condition-observation.xml ==
+
+
 == input/resources/structuredefinition/rr-reportability-information-observation.xml ==
+
+
 == input/resources/structuredefinition/rr-responsible-agency-organization.xml ==
+
+
 == input/resources/structuredefinition/rr-routing-entity-organization.xml ==
+
+
 == input/resources/structuredefinition/rr-rules-authoring-agency-organization.xml ==
+
+
 == input/resources/structuredefinition/rr-summary.xml ==
+
+
 == input/resources/structuredefinition/us-ph-address-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-alternative-expression-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-characteristics-of-home-environment.xml ==
+
+
 == input/resources/structuredefinition/us-ph-codesystem.xml ==
+
+
 == input/resources/structuredefinition/us-ph-codesystem-property-binding-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-composition.xml ==
+
+
 == input/resources/structuredefinition/us-ph-computable-library.xml ==
+
+
 == input/resources/structuredefinition/us-ph-computable-valueset.xml ==
+
+
 == input/resources/structuredefinition/us-ph-condition.xml ==
+
+
 == input/resources/structuredefinition/us-ph-content-bundle.xml ==
+
+
 == input/resources/structuredefinition/us-ph-data-encrypted-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-date-determined-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-date-recorded-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-determination-of-reportability-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-determination-of-reportability-reason-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-determination-of-reportability-rule-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-disability-status.xml ==
+
+
 == input/resources/structuredefinition/us-ph-document-bundle.xml ==
+
+
 == input/resources/structuredefinition/us-ph-emergency-outbreak-information.xml ==
+
+
 == input/resources/structuredefinition/us-ph-encounter.xml ==
+
+
 == input/resources/structuredefinition/us-ph-endpoint.xml ==
+
+
 == input/resources/structuredefinition/us-ph-executable-library.xml ==
+
+
 == input/resources/structuredefinition/us-ph-executable-valueset.xml ==
+
+
 == input/resources/structuredefinition/us-ph-expansion-parameters-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-exposure-contact-information.xml ==
+
+
 == input/resources/structuredefinition/us-ph-fhirquerypattern-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-genderidentity-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-information-recipient-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-initiation-reason-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-lab-result-observation.xml ==
+
+
 == input/resources/structuredefinition/us-ph-location.xml ==
+
+
 == input/resources/structuredefinition/us-ph-medicationadministration.xml ==
+
+
 == input/resources/structuredefinition/us-ph-message-processing-category-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-messageheader.xml ==
+
+
 == input/resources/structuredefinition/us-ph-named-eventtype-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-organization.xml ==
+
+
 == input/resources/structuredefinition/us-ph-patient.xml ==
+
+
 == input/resources/structuredefinition/us-ph-plandefinition.xml ==
 WARNING: StructureDefinition/us-ph-plandefinition: StructureDefinition.snapshot.element[16].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+
+
 == input/resources/structuredefinition/us-ph-postpartum-status.xml ==
+
+
 == input/resources/structuredefinition/us-ph-practitionerrole.xml ==
+
+
 == input/resources/structuredefinition/us-ph-pregnancy-outcome-observation.xml ==
+
+
 == input/resources/structuredefinition/us-ph-pregnancy-status-observation.xml ==
+
+
 == input/resources/structuredefinition/us-ph-receiver-address-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-relateddata-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-reporting-bundle.xml ==
+
+
 == input/resources/structuredefinition/us-ph-specification-library.xml ==
+
+
 == input/resources/structuredefinition/us-ph-supplemental-library.xml ==
+
+
 == input/resources/structuredefinition/us-ph-supplemental-valueset.xml ==
+
+
 == input/resources/structuredefinition/us-ph-supplemental-valueset-library.xml ==
+
+
 == input/resources/structuredefinition/us-ph-therapeutic-medication-response-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-transportation-details.xml ==
+
+
 == input/resources/structuredefinition/us-ph-travel-history.xml ==
+
+
 == input/resources/structuredefinition/us-ph-tribal-affiliation-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-triggering-valueset.xml ==
+
+
 == input/resources/structuredefinition/us-ph-triggering-valueset-library.xml ==
+
+
 == input/resources/structuredefinition/us-ph-usagewarning-extension.xml ==
+
+
 == input/resources/structuredefinition/us-ph-valueset.xml ==
+
+
 == input/resources/structuredefinition/us-ph-valueset-library.xml ==
+
+
 == input/resources/subscription/subscription-dxtc.xml ==
+
+
 == input/resources/subscription/subscription-lotc.xml ==
+
+
 == input/resources/subscription/subscription-ostc.xml ==
+
+
 == input/resources/valueset/2.16.840.1.113762.1.4.1099.24.xml ==
 ERROR: ValueSet.where(url = 'http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.24'): Conformance resource /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/2.16.840.1.113762.1.4.1099.24.xml - the canonical URL (http://hl7.org/fhir/us/ecr/ValueSet/2.16.840.1.113762.1.4.1099.24) does not match the URL (http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.24)
 WARNING: ValueSet/2.16.840.1.113762.1.4.1099.24: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/2.16.840.1.113762.1.4.1099.24: URL Mismatch http://hl7.org/fhir/us/ecr/ValueSet/2.16.840.1.113762.1.4.1099.24 vs http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.24
+
+
 == input/resources/valueset/us-ph-computable-valueset-example.xml ==
+
+
 == input/resources/valueset/us-ph-message-significance-category.xml ==
+
+
 == input/resources/valueset/us-ph-message-types-valueset.xml ==
 ERROR: ValueSet/us-ph-message-types-valueset: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+
+
 == input/resources/valueset/us-ph-plandefinition-action.xml ==
 ERROR: ValueSet/us-ph-plandefinition-action: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+
+
 == input/resources/valueset/us-ph-pregnancy-status.xml ==
 ERROR: ValueSet/us-ph-pregnancy-status: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+
+
 == input/resources/valueset/us-ph-triggerdefinition-namedevent.xml ==
 ERROR: ValueSet/us-ph-triggerdefinition-namedevent: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+
+
 == input/resources/valueset/us-ph-valueset-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.113762.1.4.1146.1057' has already been used by valueset-chlamydia-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/valueset-chlamydia-example
+
+
 == input/resources/valueset/us-ph-valueset-priority.xml ==
 ERROR: ValueSet/us-ph-valueset-priority: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+
+
 == input/resources/valueset/valueset-chlamydia-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.113762.1.4.1146.1057' is also used by valueset-lrtc-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/valueset-lrtc-example
 ERROR: Resource: The OID '2.16.840.1.113762.1.4.1146.1057' is also used by us-ph-valueset-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/us-ph-valueset-example
+
+
 == input/resources/valueset/valueset-dxtc-example.xml ==
+
+
 == input/resources/valueset/valueset-ecr-messageheader-event.xml ==
 ERROR: ValueSet/valueset-ecr-messageheader-event: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+
+
 == input/resources/valueset/valueset-ersd-endpoint-connection-type.xml ==
+
+
 == input/resources/valueset/valueset-lotc-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.113762.1.4.1146.1056' has already been used by valueset-pctc-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/valueset-pctc-example
+
+
 == input/resources/valueset/valueset-lrtc-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.113762.1.4.1146.1057' has already been used by valueset-chlamydia-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/valueset-chlamydia-example
+
+
 == input/resources/valueset/valueset-mrtc-example.xml ==
+
+
 == input/resources/valueset/valueset-ostc-example.xml ==
+
+
 == input/resources/valueset/valueset-pctc-example.xml ==
 ERROR: Resource: The OID '2.16.840.1.113762.1.4.1146.1056' is also used by valueset-lotc-example in /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/valueset/valueset-lotc-example
+
+
 == input/resources/valueset/valueset-sdtc-example.xml ==
+
+
 == input/resources/valueset/valueset-us-ph-supplemental-valueset-example.xml ==
+
+

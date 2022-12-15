@@ -3,7 +3,7 @@
   "name" : "YourComputableMyIGNameHere",
   "package-id" : "example.fhir.uv.myig",
   "ig-ver" : "0.2.0",
-  "date" : "Wed, 14 Dec, 2022 19:23:48 +1100",
+  "date" : "Fri, 16 Dec, 2022 10:17:38 +1100",
   "errs" : 10,
   "warnings" : 6,
   "hints" : 3,
