@@ -1,35 +1,30 @@
 ﻿YourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 10, warn = 6, info = 3
-IG Publisher Version: (unknown) Out of date - current version is 1.2.24
-Generated Fri Dec 16 10:18:11 AEDT 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 6 / 4 / 0
+err = 13, warn = 9, info = 4
+IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.4
+Generated Tue Apr 18 23:38:19 HKT 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 1 / 4 / 0
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-image-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Library-example : 5 / 0 / 2
- /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Observation-example : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Observation-example : 0 / 2 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Patient-example : 0 / 0 / 3
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/binary-logical-example : 3 / 0 / 0
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/history/h1 : 0 / 1 / 2
- /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/myig : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/myig : 3 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/MyLogical : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/codesystem-fake : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/library-example-image : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/library-example-sql : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/myObservation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/valueset-fake : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/valueset-no-codesystem : 0 / 2 / 1
+ /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/valueset-no-codesystem : 0 / 3 / 2
  not relevant : 0 / 1 / 3
 </table>
 
 == n/a ==
 ERROR: /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/cql/notincluded.cql: CQL source was not associated with a library resource in the IG.
-ERROR: /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/output/Bundle-h1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 174, column 8: The link 'Bundle-h1-testing.html' for "Testing" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/output/Bundle-h1.html#/html/body/div/div/div/div/div/ul/li/a at Line 170, column 8: The link 'Bundle-h1-testing.html' for "Testing" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/output/Bundle-h1.json.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8: The link 'Bundle-h1-testing.html' for "Testing" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/output/Bundle-h1.ttl.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8: The link 'Bundle-h1-testing.html' for "Testing" cannot be resolved
-ERROR: /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/output/Bundle-h1.xml.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8: The link 'Bundle-h1-testing.html' for "Testing" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -52,6 +47,8 @@ ERROR: Library/example: Library.dataRequirement[4].codeFilter[0].valueSet: Canon
 
 
 == input/examples/Observation-example.xml ==
+WARNING: Observation/example: Observation.code: Wrong Display Name 'VS1' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
+WARNING: Observation/example: Observation.code: Wrong Display Name 'VS2' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
 
 
 == input/examples/Patient-example.xml ==
@@ -66,10 +63,13 @@ ERROR: Binary/logical-example: MyLogical: Specified profile type was 'http://som
 
 
 == input/history/h1.json ==
-WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set 'PurposeOfUse' (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|2.0.0)
+WARNING: Bundle/h1: Bundle.entry[0].resource/*Provenance/h1-1*/.reason[0]: No code provided, and a code should be provided from the value set 'PurposeOfUse' (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|2.0.0)
 
 
 == input/myig.xml ==
+ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.extension[2].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency' does not resolve
+ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.definition.extension[5].extension[0].value.ofType(string): The value provided ('showsource') is not in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), and a code is required from this value set) (error message = Unknown Code 'showsource' in the system 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'; The provided code is not in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters')
+ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.definition.extension[33].extension[0].value.ofType(code): The value provided ('showsource') is not in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), and a code is required from this value set) (error message = Unknown Code 'showsource' in the system 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'; The provided code is not in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters')
 
 
 == input/resources/MyLogical.xml ==
@@ -92,7 +92,9 @@ ERROR: StructureDefinition/MyLogical: StructureDefinition.snapshot: Rule sdf-3: 
 
 
 == input/resources/valueset-no-codesystem.xml ==
-WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknown System/Version 'http://not-a-known-code-system#2.36' specified, so Concepts and Filters can't be checked (Details: The code system 'http://not-a-known-code-system' is not known (encountered paired with code = 'not-known-code'); The code provided (http://not-a-known-code-system#not-known-code) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0].concept[0]: The code not-known-code is not valid in the system http://not-a-known-code-system version 2.36
+INFORMATION: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0].concept[0]: The CodeSystem http://not-a-known-code-system is unknown; The provided code is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from null)
+WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0].concept[1]: The code not-known-code2 is not valid in the system http://not-a-known-code-system version 2.36
 
 
 == input/resources/resources-spreadsheet.xml ==

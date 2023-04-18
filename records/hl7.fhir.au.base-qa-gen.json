@@ -2,11 +2,11 @@
   "url" : "http://hl7.org.au/fhir/ImplementationGuide/hl7.fhir.au.base",
   "name" : "AUBaseImplementationGuide",
   "package-id" : "hl7.fhir.au.base",
-  "ig-ver" : "4.1.0-ballot",
-  "date" : "Fri, 16 Dec, 2022 10:09:57 +1100",
-  "errs" : 66,
-  "warnings" : 6,
-  "hints" : 10,
+  "ig-ver" : "4.1.1",
+  "date" : "Tue, 18 Apr, 2023 23:35:37 +0800",
+  "errs" : 5,
+  "warnings" : 0,
+  "hints" : 9,
   "version" : "4.0.1",
-  "tool" : "5.0.0-snapshot2 (3)"
+  "tool" : "5.0.0 (3)"
 }
