@@ -1,9 +1,9 @@
 ﻿InternationalPatientSummaryIG : Validation Results
 =========================================
 
-err = 1, warn = 1, info = 10
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.4
-Generated Tue Apr 18 23:29:03 HKT 2023. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
+err = 2, warn = 1, info = 10
+IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
+Generated Mon May 29 04:31:33 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.ips#1.1.0 (canonical = http://hl7.org/fhir/uv/ips)
  Build Errors : 3 / 1 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/DiagnosticReport-hemoglobin : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/IPS-bundle-01 : 0 / 0 / 47
@@ -46,13 +46,13 @@ Generated Tue Apr 18 23:29:03 HKT 2023. FHIR version 4.0.1 for hl7.fhir.uv.ips#1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/procedure-39-07-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/examples/specimen-example-1 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/extensions/abatement-dateTime-uv-ips.structuredefinition : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/ig-uv-ips : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/ig-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-absence-to-snomedct-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-loinc-pregnancy-status-to-snomed-ct-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-loinc-smoking-status-to-snomed-ct-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/maps/ConceptMap-severity-snomedct-uv-ips : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/AllergyIntolerance-uv-ips.structuredefinition : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Bundle-uv-ips : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Bundle-uv-ips : 2 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/CapabilityStatement-uv-ips.structuredefinition : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/CodeableConcept-uv-ips.structuredefinition : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ips/input/profiles/Coding-uv-ips.structuredefinition : 0 / 0 / 1
@@ -292,7 +292,6 @@ INFORMATION: Bundle/bundle-minimal: Bundle.entry[5].resource.entry[6].resource/*
 
 
 == input/ig-uv-ips.xml ==
-ERROR: ImplementationGuide/hl7.fhir.uv.ips: ImplementationGuide.extension[2].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency' does not resolve
 
 
 == input/maps/ConceptMap-absence-to-snomedct-uv-ips.xml ==
@@ -311,6 +310,8 @@ ERROR: ImplementationGuide/hl7.fhir.uv.ips: ImplementationGuide.extension[2].url
 
 
 == input/profiles/Bundle-uv-ips.json ==
+ERROR: http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips#Bundle.signature: The slice definition for Bundle.entry has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: StructureDefinition/Bundle-uv-ips: StructureDefinition.differential.element.where(path = 'Bundle.signature'): The slice definition for Bundle.entry has a minimum of 1 but the slices add up to a minimum of 2
 
 
 == input/profiles/CapabilityStatement-uv-ips.structuredefinition.xml ==

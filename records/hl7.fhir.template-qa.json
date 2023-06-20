@@ -2,7 +2,7 @@
   "url" : "http://fhir.org/templates/hl7.fhir.template",
   "package-id" : "hl7.fhir.template",
   "ig-ver" : "0.6.0",
-  "date" : "Tue, 18 Apr, 2023 23:20:40 +0800",
+  "date" : "Wed, 14 Jun, 2023 05:23:16 +0100",
   "version" : "5.0.0",
   "tool" : "5.0.0 (3)"
 }

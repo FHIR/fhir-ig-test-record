@@ -1,11 +1,11 @@
 ﻿HowToCreateIGs : Validation Results
 =========================================
 
-err = 3, warn = 4, info = 0
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.4
-Generated Tue Apr 18 23:35:20 HKT 2023. FHIR version 4.0.1 for hl7.fhir.uv.howto#0.1.0 (canonical = http://hl7.org/fhir/uv/howto)
+err = 2, warn = 4, info = 0
+IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
+Generated Mon May 29 04:38:38 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.howto#0.1.0 (canonical = http://hl7.org/fhir/uv/howto)
  Build Errors : 5 / 4 / 0
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/input/howto : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.howto/input/howto : 1 / 0 / 1
 </table>
 
 == n/a ==
@@ -21,7 +21,6 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 
 
 == input/howto.xml ==
-ERROR: ImplementationGuide/hl7.fhir.uv.howto: ImplementationGuide.extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency' does not resolve
 ERROR: ImplementationGuide/hl7.fhir.uv.howto: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
 
 

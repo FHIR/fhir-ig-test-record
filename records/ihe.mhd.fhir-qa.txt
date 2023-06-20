@@ -1,9 +1,9 @@
 ﻿IHE_ITI_MHD : Validation Results
 =========================================
 
-err = 1, warn = 6, info = 1
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.4
-Generated Wed Apr 19 05:05:44 HKT 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1-current (canonical = https://profiles.ihe.net/ITI/MHD)
+err = 0, warn = 10, info = 1
+IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
+Generated Mon May 29 04:34:48 EAT 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1-current (canonical = https://profiles.ihe.net/ITI/MHD)
  Build Errors : 0 / 0 / 0
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/AuditEvent-ex-auditFindDocumentLists-consumer : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/AuditEvent-ex-auditFindDocumentLists-responder : 0 / 0 / 2
@@ -53,7 +53,7 @@ Generated Wed Apr 19 05:05:44 HKT 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/DocumentReference-ex-documentreference : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/DocumentReference-ex-documentreference2 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/Encounter-ex-encounter : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ImplementationGuide-ihe.iti.mhd : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ImplementationGuide-ihe.iti.mhd : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/List-ex-compEmailPackage : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/List-ex-compFolder : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/List-ex-compSubmissionSetFull : 0 / 0 / 2
@@ -107,10 +107,10 @@ Generated Wed Apr 19 05:05:44 HKT 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-IHE.MHD.UnContained.Comprehensive.ProvideBundle : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-IHE.MHD.UnContained.Comprehensive.SubmissionSet : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-IHE.MHD.UniqueIdIdentifier : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-authorOrg : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-designationType : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-intendedRecipient : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-sourceId : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-authorOrg : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-designationType : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-intendedRecipient : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/StructureDefinition-ihe-sourceId : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ValueSet-DocumentReferenceStats : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ValueSet-MHDlistTypesVS : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ValueSet-MHDprovideFolderActions : 0 / 0 / 1
@@ -198,7 +198,7 @@ Generated Wed Apr 19 05:05:44 HKT 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1
 
 
 == fsh-generated/resources/Bundle-ex-dummyBundleDocAndBinary.json ==
-INFORMATION: Bundle/ex-dummyBundleDocAndBinary: Bundle.entry[0].resource/*DocumentReference/cccccccc-2222-0000-0000-000000000001*/.content[0].format: The Coding provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds-sd:text:2008) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code is not in the value set 'http://hl7.org/fhir/ValueSet/formatcodes')
+INFORMATION: Bundle/ex-dummyBundleDocAndBinary: Bundle.entry[0].resource/*DocumentReference/cccccccc-2222-0000-0000-000000000001*/.content[0].format: The Coding provided (http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds-sd:text:2008) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds-sd:text:2008 is not in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
 
 
 == fsh-generated/resources/Bundle-ex-findDocumentListsResponse.json ==
@@ -289,7 +289,6 @@ WARNING: ConceptMap/FhirStatusVsStatusCode: ConceptMap: The ShareableConceptMap 
 
 
 == fsh-generated/resources/ImplementationGuide-ihe.iti.mhd.json ==
-ERROR: ImplementationGuide/ihe.iti.mhd: ImplementationGuide.extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency' does not resolve
 
 
 == fsh-generated/resources/List-ex-compEmailPackage.json ==
@@ -452,15 +451,19 @@ ERROR: ImplementationGuide/ihe.iti.mhd: ImplementationGuide.extension[0].url: UR
 
 
 == fsh-generated/resources/StructureDefinition-ihe-authorOrg.json ==
+WARNING: StructureDefinition/ihe-authorOrg: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 
 
 == fsh-generated/resources/StructureDefinition-ihe-designationType.json ==
+WARNING: StructureDefinition/ihe-designationType: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 
 
 == fsh-generated/resources/StructureDefinition-ihe-intendedRecipient.json ==
+WARNING: StructureDefinition/ihe-intendedRecipient: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 
 
 == fsh-generated/resources/StructureDefinition-ihe-sourceId.json ==
+WARNING: StructureDefinition/ihe-sourceId: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 
 
 == fsh-generated/resources/ValueSet-DocumentReferenceStats.json ==

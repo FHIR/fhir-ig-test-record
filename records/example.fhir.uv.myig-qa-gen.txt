@@ -1,26 +1,26 @@
 ﻿YourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 13, warn = 9, info = 4
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.4
-Generated Tue Apr 18 23:38:19 HKT 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+err = 15, warn = 7, info = 3
+IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
+Generated Mon May 29 04:42:42 EAT 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-image-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Library-example : 5 / 0 / 2
- /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Observation-example : 0 / 2 / 1
+ /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Observation-example : 2 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Patient-example : 0 / 0 / 3
- /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/binary-logical-example : 3 / 0 / 0
+ /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/binary-logical-example : 2 / 0 / 0
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/history/h1 : 0 / 1 / 2
- /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/myig : 3 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/myig : 2 / 1 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/MyLogical : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/codesystem-fake : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/library-example-image : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/library-example-sql : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/myObservation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/valueset-fake : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/valueset-no-codesystem : 0 / 3 / 2
- not relevant : 0 / 1 / 3
+ /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/resources/valueset-no-codesystem : 0 / 2 / 1
+ not relevant : 2 / 1 / 3
 </table>
 
 == n/a ==
@@ -47,8 +47,8 @@ ERROR: Library/example: Library.dataRequirement[4].codeFilter[0].valueSet: Canon
 
 
 == input/examples/Observation-example.xml ==
-WARNING: Observation/example: Observation.code: Wrong Display Name 'VS1' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
-WARNING: Observation/example: Observation.code: Wrong Display Name 'VS2' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
+ERROR: Observation/example: Observation.code: Wrong Display Name 'VS1' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
+ERROR: Observation/example: Observation.code: Wrong Display Name 'VS2' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
 
 
 == input/examples/Patient-example.xml ==
@@ -57,7 +57,6 @@ INFORMATION: Patient/example: Patient.name[1]: This element does not match any k
 
 
 == input/examples/Binary-logical-example.xml ==
-ERROR: Binary: Example Logical Model http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical not found
 ERROR: Binary/logical-example: /?:MyLogical/?:element2: Text should not be present ('Text')
 ERROR: Binary/logical-example: MyLogical: Specified profile type was 'http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical' in profile 'http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical|0.2.0', but found type 'MyLogical'
 
@@ -67,9 +66,9 @@ WARNING: Bundle/h1: Bundle.entry[0].resource/*Provenance/h1-1*/.reason[0]: No co
 
 
 == input/myig.xml ==
-ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.extension[2].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency' does not resolve
-ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.definition.extension[5].extension[0].value.ofType(string): The value provided ('showsource') is not in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), and a code is required from this value set) (error message = Unknown Code 'showsource' in the system 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'; The provided code is not in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters')
-ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.definition.extension[33].extension[0].value.ofType(code): The value provided ('showsource') is not in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), and a code is required from this value set) (error message = Unknown Code 'showsource' in the system 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'; The provided code is not in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters')
+WARNING: /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/myig: Unknown Parameters: [showsource=true]
+ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.definition.extension[5].extension[0].value.ofType(string): The value provided ('showsource') is not in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), and a code is required from this value set) (error message = Unknown Code 'showsource' in the system 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'; The provided code http://hl7.org/fhir/tools/CodeSystem/ig-parameters#showsource is not in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0')
+ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.definition.extension[34].extension[0].value.ofType(code): The value provided ('showsource') is not in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), and a code is required from this value set) (error message = Unknown Code 'showsource' in the system 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'; The provided code http://hl7.org/fhir/tools/CodeSystem/ig-parameters#showsource is not in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0')
 
 
 == input/resources/MyLogical.xml ==
@@ -92,11 +91,11 @@ ERROR: StructureDefinition/MyLogical: StructureDefinition.snapshot: Rule sdf-3: 
 
 
 == input/resources/valueset-no-codesystem.xml ==
-WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0].concept[0]: The code not-known-code is not valid in the system http://not-a-known-code-system version 2.36
-INFORMATION: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0].concept[0]: The CodeSystem http://not-a-known-code-system is unknown; The provided code is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from null)
-WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0].concept[1]: The code not-known-code2 is not valid in the system http://not-a-known-code-system version 2.36
+WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknown System/Version 'http://not-a-known-code-system#2.36' specified, so Concepts and Filters can't be checked (Details: The CodeSystem http://not-a-known-code-system is unknown (from Tx-Server))
 
 
 == input/resources/resources-spreadsheet.xml ==
+ERROR: http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient#Patient.telecom: The slice definition for Patient.name has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/mypatient: StructureDefinition.differential.element.where(path = 'Patient.telecom'): The slice definition for Patient.name has a minimum of 0 but the slices add up to a minimum of 1
 
 
