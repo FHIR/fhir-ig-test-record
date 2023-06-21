@@ -1,10 +1,10 @@
 ﻿StructuredDataCapture : Validation Results
 =========================================
 
-err = 182, warn = 10, info = 127
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
-Generated Mon May 29 04:37:20 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
- Build Errors : 4 / 4 / 0
+err = 168, warn = 11, info = 127
+IG Publisher Version: 1.3.17-SNAPSHOT Out of date - current version is 1.3.16
+Generated Wed Jun 21 09:06:14 AEST 2023. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3.0.0 (canonical = http://hl7.org/fhir/uv/sdc)
+ Build Errors : 10 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Bundle-map-population-example : 0 / 0 / 10
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/Library-CHF : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/QuestionnaireResponse-map-populate-out : 0 / 0 / 1
@@ -44,7 +44,7 @@ Generated Mon May 29 04:37:20 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-initialvalue-multiple : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-nested-groups : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaire-sdc-test-required-radios : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-adaptive-questionnaireresponse-sdc-example-phq9 : 0 / 0 / 3
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-adaptive-questionnaireresponse-sdc-example-phq9 : 0 / 1 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-questionnaireresponse-sdc-profile-example-PHQ9 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-example-ussg-fht-answers : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/questionnaireresponse-sdc-profile-example : 0 / 4 / 1
@@ -53,24 +53,24 @@ Generated Mon May 29 04:37:20 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/request-task-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/servicerequest-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/structuredefinition-sdc-profile-example : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/structuredefinition-sdc-question-library : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/structuredefinition-sdc-question-library : 3 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/task-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/valueset-sdc-profile-example : 1 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/examples/valueset-sdc-question-library-states : 0 / 1 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-adapt : 2 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-adapt : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-adapt-srch : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-answerExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-answerOptionsToggleExpression : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-answerOptionsToggleExpression : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-assemble-expectation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-assembleContext : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-assembledFrom : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-behave : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-calculatedExpression : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-candidateExpression : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-choiceColumn : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-choiceColumn : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-collapsible : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-contextExpression : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-contextExpression : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-enableWhenExpression : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-endpoint : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-entryMode : 0 / 0 / 1
@@ -83,18 +83,18 @@ Generated Mon May 29 04:37:20 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-itemExtractionContext : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-itemMedia : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-itemPopulationContext : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-launchContext : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-launchContext : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-lookupQuestionnaire : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-maxQuantity : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-minQuantity : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-modular : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-modular : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-observation-extract-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-observationExtract : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-observationLinkPeriod : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-openLabel : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-optionalDisplay : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-performerType : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-pop-exp : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-pop-exp : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-pop-obsn : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-pop-smap : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-preferredTerminologyServer : 0 / 0 / 1
@@ -111,7 +111,7 @@ Generated Mon May 29 04:37:20 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.sdc#3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaire-width : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-questionnaireresponse-isSubject : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-referencesContained : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-servicerequest : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-servicerequest : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/StructureDefinition-sdc-servicerequest-questionnaire : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-archiver : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/input/resources/capabilitystatement-sdc-form-designer : 0 / 0 / 1
@@ -164,6 +164,12 @@ ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 313, column 460: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html' for "Logical Observation Identifiers, Names and Codes (LOINC)" cannot be resolved
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 313, column 711: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-condition-clinical.html' for "Condition Clinical Status Codes" cannot be resolved
 ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/Library-sdc-CHF.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 313, column 861: The link 'http://terminology.hl7.org/2.0.0/CodeSystem-condition-ver-status.html' for "ConditionVerificationStatus" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/StructureDefinition-sdc-servicerequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 474, column 512: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/StructureDefinition-sdc-servicerequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 800, column 273: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/StructureDefinition-sdc-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 453, column 2612: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/StructureDefinition-sdc-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 526, column 2624: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/StructureDefinition-sdc-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 778, column 2612: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.sdc/output/StructureDefinition-sdc-servicerequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 851, column 2624: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -563,6 +569,7 @@ INFORMATION: Questionnaire/questionnaire-sdc-test-fhirpath-prepop-source-query: 
 
 
 == input/examples/questionnaireresponse-adaptive-questionnaireresponse-sdc-example-phq9.xml ==
+WARNING: QuestionnaireResponse/adaptive-questionnaireresponse-sdc-example-phq9: QuestionnaireResponse.contained[0]/*Questionnaire/contained-adaptive-questionnaire-example-phq9*/.derivedFrom[0]: The questionnaire 'http://hl7.org/fhir/uv/sdc/Questionnaire/questionnaire-sdc-profile-example-PHQ9' has no derivation type specified using the 'http://hl7.org/fhir/StructureDefinition/questionnaire-derivationType' extension, so derivation has not been checked
 
 
 == input/examples/questionnaireresponse-questionnaireresponse-sdc-profile-example-PHQ9.xml ==
@@ -595,7 +602,9 @@ ERROR: StructureDefinition/structuredefinition-sdc-profile-example: StructureDef
 
 
 == input/examples/structuredefinition-sdc-question-library.xml ==
-ERROR: StructureDefinition/sdc-question-library: StructureDefinition.type: The type Demographics is not legal because it is not defined in the FHIR specification. Other types must have a namespace on them
+ERROR: StructureDefinition/sdc-question-library: StructureDefinition.type: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/Demographics' does not resolve
+ERROR: StructureDefinition/sdc-question-library: StructureDefinition.snapshot.element[7].constraint[0]: Error in invariant 'ele-1' with expression 'hasValue() or (children().count() > id.count())': Error evaluating FHIRPath expression: The type 'http://hl7.org/fhir/uv/sdc/StructureDefinition/Demographics' is unknown or not supported at getChildTypesByName (@char 5)
+ERROR: StructureDefinition/sdc-question-library: StructureDefinition.snapshot.element[14].constraint[0]: Error in invariant 'ele-1' with expression 'hasValue() or (children().count() > id.count())': Error evaluating FHIRPath expression: The type 'http://hl7.org/fhir/uv/sdc/StructureDefinition/Demographics' is unknown or not supported at getChildTypesByName (@char 5)
 
 
 == input/examples/task-example.xml ==
@@ -613,8 +622,6 @@ INFORMATION: ValueSet/sdc-question-library-states: ValueSet.compose[0].include[0
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-adapt.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-adapt#Questionnaire.modifierExtension: The slice definition for Questionnaire.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/sdc-questionnaire-adapt: StructureDefinition.differential.element.where(path = 'Questionnaire.modifierExtension'): The slice definition for Questionnaire.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-adapt-srch.xml ==
@@ -624,8 +631,6 @@ ERROR: StructureDefinition/sdc-questionnaire-adapt: StructureDefinition.differen
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-answerOptionsToggleExpression.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-answerOptionsToggleExpression#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/sdc-questionnaire-answerOptionsToggleExpression: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-assemble-expectation.xml ==
@@ -647,16 +652,12 @@ ERROR: StructureDefinition/sdc-questionnaire-answerOptionsToggleExpression: Stru
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-choiceColumn.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-choiceColumn#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/sdc-questionnaire-choiceColumn: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-collapsible.xml ==
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-contextExpression.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-contextExpression#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/sdc-questionnaire-contextExpression: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-enableWhenExpression.xml ==
@@ -696,8 +697,6 @@ ERROR: StructureDefinition/sdc-questionnaire-contextExpression: StructureDefinit
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-launchContext.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-launchContext#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/sdc-questionnaire-launchContext: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-lookupQuestionnaire.xml ==
@@ -710,8 +709,6 @@ ERROR: StructureDefinition/sdc-questionnaire-launchContext: StructureDefinition.
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-modular.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-modular#Questionnaire.modifierExtension: The slice definition for Questionnaire.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/sdc-questionnaire-modular: StructureDefinition.differential.element.where(path = 'Questionnaire.modifierExtension'): The slice definition for Questionnaire.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-observation-extract-category.xml ==
@@ -733,8 +730,6 @@ ERROR: StructureDefinition/sdc-questionnaire-modular: StructureDefinition.differ
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-pop-exp.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-pop-exp#Questionnaire.item.extension:contextExpression.url: The slice definition for Questionnaire.item.extension:contextExpression.extension has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/sdc-questionnaire-pop-exp: StructureDefinition.differential.element.where(path = 'Questionnaire.item.extension:contextExpression.url'): The slice definition for Questionnaire.item.extension:contextExpression.extension has a minimum of 0 but the slices add up to a minimum of 2
 
 
 == input/resources/StructureDefinition-sdc-questionnaire-pop-obsn.xml ==
@@ -787,8 +782,6 @@ WARNING: StructureDefinition/sdc-referencesContained: StructureDefinition.contex
 
 
 == input/resources/StructureDefinition-sdc-servicerequest.xml ==
-ERROR: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-servicerequest#ServiceRequest.modifierExtension: The slice definition for ServiceRequest.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/sdc-servicerequest: StructureDefinition.differential.element.where(path = 'ServiceRequest.modifierExtension'): The slice definition for ServiceRequest.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/StructureDefinition-sdc-servicerequest-questionnaire.xml ==

@@ -1,10 +1,10 @@
 ﻿USCore : Validation Results
 =========================================
 
-err = 48, warn = 6, info = 14
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
-Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#6.0.0-preview (canonical = http://hl7.org/fhir/us/core)
- Build Errors : 4 / 1 / 0
+err = 11, warn = 6, info = 0
+IG Publisher Version: 1.3.17-SNAPSHOT Out of date - current version is 1.3.16
+Generated Wed Jun 21 09:15:14 AEST 2023. FHIR version 4.0.1 for hl7.fhir.us.core#6.1.0 (canonical = http://hl7.org/fhir/us/core)
+ Build Errors : 14 / 0 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.core : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/AHC-HRSN-item-example-68517-2 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Device-defib : 0 / 0 / 1
@@ -19,22 +19,6 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-respiratory-effort : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-score : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-10-minute-apgar-score-panel : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-71802-3 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-88122-7 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-88123-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-93030-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-95614-4 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-95615-1 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-95616-9 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-95617-7 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-95618-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96777-8 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96778-6 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96778-6answer-0 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96778-6answer-5 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96778-6answer-6 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-item-example-96779-4 : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-AHC-HRSN-panel-example-96777-8 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88122-7 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88123-5 : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-HVS-item-example-88124-3 : 0 / 0 / 1
@@ -83,13 +67,11 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-simple-observation-cognitive-status : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-simple-observation-disability-status : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Observation-simple-observation-sdoh : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/PractitionerRole_Practitioner_Endpoint_Bundle_Example : 0 / 0 / 10
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/PractitionerRole_Practitioner_Endpoint_Bundle_Example : 0 / 0 / 9
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Procedure-R4-defib-implant : 0 / 1 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Questionnaire-ahc-hrsn-screening-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Questionnaire-hunger-vital-sign-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Questionnaire-phq-9-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/Questionnaire-prapare-example : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-AHC-HRSN-screening-example : 11 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-PRAPARE-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-glasgow-coma-score : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/QuestionnaireResponse-hunger-vital-sign-example : 0 / 0 / 1
@@ -100,7 +82,7 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/blood-pressure : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/bmi : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/bp-data-absent : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/bundle-docref-example1 : 0 / 0 / 6
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/bundle-docref-example1 : 0 / 0 / 5
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/bundle-docref-example2 : 0 / 0 / 8
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/capillary-refill-time-nail-bed : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/careteam-example : 0 / 0 / 1
@@ -124,7 +106,7 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/encounter-1036 : 0 / 1 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/encounter-delivery : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/encounter-example-1 : 0 / 1 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/episode-summary : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/episode-summary : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/example-organization-2 : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/foodpantry-referral : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/goal-1 : 0 / 1 / 1
@@ -178,24 +160,24 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/organization-holy-healthcare : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/oxygen-saturation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/p-r-interval-ekg-lead : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-child-example : 0 / 0 / 3
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-child-example : 0 / 1 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-deceased-example : 0 / 0 / 4
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-example : 0 / 0 / 9
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-example-targeted-provenance : 0 / 0 / 3
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-infant-example : 0 / 0 / 3
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-example : 0 / 1 / 9
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-example-targeted-provenance : 0 / 1 / 3
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/patient-infant-example : 0 / 1 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/pediatric-bmi-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/pediatric-wt-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/practitioner-1 : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/practitioner-2 : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/practitioner-pharmacist : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/procedure-rehab : 0 / 0 / 2
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/provenance-example-targeted-provenance : 0 / 0 / 3
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/provenance-example-targeted-provenance : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/pulse-intensity-palpation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/q-t-interval-ekg-lead : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/qrs-dur-ekg-lead : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/relatedperson-shaw-niece : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/respiratory-rate : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/saint-luke-w-endpoint : 0 / 0 / 4
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/saint-luke-w-endpoint : 0 / 0 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/servicerequest-defib-implant : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/servicerequest-rehab : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/examples/sexual-orientation-example : 0 / 0 / 1
@@ -231,7 +213,7 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-direct : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-documentreference : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-encounter : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-ethnicity : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-ethnicity : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-extension-questionnaire-uri : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-genderIdentity : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-goal : 0 / 0 / 1
@@ -244,57 +226,58 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-medication : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-medicationdispense : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-medicationrequest : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-clinical-result : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-lab : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-clinical-result : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-lab : 2 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-occupation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-pregnancyintent : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-pregnancystatus : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-screening-assessment : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-screening-assessment : 2 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-observation-sexual-orientation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-organization : 0 / 0 / 4
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-practitioner : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-practitionerrole : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-procedure : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-provenance : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-pulse-oximetry : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-pulse-oximetry : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-questionnaireresponse : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-race : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-race : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-relatedperson : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-respiratory-rate : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-sex : 0 / 2 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-simple-observation : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-smokingstatus : 0 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-smokingstatus : 2 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-specimen : 0 / 2 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-tribal-affiliation : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-tribal-affiliation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-uscdi-requirements : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/StructureDefinition-us-core-vital-signs : 2 / 1 / 3
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-birthsex : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-detailed-ethnicity : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-detailed-race : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-omb-ethnicity-category : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-omb-race-category : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-detailed-ethnicity : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-detailed-race : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-omb-ethnicity-category : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-omb-race-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-simple-language : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-clinical-note-type : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-clinical-note-type : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-clinical-result-observation-category : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-diagnosticreport-category : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-diagnosticreport-report-and-note-codes : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-discharge-disposition : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-diagnosticreport-category : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-diagnosticreport-report-and-note-codes : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-discharge-disposition : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-documentreference-category : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-documentreference-type : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-documentreference-type : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-narrative-status : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-observation-smoking-status-status : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-observation-smokingstatus-max : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-observation-value-codes : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-pregnancy-intent : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-pregnancy-status : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-observation-smokingstatus-max : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-observation-value-codes : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-pregnancy-intent : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-pregnancy-status : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-provenance-participant-type : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-screening-assessment-condition-category : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-screening-assessment-observation-category : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-sexual-orientation : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-simple-observation : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-sexual-orientation : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-simple-observation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-simple-observation-category : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-smoking-status-observation-codes : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-survey-codes : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-usps-state : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-smoking-status-observation-codes : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-survey-codes : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/ValueSet-us-core-usps-state : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/capabilitystatement-us-core-client : 0 / 0 / 68
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/capabilitystatement-us-core-server : 0 / 0 / 68
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/operationdefinition-docref : 0 / 0 / 1
@@ -407,22 +390,31 @@ Generated Mon May 29 04:46:47 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.core#
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/structuredefinition-head-occipital-frontal-circumference-percentile : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/structuredefinition-us-core-patient : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/structuredefinition-us-core-servicerequest : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-condition-code : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-encounter-type : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-goal-description : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-laboratory-test-codes : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-condition-code : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-encounter-type : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-goal-description : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-laboratory-test-codes : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-problem-or-health-concern : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-procedure-code : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-servicerequest-category : 1 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-vital-signs : 1 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-procedure-code : 0 / 1 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-servicerequest-category : 0 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/input/resources/valueset-us-core-vital-signs : 0 / 0 / 1
 </table>
 
 == n/a ==
-WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ol/li/a at Line 289, column 161: The link '#.html' for "See Changes Here" cannot be resolved (valid targets: 95 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ol/li/a at Line 325, column 175: The link '#.html' for "See Changes Here" cannot be resolved (valid targets: 95 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/changes.html#/html/body/div/div/div/div/div/ol/li/a at Line 361, column 161: The link '#.html' for "See Changes Here" cannot be resolved (valid targets: 95 targets)
-ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/terminology.html#/html/body/div/div/div/div/div/div/ol/li/a at Line 515, column 10: The link 'http://terminology.hl7.org/CodeSystem/medicationdispense-status' for "http://terminology.hl7.org/CodeSystem/medicationdispense-status" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 483, column 1753: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 549, column 1739: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 652, column 1739: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 995, column 1753: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1060, column 1739: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1163, column 1739: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 317, column 115: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 351, column 115: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 404, column 115: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 398, column 1539: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 411, column 1662: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 480, column 1539: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 493, column 1662: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
+ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/StructureDefinition-us-core-sex.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 547, column 220: The link 'http://terminology.hl7.org/ValueSet/v3-Sex' for "http://terminology.hl7.org/ValueSet/v3-Sex" cannot be resolved
 
 
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.us.core.json ==
@@ -465,54 +457,6 @@ ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/terminology.ht
 
 
 == input/examples/Observation-10-minute-apgar-score-panel.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-71802-3.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-88122-7.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-88123-5.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-93030-5.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-95614-4.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-95615-1.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-95616-9.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-95617-7.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-95618-5.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-96777-8.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-96778-6.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-96778-6answer-0.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-96778-6answer-5.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-96778-6answer-6.json ==
-
-
-== input/examples/Observation-AHC-HRSN-item-example-96779-4.json ==
-
-
-== input/examples/Observation-AHC-HRSN-panel-example-96777-8.json ==
 
 
 == input/examples/Observation-HVS-item-example-88122-7.json ==
@@ -660,16 +604,9 @@ ERROR: /Users/grahamegrieve/work/test-igs/hl7.fhir.us.core/output/terminology.ht
 
 
 == input/examples/PractitionerRole_Practitioner_Endpoint_Bundle_Example.json ==
-INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[0].resource/*PractitionerRole/PractitionerRole-1*/.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes|4.0.1), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#208D00000X)
-INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource/*Practitioner/Practitioner-1011*/.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
-INFORMATION: Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2: Bundle.entry[1].resource/*Practitioner/Practitioner-1011*/.identifier[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
 
 
 == input/examples/Procedure-R4-defib-implant.json ==
-WARNING: Procedure/defib-implant: Procedure.code: Unable to check whether the code is in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code|6.0.0-preview
-
-
-== input/examples/Questionnaire-ahc-hrsn-screening-example.json ==
 
 
 == input/examples/Questionnaire-hunger-vital-sign-example.json ==
@@ -681,25 +618,10 @@ WARNING: Procedure/defib-implant: Procedure.code: Unable to check whether the co
 == input/examples/Questionnaire-prapare-example.json ==
 
 
-== input/examples/QuestionnaireResponse-AHC-HRSN-screening-example.json ==
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/71802-3' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/96778-6' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/88122-7' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/88123-5' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/93030-5' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/96779-4' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/95618-5' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/95617-7' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/95616-9' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/95615-1' not found in questionnaire
-ERROR: QuestionnaireResponse/ahc-hrsn-screening-example: QuestionnaireResponse: LinkId '/95614-4' not found in questionnaire
-
-
 == input/examples/QuestionnaireResponse-PRAPARE-example.json ==
 
 
 == input/examples/QuestionnaireResponse-glasgow-coma-score.json ==
-INFORMATION: QuestionnaireResponse/glascow-coma-score: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
 
 
 == input/examples/QuestionnaireResponse-hunger-vital-sign-example.json ==
@@ -727,12 +649,9 @@ INFORMATION: QuestionnaireResponse/glascow-coma-score: QuestionnaireResponse: No
 
 
 == input/examples/bundle-docref-example1.json ==
-INFORMATION: Bundle/docref-example-1: Bundle.entry[0].resource/*DocumentReference/ccd123*/.content[0].format: The Coding provided (urn:oid:1.3.6.1.4.1.19376.1.2.3#urn:hl7-org:sdwg:ccda-structuredBody:2.1) is not in the value set 'DocumentReference Format Code Set' (http://hl7.org/fhir/ValueSet/formatcodes|4.0.1), and a code is recommended to come from this value set.  (error message = The provided code urn:oid:1.3.6.1.4.1.19376.1.2.3#urn:hl7-org:sdwg:ccda-structuredBody:2.1: 'Documents following C-CDA constraints using a structured body' is not in the value set 'http://hl7.org/fhir/ValueSet/formatcodes|4.0.1')
-INFORMATION: Bundle/docref-example-1: Bundle: No types could be determined from the search string, so the types can''t be checked
 
 
 == input/examples/bundle-docref-example2.json ==
-INFORMATION: Bundle/docref-example-2: Bundle: No types could be determined from the search string, so the types can''t be checked
 
 
 == input/examples/capillary-refill-time-nail-bed.json ==
@@ -793,28 +712,24 @@ INFORMATION: Bundle/docref-example-2: Bundle: No types could be determined from 
 
 
 == input/examples/encounter-1036.json ==
-WARNING: Encounter/1036: Encounter.hospitalization.dischargeDisposition: Unable to check whether the code is in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-discharge-disposition|6.0.0-preview
 
 
 == input/examples/encounter-delivery.json ==
 
 
 == input/examples/encounter-example-1.json ==
-WARNING: Encounter/example-1: Encounter.type[0]: Unable to check whether the code is in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type|6.0.0-preview
 
 
 == input/examples/episode-summary.json ==
 
 
 == input/examples/example-organization-2.json ==
-INFORMATION: Organization/example-organization-2: Organization.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.0.0-preview
 
 
 == input/examples/foodpantry-referral.json ==
 
 
 == input/examples/goal-1.json ==
-WARNING: Goal/goal-1: Goal.description: No code provided, and a code should be provided from the value set 'US Core Goal Codes' (http://hl7.org/fhir/us/core/ValueSet/us-core-goal-description|6.0.0-preview)
 
 
 == input/examples/goal-sdoh-2.json ==
@@ -914,7 +829,6 @@ WARNING: Goal/goal-1: Goal.description: No code provided, and a code should be p
 
 
 == input/examples/observation-satO2-fiO2.json ==
-INFORMATION: Observation/satO2-fiO2: Observation.code.coding[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|6.0.0-preview
 
 
 == input/examples/observation-serum-bun.json ==
@@ -969,18 +883,22 @@ INFORMATION: Observation/satO2-fiO2: Observation.code.coding[2]: This element do
 
 
 == input/examples/patient-child-example.json ==
+WARNING: Patient/child-example: Patient.extension[3].value.ofType(code): ValueSet http://terminology.hl7.org/ValueSet/v3-Sex not found by validator
 
 
 == input/examples/patient-deceased-example.json ==
 
 
 == input/examples/patient-example.json ==
+WARNING: Patient/example: Patient.extension[4].value.ofType(code): ValueSet http://terminology.hl7.org/ValueSet/v3-Sex not found by validator
 
 
 == input/examples/patient-example-targeted-provenance.json ==
+WARNING: Patient/example-targeted-provenance: Patient.extension[3].value.ofType(code): ValueSet http://terminology.hl7.org/ValueSet/v3-Sex not found by validator
 
 
 == input/examples/patient-infant-example.json ==
+WARNING: Patient/infant-example: Patient.extension[3].value.ofType(code): ValueSet http://terminology.hl7.org/ValueSet/v3-Sex not found by validator
 
 
 == input/examples/pediatric-bmi-example.json ==
@@ -990,11 +908,9 @@ INFORMATION: Observation/satO2-fiO2: Observation.code.coding[2]: This element do
 
 
 == input/examples/practitioner-1.json ==
-INFORMATION: Practitioner/practitioner-1: Practitioner.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
 
 
 == input/examples/practitioner-2.json ==
-INFORMATION: Practitioner/practitioner-2: Practitioner.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|6.0.0-preview
 
 
 == input/examples/practitioner-pharmacist.json ==
@@ -1004,8 +920,6 @@ INFORMATION: Practitioner/practitioner-2: Practitioner.identifier[1]: This eleme
 
 
 == input/examples/provenance-example-targeted-provenance.json ==
-INFORMATION: Provenance/example-targeted-provenance: Provenance.agent[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance|6.0.0-preview
-INFORMATION: Provenance/example-targeted-provenance: Provenance.agent[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-provenance|6.0.0-preview
 
 
 == input/examples/pulse-intensity-palpation.json ==
@@ -1024,7 +938,6 @@ INFORMATION: Provenance/example-targeted-provenance: Provenance.agent[1]: This e
 
 
 == input/examples/saint-luke-w-endpoint.json ==
-INFORMATION: Organization/saint-luke-w-endpoint: Organization.identifier[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|6.0.0-preview
 
 
 == input/examples/servicerequest-defib-implant.json ==
@@ -1133,8 +1046,6 @@ INFORMATION: Organization/saint-luke-w-endpoint: Organization.identifier[1]: Thi
 
 
 == input/resources/StructureDefinition-us-core-ethnicity.json ==
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-core-ethnicity: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/StructureDefinition-us-core-extension-questionnaire-uri.json ==
@@ -1159,7 +1070,6 @@ ERROR: StructureDefinition/us-core-ethnicity: StructureDefinition.differential.e
 
 
 == input/resources/StructureDefinition-us-core-jurisdiction.json ==
-WARNING: StructureDefinition/us-core-jurisdiction: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 
 
 == input/resources/StructureDefinition-us-core-location.json ==
@@ -1175,9 +1085,13 @@ WARNING: StructureDefinition/us-core-jurisdiction: StructureDefinition.context[0
 
 
 == input/resources/StructureDefinition-us-core-observation-clinical-result.json ==
+ERROR: StructureDefinition/us-core-observation-clinical-result: StructureDefinition.differential.element[7].constraint[0]: Error in invariant 'us-core-3' with expression 'valueQuantity.system.empty() or valueQuantity.system = 'http://unitsofmeasure.org'': Error evaluating FHIRPath expression: The name 'valueQuantity' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Quantity, http://hl7.org/fhir/StructureDefinition/Ratio, http://hl7.org/fhir/StructureDefinition/time, http://hl7.org/fhir/StructureDefinition/Period, http://hl7.org/fhir/StructureDefinition/CodeableConcept, http://hl7.org/fhir/StructureDefinition/string, http://hl7.org/fhir/StructureDefinition/SampledData, http://hl7.org/fhir/StructureDefinition/dateTime, http://hl7.org/fhir/StructureDefinition/boolean, http://hl7.org/fhir/StructureDefinition/integer, http://hl7.org/fhir/StructureDefinition/Range] (@char 5)
+ERROR: StructureDefinition/us-core-observation-clinical-result: StructureDefinition.snapshot.element[22].constraint[1]: Error in invariant 'us-core-3' with expression 'valueQuantity.system.empty() or valueQuantity.system = 'http://unitsofmeasure.org'': Error evaluating FHIRPath expression: The name 'valueQuantity' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Quantity, http://hl7.org/fhir/StructureDefinition/Ratio, http://hl7.org/fhir/StructureDefinition/time, http://hl7.org/fhir/StructureDefinition/Period, http://hl7.org/fhir/StructureDefinition/CodeableConcept, http://hl7.org/fhir/StructureDefinition/string, http://hl7.org/fhir/StructureDefinition/SampledData, http://hl7.org/fhir/StructureDefinition/dateTime, http://hl7.org/fhir/StructureDefinition/boolean, http://hl7.org/fhir/StructureDefinition/integer, http://hl7.org/fhir/StructureDefinition/Range] (@char 5)
 
 
 == input/resources/StructureDefinition-us-core-observation-lab.json ==
+ERROR: StructureDefinition/us-core-observation-lab: StructureDefinition.differential.element[3].constraint[0]: Error in invariant 'us-core-4' with expression 'valueCodeableConcept.coding.system.empty() or valueCodeableConcept.coding.system = 'http://snomed.info/sct'': Error evaluating FHIRPath expression: The name 'valueCodeableConcept' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Quantity, http://hl7.org/fhir/StructureDefinition/Ratio, http://hl7.org/fhir/StructureDefinition/time, http://hl7.org/fhir/StructureDefinition/Period, http://hl7.org/fhir/StructureDefinition/CodeableConcept, http://hl7.org/fhir/StructureDefinition/string, http://hl7.org/fhir/StructureDefinition/SampledData, http://hl7.org/fhir/StructureDefinition/dateTime, http://hl7.org/fhir/StructureDefinition/boolean, http://hl7.org/fhir/StructureDefinition/integer, http://hl7.org/fhir/StructureDefinition/Range] (@char 5)
+ERROR: StructureDefinition/us-core-observation-lab: StructureDefinition.snapshot.element[22].constraint[2]: Error in invariant 'us-core-4' with expression 'valueCodeableConcept.coding.system.empty() or valueCodeableConcept.coding.system = 'http://snomed.info/sct'': Error evaluating FHIRPath expression: The name 'valueCodeableConcept' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Quantity, http://hl7.org/fhir/StructureDefinition/Ratio, http://hl7.org/fhir/StructureDefinition/time, http://hl7.org/fhir/StructureDefinition/Period, http://hl7.org/fhir/StructureDefinition/CodeableConcept, http://hl7.org/fhir/StructureDefinition/string, http://hl7.org/fhir/StructureDefinition/SampledData, http://hl7.org/fhir/StructureDefinition/dateTime, http://hl7.org/fhir/StructureDefinition/boolean, http://hl7.org/fhir/StructureDefinition/integer, http://hl7.org/fhir/StructureDefinition/Range] (@char 5)
 
 
 == input/resources/StructureDefinition-us-core-observation-occupation.json ==
@@ -1190,7 +1104,8 @@ WARNING: StructureDefinition/us-core-jurisdiction: StructureDefinition.context[0
 
 
 == input/resources/StructureDefinition-us-core-observation-screening-assessment.json ==
-ERROR: StructureDefinition/us-core-observation-screening-assessment: StructureDefinition.differential.element[9]: The element definition for Observation.value[x] has a property meaningWhenMissing which is not allowed in a profile
+ERROR: StructureDefinition/us-core-observation-screening-assessment: StructureDefinition.differential.element[0].constraint[1]: Error in invariant 'us-core-3' with expression 'valueQuantity.system.empty() or valueQuantity.system = 'http://unitsofmeasure.org'': Error evaluating FHIRPath expression: The name 'valueQuantity' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Observation] (@char 5)
+ERROR: StructureDefinition/us-core-observation-screening-assessment: StructureDefinition.snapshot.element[0].constraint[8]: Error in invariant 'us-core-3' with expression 'valueQuantity.system.empty() or valueQuantity.system = 'http://unitsofmeasure.org'': Error evaluating FHIRPath expression: The name 'valueQuantity' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Observation] (@char 5)
 
 
 == input/resources/StructureDefinition-us-core-observation-sexual-orientation.json ==
@@ -1212,16 +1127,12 @@ ERROR: StructureDefinition/us-core-observation-screening-assessment: StructureDe
 
 
 == input/resources/StructureDefinition-us-core-pulse-oximetry.json ==
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry#Observation.code.text: The slice definition for Observation.code.coding has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/us-core-pulse-oximetry: StructureDefinition.differential.element.where(path = 'Observation.code.text'): The slice definition for Observation.code.coding has a minimum of 0 but the slices add up to a minimum of 2
 
 
 == input/resources/StructureDefinition-us-core-questionnaireresponse.json ==
 
 
 == input/resources/StructureDefinition-us-core-race.json ==
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-race#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-core-race: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/StructureDefinition-us-core-relatedperson.json ==
@@ -1230,18 +1141,23 @@ ERROR: StructureDefinition/us-core-race: StructureDefinition.differential.elemen
 == input/resources/StructureDefinition-us-core-respiratory-rate.json ==
 
 
+== input/resources/StructureDefinition-us-core-sex.json ==
+WARNING: StructureDefinition/us-core-sex: StructureDefinition.differential.element[2].binding: The valueSet reference http://terminology.hl7.org/ValueSet/v3-Sex on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition/us-core-sex: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://terminology.hl7.org/ValueSet/v3-Sex on element Extension.value[x] could not be resolved
+
+
 == input/resources/StructureDefinition-us-core-simple-observation.json ==
 
 
 == input/resources/StructureDefinition-us-core-smokingstatus.json ==
+ERROR: StructureDefinition/us-core-smokingstatus: StructureDefinition.differential.element[7].constraint[0]: Error in invariant 'us-core-3' with expression 'valueQuantity.system.empty() or valueQuantity.system = 'http://unitsofmeasure.org'': Error evaluating FHIRPath expression: The name 'valueQuantity' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Quantity, http://hl7.org/fhir/StructureDefinition/Ratio, http://hl7.org/fhir/StructureDefinition/time, http://hl7.org/fhir/StructureDefinition/Period, http://hl7.org/fhir/StructureDefinition/CodeableConcept, http://hl7.org/fhir/StructureDefinition/string, http://hl7.org/fhir/StructureDefinition/SampledData, http://hl7.org/fhir/StructureDefinition/dateTime, http://hl7.org/fhir/StructureDefinition/boolean, http://hl7.org/fhir/StructureDefinition/integer, http://hl7.org/fhir/StructureDefinition/Range] (@char 5)
+ERROR: StructureDefinition/us-core-smokingstatus: StructureDefinition.snapshot.element[23].constraint[1]: Error in invariant 'us-core-3' with expression 'valueQuantity.system.empty() or valueQuantity.system = 'http://unitsofmeasure.org'': Error evaluating FHIRPath expression: The name 'valueQuantity' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Quantity, http://hl7.org/fhir/StructureDefinition/Ratio, http://hl7.org/fhir/StructureDefinition/time, http://hl7.org/fhir/StructureDefinition/Period, http://hl7.org/fhir/StructureDefinition/CodeableConcept, http://hl7.org/fhir/StructureDefinition/string, http://hl7.org/fhir/StructureDefinition/SampledData, http://hl7.org/fhir/StructureDefinition/dateTime, http://hl7.org/fhir/StructureDefinition/boolean, http://hl7.org/fhir/StructureDefinition/integer, http://hl7.org/fhir/StructureDefinition/Range] (@char 5)
 
 
 == input/resources/StructureDefinition-us-core-specimen.json ==
 
 
 == input/resources/StructureDefinition-us-core-tribal-affiliation.json ==
-ERROR: http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-core-tribal-affiliation: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/StructureDefinition-us-core-uscdi-requirements.json ==
@@ -1256,49 +1172,40 @@ ERROR: StructureDefinition/us-core-vital-signs: StructureDefinition: illegal att
 
 
 == input/resources/ValueSet-detailed-ethnicity.json ==
-ERROR: ValueSet.where(id = 'detailed-ethnicity'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-detailed-race.json ==
-ERROR: ValueSet.where(id = 'detailed-race'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-omb-ethnicity-category.json ==
-ERROR: ValueSet.where(id = 'omb-ethnicity-category'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-omb-race-category.json ==
-ERROR: ValueSet.where(id = 'omb-race-category'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-simple-language.json ==
-ERROR: ValueSet.where(id = 'simple-language'): Index 0 out of bounds for length 0
+ERROR: ValueSet.where(id = 'simple-language'): Error from server: Language valuesets cannot be expanded as they are based on a grammar
 
 
 == input/resources/ValueSet-us-core-clinical-note-type.json ==
-ERROR: ValueSet.where(id = 'us-core-clinical-note-type'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-clinical-result-observation-category.json ==
 
 
 == input/resources/ValueSet-us-core-diagnosticreport-category.json ==
-ERROR: ValueSet.where(id = 'us-core-diagnosticreport-category'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-diagnosticreport-report-and-note-codes.json ==
-ERROR: ValueSet.where(id = 'us-core-diagnosticreport-report-and-note-codes'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-discharge-disposition.json ==
-ERROR: ValueSet.where(id = 'us-core-discharge-disposition'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-documentreference-category.json ==
 
 
 == input/resources/ValueSet-us-core-documentreference-type.json ==
-ERROR: ValueSet.where(id = 'us-core-documentreference-type'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-narrative-status.json ==
@@ -1308,19 +1215,15 @@ ERROR: ValueSet.where(id = 'us-core-documentreference-type'): Index 0 out of bou
 
 
 == input/resources/ValueSet-us-core-observation-smokingstatus-max.json ==
-ERROR: ValueSet.where(id = 'us-core-observation-smokingstatus-max'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-observation-value-codes.json ==
-ERROR: ValueSet.where(id = 'us-core-observation-value-codes'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-pregnancy-intent.json ==
-ERROR: ValueSet.where(id = 'us-core-pregnancy-intent'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-pregnancy-status.json ==
-ERROR: ValueSet.where(id = 'us-core-pregnancy-status'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-provenance-participant-type.json ==
@@ -1333,26 +1236,21 @@ ERROR: ValueSet.where(id = 'us-core-pregnancy-status'): Index 0 out of bounds fo
 
 
 == input/resources/ValueSet-us-core-sexual-orientation.json ==
-ERROR: ValueSet.where(id = 'us-core-sexual-orientation'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-simple-observation.json ==
-ERROR: ValueSet.where(id = 'simple-observation'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-simple-observation-category.json ==
 
 
 == input/resources/ValueSet-us-core-smoking-status-observation-codes.json ==
-ERROR: ValueSet.where(id = 'us-core-smoking-status-observation-codes'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-survey-codes.json ==
-ERROR: ValueSet.where(id = 'us-core-survey-codes'): Index 0 out of bounds for length 0
 
 
 == input/resources/ValueSet-us-core-usps-state.json ==
-ERROR: ValueSet.where(id = 'us-core-usps-state'): Index 0 out of bounds for length 0
 
 
 == input/resources/capabilitystatement-us-core-client.json ==
@@ -1692,33 +1590,26 @@ ERROR: ValueSet.where(id = 'us-core-usps-state'): Index 0 out of bounds for leng
 
 
 == input/resources/valueset-us-core-condition-code.json ==
-ERROR: ValueSet.where(id = 'us-core-condition-code'): Index 0 out of bounds for length 0
 
 
 == input/resources/valueset-us-core-encounter-type.json ==
-ERROR: ValueSet.where(id = 'us-core-encounter-type'): Index 0 out of bounds for length 0
 
 
 == input/resources/valueset-us-core-goal-description.json ==
-ERROR: ValueSet.where(id = 'us-core-goal-description'): Index 0 out of bounds for length 0
 
 
 == input/resources/valueset-us-core-laboratory-test-codes.json ==
-ERROR: ValueSet.where(id = 'us-core-laboratory-test-codes'): Index 0 out of bounds for length 0
 
 
 == input/resources/valueset-us-core-problem-or-health-concern.json ==
 
 
 == input/resources/valueset-us-core-procedure-code.json ==
-ERROR: ValueSet.where(id = 'us-core-procedure-code'): Index 0 out of bounds for length 0
 
 
 == input/resources/valueset-us-core-servicerequest-category.json ==
-ERROR: ValueSet.where(id = 'us-core-servicerequest-category'): Index 0 out of bounds for length 0
 
 
 == input/resources/valueset-us-core-vital-signs.json ==
-ERROR: ValueSet.where(id = 'us-core-vital-signs'): Index 0 out of bounds for length 0
 
 

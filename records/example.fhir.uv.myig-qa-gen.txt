@@ -2,8 +2,8 @@
 =========================================
 
 err = 15, warn = 7, info = 3
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
-Generated Mon May 29 04:42:42 EAT 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+IG Publisher Version: 1.3.17-SNAPSHOT Out of date - current version is 1.3.16
+Generated Wed Jun 21 09:11:01 AEST 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-example : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/example.fhir.uv.myig/input/examples/Binary-image-example : 0 / 0 / 1
@@ -47,8 +47,8 @@ ERROR: Library/example: Library.dataRequirement[4].codeFilter[0].valueSet: Canon
 
 
 == input/examples/Observation-example.xml ==
-ERROR: Observation/example: Observation.code: Wrong Display Name 'VS1' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
-ERROR: Observation/example: Observation.code: Wrong Display Name 'VS2' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1, CS2' for the language(s) '--'
+ERROR: Observation/example: Observation.code: Wrong Display Name 'VS1' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1' or 'CS2' (for the language(s) '--')
+ERROR: Observation/example: Observation.code: Wrong Display Name 'VS2' for http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake#01 - should be one of 2 choices: 'CS1' or 'CS2' (for the language(s) '--')
 
 
 == input/examples/Patient-example.xml ==
@@ -95,7 +95,7 @@ WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknow
 
 
 == input/resources/resources-spreadsheet.xml ==
-ERROR: http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient#Patient.telecom: The slice definition for Patient.name has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/mypatient: StructureDefinition.differential.element.where(path = 'Patient.telecom'): The slice definition for Patient.name has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient#Patient.name: The slice definition for Patient.name has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/mypatient: StructureDefinition.differential.element.where(path = 'Patient.name'): The slice definition for Patient.name has a minimum of 0 but the slices add up to a minimum of 1
 
 

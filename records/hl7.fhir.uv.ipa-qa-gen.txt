@@ -2,8 +2,8 @@
 =========================================
 
 err = 10, warn = 6, info = 28
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
-Generated Mon May 29 04:28:35 EAT 2023. FHIR version 4.0.1 for hl7.fhir.uv.ipa#1.0.0-preview (canonical = http://hl7.org/fhir/uv/ipa)
+IG Publisher Version: 1.3.17-SNAPSHOT Out of date - current version is 1.3.16
+Generated Wed Jun 21 08:58:06 AEST 2023. FHIR version 4.0.1 for hl7.fhir.uv.ipa#1.0.0-preview (canonical = http://hl7.org/fhir/uv/ipa)
  Build Errors : 0 / 5 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ipa/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.ipa : 4 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.uv.ipa/input/examples/AllergyIntolerance-AllIntExample1 : 0 / 0 / 1

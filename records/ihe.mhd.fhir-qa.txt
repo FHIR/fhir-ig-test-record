@@ -1,9 +1,9 @@
 ﻿IHE_ITI_MHD : Validation Results
 =========================================
 
-err = 0, warn = 10, info = 1
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
-Generated Mon May 29 04:34:48 EAT 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1-current (canonical = https://profiles.ihe.net/ITI/MHD)
+err = 0, warn = 8, info = 1
+IG Publisher Version: 1.3.17-SNAPSHOT Out of date - current version is 1.3.16
+Generated Wed Jun 21 09:03:51 AEST 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1-current (canonical = https://profiles.ihe.net/ITI/MHD)
  Build Errors : 0 / 0 / 0
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/AuditEvent-ex-auditFindDocumentLists-consumer : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/AuditEvent-ex-auditFindDocumentLists-responder : 0 / 0 / 2
@@ -38,8 +38,8 @@ Generated Mon May 29 04:34:48 EAT 2023. FHIR version 4.0.1 for ihe.iti.mhd#4.2.1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/Bundle-ex-response-unContainedComprehensiveProvideDocumentBundleCompt : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/Bundle-ex-unContainedComprehensiveProvideDocumentBundleComplete : 0 / 0 / 8
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/CodeSystem-MHDlistTypes : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ConceptMap-AssociationTypeVsRelatesTo : 0 / 3 / 1
- /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ConceptMap-FhirStatusVsStatusCode : 0 / 3 / 1
+ /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ConceptMap-AssociationTypeVsRelatesTo : 0 / 2 / 1
+ /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/ConceptMap-FhirStatusVsStatusCode : 0 / 2 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/Device-ex-device : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/DocumentReference-ex-DocumentReferenceComprehensive : 0 / 0 / 3
  /Users/grahamegrieve/work/test-igs/ihe.mhd.fhir/fsh-generated/resources/DocumentReference-ex-DocumentReferenceComprehensiveDelayedAssembly : 0 / 0 / 3
@@ -239,13 +239,11 @@ INFORMATION: Bundle/ex-dummyBundleDocAndBinary: Bundle.entry[0].resource/*Docume
 
 == fsh-generated/resources/ConceptMap-AssociationTypeVsRelatesTo.json ==
 WARNING: ConceptMap/AssociationTypeVsRelatesTo: ConceptMap.group[0].source: Unknown Source Code System urn:ihe:iti:2007:AssociationType, so the source codes cannot be checked
-WARNING: ConceptMap/AssociationTypeVsRelatesTo: ConceptMap: The ShareableConceptMap profile says that the title element is mandatory, but it is not present. Published concept maps SHOULD conform to the ShareableConceptMap profile
 WARNING: ConceptMap/AssociationTypeVsRelatesTo: ConceptMap: The ShareableConceptMap profile says that the experimental element is mandatory, but it is not present. Published concept maps SHOULD conform to the ShareableConceptMap profile
 
 
 == fsh-generated/resources/ConceptMap-FhirStatusVsStatusCode.json ==
 WARNING: ConceptMap/FhirStatusVsStatusCode: ConceptMap.group[0].source: Unknown Source Code System urn:ietf:rfc:3986, so the source codes cannot be checked
-WARNING: ConceptMap/FhirStatusVsStatusCode: ConceptMap: The ShareableConceptMap profile says that the title element is mandatory, but it is not present. Published concept maps SHOULD conform to the ShareableConceptMap profile
 WARNING: ConceptMap/FhirStatusVsStatusCode: ConceptMap: The ShareableConceptMap profile says that the experimental element is mandatory, but it is not present. Published concept maps SHOULD conform to the ShareableConceptMap profile
 
 

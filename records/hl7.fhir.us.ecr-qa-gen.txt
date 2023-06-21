@@ -1,9 +1,9 @@
 ﻿ElectronicCaseReporting : Validation Results
 =========================================
 
-err = 100, warn = 39, info = 128
-IG Publisher Version: 1.3.1-SNAPSHOT Out of date - current version is 1.3.12
-Generated Mon May 29 04:27:32 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.ecr#2.1.0 (canonical = http://hl7.org/fhir/us/ecr)
+err = 82, warn = 39, info = 128
+IG Publisher Version: 1.3.17-SNAPSHOT Out of date - current version is 1.3.16
+Generated Wed Jun 21 08:57:11 AEST 2023. FHIR version 4.0.1 for hl7.fhir.us.ecr#2.1.0 (canonical = http://hl7.org/fhir/us/ecr)
  Build Errors : 1 / 4 / 0
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/hl7-fhir-us-ecr : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/bundle/bundle-ecr-message-zika : 3 / 3 / 149
@@ -103,7 +103,7 @@ Generated Mon May 29 04:27:32 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.ecr#2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/procedure/us-ph-procedure-ecmo : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/servicerequest/servicerequest-eicr-eve-everywoman-zika : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/servicerequest/servicerequest-eicr-zika : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/ecr-messageheader : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/ecr-messageheader : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/eicr-composition : 4 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/eicr-country-of-nationality : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/eicr-country-of-residence : 0 / 1 / 1
@@ -116,7 +116,7 @@ Generated Mon May 29 04:27:32 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.ecr#2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/eicr-vaccine-credential-patient-assertion : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/ersd-plandefinition : 0 / 1 / 6
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/ersd-supplemental-library : 2 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/rr-composition : 8 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/rr-composition : 6 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/rr-document-bundle : 2 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/rr-documentreference : 2 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/rr-eicr-processing-status-extension : 2 / 0 / 1
@@ -153,21 +153,21 @@ Generated Mon May 29 04:27:32 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.ecr#2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-encounter : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-endpoint : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-executable-library : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-executable-valueset : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-executable-valueset : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-expansion-parameters-extension : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-exposure-contact-information : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-fhirquerypattern-extension : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-genderidentity-extension : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-genderidentity-extension : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-information-recipient-extension : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-initiation-reason-extension : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-lab-result-observation : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-location : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-medicationadministration : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-message-processing-category-extension : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-messageheader : 2 / 0 / 2
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-messageheader : 0 / 0 / 2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-named-eventtype-extension : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-organization : 0 / 0 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-patient : 6 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-patient : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-plandefinition : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-postpartum-status : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-practitionerrole : 0 / 0 / 1
@@ -183,7 +183,7 @@ Generated Mon May 29 04:27:32 EAT 2023. FHIR version 4.0.1 for hl7.fhir.us.ecr#2
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-therapeutic-medication-response-extension : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-transportation-details : 0 / 1 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-travel-history : 0 / 1 / 1
- /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-tribal-affiliation-extension : 2 / 0 / 1
+ /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-tribal-affiliation-extension : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-triggering-valueset : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-triggering-valueset-library : 0 / 0 / 1
  /Users/grahamegrieve/work/test-igs/hl7.fhir.us.ecr/input/resources/structuredefinition/us-ph-usagewarning-extension : 0 / 0 / 1
@@ -233,8 +233,8 @@ INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[2]: This element does 
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-reporting-bundle|2.1.0
 ERROR: Bundle/bundle-ecr-message-zika: Bundle: Bundle.entry:sliceMessageHeader: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-reporting-bundle|2.1.0)
 ERROR: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.focus[0]: Unable to find a match for profile Bundle/bundle-eicr-document-zika among choices: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle, http://hl7.org/fhir/us/ecr/StructureDefinition/rr-document-bundle
-INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.focus[0]: Details for Bundle/bundle-eicr-document-zika matching against profile http://hl7.org/fhir/us/ecr/StructureDefinition/rr-document-bundle|2.1.0
 INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.focus[0]: Details for Bundle/bundle-eicr-document-zika matching against profile http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle|2.1.0
+INFORMATION: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.focus[0]: Details for Bundle/bundle-eicr-document-zika matching against profile http://hl7.org/fhir/us/ecr/StructureDefinition/rr-document-bundle|2.1.0
 WARNING: Bundle/bundle-ecr-message-zika: Bundle.entry[1].resource.entry[0].resource.entry[6].resource/*Encounter/encounter-eicr-eve-everywoman-outpatient*/.type[0]: Unable to check whether the code is in the value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type|4.0.0
 ERROR: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.entry[1].resource/*Bundle/bundle-eicr-document-zika*/.entry[7].resource/*Observation/observation-pregnancy-status-eve-everywoman*/.method.coding[0]: Wrong Display Name 'Diagnostic ultrasonography (procedure)' for http://snomed.info/sct#16310003 - should be one of 9 choices: 'Ultrasonography, "Echography", "Ultrasound scan", "Ultrasound", "Ultrasonogram", "Ultrasound procedure", "Ultrasonography (procedure)", "US - ultrasound", "USS - ultrasound scan"' for the language(s) '--' (from Tx-Server) for 'http://snomed.info/sct#16310003'
 WARNING: Bundle/bundle-ecr-message-zika: Bundle.entry[0].resource.entry[1].resource/*Bundle/bundle-eicr-document-zika*/.entry[11].resource/*Patient/patient-ecr-eve-everywoman*/.extension[4].extension[0].value.ofType(Coding): Wrong Display Name 'Fort Mojave Indian Tribe of Arizona, California' for http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#91 - should be 'Fort Mojave Indian Tribe of Arizona, California & Nevada' (for the language(s) 'en') for 'http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS#91'
@@ -707,15 +707,13 @@ INFORMATION: PlanDefinition/plandefinition-ersd-instance-simple-example: PlanDef
 
 
 == input/resources/structuredefinition/ecr-messageheader.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/ecr-messageheader#MessageHeader.modifierExtension: The slice definition for MessageHeader.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/ecr-messageheader: StructureDefinition.differential.element.where(path = 'MessageHeader.modifierExtension'): The slice definition for MessageHeader.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/eicr-composition.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-composition#Composition.modifierExtension: The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-composition#Composition.section:slicePregnancySection.emptyReason: The slice definition for Composition.section:slicePregnancySection.entry has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/eicr-composition: StructureDefinition.differential.element.where(path = 'Composition.modifierExtension'): The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/eicr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:slicePregnancySection.emptyReason'): The slice definition for Composition.section:slicePregnancySection.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-composition#Composition.extension: The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-composition#Composition.section:slicePregnancySection.entry: The slice definition for Composition.section:slicePregnancySection.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/eicr-composition: StructureDefinition.differential.element.where(path = 'Composition.extension'): The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/eicr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:slicePregnancySection.entry'): The slice definition for Composition.section:slicePregnancySection.entry has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/eicr-country-of-nationality.xml ==
@@ -725,8 +723,8 @@ ERROR: StructureDefinition/eicr-composition: StructureDefinition.differential.el
 
 
 == input/resources/structuredefinition/eicr-document-bundle.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle#Bundle.signature: The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/eicr-document-bundle: StructureDefinition.differential.element.where(path = 'Bundle.signature'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-document-bundle#Bundle.entry: The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/eicr-document-bundle: StructureDefinition.differential.element.where(path = 'Bundle.entry'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/eicr-encounter.xml ==
@@ -742,8 +740,8 @@ ERROR: StructureDefinition/eicr-document-bundle: StructureDefinition.differentia
 
 
 == input/resources/structuredefinition/eicr-trigger-code-flag-extension.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-trigger-code-flag-extension#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 3
-ERROR: StructureDefinition/eicr-trigger-code-flag-extension: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 3
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-trigger-code-flag-extension#Extension.extension: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 3
+ERROR: StructureDefinition/eicr-trigger-code-flag-extension: StructureDefinition.differential.element.where(path = 'Extension.extension'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 3
 
 
 == input/resources/structuredefinition/eicr-vaccine-credential-patient-assertion.xml ==
@@ -754,34 +752,32 @@ WARNING: StructureDefinition/ersd-plandefinition: StructureDefinition.snapshot.e
 
 
 == input/resources/structuredefinition/ersd-supplemental-library.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-supplemental-library#Library.parameter: The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 3
-ERROR: StructureDefinition/ersd-supplemental-library: StructureDefinition.differential.element.where(path = 'Library.parameter'): The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 3
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/ersd-supplemental-library#Library.relatedArtifact: The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 3
+ERROR: StructureDefinition/ersd-supplemental-library: StructureDefinition.differential.element.where(path = 'Library.relatedArtifact'): The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 3
 
 
 == input/resources/structuredefinition/rr-composition.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-composition#Composition.modifierExtension: The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-composition#Composition.section:sliceEICRSection.modifierExtension: The slice definition for Composition.section:sliceEICRSection.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-composition#Composition.section:sliceRRSummarySection.modifierExtension: The slice definition for Composition.section:sliceRRSummarySection.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-composition#Composition.section:sliceRRSummarySection.emptyReason: The slice definition for Composition.section:sliceRRSummarySection.entry has a minimum of 1 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/rr-composition: StructureDefinition.differential.element.where(path = 'Composition.modifierExtension'): The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/rr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:sliceEICRSection.modifierExtension'): The slice definition for Composition.section:sliceEICRSection.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/rr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:sliceRRSummarySection.modifierExtension'): The slice definition for Composition.section:sliceRRSummarySection.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/rr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:sliceRRSummarySection.emptyReason'): The slice definition for Composition.section:sliceRRSummarySection.entry has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-composition#Composition.section:sliceEICRSection.extension: The slice definition for Composition.section:sliceEICRSection.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-composition#Composition.section:sliceRRSummarySection.extension: The slice definition for Composition.section:sliceRRSummarySection.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-composition#Composition.section:sliceRRSummarySection.entry: The slice definition for Composition.section:sliceRRSummarySection.entry has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: StructureDefinition/rr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:sliceEICRSection.extension'): The slice definition for Composition.section:sliceEICRSection.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/rr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:sliceRRSummarySection.extension'): The slice definition for Composition.section:sliceRRSummarySection.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/rr-composition: StructureDefinition.differential.element.where(path = 'Composition.section:sliceRRSummarySection.entry'): The slice definition for Composition.section:sliceRRSummarySection.entry has a minimum of 1 but the slices add up to a minimum of 2
 
 
 == input/resources/structuredefinition/rr-document-bundle.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-document-bundle#Bundle.signature: The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/rr-document-bundle: StructureDefinition.differential.element.where(path = 'Bundle.signature'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-document-bundle#Bundle.entry: The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/rr-document-bundle: StructureDefinition.differential.element.where(path = 'Bundle.entry'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/rr-documentreference.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-documentreference#DocumentReference.modifierExtension: The slice definition for DocumentReference.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/rr-documentreference: StructureDefinition.differential.element.where(path = 'DocumentReference.modifierExtension'): The slice definition for DocumentReference.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-documentreference#DocumentReference.extension: The slice definition for DocumentReference.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/rr-documentreference: StructureDefinition.differential.element.where(path = 'DocumentReference.extension'): The slice definition for DocumentReference.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/rr-eicr-processing-status-extension.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-eicr-processing-status-extension#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/rr-eicr-processing-status-extension: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-eicr-processing-status-extension#Extension.extension: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/rr-eicr-processing-status-extension: StructureDefinition.differential.element.where(path = 'Extension.extension'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/rr-eicr-processing-status-observation.xml ==
@@ -803,10 +799,10 @@ ERROR: StructureDefinition/rr-eicr-processing-status-extension: StructureDefinit
 
 
 == input/resources/structuredefinition/rr-reportability-information-observation.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-reportability-information-observation#Observation.modifierExtension: The slice definition for Observation.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-reportability-information-observation#Observation.value[x]: The slice definition for Observation.performer has a minimum of 1 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/rr-reportability-information-observation: StructureDefinition.differential.element.where(path = 'Observation.modifierExtension'): The slice definition for Observation.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/rr-reportability-information-observation: StructureDefinition.differential.element.where(path = 'Observation.value[x]'): The slice definition for Observation.performer has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-reportability-information-observation#Observation.extension: The slice definition for Observation.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/rr-reportability-information-observation#Observation.performer: The slice definition for Observation.performer has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: StructureDefinition/rr-reportability-information-observation: StructureDefinition.differential.element.where(path = 'Observation.extension'): The slice definition for Observation.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/rr-reportability-information-observation: StructureDefinition.differential.element.where(path = 'Observation.performer'): The slice definition for Observation.performer has a minimum of 1 but the slices add up to a minimum of 2
 
 
 == input/resources/structuredefinition/rr-responsible-agency-organization.xml ==
@@ -837,7 +833,7 @@ ERROR: StructureDefinition/rr-reportability-information-observation: StructureDe
 
 
 == input/resources/structuredefinition/us-ph-composition.xml ==
-ERROR: StructureDefinition/us-ph-composition: StructureDefinition.differential.element.where(path = 'Composition.modifierExtension'): The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/us-ph-composition: StructureDefinition.differential.element.where(path = 'Composition.extension'): The slice definition for Composition.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/us-ph-computable-library.xml ==
@@ -878,7 +874,7 @@ ERROR: StructureDefinition/us-ph-determination-of-reportability-rule-extension: 
 
 
 == input/resources/structuredefinition/us-ph-document-bundle.xml ==
-ERROR: StructureDefinition/us-ph-document-bundle: StructureDefinition.differential.element.where(path = 'Bundle.signature'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/us-ph-document-bundle: StructureDefinition.differential.element.where(path = 'Bundle.entry'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/us-ph-emergency-outbreak-information.xml ==
@@ -894,8 +890,6 @@ ERROR: StructureDefinition/us-ph-document-bundle: StructureDefinition.differenti
 
 
 == input/resources/structuredefinition/us-ph-executable-valueset.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-executable-valueset#ValueSet.modifierExtension: The slice definition for ValueSet.extension has a minimum of 2 but the slices add up to a minimum of 3
-ERROR: StructureDefinition/us-ph-executable-valueset: StructureDefinition.differential.element.where(path = 'ValueSet.modifierExtension'): The slice definition for ValueSet.extension has a minimum of 2 but the slices add up to a minimum of 3
 
 
 == input/resources/structuredefinition/us-ph-expansion-parameters-extension.xml ==
@@ -908,8 +902,6 @@ ERROR: StructureDefinition/us-ph-executable-valueset: StructureDefinition.differ
 
 
 == input/resources/structuredefinition/us-ph-genderidentity-extension.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-genderidentity-extension#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-ph-genderidentity-extension: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/us-ph-information-recipient-extension.xml ==
@@ -931,8 +923,6 @@ ERROR: StructureDefinition/us-ph-genderidentity-extension: StructureDefinition.d
 
 
 == input/resources/structuredefinition/us-ph-messageheader.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-messageheader#MessageHeader.modifierExtension: The slice definition for MessageHeader.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-ph-messageheader: StructureDefinition.differential.element.where(path = 'MessageHeader.modifierExtension'): The slice definition for MessageHeader.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/us-ph-named-eventtype-extension.xml ==
@@ -942,12 +932,6 @@ ERROR: StructureDefinition/us-ph-messageheader: StructureDefinition.differential
 
 
 == input/resources/structuredefinition/us-ph-patient.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-patient#Patient.extension:race.url: The slice definition for Patient.extension:race.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-patient#Patient.extension:ethnicity.url: The slice definition for Patient.extension:ethnicity.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-patient#Patient.modifierExtension: The slice definition for Patient.extension has a minimum of 0 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/us-ph-patient: StructureDefinition.differential.element.where(path = 'Patient.extension:race.url'): The slice definition for Patient.extension:race.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-ph-patient: StructureDefinition.differential.element.where(path = 'Patient.extension:ethnicity.url'): The slice definition for Patient.extension:ethnicity.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-ph-patient: StructureDefinition.differential.element.where(path = 'Patient.modifierExtension'): The slice definition for Patient.extension has a minimum of 0 but the slices add up to a minimum of 2
 
 
 == input/resources/structuredefinition/us-ph-plandefinition.xml ==
@@ -973,18 +957,18 @@ WARNING: StructureDefinition/us-ph-plandefinition: StructureDefinition.snapshot.
 
 
 == input/resources/structuredefinition/us-ph-reporting-bundle.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-reporting-bundle#Bundle.signature: The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-ph-reporting-bundle: StructureDefinition.differential.element.where(path = 'Bundle.signature'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-reporting-bundle#Bundle.entry: The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
+ERROR: StructureDefinition/us-ph-reporting-bundle: StructureDefinition.differential.element.where(path = 'Bundle.entry'): The slice definition for Bundle.entry has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/us-ph-specification-library.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-specification-library#Library.parameter: The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/us-ph-specification-library: StructureDefinition.differential.element.where(path = 'Library.parameter'): The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-specification-library#Library.relatedArtifact: The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: StructureDefinition/us-ph-specification-library: StructureDefinition.differential.element.where(path = 'Library.relatedArtifact'): The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
 
 
 == input/resources/structuredefinition/us-ph-supplemental-library.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-supplemental-library#Library.parameter: The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
-ERROR: StructureDefinition/us-ph-supplemental-library: StructureDefinition.differential.element.where(path = 'Library.parameter'): The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-supplemental-library#Library.relatedArtifact: The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: StructureDefinition/us-ph-supplemental-library: StructureDefinition.differential.element.where(path = 'Library.relatedArtifact'): The slice definition for Library.relatedArtifact has a minimum of 1 but the slices add up to a minimum of 2
 
 
 == input/resources/structuredefinition/us-ph-supplemental-valueset.xml ==
@@ -1003,8 +987,6 @@ ERROR: StructureDefinition/us-ph-supplemental-library: StructureDefinition.diffe
 
 
 == input/resources/structuredefinition/us-ph-tribal-affiliation-extension.xml ==
-ERROR: http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-tribal-affiliation-extension#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
-ERROR: StructureDefinition/us-ph-tribal-affiliation-extension: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
 
 
 == input/resources/structuredefinition/us-ph-triggering-valueset.xml ==
